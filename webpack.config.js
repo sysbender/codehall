@@ -1,37 +1,98 @@
 // Needed hackery to get __filename and __dirname in ES6 mode
 // see: https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-js-when-using-es6-modules
 import path from "node:path";
+import { glob } from "glob";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export default [
-  // output an old-style universal module for use in browsers
-  {
-    entry: "./src/script/main.js",
-    output: {
-      path: path.resolve(__dirname, "docs", "assets", "script"),
-      filename: "main-umd.js",
-      // library: {
-      //     name: 'joiner',
-      //     type: 'umd',
-      //     export: 'default',
-      // },
-    },
+// import the Webpack copy plugin
+import CopyPlugin from "copy-webpack-plugin";
+// multiple HTML files
+
+//const HtmlWebpackPlugin = require("html-webpack-plugin");
+import HtmlWebpackPlugin from "html-webpack-plugin";
+
+//let htmlPageNames = ["main", "sub/sub"];
+
+function getHtmlFiles() {
+  const srcPath = path.resolve(__dirname, "src", "apps");
+  const destPath = path.resolve(__dirname, "docs", "apps");
+  const htmlFiles = glob.sync("**/index.html", { cwd: srcPath });
+
+  const files = [];
+
+  htmlFiles.forEach((file) => {
+    const entryName = path.basename(file, ".html");
+    const entryPath = path.resolve(srcPath, file);
+    let relativePath = path.relative(srcPath, file);
+    let a1 = path.resolve(destPath, relativePath);
+    console.log("file=", file);
+    console.log("a1=", a1);
+    // let r1 = path.relative( )
+
+    let p1 = relativePath; //  .replace(/\\/g, "/");
+    console.log(` relative = `, srcPath, p1);
+    let p2 = p1.split(path.sep);
+    let p3 = p2.slice(1);
+    let p4 = p3.join("/");
+
+    //files[entryName] = entryPath;
+    let f2 = file.replace(/\\/g, "/");
+    // f2 = `apps/${f2}`;
+    console.log("f2=", f2);
+
+    files.push(f2);
+
+    console.log("===================relative path", relativePath);
+    console.log("p1=", p1);
+    console.log("p2=", p2);
+    console.log("p3=", p3);
+    console.log("p4=", p4);
+  });
+
+  //   return ["main"];
+  return files;
+}
+let htmlPageNames = getHtmlFiles();
+
+let multipleHtmlPlugins = htmlPageNames.map((name) => {
+  return new HtmlWebpackPlugin({
+    //template: `./src/${name}.html`, // relative path to the HTML files
+    template: `./src/apps/${name}`, // relative path to the HTML files
+    inject: true,
+    //filename: `${name}.html`, // output HTML files
+    filename: `apps/${name}`, // output HTML files
+    // chunks: [`${name}`], // respective JS files
+  });
+});
+
+// export the Webpack config
+export default {
+  entry: "./src/assets/script/main.js",
+  output: {
+    path: path.resolve(__dirname, "docs"),
+    filename: "assets/script/bundle.js",
   },
-  // output an ES6 module
-  {
-    entry: "./src/script/main.js",
-    // experiments: {
-    //     outputModule: true,
-    // },
-    output: {
-      path: path.resolve(__dirname, "docs", "assets", "script"),
-      filename: "main-es6.js",
-      // library: {
-      //     type: 'module',
-      // },
-    },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
-];
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        //  { from: "src/index.html", to: "index.html" }
+        {
+          from: "src/apps/",
+          to: "apps/",
+          globOptions: { ignore: ["**/index.html"] },
+        },
+      ],
+    }),
+  ].concat(multipleHtmlPlugins),
+};
