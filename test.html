@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Showdown.js Example with Task Lists</title>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+  </head>
+  <body>
+    <h1>Showdown.js Example with Task Lists</h1>
+
+    <textarea id="markdownInput" rows="10" cols="50">
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
+    </textarea>
+
+    <button onclick="convertMarkdown()">Convert to HTML</button>
+
+    <div id="htmlOutput"></div>
+
+    <script>
+      function convertMarkdown() {
+        // Get the input markdown text
+        var markdownText = document.getElementById("markdownInput").value;
+
+        // Create a new Showdown converter
+        var converter = new showdown.Converter({ tasklists: true });
+
+        // Convert the markdown to HTML
+        var htmlOutput = converter.makeHtml(markdownText);
+        const newHtml = htmlOutput.replaceAll("disabled", "");
+
+        // Display the HTML output
+        document.getElementById("htmlOutput").innerHTML = newHtml;
+        console.log(newHtml);
+      }
+    </script>
+  </body>
+</html>

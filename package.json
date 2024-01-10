@@ -1,0 +1,38 @@
+{
+  "name": "codenotes",
+  "version": "1.0.0",
+  "description": "code playground",
+  "type": "module",
+  "main": "./src/script/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "npx webpack --mode=production",
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysbender/codenotes.git"
+  },
+  "keywords": [
+    "code",
+    "playground",
+    "livecodes"
+  ],
+  "author": "Jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sysbender/codenotes/issues"
+  },
+  "homepage": "https://github.com/sysbender/codenotes#readme",
+  "dependencies": {
+    "livecodes": "^0.3.0",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
