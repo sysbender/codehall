@@ -5,7 +5,7 @@
     "config": {
       "markup": {
         "language": "html",
-        "content": "index.html"
+        "content": "app.html"
       },
       "style": {
         "language": "css",
@@ -24,7 +24,7 @@
     "config": {
       "markup": {
         "language": "html",
-        "content": "index.html"
+        "content": "app.html"
       },
       "style": {
         "language": "css",
