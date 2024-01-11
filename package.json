@@ -9,7 +9,7 @@
   },
   "scripts": {
     "prebuild": "rimraf docs",
-    "build": "npx webpack --mode=production",
+    "build": "npx webpack --mode=development",
     "deploy": "gh-pages -d docs"
   },
   "repository": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/sysbender/codenotes#readme",
   "dependencies": {
-    "copy-webpack-plugin": "^12.0.0",
+    "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.9.0",
     "glob": "^10.3.10",
     "html-webpack-plugin": "^5.6.0",

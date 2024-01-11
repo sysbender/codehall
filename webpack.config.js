@@ -24,35 +24,24 @@ function getHtmlFiles() {
   const files = [];
 
   htmlFiles.forEach((file) => {
-    const entryName = path.basename(file, ".html");
-    const entryPath = path.resolve(srcPath, file);
-    let relativePath = path.relative(srcPath, file);
-    let a1 = path.resolve(destPath, relativePath);
-    console.log("file=", file);
-    console.log("a1=", a1);
+    // const entryName = path.basename(file, ".html");
+    // const entryPath = path.resolve(srcPath, file);
+    // let relativePath = path.relative(srcPath, file);
+    // let a1 = path.resolve(destPath, relativePath);
+    // console.log("file=", file);
+    // console.log("a1=", a1);
     // let r1 = path.relative( )
 
-    let p1 = relativePath; //  .replace(/\\/g, "/");
-    console.log(` relative = `, srcPath, p1);
-    let p2 = p1.split(path.sep);
-    let p3 = p2.slice(1);
-    let p4 = p3.join("/");
+    // let p1 = relativePath; //  .replace(/\\/g, "/");
+    // console.log(` relative = `, srcPath, p1);
+    // let p2 = p1.split(path.sep);
+    // let p3 = p2.slice(1);
+    // let p4 = p3.join("/");
 
-    //files[entryName] = entryPath;
     let f2 = file.replace(/\\/g, "/");
-    // f2 = `apps/${f2}`;
-    console.log("f2=", f2);
-
     files.push(f2);
-
-    console.log("===================relative path", relativePath);
-    console.log("p1=", p1);
-    console.log("p2=", p2);
-    console.log("p3=", p3);
-    console.log("p4=", p4);
   });
-
-  //   return ["main"];
+  console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@files=", files);
   return files;
 }
 let htmlPageNames = getHtmlFiles();
@@ -86,10 +75,11 @@ export default {
   plugins: [
     new CopyPlugin({
       patterns: [
-        //  { from: "src/index.html", to: "index.html" }
+        { from: "src/index.md", to: "index.md" },
         {
-          from: "src/apps/",
-          to: "apps/",
+          from: "src/",
+          to: "./",
+
           globOptions: { ignore: ["**/index.html"] },
         },
       ],

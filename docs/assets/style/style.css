@@ -1,0 +1,48 @@
+/* https://codepen.io/DeolaJ/pen/xvjbKY */
+
+.grid-container {
+  width: 95vw;
+  margin: 0 auto;
+  height: 95vh;
+  display: flex;
+  /* border: 2px solid rgba(0, 0, 0, 0.4); */
+  transition: 1s ease;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: lightcyan;
+  transition: 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  width: 70%;
+  height: 100%;
+  background-color: #ccc;
+  transition: 0.3s ease;
+}
+
+.main-content_large {
+  width: 90%;
+}
+
+.sidebar_small {
+  width: 10%;
+}
+
+button {
+  position: absolute;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);
+  left: 100%;
+  top: 1rem;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
