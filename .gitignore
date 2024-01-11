@@ -90,7 +90,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
-docs
+
 
 # Gatsby files
 .cache/
@@ -129,3 +129,6 @@ docs
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ignore gh-pages
+docs

@@ -3,7 +3,7 @@
 .grid-container {
   width: 95vw;
   margin: 0 auto;
-  height: 95vh;
+  height: 100%;
   display: flex;
   /* border: 2px solid rgba(0, 0, 0, 0.4); */
   transition: 1s ease;
