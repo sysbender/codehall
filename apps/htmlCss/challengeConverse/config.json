@@ -1,11 +1,11 @@
 [
   {
     "name": "starter",
-    "url": "https://codepen.io/jonasschmedtmann/pen/48f20ea036df9afc09978b07eca226b8",
+    "url": "https://codepen.io/DeolaJ/pen/xvjbKY ",
     "config": {
       "markup": {
         "language": "html",
-        "content": "index.html"
+        "content": "app.html"
       },
       "style": {
         "language": "css",
@@ -19,12 +19,12 @@
   },
 
   {
-    "name": "final",
+    "name": "converse20",
     "url": "https://codepen.io/DeolaJ/pen/xvjbKY ",
     "config": {
       "markup": {
         "language": "html",
-        "content": "index.html"
+        "content": "app.html"
       },
       "style": {
         "language": "css",
