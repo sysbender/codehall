@@ -86,5 +86,3 @@ createConfigOptions(
 // await playground.setConfig({
 //   // new config options
 // });
-
-console.log("md=", md);

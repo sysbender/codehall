@@ -14,7 +14,7 @@
     "dev": "webpack serve --open --config webpack.config.js",
     "watch": "webpack --watch  --progress --mode  none",
     "monitor": "npx watch 'npm run build'   ",
-    "predeploy": "rimraf docs; webpack --mode=development",
+    "predeploy": " rimraf docs && cross-env NOT_TRANSFORM_INDEX=true  webpack --mode development",
     "deploy": "gh-pages -d docs"
   },
   "repository": {

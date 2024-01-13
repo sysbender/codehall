@@ -17,6 +17,23 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 
 //let htmlPageNames = ["main", "sub/sub"];
 
+function mdToHtml(mdContent) {
+  const converter = new showdown.Converter();
+  return converter.makeHtml(mdContent);
+}
+// when deploy, not transform index which will be done by gh-pages
+const notTransformIndex = process.env.NOT_TRANSFORM_INDEX
+  ? []
+  : [
+      {
+        from: "src/index.md",
+        to: "index.html",
+        transform(content, absoluteFrom) {
+          return mdToHtml(content.toString());
+        },
+      },
+    ];
+
 function getHtmlFiles() {
   const srcPath = path.resolve(__dirname, "src", "apps");
   const destPath = path.resolve(__dirname, "docs", "apps");
@@ -25,24 +42,9 @@ function getHtmlFiles() {
   const files = [];
 
   htmlFiles.forEach((file) => {
-    // const entryName = path.basename(file, ".html");
-    // const entryPath = path.resolve(srcPath, file);
-    // let relativePath = path.relative(srcPath, file);
-    // let a1 = path.resolve(destPath, relativePath);
-    // console.log("file=", file);
-    // console.log("a1=", a1);
-    // let r1 = path.relative( )
-
-    // let p1 = relativePath; //  .replace(/\\/g, "/");
-    // console.log(` relative = `, srcPath, p1);
-    // let p2 = p1.split(path.sep);
-    // let p3 = p2.slice(1);
-    // let p4 = p3.join("/");
-
     let f2 = file.replace(/\\/g, "/");
     files.push(f2);
   });
-  console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@files=", files);
   return files;
 }
 let htmlPageNames = getHtmlFiles();
@@ -83,14 +85,12 @@ export default {
     new CopyPlugin({
       patterns: [
         { from: "src/index.md", to: "index.md" },
-
         {
           from: "src/",
           to: "./",
-
           globOptions: { ignore: ["**/index.html"] },
         },
-      ],
+      ].concat(notTransformIndex),
     }),
   ].concat(multipleHtmlPlugins),
   target: "web",
