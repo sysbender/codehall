@@ -1,11 +1,3 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -16,7 +8,71 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* https://codepen.io/DeolaJ/pen/xvjbKY */\r\n\r\n.grid-container {\r\n  width: 95vw;\r\n  margin: 0 auto;\r\n  height: 100%;\r\n  display: flex;\r\n  /* border: 2px solid rgba(0, 0, 0, 0.4); */\r\n  transition: 1s ease;\r\n}\r\n\r\n.sidebar {\r\n  width: 30%;\r\n  height: 100%;\r\n  background-color: lightcyan;\r\n  transition: 0.3s ease;\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.main-content {\r\n  width: 70%;\r\n  height: 100%;\r\n  background-color: #ccc;\r\n  transition: 0.3s ease;\r\n}\r\n\r\n.main-content_large {\r\n  width: 90%;\r\n}\r\n\r\n.sidebar_small {\r\n  width: 10%;\r\n}\r\n\r\nbutton {\r\n  position: absolute;\r\n  border: none;\r\n  height: 20px;\r\n  width: 20px;\r\n  border-radius: 50%;\r\n  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);\r\n  left: 100%;\r\n  top: 1rem;\r\n  transform: translateX(-50%);\r\n  cursor: pointer;\r\n}\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://codenotes/./src/assets/style/style.css?./node_modules/css-loader/dist/cjs.js");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `/* https://codepen.io/DeolaJ/pen/xvjbKY */
+
+.grid-container {
+  width: 95vw;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  /* border: 2px solid rgba(0, 0, 0, 0.4); */
+  transition: 1s ease;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: lightcyan;
+  transition: 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  width: 70%;
+  height: 100%;
+  background-color: #ccc;
+  transition: 0.3s ease;
+}
+
+.main-content_large {
+  width: 90%;
+}
+
+.sidebar_small {
+  width: 10%;
+}
+
+button {
+  position: absolute;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);
+  left: 100%;
+  top: 1rem;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+`, "",{"version":3,"sources":["webpack://./src/assets/style/style.css"],"names":[],"mappings":"AAAA,yCAAyC;;AAEzC;EACE,WAAW;EACX,cAAc;EACd,YAAY;EACZ,aAAa;EACb,0CAA0C;EAC1C,mBAAmB;AACrB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,2BAA2B;EAC3B,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,sBAAsB;EACtB,qBAAqB;AACvB;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,WAAW;EACX,kBAAkB;EAClB,8CAA8C;EAC9C,UAAU;EACV,SAAS;EACT,2BAA2B;EAC3B,eAAe;AACjB","sourcesContent":["/* https://codepen.io/DeolaJ/pen/xvjbKY */\r\n\r\n.grid-container {\r\n  width: 95vw;\r\n  margin: 0 auto;\r\n  height: 100%;\r\n  display: flex;\r\n  /* border: 2px solid rgba(0, 0, 0, 0.4); */\r\n  transition: 1s ease;\r\n}\r\n\r\n.sidebar {\r\n  width: 30%;\r\n  height: 100%;\r\n  background-color: lightcyan;\r\n  transition: 0.3s ease;\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.main-content {\r\n  width: 70%;\r\n  height: 100%;\r\n  background-color: #ccc;\r\n  transition: 0.3s ease;\r\n}\r\n\r\n.main-content_large {\r\n  width: 90%;\r\n}\r\n\r\n.sidebar_small {\r\n  width: 10%;\r\n}\r\n\r\nbutton {\r\n  position: absolute;\r\n  border: none;\r\n  height: 20px;\r\n  width: 20px;\r\n  border-radius: 50%;\r\n  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);\r\n  left: 100%;\r\n  top: 1rem;\r\n  transform: translateX(-50%);\r\n  cursor: pointer;\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
 
 /***/ }),
 
@@ -27,18 +83,117 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 "use strict";
-eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://codenotes/./node_modules/css-loader/dist/runtime/api.js?");
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+module.exports = function (cssWithMappingToString) {
+  var list = [];
+
+  // return the list of modules as css string
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+      content += cssWithMappingToString(item);
+      if (needLayer) {
+        content += "}";
+      }
+      if (item[2]) {
+        content += "}";
+      }
+      if (item[4]) {
+        content += "}";
+      }
+      return content;
+    }).join("");
+  };
+
+  // import a list of modules into the list
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+    var alreadyImportedModules = {};
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+      list.push(item);
+    }
+  };
+  return list;
+};
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
-  \**************************************************************/
+/***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \************************************************************/
 /***/ ((module) => {
 
 "use strict";
-eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://codenotes/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+  if (!cssMapping) {
+    return content;
+  }
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    return [content].concat([sourceMapping]).join("\n");
+  }
+  return [content].join("\n");
+};
 
 /***/ }),
 
@@ -48,7 +203,5159 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
   \************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 2.1.0 - 21-04-2022 */\r\n(function(){\r\n/**\n * Created by Tivie on 13-07-2015.\n */\n\nfunction getDefaultOpts (simple) {\n  'use strict';\n\n  var defaultOptions = {\n    omitExtraWLInCodeBlocks: {\n      defaultValue: false,\n      describe: 'Omit the default extra whiteline added to code blocks',\n      type: 'boolean'\n    },\n    noHeaderId: {\n      defaultValue: false,\n      describe: 'Turn on/off generated header id',\n      type: 'boolean'\n    },\n    prefixHeaderId: {\n      defaultValue: false,\n      describe: 'Add a prefix to the generated header ids. Passing a string will prefix that string to the header id. Setting to true will add a generic \\'section-\\' prefix',\n      type: 'string'\n    },\n    rawPrefixHeaderId: {\n      defaultValue: false,\n      describe: 'Setting this option to true will prevent showdown from modifying the prefix. This might result in malformed IDs (if, for instance, the \" char is used in the prefix)',\n      type: 'boolean'\n    },\n    ghCompatibleHeaderId: {\n      defaultValue: false,\n      describe: 'Generate header ids compatible with github style (spaces are replaced with dashes, a bunch of non alphanumeric chars are removed)',\n      type: 'boolean'\n    },\n    rawHeaderId: {\n      defaultValue: false,\n      describe: 'Remove only spaces, \\' and \" from generated header ids (including prefixes), replacing them with dashes (-). WARNING: This might result in malformed ids',\n      type: 'boolean'\n    },\n    headerLevelStart: {\n      defaultValue: false,\n      describe: 'The header blocks level start',\n      type: 'integer'\n    },\n    parseImgDimensions: {\n      defaultValue: false,\n      describe: 'Turn on/off image dimension parsing',\n      type: 'boolean'\n    },\n    simplifiedAutoLink: {\n      defaultValue: false,\n      describe: 'Turn on/off GFM autolink style',\n      type: 'boolean'\n    },\n    excludeTrailingPunctuationFromURLs: {\n      defaultValue: false,\n      describe: 'Excludes trailing punctuation from links generated with autoLinking',\n      type: 'boolean'\n    },\n    literalMidWordUnderscores: {\n      defaultValue: false,\n      describe: 'Parse midword underscores as literal underscores',\n      type: 'boolean'\n    },\n    literalMidWordAsterisks: {\n      defaultValue: false,\n      describe: 'Parse midword asterisks as literal asterisks',\n      type: 'boolean'\n    },\n    strikethrough: {\n      defaultValue: false,\n      describe: 'Turn on/off strikethrough support',\n      type: 'boolean'\n    },\n    tables: {\n      defaultValue: false,\n      describe: 'Turn on/off tables support',\n      type: 'boolean'\n    },\n    tablesHeaderId: {\n      defaultValue: false,\n      describe: 'Add an id to table headers',\n      type: 'boolean'\n    },\n    ghCodeBlocks: {\n      defaultValue: true,\n      describe: 'Turn on/off GFM fenced code blocks support',\n      type: 'boolean'\n    },\n    tasklists: {\n      defaultValue: false,\n      describe: 'Turn on/off GFM tasklist support',\n      type: 'boolean'\n    },\n    smoothLivePreview: {\n      defaultValue: false,\n      describe: 'Prevents weird effects in live previews due to incomplete input',\n      type: 'boolean'\n    },\n    smartIndentationFix: {\n      defaultValue: false,\n      describe: 'Tries to smartly fix indentation in es6 strings',\n      type: 'boolean'\n    },\n    disableForced4SpacesIndentedSublists: {\n      defaultValue: false,\n      describe: 'Disables the requirement of indenting nested sublists by 4 spaces',\n      type: 'boolean'\n    },\n    simpleLineBreaks: {\n      defaultValue: false,\n      describe: 'Parses simple line breaks as <br> (GFM Style)',\n      type: 'boolean'\n    },\n    requireSpaceBeforeHeadingText: {\n      defaultValue: false,\n      describe: 'Makes adding a space between `#` and the header text mandatory (GFM Style)',\n      type: 'boolean'\n    },\n    ghMentions: {\n      defaultValue: false,\n      describe: 'Enables github @mentions',\n      type: 'boolean'\n    },\n    ghMentionsLink: {\n      defaultValue: 'https://github.com/{u}',\n      describe: 'Changes the link generated by @mentions. Only applies if ghMentions option is enabled.',\n      type: 'string'\n    },\n    encodeEmails: {\n      defaultValue: true,\n      describe: 'Encode e-mail addresses through the use of Character Entities, transforming ASCII e-mail addresses into its equivalent decimal entities',\n      type: 'boolean'\n    },\n    openLinksInNewWindow: {\n      defaultValue: false,\n      describe: 'Open all links in new windows',\n      type: 'boolean'\n    },\n    backslashEscapesHTMLTags: {\n      defaultValue: false,\n      describe: 'Support for HTML Tag escaping. ex: \\<div>foo\\</div>',\n      type: 'boolean'\n    },\n    emoji: {\n      defaultValue: false,\n      describe: 'Enable emoji support. Ex: `this is a :smile: emoji`',\n      type: 'boolean'\n    },\n    underline: {\n      defaultValue: false,\n      describe: 'Enable support for underline. Syntax is double or triple underscores: `__underline word__`. With this option enabled, underscores no longer parses into `<em>` and `<strong>`',\n      type: 'boolean'\n    },\n    ellipsis: {\n      defaultValue: true,\n      describe: 'Replaces three dots with the ellipsis unicode character',\n      type: 'boolean'\n    },\n    completeHTMLDocument: {\n      defaultValue: false,\n      describe: 'Outputs a complete html document, including `<html>`, `<head>` and `<body>` tags',\n      type: 'boolean'\n    },\n    metadata: {\n      defaultValue: false,\n      describe: 'Enable support for document metadata (defined at the top of the document between `«««` and `»»»` or between `---` and `---`).',\n      type: 'boolean'\n    },\n    splitAdjacentBlockquotes: {\n      defaultValue: false,\n      describe: 'Split adjacent blockquote blocks',\n      type: 'boolean'\n    }\n  };\n  if (simple === false) {\n    return JSON.parse(JSON.stringify(defaultOptions));\n  }\n  var ret = {};\n  for (var opt in defaultOptions) {\n    if (defaultOptions.hasOwnProperty(opt)) {\n      ret[opt] = defaultOptions[opt].defaultValue;\n    }\n  }\n  return ret;\n}\n\nfunction allOptionsOn () {\n  'use strict';\n  var options = getDefaultOpts(true),\n      ret = {};\n  for (var opt in options) {\n    if (options.hasOwnProperty(opt)) {\n      ret[opt] = true;\n    }\n  }\n  return ret;\n}\n\r\n/**\n * Created by Tivie on 06-01-2015.\n */\n\n// Private properties\nvar showdown = {},\n    parsers = {},\n    extensions = {},\n    globalOptions = getDefaultOpts(true),\n    setFlavor = 'vanilla',\n    flavor = {\n      github: {\n        omitExtraWLInCodeBlocks:              true,\n        simplifiedAutoLink:                   true,\n        excludeTrailingPunctuationFromURLs:   true,\n        literalMidWordUnderscores:            true,\n        strikethrough:                        true,\n        tables:                               true,\n        tablesHeaderId:                       true,\n        ghCodeBlocks:                         true,\n        tasklists:                            true,\n        disableForced4SpacesIndentedSublists: true,\n        simpleLineBreaks:                     true,\n        requireSpaceBeforeHeadingText:        true,\n        ghCompatibleHeaderId:                 true,\n        ghMentions:                           true,\n        backslashEscapesHTMLTags:             true,\n        emoji:                                true,\n        splitAdjacentBlockquotes:             true\n      },\n      original: {\n        noHeaderId:                           true,\n        ghCodeBlocks:                         false\n      },\n      ghost: {\n        omitExtraWLInCodeBlocks:              true,\n        parseImgDimensions:                   true,\n        simplifiedAutoLink:                   true,\n        excludeTrailingPunctuationFromURLs:   true,\n        literalMidWordUnderscores:            true,\n        strikethrough:                        true,\n        tables:                               true,\n        tablesHeaderId:                       true,\n        ghCodeBlocks:                         true,\n        tasklists:                            true,\n        smoothLivePreview:                    true,\n        simpleLineBreaks:                     true,\n        requireSpaceBeforeHeadingText:        true,\n        ghMentions:                           false,\n        encodeEmails:                         true\n      },\n      vanilla: getDefaultOpts(true),\n      allOn: allOptionsOn()\n    };\n\n/**\n * helper namespace\n * @type {{}}\n */\nshowdown.helper = {};\n\n/**\n * TODO LEGACY SUPPORT CODE\n * @type {{}}\n */\nshowdown.extensions = {};\n\n/**\n * Set a global option\n * @static\n * @param {string} key\n * @param {*} value\n * @returns {showdown}\n */\nshowdown.setOption = function (key, value) {\n  'use strict';\n  globalOptions[key] = value;\n  return this;\n};\n\n/**\n * Get a global option\n * @static\n * @param {string} key\n * @returns {*}\n */\nshowdown.getOption = function (key) {\n  'use strict';\n  return globalOptions[key];\n};\n\n/**\n * Get the global options\n * @static\n * @returns {{}}\n */\nshowdown.getOptions = function () {\n  'use strict';\n  return globalOptions;\n};\n\n/**\n * Reset global options to the default values\n * @static\n */\nshowdown.resetOptions = function () {\n  'use strict';\n  globalOptions = getDefaultOpts(true);\n};\n\n/**\n * Set the flavor showdown should use as default\n * @param {string} name\n */\nshowdown.setFlavor = function (name) {\n  'use strict';\n  if (!flavor.hasOwnProperty(name)) {\n    throw Error(name + ' flavor was not found');\n  }\n  showdown.resetOptions();\n  var preset = flavor[name];\n  setFlavor = name;\n  for (var option in preset) {\n    if (preset.hasOwnProperty(option)) {\n      globalOptions[option] = preset[option];\n    }\n  }\n};\n\n/**\n * Get the currently set flavor\n * @returns {string}\n */\nshowdown.getFlavor = function () {\n  'use strict';\n  return setFlavor;\n};\n\n/**\n * Get the options of a specified flavor. Returns undefined if the flavor was not found\n * @param {string} name Name of the flavor\n * @returns {{}|undefined}\n */\nshowdown.getFlavorOptions = function (name) {\n  'use strict';\n  if (flavor.hasOwnProperty(name)) {\n    return flavor[name];\n  }\n};\n\n/**\n * Get the default options\n * @static\n * @param {boolean} [simple=true]\n * @returns {{}}\n */\nshowdown.getDefaultOptions = function (simple) {\n  'use strict';\n  return getDefaultOpts(simple);\n};\n\n/**\n * Get or set a subParser\n *\n * subParser(name)       - Get a registered subParser\n * subParser(name, func) - Register a subParser\n * @static\n * @param {string} name\n * @param {function} [func]\n * @returns {*}\n */\nshowdown.subParser = function (name, func) {\n  'use strict';\n  if (showdown.helper.isString(name)) {\n    if (typeof func !== 'undefined') {\n      parsers[name] = func;\n    } else {\n      if (parsers.hasOwnProperty(name)) {\n        return parsers[name];\n      } else {\n        throw Error('SubParser named ' + name + ' not registered!');\n      }\n    }\n  }\n};\n\n/**\n * Gets or registers an extension\n * @static\n * @param {string} name\n * @param {object|object[]|function=} ext\n * @returns {*}\n */\nshowdown.extension = function (name, ext) {\n  'use strict';\n\n  if (!showdown.helper.isString(name)) {\n    throw Error('Extension \\'name\\' must be a string');\n  }\n\n  name = showdown.helper.stdExtName(name);\n\n  // Getter\n  if (showdown.helper.isUndefined(ext)) {\n    if (!extensions.hasOwnProperty(name)) {\n      throw Error('Extension named ' + name + ' is not registered!');\n    }\n    return extensions[name];\n\n    // Setter\n  } else {\n    // Expand extension if it's wrapped in a function\n    if (typeof ext === 'function') {\n      ext = ext();\n    }\n\n    // Ensure extension is an array\n    if (!showdown.helper.isArray(ext)) {\n      ext = [ext];\n    }\n\n    var validExtension = validate(ext, name);\n\n    if (validExtension.valid) {\n      extensions[name] = ext;\n    } else {\n      throw Error(validExtension.error);\n    }\n  }\n};\n\n/**\n * Gets all extensions registered\n * @returns {{}}\n */\nshowdown.getAllExtensions = function () {\n  'use strict';\n  return extensions;\n};\n\n/**\n * Remove an extension\n * @param {string} name\n */\nshowdown.removeExtension = function (name) {\n  'use strict';\n  delete extensions[name];\n};\n\n/**\n * Removes all extensions\n */\nshowdown.resetExtensions = function () {\n  'use strict';\n  extensions = {};\n};\n\n/**\n * Validate extension\n * @param {array} extension\n * @param {string} name\n * @returns {{valid: boolean, error: string}}\n */\nfunction validate (extension, name) {\n  'use strict';\n\n  var errMsg = (name) ? 'Error in ' + name + ' extension->' : 'Error in unnamed extension',\n      ret = {\n        valid: true,\n        error: ''\n      };\n\n  if (!showdown.helper.isArray(extension)) {\n    extension = [extension];\n  }\n\n  for (var i = 0; i < extension.length; ++i) {\n    var baseMsg = errMsg + ' sub-extension ' + i + ': ',\n        ext = extension[i];\n    if (typeof ext !== 'object') {\n      ret.valid = false;\n      ret.error = baseMsg + 'must be an object, but ' + typeof ext + ' given';\n      return ret;\n    }\n\n    if (!showdown.helper.isString(ext.type)) {\n      ret.valid = false;\n      ret.error = baseMsg + 'property \"type\" must be a string, but ' + typeof ext.type + ' given';\n      return ret;\n    }\n\n    var type = ext.type = ext.type.toLowerCase();\n\n    // normalize extension type\n    if (type === 'language') {\n      type = ext.type = 'lang';\n    }\n\n    if (type === 'html') {\n      type = ext.type = 'output';\n    }\n\n    if (type !== 'lang' && type !== 'output' && type !== 'listener') {\n      ret.valid = false;\n      ret.error = baseMsg + 'type ' + type + ' is not recognized. Valid values: \"lang/language\", \"output/html\" or \"listener\"';\n      return ret;\n    }\n\n    if (type === 'listener') {\n      if (showdown.helper.isUndefined(ext.listeners)) {\n        ret.valid = false;\n        ret.error = baseMsg + '. Extensions of type \"listener\" must have a property called \"listeners\"';\n        return ret;\n      }\n    } else {\n      if (showdown.helper.isUndefined(ext.filter) && showdown.helper.isUndefined(ext.regex)) {\n        ret.valid = false;\n        ret.error = baseMsg + type + ' extensions must define either a \"regex\" property or a \"filter\" method';\n        return ret;\n      }\n    }\n\n    if (ext.listeners) {\n      if (typeof ext.listeners !== 'object') {\n        ret.valid = false;\n        ret.error = baseMsg + '\"listeners\" property must be an object but ' + typeof ext.listeners + ' given';\n        return ret;\n      }\n      for (var ln in ext.listeners) {\n        if (ext.listeners.hasOwnProperty(ln)) {\n          if (typeof ext.listeners[ln] !== 'function') {\n            ret.valid = false;\n            ret.error = baseMsg + '\"listeners\" property must be an hash of [event name]: [callback]. listeners.' + ln +\n              ' must be a function but ' + typeof ext.listeners[ln] + ' given';\n            return ret;\n          }\n        }\n      }\n    }\n\n    if (ext.filter) {\n      if (typeof ext.filter !== 'function') {\n        ret.valid = false;\n        ret.error = baseMsg + '\"filter\" must be a function, but ' + typeof ext.filter + ' given';\n        return ret;\n      }\n    } else if (ext.regex) {\n      if (showdown.helper.isString(ext.regex)) {\n        ext.regex = new RegExp(ext.regex, 'g');\n      }\n      if (!(ext.regex instanceof RegExp)) {\n        ret.valid = false;\n        ret.error = baseMsg + '\"regex\" property must either be a string or a RegExp object, but ' + typeof ext.regex + ' given';\n        return ret;\n      }\n      if (showdown.helper.isUndefined(ext.replace)) {\n        ret.valid = false;\n        ret.error = baseMsg + '\"regex\" extensions must implement a replace string or function';\n        return ret;\n      }\n    }\n  }\n  return ret;\n}\n\n/**\n * Validate extension\n * @param {object} ext\n * @returns {boolean}\n */\nshowdown.validateExtension = function (ext) {\n  'use strict';\n\n  var validateExtension = validate(ext, null);\n  if (!validateExtension.valid) {\n    console.warn(validateExtension.error);\n    return false;\n  }\n  return true;\n};\n\r\n/**\n * showdownjs helper functions\n */\n\nif (!showdown.hasOwnProperty('helper')) {\n  showdown.helper = {};\n}\n\n/**\n * Check if var is string\n * @static\n * @param {string} a\n * @returns {boolean}\n */\nshowdown.helper.isString = function (a) {\n  'use strict';\n  return (typeof a === 'string' || a instanceof String);\n};\n\n/**\n * Check if var is a function\n * @static\n * @param {*} a\n * @returns {boolean}\n */\nshowdown.helper.isFunction = function (a) {\n  'use strict';\n  var getType = {};\n  return a && getType.toString.call(a) === '[object Function]';\n};\n\n/**\n * isArray helper function\n * @static\n * @param {*} a\n * @returns {boolean}\n */\nshowdown.helper.isArray = function (a) {\n  'use strict';\n  return Array.isArray(a);\n};\n\n/**\n * Check if value is undefined\n * @static\n * @param {*} value The value to check.\n * @returns {boolean} Returns `true` if `value` is `undefined`, else `false`.\n */\nshowdown.helper.isUndefined = function (value) {\n  'use strict';\n  return typeof value === 'undefined';\n};\n\n/**\n * ForEach helper function\n * Iterates over Arrays and Objects (own properties only)\n * @static\n * @param {*} obj\n * @param {function} callback Accepts 3 params: 1. value, 2. key, 3. the original array/object\n */\nshowdown.helper.forEach = function (obj, callback) {\n  'use strict';\n  // check if obj is defined\n  if (showdown.helper.isUndefined(obj)) {\n    throw new Error('obj param is required');\n  }\n\n  if (showdown.helper.isUndefined(callback)) {\n    throw new Error('callback param is required');\n  }\n\n  if (!showdown.helper.isFunction(callback)) {\n    throw new Error('callback param must be a function/closure');\n  }\n\n  if (typeof obj.forEach === 'function') {\n    obj.forEach(callback);\n  } else if (showdown.helper.isArray(obj)) {\n    for (var i = 0; i < obj.length; i++) {\n      callback(obj[i], i, obj);\n    }\n  } else if (typeof (obj) === 'object') {\n    for (var prop in obj) {\n      if (obj.hasOwnProperty(prop)) {\n        callback(obj[prop], prop, obj);\n      }\n    }\n  } else {\n    throw new Error('obj does not seem to be an array or an iterable object');\n  }\n};\n\n/**\n * Standardidize extension name\n * @static\n * @param {string} s extension name\n * @returns {string}\n */\nshowdown.helper.stdExtName = function (s) {\n  'use strict';\n  return s.replace(/[_?*+\\/\\\\.^-]/g, '').replace(/\\s/g, '').toLowerCase();\n};\n\nfunction escapeCharactersCallback (wholeMatch, m1) {\n  'use strict';\n  var charCodeToEscape = m1.charCodeAt(0);\n  return '¨E' + charCodeToEscape + 'E';\n}\n\n/**\n * Callback used to escape characters when passing through String.replace\n * @static\n * @param {string} wholeMatch\n * @param {string} m1\n * @returns {string}\n */\nshowdown.helper.escapeCharactersCallback = escapeCharactersCallback;\n\n/**\n * Escape characters in a string\n * @static\n * @param {string} text\n * @param {string} charsToEscape\n * @param {boolean} afterBackslash\n * @returns {XML|string|void|*}\n */\nshowdown.helper.escapeCharacters = function (text, charsToEscape, afterBackslash) {\n  'use strict';\n  // First we have to escape the escape characters so that\n  // we can build a character class out of them\n  var regexString = '([' + charsToEscape.replace(/([\\[\\]\\\\])/g, '\\\\$1') + '])';\n\n  if (afterBackslash) {\n    regexString = '\\\\\\\\' + regexString;\n  }\n\n  var regex = new RegExp(regexString, 'g');\n  text = text.replace(regex, escapeCharactersCallback);\n\n  return text;\n};\n\n/**\n * Unescape HTML entities\n * @param txt\n * @returns {string}\n */\nshowdown.helper.unescapeHTMLEntities = function (txt) {\n  'use strict';\n\n  return txt\n    .replace(/&quot;/g, '\"')\n    .replace(/&lt;/g, '<')\n    .replace(/&gt;/g, '>')\n    .replace(/&amp;/g, '&');\n};\n\nvar rgxFindMatchPos = function (str, left, right, flags) {\n  'use strict';\n  var f = flags || '',\n      g = f.indexOf('g') > -1,\n      x = new RegExp(left + '|' + right, 'g' + f.replace(/g/g, '')),\n      l = new RegExp(left, f.replace(/g/g, '')),\n      pos = [],\n      t, s, m, start, end;\n\n  do {\n    t = 0;\n    while ((m = x.exec(str))) {\n      if (l.test(m[0])) {\n        if (!(t++)) {\n          s = x.lastIndex;\n          start = s - m[0].length;\n        }\n      } else if (t) {\n        if (!--t) {\n          end = m.index + m[0].length;\n          var obj = {\n            left: {start: start, end: s},\n            match: {start: s, end: m.index},\n            right: {start: m.index, end: end},\n            wholeMatch: {start: start, end: end}\n          };\n          pos.push(obj);\n          if (!g) {\n            return pos;\n          }\n        }\n      }\n    }\n  } while (t && (x.lastIndex = s));\n\n  return pos;\n};\n\n/**\n * matchRecursiveRegExp\n *\n * (c) 2007 Steven Levithan <stevenlevithan.com>\n * MIT License\n *\n * Accepts a string to search, a left and right format delimiter\n * as regex patterns, and optional regex flags. Returns an array\n * of matches, allowing nested instances of left/right delimiters.\n * Use the \"g\" flag to return all matches, otherwise only the\n * first is returned. Be careful to ensure that the left and\n * right format delimiters produce mutually exclusive matches.\n * Backreferences are not supported within the right delimiter\n * due to how it is internally combined with the left delimiter.\n * When matching strings whose format delimiters are unbalanced\n * to the left or right, the output is intentionally as a\n * conventional regex library with recursion support would\n * produce, e.g. \"<<x>\" and \"<x>>\" both produce [\"x\"] when using\n * \"<\" and \">\" as the delimiters (both strings contain a single,\n * balanced instance of \"<x>\").\n *\n * examples:\n * matchRecursiveRegExp(\"test\", \"\\\\(\", \"\\\\)\")\n * returns: []\n * matchRecursiveRegExp(\"<t<<e>><s>>t<>\", \"<\", \">\", \"g\")\n * returns: [\"t<<e>><s>\", \"\"]\n * matchRecursiveRegExp(\"<div id=\\\"x\\\">test</div>\", \"<div\\\\b[^>]*>\", \"</div>\", \"gi\")\n * returns: [\"test\"]\n */\nshowdown.helper.matchRecursiveRegExp = function (str, left, right, flags) {\n  'use strict';\n\n  var matchPos = rgxFindMatchPos (str, left, right, flags),\n      results = [];\n\n  for (var i = 0; i < matchPos.length; ++i) {\n    results.push([\n      str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),\n      str.slice(matchPos[i].match.start, matchPos[i].match.end),\n      str.slice(matchPos[i].left.start, matchPos[i].left.end),\n      str.slice(matchPos[i].right.start, matchPos[i].right.end)\n    ]);\n  }\n  return results;\n};\n\n/**\n *\n * @param {string} str\n * @param {string|function} replacement\n * @param {string} left\n * @param {string} right\n * @param {string} flags\n * @returns {string}\n */\nshowdown.helper.replaceRecursiveRegExp = function (str, replacement, left, right, flags) {\n  'use strict';\n\n  if (!showdown.helper.isFunction(replacement)) {\n    var repStr = replacement;\n    replacement = function () {\n      return repStr;\n    };\n  }\n\n  var matchPos = rgxFindMatchPos(str, left, right, flags),\n      finalStr = str,\n      lng = matchPos.length;\n\n  if (lng > 0) {\n    var bits = [];\n    if (matchPos[0].wholeMatch.start !== 0) {\n      bits.push(str.slice(0, matchPos[0].wholeMatch.start));\n    }\n    for (var i = 0; i < lng; ++i) {\n      bits.push(\n        replacement(\n          str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),\n          str.slice(matchPos[i].match.start, matchPos[i].match.end),\n          str.slice(matchPos[i].left.start, matchPos[i].left.end),\n          str.slice(matchPos[i].right.start, matchPos[i].right.end)\n        )\n      );\n      if (i < lng - 1) {\n        bits.push(str.slice(matchPos[i].wholeMatch.end, matchPos[i + 1].wholeMatch.start));\n      }\n    }\n    if (matchPos[lng - 1].wholeMatch.end < str.length) {\n      bits.push(str.slice(matchPos[lng - 1].wholeMatch.end));\n    }\n    finalStr = bits.join('');\n  }\n  return finalStr;\n};\n\n/**\n * Returns the index within the passed String object of the first occurrence of the specified regex,\n * starting the search at fromIndex. Returns -1 if the value is not found.\n *\n * @param {string} str string to search\n * @param {RegExp} regex Regular expression to search\n * @param {int} [fromIndex = 0] Index to start the search\n * @returns {Number}\n * @throws InvalidArgumentError\n */\nshowdown.helper.regexIndexOf = function (str, regex, fromIndex) {\n  'use strict';\n  if (!showdown.helper.isString(str)) {\n    throw 'InvalidArgumentError: first parameter of showdown.helper.regexIndexOf function must be a string';\n  }\n  if (regex instanceof RegExp === false) {\n    throw 'InvalidArgumentError: second parameter of showdown.helper.regexIndexOf function must be an instance of RegExp';\n  }\n  var indexOf = str.substring(fromIndex || 0).search(regex);\n  return (indexOf >= 0) ? (indexOf + (fromIndex || 0)) : indexOf;\n};\n\n/**\n * Splits the passed string object at the defined index, and returns an array composed of the two substrings\n * @param {string} str string to split\n * @param {int} index index to split string at\n * @returns {[string,string]}\n * @throws InvalidArgumentError\n */\nshowdown.helper.splitAtIndex = function (str, index) {\n  'use strict';\n  if (!showdown.helper.isString(str)) {\n    throw 'InvalidArgumentError: first parameter of showdown.helper.regexIndexOf function must be a string';\n  }\n  return [str.substring(0, index), str.substring(index)];\n};\n\n/**\n * Obfuscate an e-mail address through the use of Character Entities,\n * transforming ASCII characters into their equivalent decimal or hex entities.\n *\n * Since it has a random component, subsequent calls to this function produce different results\n *\n * @param {string} mail\n * @returns {string}\n */\nshowdown.helper.encodeEmailAddress = function (mail) {\n  'use strict';\n  var encode = [\n    function (ch) {\n      return '&#' + ch.charCodeAt(0) + ';';\n    },\n    function (ch) {\n      return '&#x' + ch.charCodeAt(0).toString(16) + ';';\n    },\n    function (ch) {\n      return ch;\n    }\n  ];\n\n  mail = mail.replace(/./g, function (ch) {\n    if (ch === '@') {\n      // this *must* be encoded. I insist.\n      ch = encode[Math.floor(Math.random() * 2)](ch);\n    } else {\n      var r = Math.random();\n      // roughly 10% raw, 45% hex, 45% dec\n      ch = (\n        r > 0.9 ? encode[2](ch) : r > 0.45 ? encode[1](ch) : encode[0](ch)\n      );\n    }\n    return ch;\n  });\n\n  return mail;\n};\n\n/**\n *\n * @param str\n * @param targetLength\n * @param padString\n * @returns {string}\n */\nshowdown.helper.padEnd = function padEnd (str, targetLength, padString) {\n  'use strict';\n  /*jshint bitwise: false*/\n  // eslint-disable-next-line space-infix-ops\n  targetLength = targetLength>>0; //floor if number or convert non-number to 0;\n  /*jshint bitwise: true*/\n  padString = String(padString || ' ');\n  if (str.length > targetLength) {\n    return String(str);\n  } else {\n    targetLength = targetLength - str.length;\n    if (targetLength > padString.length) {\n      padString += padString.repeat(targetLength / padString.length); //append to original to ensure we are longer than needed\n    }\n    return String(str) + padString.slice(0,targetLength);\n  }\n};\n\n/**\n * POLYFILLS\n */\n// use this instead of builtin is undefined for IE8 compatibility\nif (typeof (console) === 'undefined') {\n  console = {\n    warn: function (msg) {\n      'use strict';\n      alert(msg);\n    },\n    log: function (msg) {\n      'use strict';\n      alert(msg);\n    },\n    error: function (msg) {\n      'use strict';\n      throw msg;\n    }\n  };\n}\n\n/**\n * Common regexes.\n * We declare some common regexes to improve performance\n */\nshowdown.helper.regexes = {\n  asteriskDashAndColon: /([*_:~])/g\n};\n\n/**\n * EMOJIS LIST\n */\nshowdown.helper.emojis = {\n  '+1':'\\ud83d\\udc4d',\n  '-1':'\\ud83d\\udc4e',\n  '100':'\\ud83d\\udcaf',\n  '1234':'\\ud83d\\udd22',\n  '1st_place_medal':'\\ud83e\\udd47',\n  '2nd_place_medal':'\\ud83e\\udd48',\n  '3rd_place_medal':'\\ud83e\\udd49',\n  '8ball':'\\ud83c\\udfb1',\n  'a':'\\ud83c\\udd70\\ufe0f',\n  'ab':'\\ud83c\\udd8e',\n  'abc':'\\ud83d\\udd24',\n  'abcd':'\\ud83d\\udd21',\n  'accept':'\\ud83c\\ude51',\n  'aerial_tramway':'\\ud83d\\udea1',\n  'airplane':'\\u2708\\ufe0f',\n  'alarm_clock':'\\u23f0',\n  'alembic':'\\u2697\\ufe0f',\n  'alien':'\\ud83d\\udc7d',\n  'ambulance':'\\ud83d\\ude91',\n  'amphora':'\\ud83c\\udffa',\n  'anchor':'\\u2693\\ufe0f',\n  'angel':'\\ud83d\\udc7c',\n  'anger':'\\ud83d\\udca2',\n  'angry':'\\ud83d\\ude20',\n  'anguished':'\\ud83d\\ude27',\n  'ant':'\\ud83d\\udc1c',\n  'apple':'\\ud83c\\udf4e',\n  'aquarius':'\\u2652\\ufe0f',\n  'aries':'\\u2648\\ufe0f',\n  'arrow_backward':'\\u25c0\\ufe0f',\n  'arrow_double_down':'\\u23ec',\n  'arrow_double_up':'\\u23eb',\n  'arrow_down':'\\u2b07\\ufe0f',\n  'arrow_down_small':'\\ud83d\\udd3d',\n  'arrow_forward':'\\u25b6\\ufe0f',\n  'arrow_heading_down':'\\u2935\\ufe0f',\n  'arrow_heading_up':'\\u2934\\ufe0f',\n  'arrow_left':'\\u2b05\\ufe0f',\n  'arrow_lower_left':'\\u2199\\ufe0f',\n  'arrow_lower_right':'\\u2198\\ufe0f',\n  'arrow_right':'\\u27a1\\ufe0f',\n  'arrow_right_hook':'\\u21aa\\ufe0f',\n  'arrow_up':'\\u2b06\\ufe0f',\n  'arrow_up_down':'\\u2195\\ufe0f',\n  'arrow_up_small':'\\ud83d\\udd3c',\n  'arrow_upper_left':'\\u2196\\ufe0f',\n  'arrow_upper_right':'\\u2197\\ufe0f',\n  'arrows_clockwise':'\\ud83d\\udd03',\n  'arrows_counterclockwise':'\\ud83d\\udd04',\n  'art':'\\ud83c\\udfa8',\n  'articulated_lorry':'\\ud83d\\ude9b',\n  'artificial_satellite':'\\ud83d\\udef0',\n  'astonished':'\\ud83d\\ude32',\n  'athletic_shoe':'\\ud83d\\udc5f',\n  'atm':'\\ud83c\\udfe7',\n  'atom_symbol':'\\u269b\\ufe0f',\n  'avocado':'\\ud83e\\udd51',\n  'b':'\\ud83c\\udd71\\ufe0f',\n  'baby':'\\ud83d\\udc76',\n  'baby_bottle':'\\ud83c\\udf7c',\n  'baby_chick':'\\ud83d\\udc24',\n  'baby_symbol':'\\ud83d\\udebc',\n  'back':'\\ud83d\\udd19',\n  'bacon':'\\ud83e\\udd53',\n  'badminton':'\\ud83c\\udff8',\n  'baggage_claim':'\\ud83d\\udec4',\n  'baguette_bread':'\\ud83e\\udd56',\n  'balance_scale':'\\u2696\\ufe0f',\n  'balloon':'\\ud83c\\udf88',\n  'ballot_box':'\\ud83d\\uddf3',\n  'ballot_box_with_check':'\\u2611\\ufe0f',\n  'bamboo':'\\ud83c\\udf8d',\n  'banana':'\\ud83c\\udf4c',\n  'bangbang':'\\u203c\\ufe0f',\n  'bank':'\\ud83c\\udfe6',\n  'bar_chart':'\\ud83d\\udcca',\n  'barber':'\\ud83d\\udc88',\n  'baseball':'\\u26be\\ufe0f',\n  'basketball':'\\ud83c\\udfc0',\n  'basketball_man':'\\u26f9\\ufe0f',\n  'basketball_woman':'\\u26f9\\ufe0f&zwj;\\u2640\\ufe0f',\n  'bat':'\\ud83e\\udd87',\n  'bath':'\\ud83d\\udec0',\n  'bathtub':'\\ud83d\\udec1',\n  'battery':'\\ud83d\\udd0b',\n  'beach_umbrella':'\\ud83c\\udfd6',\n  'bear':'\\ud83d\\udc3b',\n  'bed':'\\ud83d\\udecf',\n  'bee':'\\ud83d\\udc1d',\n  'beer':'\\ud83c\\udf7a',\n  'beers':'\\ud83c\\udf7b',\n  'beetle':'\\ud83d\\udc1e',\n  'beginner':'\\ud83d\\udd30',\n  'bell':'\\ud83d\\udd14',\n  'bellhop_bell':'\\ud83d\\udece',\n  'bento':'\\ud83c\\udf71',\n  'biking_man':'\\ud83d\\udeb4',\n  'bike':'\\ud83d\\udeb2',\n  'biking_woman':'\\ud83d\\udeb4&zwj;\\u2640\\ufe0f',\n  'bikini':'\\ud83d\\udc59',\n  'biohazard':'\\u2623\\ufe0f',\n  'bird':'\\ud83d\\udc26',\n  'birthday':'\\ud83c\\udf82',\n  'black_circle':'\\u26ab\\ufe0f',\n  'black_flag':'\\ud83c\\udff4',\n  'black_heart':'\\ud83d\\udda4',\n  'black_joker':'\\ud83c\\udccf',\n  'black_large_square':'\\u2b1b\\ufe0f',\n  'black_medium_small_square':'\\u25fe\\ufe0f',\n  'black_medium_square':'\\u25fc\\ufe0f',\n  'black_nib':'\\u2712\\ufe0f',\n  'black_small_square':'\\u25aa\\ufe0f',\n  'black_square_button':'\\ud83d\\udd32',\n  'blonde_man':'\\ud83d\\udc71',\n  'blonde_woman':'\\ud83d\\udc71&zwj;\\u2640\\ufe0f',\n  'blossom':'\\ud83c\\udf3c',\n  'blowfish':'\\ud83d\\udc21',\n  'blue_book':'\\ud83d\\udcd8',\n  'blue_car':'\\ud83d\\ude99',\n  'blue_heart':'\\ud83d\\udc99',\n  'blush':'\\ud83d\\ude0a',\n  'boar':'\\ud83d\\udc17',\n  'boat':'\\u26f5\\ufe0f',\n  'bomb':'\\ud83d\\udca3',\n  'book':'\\ud83d\\udcd6',\n  'bookmark':'\\ud83d\\udd16',\n  'bookmark_tabs':'\\ud83d\\udcd1',\n  'books':'\\ud83d\\udcda',\n  'boom':'\\ud83d\\udca5',\n  'boot':'\\ud83d\\udc62',\n  'bouquet':'\\ud83d\\udc90',\n  'bowing_man':'\\ud83d\\ude47',\n  'bow_and_arrow':'\\ud83c\\udff9',\n  'bowing_woman':'\\ud83d\\ude47&zwj;\\u2640\\ufe0f',\n  'bowling':'\\ud83c\\udfb3',\n  'boxing_glove':'\\ud83e\\udd4a',\n  'boy':'\\ud83d\\udc66',\n  'bread':'\\ud83c\\udf5e',\n  'bride_with_veil':'\\ud83d\\udc70',\n  'bridge_at_night':'\\ud83c\\udf09',\n  'briefcase':'\\ud83d\\udcbc',\n  'broken_heart':'\\ud83d\\udc94',\n  'bug':'\\ud83d\\udc1b',\n  'building_construction':'\\ud83c\\udfd7',\n  'bulb':'\\ud83d\\udca1',\n  'bullettrain_front':'\\ud83d\\ude85',\n  'bullettrain_side':'\\ud83d\\ude84',\n  'burrito':'\\ud83c\\udf2f',\n  'bus':'\\ud83d\\ude8c',\n  'business_suit_levitating':'\\ud83d\\udd74',\n  'busstop':'\\ud83d\\ude8f',\n  'bust_in_silhouette':'\\ud83d\\udc64',\n  'busts_in_silhouette':'\\ud83d\\udc65',\n  'butterfly':'\\ud83e\\udd8b',\n  'cactus':'\\ud83c\\udf35',\n  'cake':'\\ud83c\\udf70',\n  'calendar':'\\ud83d\\udcc6',\n  'call_me_hand':'\\ud83e\\udd19',\n  'calling':'\\ud83d\\udcf2',\n  'camel':'\\ud83d\\udc2b',\n  'camera':'\\ud83d\\udcf7',\n  'camera_flash':'\\ud83d\\udcf8',\n  'camping':'\\ud83c\\udfd5',\n  'cancer':'\\u264b\\ufe0f',\n  'candle':'\\ud83d\\udd6f',\n  'candy':'\\ud83c\\udf6c',\n  'canoe':'\\ud83d\\udef6',\n  'capital_abcd':'\\ud83d\\udd20',\n  'capricorn':'\\u2651\\ufe0f',\n  'car':'\\ud83d\\ude97',\n  'card_file_box':'\\ud83d\\uddc3',\n  'card_index':'\\ud83d\\udcc7',\n  'card_index_dividers':'\\ud83d\\uddc2',\n  'carousel_horse':'\\ud83c\\udfa0',\n  'carrot':'\\ud83e\\udd55',\n  'cat':'\\ud83d\\udc31',\n  'cat2':'\\ud83d\\udc08',\n  'cd':'\\ud83d\\udcbf',\n  'chains':'\\u26d3',\n  'champagne':'\\ud83c\\udf7e',\n  'chart':'\\ud83d\\udcb9',\n  'chart_with_downwards_trend':'\\ud83d\\udcc9',\n  'chart_with_upwards_trend':'\\ud83d\\udcc8',\n  'checkered_flag':'\\ud83c\\udfc1',\n  'cheese':'\\ud83e\\uddc0',\n  'cherries':'\\ud83c\\udf52',\n  'cherry_blossom':'\\ud83c\\udf38',\n  'chestnut':'\\ud83c\\udf30',\n  'chicken':'\\ud83d\\udc14',\n  'children_crossing':'\\ud83d\\udeb8',\n  'chipmunk':'\\ud83d\\udc3f',\n  'chocolate_bar':'\\ud83c\\udf6b',\n  'christmas_tree':'\\ud83c\\udf84',\n  'church':'\\u26ea\\ufe0f',\n  'cinema':'\\ud83c\\udfa6',\n  'circus_tent':'\\ud83c\\udfaa',\n  'city_sunrise':'\\ud83c\\udf07',\n  'city_sunset':'\\ud83c\\udf06',\n  'cityscape':'\\ud83c\\udfd9',\n  'cl':'\\ud83c\\udd91',\n  'clamp':'\\ud83d\\udddc',\n  'clap':'\\ud83d\\udc4f',\n  'clapper':'\\ud83c\\udfac',\n  'classical_building':'\\ud83c\\udfdb',\n  'clinking_glasses':'\\ud83e\\udd42',\n  'clipboard':'\\ud83d\\udccb',\n  'clock1':'\\ud83d\\udd50',\n  'clock10':'\\ud83d\\udd59',\n  'clock1030':'\\ud83d\\udd65',\n  'clock11':'\\ud83d\\udd5a',\n  'clock1130':'\\ud83d\\udd66',\n  'clock12':'\\ud83d\\udd5b',\n  'clock1230':'\\ud83d\\udd67',\n  'clock130':'\\ud83d\\udd5c',\n  'clock2':'\\ud83d\\udd51',\n  'clock230':'\\ud83d\\udd5d',\n  'clock3':'\\ud83d\\udd52',\n  'clock330':'\\ud83d\\udd5e',\n  'clock4':'\\ud83d\\udd53',\n  'clock430':'\\ud83d\\udd5f',\n  'clock5':'\\ud83d\\udd54',\n  'clock530':'\\ud83d\\udd60',\n  'clock6':'\\ud83d\\udd55',\n  'clock630':'\\ud83d\\udd61',\n  'clock7':'\\ud83d\\udd56',\n  'clock730':'\\ud83d\\udd62',\n  'clock8':'\\ud83d\\udd57',\n  'clock830':'\\ud83d\\udd63',\n  'clock9':'\\ud83d\\udd58',\n  'clock930':'\\ud83d\\udd64',\n  'closed_book':'\\ud83d\\udcd5',\n  'closed_lock_with_key':'\\ud83d\\udd10',\n  'closed_umbrella':'\\ud83c\\udf02',\n  'cloud':'\\u2601\\ufe0f',\n  'cloud_with_lightning':'\\ud83c\\udf29',\n  'cloud_with_lightning_and_rain':'\\u26c8',\n  'cloud_with_rain':'\\ud83c\\udf27',\n  'cloud_with_snow':'\\ud83c\\udf28',\n  'clown_face':'\\ud83e\\udd21',\n  'clubs':'\\u2663\\ufe0f',\n  'cocktail':'\\ud83c\\udf78',\n  'coffee':'\\u2615\\ufe0f',\n  'coffin':'\\u26b0\\ufe0f',\n  'cold_sweat':'\\ud83d\\ude30',\n  'comet':'\\u2604\\ufe0f',\n  'computer':'\\ud83d\\udcbb',\n  'computer_mouse':'\\ud83d\\uddb1',\n  'confetti_ball':'\\ud83c\\udf8a',\n  'confounded':'\\ud83d\\ude16',\n  'confused':'\\ud83d\\ude15',\n  'congratulations':'\\u3297\\ufe0f',\n  'construction':'\\ud83d\\udea7',\n  'construction_worker_man':'\\ud83d\\udc77',\n  'construction_worker_woman':'\\ud83d\\udc77&zwj;\\u2640\\ufe0f',\n  'control_knobs':'\\ud83c\\udf9b',\n  'convenience_store':'\\ud83c\\udfea',\n  'cookie':'\\ud83c\\udf6a',\n  'cool':'\\ud83c\\udd92',\n  'policeman':'\\ud83d\\udc6e',\n  'copyright':'\\u00a9\\ufe0f',\n  'corn':'\\ud83c\\udf3d',\n  'couch_and_lamp':'\\ud83d\\udecb',\n  'couple':'\\ud83d\\udc6b',\n  'couple_with_heart_woman_man':'\\ud83d\\udc91',\n  'couple_with_heart_man_man':'\\ud83d\\udc68&zwj;\\u2764\\ufe0f&zwj;\\ud83d\\udc68',\n  'couple_with_heart_woman_woman':'\\ud83d\\udc69&zwj;\\u2764\\ufe0f&zwj;\\ud83d\\udc69',\n  'couplekiss_man_man':'\\ud83d\\udc68&zwj;\\u2764\\ufe0f&zwj;\\ud83d\\udc8b&zwj;\\ud83d\\udc68',\n  'couplekiss_man_woman':'\\ud83d\\udc8f',\n  'couplekiss_woman_woman':'\\ud83d\\udc69&zwj;\\u2764\\ufe0f&zwj;\\ud83d\\udc8b&zwj;\\ud83d\\udc69',\n  'cow':'\\ud83d\\udc2e',\n  'cow2':'\\ud83d\\udc04',\n  'cowboy_hat_face':'\\ud83e\\udd20',\n  'crab':'\\ud83e\\udd80',\n  'crayon':'\\ud83d\\udd8d',\n  'credit_card':'\\ud83d\\udcb3',\n  'crescent_moon':'\\ud83c\\udf19',\n  'cricket':'\\ud83c\\udfcf',\n  'crocodile':'\\ud83d\\udc0a',\n  'croissant':'\\ud83e\\udd50',\n  'crossed_fingers':'\\ud83e\\udd1e',\n  'crossed_flags':'\\ud83c\\udf8c',\n  'crossed_swords':'\\u2694\\ufe0f',\n  'crown':'\\ud83d\\udc51',\n  'cry':'\\ud83d\\ude22',\n  'crying_cat_face':'\\ud83d\\ude3f',\n  'crystal_ball':'\\ud83d\\udd2e',\n  'cucumber':'\\ud83e\\udd52',\n  'cupid':'\\ud83d\\udc98',\n  'curly_loop':'\\u27b0',\n  'currency_exchange':'\\ud83d\\udcb1',\n  'curry':'\\ud83c\\udf5b',\n  'custard':'\\ud83c\\udf6e',\n  'customs':'\\ud83d\\udec3',\n  'cyclone':'\\ud83c\\udf00',\n  'dagger':'\\ud83d\\udde1',\n  'dancer':'\\ud83d\\udc83',\n  'dancing_women':'\\ud83d\\udc6f',\n  'dancing_men':'\\ud83d\\udc6f&zwj;\\u2642\\ufe0f',\n  'dango':'\\ud83c\\udf61',\n  'dark_sunglasses':'\\ud83d\\udd76',\n  'dart':'\\ud83c\\udfaf',\n  'dash':'\\ud83d\\udca8',\n  'date':'\\ud83d\\udcc5',\n  'deciduous_tree':'\\ud83c\\udf33',\n  'deer':'\\ud83e\\udd8c',\n  'department_store':'\\ud83c\\udfec',\n  'derelict_house':'\\ud83c\\udfda',\n  'desert':'\\ud83c\\udfdc',\n  'desert_island':'\\ud83c\\udfdd',\n  'desktop_computer':'\\ud83d\\udda5',\n  'male_detective':'\\ud83d\\udd75\\ufe0f',\n  'diamond_shape_with_a_dot_inside':'\\ud83d\\udca0',\n  'diamonds':'\\u2666\\ufe0f',\n  'disappointed':'\\ud83d\\ude1e',\n  'disappointed_relieved':'\\ud83d\\ude25',\n  'dizzy':'\\ud83d\\udcab',\n  'dizzy_face':'\\ud83d\\ude35',\n  'do_not_litter':'\\ud83d\\udeaf',\n  'dog':'\\ud83d\\udc36',\n  'dog2':'\\ud83d\\udc15',\n  'dollar':'\\ud83d\\udcb5',\n  'dolls':'\\ud83c\\udf8e',\n  'dolphin':'\\ud83d\\udc2c',\n  'door':'\\ud83d\\udeaa',\n  'doughnut':'\\ud83c\\udf69',\n  'dove':'\\ud83d\\udd4a',\n  'dragon':'\\ud83d\\udc09',\n  'dragon_face':'\\ud83d\\udc32',\n  'dress':'\\ud83d\\udc57',\n  'dromedary_camel':'\\ud83d\\udc2a',\n  'drooling_face':'\\ud83e\\udd24',\n  'droplet':'\\ud83d\\udca7',\n  'drum':'\\ud83e\\udd41',\n  'duck':'\\ud83e\\udd86',\n  'dvd':'\\ud83d\\udcc0',\n  'e-mail':'\\ud83d\\udce7',\n  'eagle':'\\ud83e\\udd85',\n  'ear':'\\ud83d\\udc42',\n  'ear_of_rice':'\\ud83c\\udf3e',\n  'earth_africa':'\\ud83c\\udf0d',\n  'earth_americas':'\\ud83c\\udf0e',\n  'earth_asia':'\\ud83c\\udf0f',\n  'egg':'\\ud83e\\udd5a',\n  'eggplant':'\\ud83c\\udf46',\n  'eight_pointed_black_star':'\\u2734\\ufe0f',\n  'eight_spoked_asterisk':'\\u2733\\ufe0f',\n  'electric_plug':'\\ud83d\\udd0c',\n  'elephant':'\\ud83d\\udc18',\n  'email':'\\u2709\\ufe0f',\n  'end':'\\ud83d\\udd1a',\n  'envelope_with_arrow':'\\ud83d\\udce9',\n  'euro':'\\ud83d\\udcb6',\n  'european_castle':'\\ud83c\\udff0',\n  'european_post_office':'\\ud83c\\udfe4',\n  'evergreen_tree':'\\ud83c\\udf32',\n  'exclamation':'\\u2757\\ufe0f',\n  'expressionless':'\\ud83d\\ude11',\n  'eye':'\\ud83d\\udc41',\n  'eye_speech_bubble':'\\ud83d\\udc41&zwj;\\ud83d\\udde8',\n  'eyeglasses':'\\ud83d\\udc53',\n  'eyes':'\\ud83d\\udc40',\n  'face_with_head_bandage':'\\ud83e\\udd15',\n  'face_with_thermometer':'\\ud83e\\udd12',\n  'fist_oncoming':'\\ud83d\\udc4a',\n  'factory':'\\ud83c\\udfed',\n  'fallen_leaf':'\\ud83c\\udf42',\n  'family_man_woman_boy':'\\ud83d\\udc6a',\n  'family_man_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc66',\n  'family_man_boy_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc66&zwj;\\ud83d\\udc66',\n  'family_man_girl':'\\ud83d\\udc68&zwj;\\ud83d\\udc67',\n  'family_man_girl_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc66',\n  'family_man_girl_girl':'\\ud83d\\udc68&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc67',\n  'family_man_man_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc68&zwj;\\ud83d\\udc66',\n  'family_man_man_boy_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc68&zwj;\\ud83d\\udc66&zwj;\\ud83d\\udc66',\n  'family_man_man_girl':'\\ud83d\\udc68&zwj;\\ud83d\\udc68&zwj;\\ud83d\\udc67',\n  'family_man_man_girl_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc68&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc66',\n  'family_man_man_girl_girl':'\\ud83d\\udc68&zwj;\\ud83d\\udc68&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc67',\n  'family_man_woman_boy_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc66&zwj;\\ud83d\\udc66',\n  'family_man_woman_girl':'\\ud83d\\udc68&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc67',\n  'family_man_woman_girl_boy':'\\ud83d\\udc68&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc66',\n  'family_man_woman_girl_girl':'\\ud83d\\udc68&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc67',\n  'family_woman_boy':'\\ud83d\\udc69&zwj;\\ud83d\\udc66',\n  'family_woman_boy_boy':'\\ud83d\\udc69&zwj;\\ud83d\\udc66&zwj;\\ud83d\\udc66',\n  'family_woman_girl':'\\ud83d\\udc69&zwj;\\ud83d\\udc67',\n  'family_woman_girl_boy':'\\ud83d\\udc69&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc66',\n  'family_woman_girl_girl':'\\ud83d\\udc69&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc67',\n  'family_woman_woman_boy':'\\ud83d\\udc69&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc66',\n  'family_woman_woman_boy_boy':'\\ud83d\\udc69&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc66&zwj;\\ud83d\\udc66',\n  'family_woman_woman_girl':'\\ud83d\\udc69&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc67',\n  'family_woman_woman_girl_boy':'\\ud83d\\udc69&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc66',\n  'family_woman_woman_girl_girl':'\\ud83d\\udc69&zwj;\\ud83d\\udc69&zwj;\\ud83d\\udc67&zwj;\\ud83d\\udc67',\n  'fast_forward':'\\u23e9',\n  'fax':'\\ud83d\\udce0',\n  'fearful':'\\ud83d\\ude28',\n  'feet':'\\ud83d\\udc3e',\n  'female_detective':'\\ud83d\\udd75\\ufe0f&zwj;\\u2640\\ufe0f',\n  'ferris_wheel':'\\ud83c\\udfa1',\n  'ferry':'\\u26f4',\n  'field_hockey':'\\ud83c\\udfd1',\n  'file_cabinet':'\\ud83d\\uddc4',\n  'file_folder':'\\ud83d\\udcc1',\n  'film_projector':'\\ud83d\\udcfd',\n  'film_strip':'\\ud83c\\udf9e',\n  'fire':'\\ud83d\\udd25',\n  'fire_engine':'\\ud83d\\ude92',\n  'fireworks':'\\ud83c\\udf86',\n  'first_quarter_moon':'\\ud83c\\udf13',\n  'first_quarter_moon_with_face':'\\ud83c\\udf1b',\n  'fish':'\\ud83d\\udc1f',\n  'fish_cake':'\\ud83c\\udf65',\n  'fishing_pole_and_fish':'\\ud83c\\udfa3',\n  'fist_raised':'\\u270a',\n  'fist_left':'\\ud83e\\udd1b',\n  'fist_right':'\\ud83e\\udd1c',\n  'flags':'\\ud83c\\udf8f',\n  'flashlight':'\\ud83d\\udd26',\n  'fleur_de_lis':'\\u269c\\ufe0f',\n  'flight_arrival':'\\ud83d\\udeec',\n  'flight_departure':'\\ud83d\\udeeb',\n  'floppy_disk':'\\ud83d\\udcbe',\n  'flower_playing_cards':'\\ud83c\\udfb4',\n  'flushed':'\\ud83d\\ude33',\n  'fog':'\\ud83c\\udf2b',\n  'foggy':'\\ud83c\\udf01',\n  'football':'\\ud83c\\udfc8',\n  'footprints':'\\ud83d\\udc63',\n  'fork_and_knife':'\\ud83c\\udf74',\n  'fountain':'\\u26f2\\ufe0f',\n  'fountain_pen':'\\ud83d\\udd8b',\n  'four_leaf_clover':'\\ud83c\\udf40',\n  'fox_face':'\\ud83e\\udd8a',\n  'framed_picture':'\\ud83d\\uddbc',\n  'free':'\\ud83c\\udd93',\n  'fried_egg':'\\ud83c\\udf73',\n  'fried_shrimp':'\\ud83c\\udf64',\n  'fries':'\\ud83c\\udf5f',\n  'frog':'\\ud83d\\udc38',\n  'frowning':'\\ud83d\\ude26',\n  'frowning_face':'\\u2639\\ufe0f',\n  'frowning_man':'\\ud83d\\ude4d&zwj;\\u2642\\ufe0f',\n  'frowning_woman':'\\ud83d\\ude4d',\n  'middle_finger':'\\ud83d\\udd95',\n  'fuelpump':'\\u26fd\\ufe0f',\n  'full_moon':'\\ud83c\\udf15',\n  'full_moon_with_face':'\\ud83c\\udf1d',\n  'funeral_urn':'\\u26b1\\ufe0f',\n  'game_die':'\\ud83c\\udfb2',\n  'gear':'\\u2699\\ufe0f',\n  'gem':'\\ud83d\\udc8e',\n  'gemini':'\\u264a\\ufe0f',\n  'ghost':'\\ud83d\\udc7b',\n  'gift':'\\ud83c\\udf81',\n  'gift_heart':'\\ud83d\\udc9d',\n  'girl':'\\ud83d\\udc67',\n  'globe_with_meridians':'\\ud83c\\udf10',\n  'goal_net':'\\ud83e\\udd45',\n  'goat':'\\ud83d\\udc10',\n  'golf':'\\u26f3\\ufe0f',\n  'golfing_man':'\\ud83c\\udfcc\\ufe0f',\n  'golfing_woman':'\\ud83c\\udfcc\\ufe0f&zwj;\\u2640\\ufe0f',\n  'gorilla':'\\ud83e\\udd8d',\n  'grapes':'\\ud83c\\udf47',\n  'green_apple':'\\ud83c\\udf4f',\n  'green_book':'\\ud83d\\udcd7',\n  'green_heart':'\\ud83d\\udc9a',\n  'green_salad':'\\ud83e\\udd57',\n  'grey_exclamation':'\\u2755',\n  'grey_question':'\\u2754',\n  'grimacing':'\\ud83d\\ude2c',\n  'grin':'\\ud83d\\ude01',\n  'grinning':'\\ud83d\\ude00',\n  'guardsman':'\\ud83d\\udc82',\n  'guardswoman':'\\ud83d\\udc82&zwj;\\u2640\\ufe0f',\n  'guitar':'\\ud83c\\udfb8',\n  'gun':'\\ud83d\\udd2b',\n  'haircut_woman':'\\ud83d\\udc87',\n  'haircut_man':'\\ud83d\\udc87&zwj;\\u2642\\ufe0f',\n  'hamburger':'\\ud83c\\udf54',\n  'hammer':'\\ud83d\\udd28',\n  'hammer_and_pick':'\\u2692',\n  'hammer_and_wrench':'\\ud83d\\udee0',\n  'hamster':'\\ud83d\\udc39',\n  'hand':'\\u270b',\n  'handbag':'\\ud83d\\udc5c',\n  'handshake':'\\ud83e\\udd1d',\n  'hankey':'\\ud83d\\udca9',\n  'hatched_chick':'\\ud83d\\udc25',\n  'hatching_chick':'\\ud83d\\udc23',\n  'headphones':'\\ud83c\\udfa7',\n  'hear_no_evil':'\\ud83d\\ude49',\n  'heart':'\\u2764\\ufe0f',\n  'heart_decoration':'\\ud83d\\udc9f',\n  'heart_eyes':'\\ud83d\\ude0d',\n  'heart_eyes_cat':'\\ud83d\\ude3b',\n  'heartbeat':'\\ud83d\\udc93',\n  'heartpulse':'\\ud83d\\udc97',\n  'hearts':'\\u2665\\ufe0f',\n  'heavy_check_mark':'\\u2714\\ufe0f',\n  'heavy_division_sign':'\\u2797',\n  'heavy_dollar_sign':'\\ud83d\\udcb2',\n  'heavy_heart_exclamation':'\\u2763\\ufe0f',\n  'heavy_minus_sign':'\\u2796',\n  'heavy_multiplication_x':'\\u2716\\ufe0f',\n  'heavy_plus_sign':'\\u2795',\n  'helicopter':'\\ud83d\\ude81',\n  'herb':'\\ud83c\\udf3f',\n  'hibiscus':'\\ud83c\\udf3a',\n  'high_brightness':'\\ud83d\\udd06',\n  'high_heel':'\\ud83d\\udc60',\n  'hocho':'\\ud83d\\udd2a',\n  'hole':'\\ud83d\\udd73',\n  'honey_pot':'\\ud83c\\udf6f',\n  'horse':'\\ud83d\\udc34',\n  'horse_racing':'\\ud83c\\udfc7',\n  'hospital':'\\ud83c\\udfe5',\n  'hot_pepper':'\\ud83c\\udf36',\n  'hotdog':'\\ud83c\\udf2d',\n  'hotel':'\\ud83c\\udfe8',\n  'hotsprings':'\\u2668\\ufe0f',\n  'hourglass':'\\u231b\\ufe0f',\n  'hourglass_flowing_sand':'\\u23f3',\n  'house':'\\ud83c\\udfe0',\n  'house_with_garden':'\\ud83c\\udfe1',\n  'houses':'\\ud83c\\udfd8',\n  'hugs':'\\ud83e\\udd17',\n  'hushed':'\\ud83d\\ude2f',\n  'ice_cream':'\\ud83c\\udf68',\n  'ice_hockey':'\\ud83c\\udfd2',\n  'ice_skate':'\\u26f8',\n  'icecream':'\\ud83c\\udf66',\n  'id':'\\ud83c\\udd94',\n  'ideograph_advantage':'\\ud83c\\ude50',\n  'imp':'\\ud83d\\udc7f',\n  'inbox_tray':'\\ud83d\\udce5',\n  'incoming_envelope':'\\ud83d\\udce8',\n  'tipping_hand_woman':'\\ud83d\\udc81',\n  'information_source':'\\u2139\\ufe0f',\n  'innocent':'\\ud83d\\ude07',\n  'interrobang':'\\u2049\\ufe0f',\n  'iphone':'\\ud83d\\udcf1',\n  'izakaya_lantern':'\\ud83c\\udfee',\n  'jack_o_lantern':'\\ud83c\\udf83',\n  'japan':'\\ud83d\\uddfe',\n  'japanese_castle':'\\ud83c\\udfef',\n  'japanese_goblin':'\\ud83d\\udc7a',\n  'japanese_ogre':'\\ud83d\\udc79',\n  'jeans':'\\ud83d\\udc56',\n  'joy':'\\ud83d\\ude02',\n  'joy_cat':'\\ud83d\\ude39',\n  'joystick':'\\ud83d\\udd79',\n  'kaaba':'\\ud83d\\udd4b',\n  'key':'\\ud83d\\udd11',\n  'keyboard':'\\u2328\\ufe0f',\n  'keycap_ten':'\\ud83d\\udd1f',\n  'kick_scooter':'\\ud83d\\udef4',\n  'kimono':'\\ud83d\\udc58',\n  'kiss':'\\ud83d\\udc8b',\n  'kissing':'\\ud83d\\ude17',\n  'kissing_cat':'\\ud83d\\ude3d',\n  'kissing_closed_eyes':'\\ud83d\\ude1a',\n  'kissing_heart':'\\ud83d\\ude18',\n  'kissing_smiling_eyes':'\\ud83d\\ude19',\n  'kiwi_fruit':'\\ud83e\\udd5d',\n  'koala':'\\ud83d\\udc28',\n  'koko':'\\ud83c\\ude01',\n  'label':'\\ud83c\\udff7',\n  'large_blue_circle':'\\ud83d\\udd35',\n  'large_blue_diamond':'\\ud83d\\udd37',\n  'large_orange_diamond':'\\ud83d\\udd36',\n  'last_quarter_moon':'\\ud83c\\udf17',\n  'last_quarter_moon_with_face':'\\ud83c\\udf1c',\n  'latin_cross':'\\u271d\\ufe0f',\n  'laughing':'\\ud83d\\ude06',\n  'leaves':'\\ud83c\\udf43',\n  'ledger':'\\ud83d\\udcd2',\n  'left_luggage':'\\ud83d\\udec5',\n  'left_right_arrow':'\\u2194\\ufe0f',\n  'leftwards_arrow_with_hook':'\\u21a9\\ufe0f',\n  'lemon':'\\ud83c\\udf4b',\n  'leo':'\\u264c\\ufe0f',\n  'leopard':'\\ud83d\\udc06',\n  'level_slider':'\\ud83c\\udf9a',\n  'libra':'\\u264e\\ufe0f',\n  'light_rail':'\\ud83d\\ude88',\n  'link':'\\ud83d\\udd17',\n  'lion':'\\ud83e\\udd81',\n  'lips':'\\ud83d\\udc44',\n  'lipstick':'\\ud83d\\udc84',\n  'lizard':'\\ud83e\\udd8e',\n  'lock':'\\ud83d\\udd12',\n  'lock_with_ink_pen':'\\ud83d\\udd0f',\n  'lollipop':'\\ud83c\\udf6d',\n  'loop':'\\u27bf',\n  'loud_sound':'\\ud83d\\udd0a',\n  'loudspeaker':'\\ud83d\\udce2',\n  'love_hotel':'\\ud83c\\udfe9',\n  'love_letter':'\\ud83d\\udc8c',\n  'low_brightness':'\\ud83d\\udd05',\n  'lying_face':'\\ud83e\\udd25',\n  'm':'\\u24c2\\ufe0f',\n  'mag':'\\ud83d\\udd0d',\n  'mag_right':'\\ud83d\\udd0e',\n  'mahjong':'\\ud83c\\udc04\\ufe0f',\n  'mailbox':'\\ud83d\\udceb',\n  'mailbox_closed':'\\ud83d\\udcea',\n  'mailbox_with_mail':'\\ud83d\\udcec',\n  'mailbox_with_no_mail':'\\ud83d\\udced',\n  'man':'\\ud83d\\udc68',\n  'man_artist':'\\ud83d\\udc68&zwj;\\ud83c\\udfa8',\n  'man_astronaut':'\\ud83d\\udc68&zwj;\\ud83d\\ude80',\n  'man_cartwheeling':'\\ud83e\\udd38&zwj;\\u2642\\ufe0f',\n  'man_cook':'\\ud83d\\udc68&zwj;\\ud83c\\udf73',\n  'man_dancing':'\\ud83d\\udd7a',\n  'man_facepalming':'\\ud83e\\udd26&zwj;\\u2642\\ufe0f',\n  'man_factory_worker':'\\ud83d\\udc68&zwj;\\ud83c\\udfed',\n  'man_farmer':'\\ud83d\\udc68&zwj;\\ud83c\\udf3e',\n  'man_firefighter':'\\ud83d\\udc68&zwj;\\ud83d\\ude92',\n  'man_health_worker':'\\ud83d\\udc68&zwj;\\u2695\\ufe0f',\n  'man_in_tuxedo':'\\ud83e\\udd35',\n  'man_judge':'\\ud83d\\udc68&zwj;\\u2696\\ufe0f',\n  'man_juggling':'\\ud83e\\udd39&zwj;\\u2642\\ufe0f',\n  'man_mechanic':'\\ud83d\\udc68&zwj;\\ud83d\\udd27',\n  'man_office_worker':'\\ud83d\\udc68&zwj;\\ud83d\\udcbc',\n  'man_pilot':'\\ud83d\\udc68&zwj;\\u2708\\ufe0f',\n  'man_playing_handball':'\\ud83e\\udd3e&zwj;\\u2642\\ufe0f',\n  'man_playing_water_polo':'\\ud83e\\udd3d&zwj;\\u2642\\ufe0f',\n  'man_scientist':'\\ud83d\\udc68&zwj;\\ud83d\\udd2c',\n  'man_shrugging':'\\ud83e\\udd37&zwj;\\u2642\\ufe0f',\n  'man_singer':'\\ud83d\\udc68&zwj;\\ud83c\\udfa4',\n  'man_student':'\\ud83d\\udc68&zwj;\\ud83c\\udf93',\n  'man_teacher':'\\ud83d\\udc68&zwj;\\ud83c\\udfeb',\n  'man_technologist':'\\ud83d\\udc68&zwj;\\ud83d\\udcbb',\n  'man_with_gua_pi_mao':'\\ud83d\\udc72',\n  'man_with_turban':'\\ud83d\\udc73',\n  'tangerine':'\\ud83c\\udf4a',\n  'mans_shoe':'\\ud83d\\udc5e',\n  'mantelpiece_clock':'\\ud83d\\udd70',\n  'maple_leaf':'\\ud83c\\udf41',\n  'martial_arts_uniform':'\\ud83e\\udd4b',\n  'mask':'\\ud83d\\ude37',\n  'massage_woman':'\\ud83d\\udc86',\n  'massage_man':'\\ud83d\\udc86&zwj;\\u2642\\ufe0f',\n  'meat_on_bone':'\\ud83c\\udf56',\n  'medal_military':'\\ud83c\\udf96',\n  'medal_sports':'\\ud83c\\udfc5',\n  'mega':'\\ud83d\\udce3',\n  'melon':'\\ud83c\\udf48',\n  'memo':'\\ud83d\\udcdd',\n  'men_wrestling':'\\ud83e\\udd3c&zwj;\\u2642\\ufe0f',\n  'menorah':'\\ud83d\\udd4e',\n  'mens':'\\ud83d\\udeb9',\n  'metal':'\\ud83e\\udd18',\n  'metro':'\\ud83d\\ude87',\n  'microphone':'\\ud83c\\udfa4',\n  'microscope':'\\ud83d\\udd2c',\n  'milk_glass':'\\ud83e\\udd5b',\n  'milky_way':'\\ud83c\\udf0c',\n  'minibus':'\\ud83d\\ude90',\n  'minidisc':'\\ud83d\\udcbd',\n  'mobile_phone_off':'\\ud83d\\udcf4',\n  'money_mouth_face':'\\ud83e\\udd11',\n  'money_with_wings':'\\ud83d\\udcb8',\n  'moneybag':'\\ud83d\\udcb0',\n  'monkey':'\\ud83d\\udc12',\n  'monkey_face':'\\ud83d\\udc35',\n  'monorail':'\\ud83d\\ude9d',\n  'moon':'\\ud83c\\udf14',\n  'mortar_board':'\\ud83c\\udf93',\n  'mosque':'\\ud83d\\udd4c',\n  'motor_boat':'\\ud83d\\udee5',\n  'motor_scooter':'\\ud83d\\udef5',\n  'motorcycle':'\\ud83c\\udfcd',\n  'motorway':'\\ud83d\\udee3',\n  'mount_fuji':'\\ud83d\\uddfb',\n  'mountain':'\\u26f0',\n  'mountain_biking_man':'\\ud83d\\udeb5',\n  'mountain_biking_woman':'\\ud83d\\udeb5&zwj;\\u2640\\ufe0f',\n  'mountain_cableway':'\\ud83d\\udea0',\n  'mountain_railway':'\\ud83d\\ude9e',\n  'mountain_snow':'\\ud83c\\udfd4',\n  'mouse':'\\ud83d\\udc2d',\n  'mouse2':'\\ud83d\\udc01',\n  'movie_camera':'\\ud83c\\udfa5',\n  'moyai':'\\ud83d\\uddff',\n  'mrs_claus':'\\ud83e\\udd36',\n  'muscle':'\\ud83d\\udcaa',\n  'mushroom':'\\ud83c\\udf44',\n  'musical_keyboard':'\\ud83c\\udfb9',\n  'musical_note':'\\ud83c\\udfb5',\n  'musical_score':'\\ud83c\\udfbc',\n  'mute':'\\ud83d\\udd07',\n  'nail_care':'\\ud83d\\udc85',\n  'name_badge':'\\ud83d\\udcdb',\n  'national_park':'\\ud83c\\udfde',\n  'nauseated_face':'\\ud83e\\udd22',\n  'necktie':'\\ud83d\\udc54',\n  'negative_squared_cross_mark':'\\u274e',\n  'nerd_face':'\\ud83e\\udd13',\n  'neutral_face':'\\ud83d\\ude10',\n  'new':'\\ud83c\\udd95',\n  'new_moon':'\\ud83c\\udf11',\n  'new_moon_with_face':'\\ud83c\\udf1a',\n  'newspaper':'\\ud83d\\udcf0',\n  'newspaper_roll':'\\ud83d\\uddde',\n  'next_track_button':'\\u23ed',\n  'ng':'\\ud83c\\udd96',\n  'no_good_man':'\\ud83d\\ude45&zwj;\\u2642\\ufe0f',\n  'no_good_woman':'\\ud83d\\ude45',\n  'night_with_stars':'\\ud83c\\udf03',\n  'no_bell':'\\ud83d\\udd15',\n  'no_bicycles':'\\ud83d\\udeb3',\n  'no_entry':'\\u26d4\\ufe0f',\n  'no_entry_sign':'\\ud83d\\udeab',\n  'no_mobile_phones':'\\ud83d\\udcf5',\n  'no_mouth':'\\ud83d\\ude36',\n  'no_pedestrians':'\\ud83d\\udeb7',\n  'no_smoking':'\\ud83d\\udead',\n  'non-potable_water':'\\ud83d\\udeb1',\n  'nose':'\\ud83d\\udc43',\n  'notebook':'\\ud83d\\udcd3',\n  'notebook_with_decorative_cover':'\\ud83d\\udcd4',\n  'notes':'\\ud83c\\udfb6',\n  'nut_and_bolt':'\\ud83d\\udd29',\n  'o':'\\u2b55\\ufe0f',\n  'o2':'\\ud83c\\udd7e\\ufe0f',\n  'ocean':'\\ud83c\\udf0a',\n  'octopus':'\\ud83d\\udc19',\n  'oden':'\\ud83c\\udf62',\n  'office':'\\ud83c\\udfe2',\n  'oil_drum':'\\ud83d\\udee2',\n  'ok':'\\ud83c\\udd97',\n  'ok_hand':'\\ud83d\\udc4c',\n  'ok_man':'\\ud83d\\ude46&zwj;\\u2642\\ufe0f',\n  'ok_woman':'\\ud83d\\ude46',\n  'old_key':'\\ud83d\\udddd',\n  'older_man':'\\ud83d\\udc74',\n  'older_woman':'\\ud83d\\udc75',\n  'om':'\\ud83d\\udd49',\n  'on':'\\ud83d\\udd1b',\n  'oncoming_automobile':'\\ud83d\\ude98',\n  'oncoming_bus':'\\ud83d\\ude8d',\n  'oncoming_police_car':'\\ud83d\\ude94',\n  'oncoming_taxi':'\\ud83d\\ude96',\n  'open_file_folder':'\\ud83d\\udcc2',\n  'open_hands':'\\ud83d\\udc50',\n  'open_mouth':'\\ud83d\\ude2e',\n  'open_umbrella':'\\u2602\\ufe0f',\n  'ophiuchus':'\\u26ce',\n  'orange_book':'\\ud83d\\udcd9',\n  'orthodox_cross':'\\u2626\\ufe0f',\n  'outbox_tray':'\\ud83d\\udce4',\n  'owl':'\\ud83e\\udd89',\n  'ox':'\\ud83d\\udc02',\n  'package':'\\ud83d\\udce6',\n  'page_facing_up':'\\ud83d\\udcc4',\n  'page_with_curl':'\\ud83d\\udcc3',\n  'pager':'\\ud83d\\udcdf',\n  'paintbrush':'\\ud83d\\udd8c',\n  'palm_tree':'\\ud83c\\udf34',\n  'pancakes':'\\ud83e\\udd5e',\n  'panda_face':'\\ud83d\\udc3c',\n  'paperclip':'\\ud83d\\udcce',\n  'paperclips':'\\ud83d\\udd87',\n  'parasol_on_ground':'\\u26f1',\n  'parking':'\\ud83c\\udd7f\\ufe0f',\n  'part_alternation_mark':'\\u303d\\ufe0f',\n  'partly_sunny':'\\u26c5\\ufe0f',\n  'passenger_ship':'\\ud83d\\udef3',\n  'passport_control':'\\ud83d\\udec2',\n  'pause_button':'\\u23f8',\n  'peace_symbol':'\\u262e\\ufe0f',\n  'peach':'\\ud83c\\udf51',\n  'peanuts':'\\ud83e\\udd5c',\n  'pear':'\\ud83c\\udf50',\n  'pen':'\\ud83d\\udd8a',\n  'pencil2':'\\u270f\\ufe0f',\n  'penguin':'\\ud83d\\udc27',\n  'pensive':'\\ud83d\\ude14',\n  'performing_arts':'\\ud83c\\udfad',\n  'persevere':'\\ud83d\\ude23',\n  'person_fencing':'\\ud83e\\udd3a',\n  'pouting_woman':'\\ud83d\\ude4e',\n  'phone':'\\u260e\\ufe0f',\n  'pick':'\\u26cf',\n  'pig':'\\ud83d\\udc37',\n  'pig2':'\\ud83d\\udc16',\n  'pig_nose':'\\ud83d\\udc3d',\n  'pill':'\\ud83d\\udc8a',\n  'pineapple':'\\ud83c\\udf4d',\n  'ping_pong':'\\ud83c\\udfd3',\n  'pisces':'\\u2653\\ufe0f',\n  'pizza':'\\ud83c\\udf55',\n  'place_of_worship':'\\ud83d\\uded0',\n  'plate_with_cutlery':'\\ud83c\\udf7d',\n  'play_or_pause_button':'\\u23ef',\n  'point_down':'\\ud83d\\udc47',\n  'point_left':'\\ud83d\\udc48',\n  'point_right':'\\ud83d\\udc49',\n  'point_up':'\\u261d\\ufe0f',\n  'point_up_2':'\\ud83d\\udc46',\n  'police_car':'\\ud83d\\ude93',\n  'policewoman':'\\ud83d\\udc6e&zwj;\\u2640\\ufe0f',\n  'poodle':'\\ud83d\\udc29',\n  'popcorn':'\\ud83c\\udf7f',\n  'post_office':'\\ud83c\\udfe3',\n  'postal_horn':'\\ud83d\\udcef',\n  'postbox':'\\ud83d\\udcee',\n  'potable_water':'\\ud83d\\udeb0',\n  'potato':'\\ud83e\\udd54',\n  'pouch':'\\ud83d\\udc5d',\n  'poultry_leg':'\\ud83c\\udf57',\n  'pound':'\\ud83d\\udcb7',\n  'rage':'\\ud83d\\ude21',\n  'pouting_cat':'\\ud83d\\ude3e',\n  'pouting_man':'\\ud83d\\ude4e&zwj;\\u2642\\ufe0f',\n  'pray':'\\ud83d\\ude4f',\n  'prayer_beads':'\\ud83d\\udcff',\n  'pregnant_woman':'\\ud83e\\udd30',\n  'previous_track_button':'\\u23ee',\n  'prince':'\\ud83e\\udd34',\n  'princess':'\\ud83d\\udc78',\n  'printer':'\\ud83d\\udda8',\n  'purple_heart':'\\ud83d\\udc9c',\n  'purse':'\\ud83d\\udc5b',\n  'pushpin':'\\ud83d\\udccc',\n  'put_litter_in_its_place':'\\ud83d\\udeae',\n  'question':'\\u2753',\n  'rabbit':'\\ud83d\\udc30',\n  'rabbit2':'\\ud83d\\udc07',\n  'racehorse':'\\ud83d\\udc0e',\n  'racing_car':'\\ud83c\\udfce',\n  'radio':'\\ud83d\\udcfb',\n  'radio_button':'\\ud83d\\udd18',\n  'radioactive':'\\u2622\\ufe0f',\n  'railway_car':'\\ud83d\\ude83',\n  'railway_track':'\\ud83d\\udee4',\n  'rainbow':'\\ud83c\\udf08',\n  'rainbow_flag':'\\ud83c\\udff3\\ufe0f&zwj;\\ud83c\\udf08',\n  'raised_back_of_hand':'\\ud83e\\udd1a',\n  'raised_hand_with_fingers_splayed':'\\ud83d\\udd90',\n  'raised_hands':'\\ud83d\\ude4c',\n  'raising_hand_woman':'\\ud83d\\ude4b',\n  'raising_hand_man':'\\ud83d\\ude4b&zwj;\\u2642\\ufe0f',\n  'ram':'\\ud83d\\udc0f',\n  'ramen':'\\ud83c\\udf5c',\n  'rat':'\\ud83d\\udc00',\n  'record_button':'\\u23fa',\n  'recycle':'\\u267b\\ufe0f',\n  'red_circle':'\\ud83d\\udd34',\n  'registered':'\\u00ae\\ufe0f',\n  'relaxed':'\\u263a\\ufe0f',\n  'relieved':'\\ud83d\\ude0c',\n  'reminder_ribbon':'\\ud83c\\udf97',\n  'repeat':'\\ud83d\\udd01',\n  'repeat_one':'\\ud83d\\udd02',\n  'rescue_worker_helmet':'\\u26d1',\n  'restroom':'\\ud83d\\udebb',\n  'revolving_hearts':'\\ud83d\\udc9e',\n  'rewind':'\\u23ea',\n  'rhinoceros':'\\ud83e\\udd8f',\n  'ribbon':'\\ud83c\\udf80',\n  'rice':'\\ud83c\\udf5a',\n  'rice_ball':'\\ud83c\\udf59',\n  'rice_cracker':'\\ud83c\\udf58',\n  'rice_scene':'\\ud83c\\udf91',\n  'right_anger_bubble':'\\ud83d\\uddef',\n  'ring':'\\ud83d\\udc8d',\n  'robot':'\\ud83e\\udd16',\n  'rocket':'\\ud83d\\ude80',\n  'rofl':'\\ud83e\\udd23',\n  'roll_eyes':'\\ud83d\\ude44',\n  'roller_coaster':'\\ud83c\\udfa2',\n  'rooster':'\\ud83d\\udc13',\n  'rose':'\\ud83c\\udf39',\n  'rosette':'\\ud83c\\udff5',\n  'rotating_light':'\\ud83d\\udea8',\n  'round_pushpin':'\\ud83d\\udccd',\n  'rowing_man':'\\ud83d\\udea3',\n  'rowing_woman':'\\ud83d\\udea3&zwj;\\u2640\\ufe0f',\n  'rugby_football':'\\ud83c\\udfc9',\n  'running_man':'\\ud83c\\udfc3',\n  'running_shirt_with_sash':'\\ud83c\\udfbd',\n  'running_woman':'\\ud83c\\udfc3&zwj;\\u2640\\ufe0f',\n  'sa':'\\ud83c\\ude02\\ufe0f',\n  'sagittarius':'\\u2650\\ufe0f',\n  'sake':'\\ud83c\\udf76',\n  'sandal':'\\ud83d\\udc61',\n  'santa':'\\ud83c\\udf85',\n  'satellite':'\\ud83d\\udce1',\n  'saxophone':'\\ud83c\\udfb7',\n  'school':'\\ud83c\\udfeb',\n  'school_satchel':'\\ud83c\\udf92',\n  'scissors':'\\u2702\\ufe0f',\n  'scorpion':'\\ud83e\\udd82',\n  'scorpius':'\\u264f\\ufe0f',\n  'scream':'\\ud83d\\ude31',\n  'scream_cat':'\\ud83d\\ude40',\n  'scroll':'\\ud83d\\udcdc',\n  'seat':'\\ud83d\\udcba',\n  'secret':'\\u3299\\ufe0f',\n  'see_no_evil':'\\ud83d\\ude48',\n  'seedling':'\\ud83c\\udf31',\n  'selfie':'\\ud83e\\udd33',\n  'shallow_pan_of_food':'\\ud83e\\udd58',\n  'shamrock':'\\u2618\\ufe0f',\n  'shark':'\\ud83e\\udd88',\n  'shaved_ice':'\\ud83c\\udf67',\n  'sheep':'\\ud83d\\udc11',\n  'shell':'\\ud83d\\udc1a',\n  'shield':'\\ud83d\\udee1',\n  'shinto_shrine':'\\u26e9',\n  'ship':'\\ud83d\\udea2',\n  'shirt':'\\ud83d\\udc55',\n  'shopping':'\\ud83d\\udecd',\n  'shopping_cart':'\\ud83d\\uded2',\n  'shower':'\\ud83d\\udebf',\n  'shrimp':'\\ud83e\\udd90',\n  'signal_strength':'\\ud83d\\udcf6',\n  'six_pointed_star':'\\ud83d\\udd2f',\n  'ski':'\\ud83c\\udfbf',\n  'skier':'\\u26f7',\n  'skull':'\\ud83d\\udc80',\n  'skull_and_crossbones':'\\u2620\\ufe0f',\n  'sleeping':'\\ud83d\\ude34',\n  'sleeping_bed':'\\ud83d\\udecc',\n  'sleepy':'\\ud83d\\ude2a',\n  'slightly_frowning_face':'\\ud83d\\ude41',\n  'slightly_smiling_face':'\\ud83d\\ude42',\n  'slot_machine':'\\ud83c\\udfb0',\n  'small_airplane':'\\ud83d\\udee9',\n  'small_blue_diamond':'\\ud83d\\udd39',\n  'small_orange_diamond':'\\ud83d\\udd38',\n  'small_red_triangle':'\\ud83d\\udd3a',\n  'small_red_triangle_down':'\\ud83d\\udd3b',\n  'smile':'\\ud83d\\ude04',\n  'smile_cat':'\\ud83d\\ude38',\n  'smiley':'\\ud83d\\ude03',\n  'smiley_cat':'\\ud83d\\ude3a',\n  'smiling_imp':'\\ud83d\\ude08',\n  'smirk':'\\ud83d\\ude0f',\n  'smirk_cat':'\\ud83d\\ude3c',\n  'smoking':'\\ud83d\\udeac',\n  'snail':'\\ud83d\\udc0c',\n  'snake':'\\ud83d\\udc0d',\n  'sneezing_face':'\\ud83e\\udd27',\n  'snowboarder':'\\ud83c\\udfc2',\n  'snowflake':'\\u2744\\ufe0f',\n  'snowman':'\\u26c4\\ufe0f',\n  'snowman_with_snow':'\\u2603\\ufe0f',\n  'sob':'\\ud83d\\ude2d',\n  'soccer':'\\u26bd\\ufe0f',\n  'soon':'\\ud83d\\udd1c',\n  'sos':'\\ud83c\\udd98',\n  'sound':'\\ud83d\\udd09',\n  'space_invader':'\\ud83d\\udc7e',\n  'spades':'\\u2660\\ufe0f',\n  'spaghetti':'\\ud83c\\udf5d',\n  'sparkle':'\\u2747\\ufe0f',\n  'sparkler':'\\ud83c\\udf87',\n  'sparkles':'\\u2728',\n  'sparkling_heart':'\\ud83d\\udc96',\n  'speak_no_evil':'\\ud83d\\ude4a',\n  'speaker':'\\ud83d\\udd08',\n  'speaking_head':'\\ud83d\\udde3',\n  'speech_balloon':'\\ud83d\\udcac',\n  'speedboat':'\\ud83d\\udea4',\n  'spider':'\\ud83d\\udd77',\n  'spider_web':'\\ud83d\\udd78',\n  'spiral_calendar':'\\ud83d\\uddd3',\n  'spiral_notepad':'\\ud83d\\uddd2',\n  'spoon':'\\ud83e\\udd44',\n  'squid':'\\ud83e\\udd91',\n  'stadium':'\\ud83c\\udfdf',\n  'star':'\\u2b50\\ufe0f',\n  'star2':'\\ud83c\\udf1f',\n  'star_and_crescent':'\\u262a\\ufe0f',\n  'star_of_david':'\\u2721\\ufe0f',\n  'stars':'\\ud83c\\udf20',\n  'station':'\\ud83d\\ude89',\n  'statue_of_liberty':'\\ud83d\\uddfd',\n  'steam_locomotive':'\\ud83d\\ude82',\n  'stew':'\\ud83c\\udf72',\n  'stop_button':'\\u23f9',\n  'stop_sign':'\\ud83d\\uded1',\n  'stopwatch':'\\u23f1',\n  'straight_ruler':'\\ud83d\\udccf',\n  'strawberry':'\\ud83c\\udf53',\n  'stuck_out_tongue':'\\ud83d\\ude1b',\n  'stuck_out_tongue_closed_eyes':'\\ud83d\\ude1d',\n  'stuck_out_tongue_winking_eye':'\\ud83d\\ude1c',\n  'studio_microphone':'\\ud83c\\udf99',\n  'stuffed_flatbread':'\\ud83e\\udd59',\n  'sun_behind_large_cloud':'\\ud83c\\udf25',\n  'sun_behind_rain_cloud':'\\ud83c\\udf26',\n  'sun_behind_small_cloud':'\\ud83c\\udf24',\n  'sun_with_face':'\\ud83c\\udf1e',\n  'sunflower':'\\ud83c\\udf3b',\n  'sunglasses':'\\ud83d\\ude0e',\n  'sunny':'\\u2600\\ufe0f',\n  'sunrise':'\\ud83c\\udf05',\n  'sunrise_over_mountains':'\\ud83c\\udf04',\n  'surfing_man':'\\ud83c\\udfc4',\n  'surfing_woman':'\\ud83c\\udfc4&zwj;\\u2640\\ufe0f',\n  'sushi':'\\ud83c\\udf63',\n  'suspension_railway':'\\ud83d\\ude9f',\n  'sweat':'\\ud83d\\ude13',\n  'sweat_drops':'\\ud83d\\udca6',\n  'sweat_smile':'\\ud83d\\ude05',\n  'sweet_potato':'\\ud83c\\udf60',\n  'swimming_man':'\\ud83c\\udfca',\n  'swimming_woman':'\\ud83c\\udfca&zwj;\\u2640\\ufe0f',\n  'symbols':'\\ud83d\\udd23',\n  'synagogue':'\\ud83d\\udd4d',\n  'syringe':'\\ud83d\\udc89',\n  'taco':'\\ud83c\\udf2e',\n  'tada':'\\ud83c\\udf89',\n  'tanabata_tree':'\\ud83c\\udf8b',\n  'taurus':'\\u2649\\ufe0f',\n  'taxi':'\\ud83d\\ude95',\n  'tea':'\\ud83c\\udf75',\n  'telephone_receiver':'\\ud83d\\udcde',\n  'telescope':'\\ud83d\\udd2d',\n  'tennis':'\\ud83c\\udfbe',\n  'tent':'\\u26fa\\ufe0f',\n  'thermometer':'\\ud83c\\udf21',\n  'thinking':'\\ud83e\\udd14',\n  'thought_balloon':'\\ud83d\\udcad',\n  'ticket':'\\ud83c\\udfab',\n  'tickets':'\\ud83c\\udf9f',\n  'tiger':'\\ud83d\\udc2f',\n  'tiger2':'\\ud83d\\udc05',\n  'timer_clock':'\\u23f2',\n  'tipping_hand_man':'\\ud83d\\udc81&zwj;\\u2642\\ufe0f',\n  'tired_face':'\\ud83d\\ude2b',\n  'tm':'\\u2122\\ufe0f',\n  'toilet':'\\ud83d\\udebd',\n  'tokyo_tower':'\\ud83d\\uddfc',\n  'tomato':'\\ud83c\\udf45',\n  'tongue':'\\ud83d\\udc45',\n  'top':'\\ud83d\\udd1d',\n  'tophat':'\\ud83c\\udfa9',\n  'tornado':'\\ud83c\\udf2a',\n  'trackball':'\\ud83d\\uddb2',\n  'tractor':'\\ud83d\\ude9c',\n  'traffic_light':'\\ud83d\\udea5',\n  'train':'\\ud83d\\ude8b',\n  'train2':'\\ud83d\\ude86',\n  'tram':'\\ud83d\\ude8a',\n  'triangular_flag_on_post':'\\ud83d\\udea9',\n  'triangular_ruler':'\\ud83d\\udcd0',\n  'trident':'\\ud83d\\udd31',\n  'triumph':'\\ud83d\\ude24',\n  'trolleybus':'\\ud83d\\ude8e',\n  'trophy':'\\ud83c\\udfc6',\n  'tropical_drink':'\\ud83c\\udf79',\n  'tropical_fish':'\\ud83d\\udc20',\n  'truck':'\\ud83d\\ude9a',\n  'trumpet':'\\ud83c\\udfba',\n  'tulip':'\\ud83c\\udf37',\n  'tumbler_glass':'\\ud83e\\udd43',\n  'turkey':'\\ud83e\\udd83',\n  'turtle':'\\ud83d\\udc22',\n  'tv':'\\ud83d\\udcfa',\n  'twisted_rightwards_arrows':'\\ud83d\\udd00',\n  'two_hearts':'\\ud83d\\udc95',\n  'two_men_holding_hands':'\\ud83d\\udc6c',\n  'two_women_holding_hands':'\\ud83d\\udc6d',\n  'u5272':'\\ud83c\\ude39',\n  'u5408':'\\ud83c\\ude34',\n  'u55b6':'\\ud83c\\ude3a',\n  'u6307':'\\ud83c\\ude2f\\ufe0f',\n  'u6708':'\\ud83c\\ude37\\ufe0f',\n  'u6709':'\\ud83c\\ude36',\n  'u6e80':'\\ud83c\\ude35',\n  'u7121':'\\ud83c\\ude1a\\ufe0f',\n  'u7533':'\\ud83c\\ude38',\n  'u7981':'\\ud83c\\ude32',\n  'u7a7a':'\\ud83c\\ude33',\n  'umbrella':'\\u2614\\ufe0f',\n  'unamused':'\\ud83d\\ude12',\n  'underage':'\\ud83d\\udd1e',\n  'unicorn':'\\ud83e\\udd84',\n  'unlock':'\\ud83d\\udd13',\n  'up':'\\ud83c\\udd99',\n  'upside_down_face':'\\ud83d\\ude43',\n  'v':'\\u270c\\ufe0f',\n  'vertical_traffic_light':'\\ud83d\\udea6',\n  'vhs':'\\ud83d\\udcfc',\n  'vibration_mode':'\\ud83d\\udcf3',\n  'video_camera':'\\ud83d\\udcf9',\n  'video_game':'\\ud83c\\udfae',\n  'violin':'\\ud83c\\udfbb',\n  'virgo':'\\u264d\\ufe0f',\n  'volcano':'\\ud83c\\udf0b',\n  'volleyball':'\\ud83c\\udfd0',\n  'vs':'\\ud83c\\udd9a',\n  'vulcan_salute':'\\ud83d\\udd96',\n  'walking_man':'\\ud83d\\udeb6',\n  'walking_woman':'\\ud83d\\udeb6&zwj;\\u2640\\ufe0f',\n  'waning_crescent_moon':'\\ud83c\\udf18',\n  'waning_gibbous_moon':'\\ud83c\\udf16',\n  'warning':'\\u26a0\\ufe0f',\n  'wastebasket':'\\ud83d\\uddd1',\n  'watch':'\\u231a\\ufe0f',\n  'water_buffalo':'\\ud83d\\udc03',\n  'watermelon':'\\ud83c\\udf49',\n  'wave':'\\ud83d\\udc4b',\n  'wavy_dash':'\\u3030\\ufe0f',\n  'waxing_crescent_moon':'\\ud83c\\udf12',\n  'wc':'\\ud83d\\udebe',\n  'weary':'\\ud83d\\ude29',\n  'wedding':'\\ud83d\\udc92',\n  'weight_lifting_man':'\\ud83c\\udfcb\\ufe0f',\n  'weight_lifting_woman':'\\ud83c\\udfcb\\ufe0f&zwj;\\u2640\\ufe0f',\n  'whale':'\\ud83d\\udc33',\n  'whale2':'\\ud83d\\udc0b',\n  'wheel_of_dharma':'\\u2638\\ufe0f',\n  'wheelchair':'\\u267f\\ufe0f',\n  'white_check_mark':'\\u2705',\n  'white_circle':'\\u26aa\\ufe0f',\n  'white_flag':'\\ud83c\\udff3\\ufe0f',\n  'white_flower':'\\ud83d\\udcae',\n  'white_large_square':'\\u2b1c\\ufe0f',\n  'white_medium_small_square':'\\u25fd\\ufe0f',\n  'white_medium_square':'\\u25fb\\ufe0f',\n  'white_small_square':'\\u25ab\\ufe0f',\n  'white_square_button':'\\ud83d\\udd33',\n  'wilted_flower':'\\ud83e\\udd40',\n  'wind_chime':'\\ud83c\\udf90',\n  'wind_face':'\\ud83c\\udf2c',\n  'wine_glass':'\\ud83c\\udf77',\n  'wink':'\\ud83d\\ude09',\n  'wolf':'\\ud83d\\udc3a',\n  'woman':'\\ud83d\\udc69',\n  'woman_artist':'\\ud83d\\udc69&zwj;\\ud83c\\udfa8',\n  'woman_astronaut':'\\ud83d\\udc69&zwj;\\ud83d\\ude80',\n  'woman_cartwheeling':'\\ud83e\\udd38&zwj;\\u2640\\ufe0f',\n  'woman_cook':'\\ud83d\\udc69&zwj;\\ud83c\\udf73',\n  'woman_facepalming':'\\ud83e\\udd26&zwj;\\u2640\\ufe0f',\n  'woman_factory_worker':'\\ud83d\\udc69&zwj;\\ud83c\\udfed',\n  'woman_farmer':'\\ud83d\\udc69&zwj;\\ud83c\\udf3e',\n  'woman_firefighter':'\\ud83d\\udc69&zwj;\\ud83d\\ude92',\n  'woman_health_worker':'\\ud83d\\udc69&zwj;\\u2695\\ufe0f',\n  'woman_judge':'\\ud83d\\udc69&zwj;\\u2696\\ufe0f',\n  'woman_juggling':'\\ud83e\\udd39&zwj;\\u2640\\ufe0f',\n  'woman_mechanic':'\\ud83d\\udc69&zwj;\\ud83d\\udd27',\n  'woman_office_worker':'\\ud83d\\udc69&zwj;\\ud83d\\udcbc',\n  'woman_pilot':'\\ud83d\\udc69&zwj;\\u2708\\ufe0f',\n  'woman_playing_handball':'\\ud83e\\udd3e&zwj;\\u2640\\ufe0f',\n  'woman_playing_water_polo':'\\ud83e\\udd3d&zwj;\\u2640\\ufe0f',\n  'woman_scientist':'\\ud83d\\udc69&zwj;\\ud83d\\udd2c',\n  'woman_shrugging':'\\ud83e\\udd37&zwj;\\u2640\\ufe0f',\n  'woman_singer':'\\ud83d\\udc69&zwj;\\ud83c\\udfa4',\n  'woman_student':'\\ud83d\\udc69&zwj;\\ud83c\\udf93',\n  'woman_teacher':'\\ud83d\\udc69&zwj;\\ud83c\\udfeb',\n  'woman_technologist':'\\ud83d\\udc69&zwj;\\ud83d\\udcbb',\n  'woman_with_turban':'\\ud83d\\udc73&zwj;\\u2640\\ufe0f',\n  'womans_clothes':'\\ud83d\\udc5a',\n  'womans_hat':'\\ud83d\\udc52',\n  'women_wrestling':'\\ud83e\\udd3c&zwj;\\u2640\\ufe0f',\n  'womens':'\\ud83d\\udeba',\n  'world_map':'\\ud83d\\uddfa',\n  'worried':'\\ud83d\\ude1f',\n  'wrench':'\\ud83d\\udd27',\n  'writing_hand':'\\u270d\\ufe0f',\n  'x':'\\u274c',\n  'yellow_heart':'\\ud83d\\udc9b',\n  'yen':'\\ud83d\\udcb4',\n  'yin_yang':'\\u262f\\ufe0f',\n  'yum':'\\ud83d\\ude0b',\n  'zap':'\\u26a1\\ufe0f',\n  'zipper_mouth_face':'\\ud83e\\udd10',\n  'zzz':'\\ud83d\\udca4',\n\n  /* special emojis :P */\n  'octocat':  '<img alt=\":octocat:\" height=\"20\" width=\"20\" align=\"absmiddle\" src=\"https://assets-cdn.github.com/images/icons/emoji/octocat.png\">',\n  'showdown': '<span style=\"font-family: \\'Anonymous Pro\\', monospace; text-decoration: underline; text-decoration-style: dashed; text-decoration-color: #3e8b8a;text-underline-position: under;\">S</span>'\n};\n\r\n/**\n * Created by Estevao on 31-05-2015.\n */\n\n/**\n * Showdown Converter class\n * @class\n * @param {object} [converterOptions]\n * @returns {Converter}\n */\nshowdown.Converter = function (converterOptions) {\n  'use strict';\n\n  var\n      /**\n       * Options used by this converter\n       * @private\n       * @type {{}}\n       */\n      options = {},\n\n      /**\n       * Language extensions used by this converter\n       * @private\n       * @type {Array}\n       */\n      langExtensions = [],\n\n      /**\n       * Output modifiers extensions used by this converter\n       * @private\n       * @type {Array}\n       */\n      outputModifiers = [],\n\n      /**\n       * Event listeners\n       * @private\n       * @type {{}}\n       */\n      listeners = {},\n\n      /**\n       * The flavor set in this converter\n       */\n      setConvFlavor = setFlavor,\n\n      /**\n       * Metadata of the document\n       * @type {{parsed: {}, raw: string, format: string}}\n       */\n      metadata = {\n        parsed: {},\n        raw: '',\n        format: ''\n      };\n\n  _constructor();\n\n  /**\n   * Converter constructor\n   * @private\n   */\n  function _constructor () {\n    converterOptions = converterOptions || {};\n\n    for (var gOpt in globalOptions) {\n      if (globalOptions.hasOwnProperty(gOpt)) {\n        options[gOpt] = globalOptions[gOpt];\n      }\n    }\n\n    // Merge options\n    if (typeof converterOptions === 'object') {\n      for (var opt in converterOptions) {\n        if (converterOptions.hasOwnProperty(opt)) {\n          options[opt] = converterOptions[opt];\n        }\n      }\n    } else {\n      throw Error('Converter expects the passed parameter to be an object, but ' + typeof converterOptions +\n      ' was passed instead.');\n    }\n\n    if (options.extensions) {\n      showdown.helper.forEach(options.extensions, _parseExtension);\n    }\n  }\n\n  /**\n   * Parse extension\n   * @param {*} ext\n   * @param {string} [name='']\n   * @private\n   */\n  function _parseExtension (ext, name) {\n\n    name = name || null;\n    // If it's a string, the extension was previously loaded\n    if (showdown.helper.isString(ext)) {\n      ext = showdown.helper.stdExtName(ext);\n      name = ext;\n\n      // LEGACY_SUPPORT CODE\n      if (showdown.extensions[ext]) {\n        console.warn('DEPRECATION WARNING: ' + ext + ' is an old extension that uses a deprecated loading method.' +\n          'Please inform the developer that the extension should be updated!');\n        legacyExtensionLoading(showdown.extensions[ext], ext);\n        return;\n        // END LEGACY SUPPORT CODE\n\n      } else if (!showdown.helper.isUndefined(extensions[ext])) {\n        ext = extensions[ext];\n\n      } else {\n        throw Error('Extension \"' + ext + '\" could not be loaded. It was either not found or is not a valid extension.');\n      }\n    }\n\n    if (typeof ext === 'function') {\n      ext = ext();\n    }\n\n    if (!showdown.helper.isArray(ext)) {\n      ext = [ext];\n    }\n\n    var validExt = validate(ext, name);\n    if (!validExt.valid) {\n      throw Error(validExt.error);\n    }\n\n    for (var i = 0; i < ext.length; ++i) {\n      switch (ext[i].type) {\n\n        case 'lang':\n          langExtensions.push(ext[i]);\n          break;\n\n        case 'output':\n          outputModifiers.push(ext[i]);\n          break;\n      }\n      if (ext[i].hasOwnProperty('listeners')) {\n        for (var ln in ext[i].listeners) {\n          if (ext[i].listeners.hasOwnProperty(ln)) {\n            listen(ln, ext[i].listeners[ln]);\n          }\n        }\n      }\n    }\n\n  }\n\n  /**\n   * LEGACY_SUPPORT\n   * @param {*} ext\n   * @param {string} name\n   */\n  function legacyExtensionLoading (ext, name) {\n    if (typeof ext === 'function') {\n      ext = ext(new showdown.Converter());\n    }\n    if (!showdown.helper.isArray(ext)) {\n      ext = [ext];\n    }\n    var valid = validate(ext, name);\n\n    if (!valid.valid) {\n      throw Error(valid.error);\n    }\n\n    for (var i = 0; i < ext.length; ++i) {\n      switch (ext[i].type) {\n        case 'lang':\n          langExtensions.push(ext[i]);\n          break;\n        case 'output':\n          outputModifiers.push(ext[i]);\n          break;\n        default:// should never reach here\n          throw Error('Extension loader error: Type unrecognized!!!');\n      }\n    }\n  }\n\n  /**\n   * Listen to an event\n   * @param {string} name\n   * @param {function} callback\n   */\n  function listen (name, callback) {\n    if (!showdown.helper.isString(name)) {\n      throw Error('Invalid argument in converter.listen() method: name must be a string, but ' + typeof name + ' given');\n    }\n\n    if (typeof callback !== 'function') {\n      throw Error('Invalid argument in converter.listen() method: callback must be a function, but ' + typeof callback + ' given');\n    }\n\n    if (!listeners.hasOwnProperty(name)) {\n      listeners[name] = [];\n    }\n    listeners[name].push(callback);\n  }\n\n  function rTrimInputText (text) {\n    var rsp = text.match(/^\\s*/)[0].length,\n        rgx = new RegExp('^\\\\s{0,' + rsp + '}', 'gm');\n    return text.replace(rgx, '');\n  }\n\n  /**\n   * Dispatch an event\n   * @private\n   * @param {string} evtName Event name\n   * @param {string} text Text\n   * @param {{}} options Converter Options\n   * @param {{}} globals\n   * @returns {string}\n   */\n  this._dispatch = function dispatch (evtName, text, options, globals) {\n    if (listeners.hasOwnProperty(evtName)) {\n      for (var ei = 0; ei < listeners[evtName].length; ++ei) {\n        var nText = listeners[evtName][ei](evtName, text, this, options, globals);\n        if (nText && typeof nText !== 'undefined') {\n          text = nText;\n        }\n      }\n    }\n    return text;\n  };\n\n  /**\n   * Listen to an event\n   * @param {string} name\n   * @param {function} callback\n   * @returns {showdown.Converter}\n   */\n  this.listen = function (name, callback) {\n    listen(name, callback);\n    return this;\n  };\n\n  /**\n   * Converts a markdown string into HTML\n   * @param {string} text\n   * @returns {*}\n   */\n  this.makeHtml = function (text) {\n    //check if text is not falsy\n    if (!text) {\n      return text;\n    }\n\n    var globals = {\n      gHtmlBlocks:     [],\n      gHtmlMdBlocks:   [],\n      gHtmlSpans:      [],\n      gUrls:           {},\n      gTitles:         {},\n      gDimensions:     {},\n      gListLevel:      0,\n      hashLinkCounts:  {},\n      langExtensions:  langExtensions,\n      outputModifiers: outputModifiers,\n      converter:       this,\n      ghCodeBlocks:    [],\n      metadata: {\n        parsed: {},\n        raw: '',\n        format: ''\n      }\n    };\n\n    // This lets us use ¨ trema as an escape char to avoid md5 hashes\n    // The choice of character is arbitrary; anything that isn't\n    // magic in Markdown will work.\n    text = text.replace(/¨/g, '¨T');\n\n    // Replace $ with ¨D\n    // RegExp interprets $ as a special character\n    // when it's in a replacement string\n    text = text.replace(/\\$/g, '¨D');\n\n    // Standardize line endings\n    text = text.replace(/\\r\\n/g, '\\n'); // DOS to Unix\n    text = text.replace(/\\r/g, '\\n'); // Mac to Unix\n\n    // Stardardize line spaces\n    text = text.replace(/\\u00A0/g, '&nbsp;');\n\n    if (options.smartIndentationFix) {\n      text = rTrimInputText(text);\n    }\n\n    // Make sure text begins and ends with a couple of newlines:\n    text = '\\n\\n' + text + '\\n\\n';\n\n    // detab\n    text = showdown.subParser('detab')(text, options, globals);\n\n    /**\n     * Strip any lines consisting only of spaces and tabs.\n     * This makes subsequent regexs easier to write, because we can\n     * match consecutive blank lines with /\\n+/ instead of something\n     * contorted like /[ \\t]*\\n+/\n     */\n    text = text.replace(/^[ \\t]+$/mg, '');\n\n    //run languageExtensions\n    showdown.helper.forEach(langExtensions, function (ext) {\n      text = showdown.subParser('runExtension')(ext, text, options, globals);\n    });\n\n    // run the sub parsers\n    text = showdown.subParser('metadata')(text, options, globals);\n    text = showdown.subParser('hashPreCodeTags')(text, options, globals);\n    text = showdown.subParser('githubCodeBlocks')(text, options, globals);\n    text = showdown.subParser('hashHTMLBlocks')(text, options, globals);\n    text = showdown.subParser('hashCodeTags')(text, options, globals);\n    text = showdown.subParser('stripLinkDefinitions')(text, options, globals);\n    text = showdown.subParser('blockGamut')(text, options, globals);\n    text = showdown.subParser('unhashHTMLSpans')(text, options, globals);\n    text = showdown.subParser('unescapeSpecialChars')(text, options, globals);\n\n    // attacklab: Restore dollar signs\n    text = text.replace(/¨D/g, '$$');\n\n    // attacklab: Restore tremas\n    text = text.replace(/¨T/g, '¨');\n\n    // render a complete html document instead of a partial if the option is enabled\n    text = showdown.subParser('completeHTMLDocument')(text, options, globals);\n\n    // Run output modifiers\n    showdown.helper.forEach(outputModifiers, function (ext) {\n      text = showdown.subParser('runExtension')(ext, text, options, globals);\n    });\n\n    // update metadata\n    metadata = globals.metadata;\n    return text;\n  };\n\n  /**\n   * Converts an HTML string into a markdown string\n   * @param src\n   * @param [HTMLParser] A WHATWG DOM and HTML parser, such as JSDOM. If none is supplied, window.document will be used.\n   * @returns {string}\n   */\n  this.makeMarkdown = this.makeMd = function (src, HTMLParser) {\n\n    // replace \\r\\n with \\n\n    src = src.replace(/\\r\\n/g, '\\n');\n    src = src.replace(/\\r/g, '\\n'); // old macs\n\n    // due to an edge case, we need to find this: > <\n    // to prevent removing of non silent white spaces\n    // ex: <em>this is</em> <strong>sparta</strong>\n    src = src.replace(/>[ \\t]+</, '>¨NBSP;<');\n\n    if (!HTMLParser) {\n      if (window && window.document) {\n        HTMLParser = window.document;\n      } else {\n        throw new Error('HTMLParser is undefined. If in a webworker or nodejs environment, you need to provide a WHATWG DOM and HTML such as JSDOM');\n      }\n    }\n\n    var doc = HTMLParser.createElement('div');\n    doc.innerHTML = src;\n\n    var globals = {\n      preList: substitutePreCodeTags(doc)\n    };\n\n    // remove all newlines and collapse spaces\n    clean(doc);\n\n    // some stuff, like accidental reference links must now be escaped\n    // TODO\n    // doc.innerHTML = doc.innerHTML.replace(/\\[[\\S\\t ]]/);\n\n    var nodes = doc.childNodes,\n        mdDoc = '';\n\n    for (var i = 0; i < nodes.length; i++) {\n      mdDoc += showdown.subParser('makeMarkdown.node')(nodes[i], globals);\n    }\n\n    function clean (node) {\n      for (var n = 0; n < node.childNodes.length; ++n) {\n        var child = node.childNodes[n];\n        if (child.nodeType === 3) {\n          if (!/\\S/.test(child.nodeValue) && !/^[ ]+$/.test(child.nodeValue)) {\n            node.removeChild(child);\n            --n;\n          } else {\n            child.nodeValue = child.nodeValue.split('\\n').join(' ');\n            child.nodeValue = child.nodeValue.replace(/(\\s)+/g, '$1');\n          }\n        } else if (child.nodeType === 1) {\n          clean(child);\n        }\n      }\n    }\n\n    // find all pre tags and replace contents with placeholder\n    // we need this so that we can remove all indentation from html\n    // to ease up parsing\n    function substitutePreCodeTags (doc) {\n\n      var pres = doc.querySelectorAll('pre'),\n          presPH = [];\n\n      for (var i = 0; i < pres.length; ++i) {\n\n        if (pres[i].childElementCount === 1 && pres[i].firstChild.tagName.toLowerCase() === 'code') {\n          var content = pres[i].firstChild.innerHTML.trim(),\n              language = pres[i].firstChild.getAttribute('data-language') || '';\n\n          // if data-language attribute is not defined, then we look for class language-*\n          if (language === '') {\n            var classes = pres[i].firstChild.className.split(' ');\n            for (var c = 0; c < classes.length; ++c) {\n              var matches = classes[c].match(/^language-(.+)$/);\n              if (matches !== null) {\n                language = matches[1];\n                break;\n              }\n            }\n          }\n\n          // unescape html entities in content\n          content = showdown.helper.unescapeHTMLEntities(content);\n\n          presPH.push(content);\n          pres[i].outerHTML = '<precode language=\"' + language + '\" precodenum=\"' + i.toString() + '\"></precode>';\n        } else {\n          presPH.push(pres[i].innerHTML);\n          pres[i].innerHTML = '';\n          pres[i].setAttribute('prenum', i.toString());\n        }\n      }\n      return presPH;\n    }\n\n    return mdDoc;\n  };\n\n  /**\n   * Set an option of this Converter instance\n   * @param {string} key\n   * @param {*} value\n   */\n  this.setOption = function (key, value) {\n    options[key] = value;\n  };\n\n  /**\n   * Get the option of this Converter instance\n   * @param {string} key\n   * @returns {*}\n   */\n  this.getOption = function (key) {\n    return options[key];\n  };\n\n  /**\n   * Get the options of this Converter instance\n   * @returns {{}}\n   */\n  this.getOptions = function () {\n    return options;\n  };\n\n  /**\n   * Add extension to THIS converter\n   * @param {{}} extension\n   * @param {string} [name=null]\n   */\n  this.addExtension = function (extension, name) {\n    name = name || null;\n    _parseExtension(extension, name);\n  };\n\n  /**\n   * Use a global registered extension with THIS converter\n   * @param {string} extensionName Name of the previously registered extension\n   */\n  this.useExtension = function (extensionName) {\n    _parseExtension(extensionName);\n  };\n\n  /**\n   * Set the flavor THIS converter should use\n   * @param {string} name\n   */\n  this.setFlavor = function (name) {\n    if (!flavor.hasOwnProperty(name)) {\n      throw Error(name + ' flavor was not found');\n    }\n    var preset = flavor[name];\n    setConvFlavor = name;\n    for (var option in preset) {\n      if (preset.hasOwnProperty(option)) {\n        options[option] = preset[option];\n      }\n    }\n  };\n\n  /**\n   * Get the currently set flavor of this converter\n   * @returns {string}\n   */\n  this.getFlavor = function () {\n    return setConvFlavor;\n  };\n\n  /**\n   * Remove an extension from THIS converter.\n   * Note: This is a costly operation. It's better to initialize a new converter\n   * and specify the extensions you wish to use\n   * @param {Array} extension\n   */\n  this.removeExtension = function (extension) {\n    if (!showdown.helper.isArray(extension)) {\n      extension = [extension];\n    }\n    for (var a = 0; a < extension.length; ++a) {\n      var ext = extension[a];\n      for (var i = 0; i < langExtensions.length; ++i) {\n        if (langExtensions[i] === ext) {\n          langExtensions.splice(i, 1);\n        }\n      }\n      for (var ii = 0; ii < outputModifiers.length; ++ii) {\n        if (outputModifiers[ii] === ext) {\n          outputModifiers.splice(ii, 1);\n        }\n      }\n    }\n  };\n\n  /**\n   * Get all extension of THIS converter\n   * @returns {{language: Array, output: Array}}\n   */\n  this.getAllExtensions = function () {\n    return {\n      language: langExtensions,\n      output: outputModifiers\n    };\n  };\n\n  /**\n   * Get the metadata of the previously parsed document\n   * @param raw\n   * @returns {string|{}}\n   */\n  this.getMetadata = function (raw) {\n    if (raw) {\n      return metadata.raw;\n    } else {\n      return metadata.parsed;\n    }\n  };\n\n  /**\n   * Get the metadata format of the previously parsed document\n   * @returns {string}\n   */\n  this.getMetadataFormat = function () {\n    return metadata.format;\n  };\n\n  /**\n   * Private: set a single key, value metadata pair\n   * @param {string} key\n   * @param {string} value\n   */\n  this._setMetadataPair = function (key, value) {\n    metadata.parsed[key] = value;\n  };\n\n  /**\n   * Private: set metadata format\n   * @param {string} format\n   */\n  this._setMetadataFormat = function (format) {\n    metadata.format = format;\n  };\n\n  /**\n   * Private: set metadata raw text\n   * @param {string} raw\n   */\n  this._setMetadataRaw = function (raw) {\n    metadata.raw = raw;\n  };\n};\n\r\n/**\n * Turn Markdown link shortcuts into XHTML <a> tags.\n */\nshowdown.subParser('anchors', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('anchors.before', text, options, globals);\n\n  var writeAnchorTag = function (wholeMatch, linkText, linkId, url, m5, m6, title) {\n    if (showdown.helper.isUndefined(title)) {\n      title = '';\n    }\n    linkId = linkId.toLowerCase();\n\n    // Special case for explicit empty url\n    if (wholeMatch.search(/\\(<?\\s*>? ?(['\"].*['\"])?\\)$/m) > -1) {\n      url = '';\n    } else if (!url) {\n      if (!linkId) {\n        // lower-case and turn embedded newlines into spaces\n        linkId = linkText.toLowerCase().replace(/ ?\\n/g, ' ');\n      }\n      url = '#' + linkId;\n\n      if (!showdown.helper.isUndefined(globals.gUrls[linkId])) {\n        url = globals.gUrls[linkId];\n        if (!showdown.helper.isUndefined(globals.gTitles[linkId])) {\n          title = globals.gTitles[linkId];\n        }\n      } else {\n        return wholeMatch;\n      }\n    }\n\n    //url = showdown.helper.escapeCharacters(url, '*_', false); // replaced line to improve performance\n    url = url.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);\n\n    var result = '<a href=\"' + url + '\"';\n\n    if (title !== '' && title !== null) {\n      title = title.replace(/\"/g, '&quot;');\n      //title = showdown.helper.escapeCharacters(title, '*_', false); // replaced line to improve performance\n      title = title.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);\n      result += ' title=\"' + title + '\"';\n    }\n\n    // optionLinksInNewWindow only applies\n    // to external links. Hash links (#) open in same page\n    if (options.openLinksInNewWindow && !/^#/.test(url)) {\n      // escaped _\n      result += ' rel=\"noopener noreferrer\" target=\"¨E95Eblank\"';\n    }\n\n    result += '>' + linkText + '</a>';\n\n    return result;\n  };\n\n  // First, handle reference-style links: [link text] [id]\n  text = text.replace(/\\[((?:\\[[^\\]]*]|[^\\[\\]])*)] ?(?:\\n *)?\\[(.*?)]()()()()/g, writeAnchorTag);\n\n  // Next, inline-style links: [link text](url \"optional title\")\n  // cases with crazy urls like ./image/cat1).png\n  text = text.replace(/\\[((?:\\[[^\\]]*]|[^\\[\\]])*)]()[ \\t]*\\([ \\t]?<([^>]*)>(?:[ \\t]*(([\"'])([^\"]*?)\\5))?[ \\t]?\\)/g,\n    writeAnchorTag);\n\n  // normal cases\n  text = text.replace(/\\[((?:\\[[^\\]]*]|[^\\[\\]])*)]()[ \\t]*\\([ \\t]?<?([\\S]+?(?:\\([\\S]*?\\)[\\S]*?)?)>?(?:[ \\t]*(([\"'])([^\"]*?)\\5))?[ \\t]?\\)/g,\n    writeAnchorTag);\n\n  // handle reference-style shortcuts: [link text]\n  // These must come last in case you've also got [link test][1]\n  // or [link test](/foo)\n  text = text.replace(/\\[([^\\[\\]]+)]()()()()()/g, writeAnchorTag);\n\n  // Lastly handle GithubMentions if option is enabled\n  if (options.ghMentions) {\n    text = text.replace(/(^|\\s)(\\\\)?(@([a-z\\d]+(?:[a-z\\d.-]+?[a-z\\d]+)*))/gmi, function (wm, st, escape, mentions, username) {\n      if (escape === '\\\\') {\n        return st + mentions;\n      }\n\n      //check if options.ghMentionsLink is a string\n      if (!showdown.helper.isString(options.ghMentionsLink)) {\n        throw new Error('ghMentionsLink option must be a string');\n      }\n      var lnk = options.ghMentionsLink.replace(/\\{u}/g, username),\n          target = '';\n      if (options.openLinksInNewWindow) {\n        target = ' rel=\"noopener noreferrer\" target=\"¨E95Eblank\"';\n      }\n      return st + '<a href=\"' + lnk + '\"' + target + '>' + mentions + '</a>';\n    });\n  }\n\n  text = globals.converter._dispatch('anchors.after', text, options, globals);\n  return text;\n});\n\r\n// url allowed chars [a-z\\d_.~:/?#[]@!$&'()*+,;=-]\n\nvar simpleURLRegex  = /([*~_]+|\\b)(((https?|ftp|dict):\\/\\/|www\\.)[^'\">\\s]+?\\.[^'\">\\s]+?)()(\\1)?(?=\\s|$)(?![\"<>])/gi,\n    simpleURLRegex2 = /([*~_]+|\\b)(((https?|ftp|dict):\\/\\/|www\\.)[^'\">\\s]+\\.[^'\">\\s]+?)([.!?,()\\[\\]])?(\\1)?(?=\\s|$)(?![\"<>])/gi,\n    delimUrlRegex   = /()<(((https?|ftp|dict):\\/\\/|www\\.)[^'\">\\s]+)()>()/gi,\n    simpleMailRegex = /(^|\\s)(?:mailto:)?([A-Za-z0-9!#$%&'*+-/=?^_`{|}~.]+@[-a-z0-9]+(\\.[-a-z0-9]+)*\\.[a-z]+)(?=$|\\s)/gmi,\n    delimMailRegex  = /<()(?:mailto:)?([-.\\w]+@[-a-z0-9]+(\\.[-a-z0-9]+)*\\.[a-z]+)>/gi,\n\n    replaceLink = function (options) {\n      'use strict';\n      return function (wm, leadingMagicChars, link, m2, m3, trailingPunctuation, trailingMagicChars) {\n        link = link.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);\n        var lnkTxt = link,\n            append = '',\n            target = '',\n            lmc    = leadingMagicChars || '',\n            tmc    = trailingMagicChars || '';\n        if (/^www\\./i.test(link)) {\n          link = link.replace(/^www\\./i, 'http://www.');\n        }\n        if (options.excludeTrailingPunctuationFromURLs && trailingPunctuation) {\n          append = trailingPunctuation;\n        }\n        if (options.openLinksInNewWindow) {\n          target = ' rel=\"noopener noreferrer\" target=\"¨E95Eblank\"';\n        }\n        return lmc + '<a href=\"' + link + '\"' + target + '>' + lnkTxt + '</a>' + append + tmc;\n      };\n    },\n\n    replaceMail = function (options, globals) {\n      'use strict';\n      return function (wholeMatch, b, mail) {\n        var href = 'mailto:';\n        b = b || '';\n        mail = showdown.subParser('unescapeSpecialChars')(mail, options, globals);\n        if (options.encodeEmails) {\n          href = showdown.helper.encodeEmailAddress(href + mail);\n          mail = showdown.helper.encodeEmailAddress(mail);\n        } else {\n          href = href + mail;\n        }\n        return b + '<a href=\"' + href + '\">' + mail + '</a>';\n      };\n    };\n\nshowdown.subParser('autoLinks', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('autoLinks.before', text, options, globals);\n\n  text = text.replace(delimUrlRegex, replaceLink(options));\n  text = text.replace(delimMailRegex, replaceMail(options, globals));\n\n  text = globals.converter._dispatch('autoLinks.after', text, options, globals);\n\n  return text;\n});\n\nshowdown.subParser('simplifiedAutoLinks', function (text, options, globals) {\n  'use strict';\n\n  if (!options.simplifiedAutoLink) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('simplifiedAutoLinks.before', text, options, globals);\n\n  if (options.excludeTrailingPunctuationFromURLs) {\n    text = text.replace(simpleURLRegex2, replaceLink(options));\n  } else {\n    text = text.replace(simpleURLRegex, replaceLink(options));\n  }\n  text = text.replace(simpleMailRegex, replaceMail(options, globals));\n\n  text = globals.converter._dispatch('simplifiedAutoLinks.after', text, options, globals);\n\n  return text;\n});\n\r\n/**\n * These are all the transformations that form block-level\n * tags like paragraphs, headers, and list items.\n */\nshowdown.subParser('blockGamut', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('blockGamut.before', text, options, globals);\n\n  // we parse blockquotes first so that we can have headings and hrs\n  // inside blockquotes\n  text = showdown.subParser('blockQuotes')(text, options, globals);\n  text = showdown.subParser('headers')(text, options, globals);\n\n  // Do Horizontal Rules:\n  text = showdown.subParser('horizontalRule')(text, options, globals);\n\n  text = showdown.subParser('lists')(text, options, globals);\n  text = showdown.subParser('codeBlocks')(text, options, globals);\n  text = showdown.subParser('tables')(text, options, globals);\n\n  // We already ran _HashHTMLBlocks() before, in Markdown(), but that\n  // was to escape raw HTML in the original Markdown source. This time,\n  // we're escaping the markup we've just created, so that we don't wrap\n  // <p> tags around block-level tags.\n  text = showdown.subParser('hashHTMLBlocks')(text, options, globals);\n  text = showdown.subParser('paragraphs')(text, options, globals);\n\n  text = globals.converter._dispatch('blockGamut.after', text, options, globals);\n\n  return text;\n});\n\r\nshowdown.subParser('blockQuotes', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('blockQuotes.before', text, options, globals);\n\n  // add a couple extra lines after the text and endtext mark\n  text = text + '\\n\\n';\n\n  var rgx = /(^ {0,3}>[ \\t]?.+\\n(.+\\n)*\\n*)+/gm;\n\n  if (options.splitAdjacentBlockquotes) {\n    rgx = /^ {0,3}>[\\s\\S]*?(?:\\n\\n)/gm;\n  }\n\n  text = text.replace(rgx, function (bq) {\n    // attacklab: hack around Konqueror 3.5.4 bug:\n    // \"----------bug\".replace(/^-/g,\"\") == \"bug\"\n    bq = bq.replace(/^[ \\t]*>[ \\t]?/gm, ''); // trim one level of quoting\n\n    // attacklab: clean up hack\n    bq = bq.replace(/¨0/g, '');\n\n    bq = bq.replace(/^[ \\t]+$/gm, ''); // trim whitespace-only lines\n    bq = showdown.subParser('githubCodeBlocks')(bq, options, globals);\n    bq = showdown.subParser('blockGamut')(bq, options, globals); // recurse\n\n    bq = bq.replace(/(^|\\n)/g, '$1  ');\n    // These leading spaces screw with <pre> content, so we need to fix that:\n    bq = bq.replace(/(\\s*<pre>[^\\r]+?<\\/pre>)/gm, function (wholeMatch, m1) {\n      var pre = m1;\n      // attacklab: hack around Konqueror 3.5.4 bug:\n      pre = pre.replace(/^  /mg, '¨0');\n      pre = pre.replace(/¨0/g, '');\n      return pre;\n    });\n\n    return showdown.subParser('hashBlock')('<blockquote>\\n' + bq + '\\n</blockquote>', options, globals);\n  });\n\n  text = globals.converter._dispatch('blockQuotes.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Process Markdown `<pre><code>` blocks.\n */\nshowdown.subParser('codeBlocks', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('codeBlocks.before', text, options, globals);\n\n  // sentinel workarounds for lack of \\A and \\Z, safari\\khtml bug\n  text += '¨0';\n\n  var pattern = /(?:\\n\\n|^)((?:(?:[ ]{4}|\\t).*\\n+)+)(\\n*[ ]{0,3}[^ \\t\\n]|(?=¨0))/g;\n  text = text.replace(pattern, function (wholeMatch, m1, m2) {\n    var codeblock = m1,\n        nextChar = m2,\n        end = '\\n';\n\n    codeblock = showdown.subParser('outdent')(codeblock, options, globals);\n    codeblock = showdown.subParser('encodeCode')(codeblock, options, globals);\n    codeblock = showdown.subParser('detab')(codeblock, options, globals);\n    codeblock = codeblock.replace(/^\\n+/g, ''); // trim leading newlines\n    codeblock = codeblock.replace(/\\n+$/g, ''); // trim trailing newlines\n\n    if (options.omitExtraWLInCodeBlocks) {\n      end = '';\n    }\n\n    codeblock = '<pre><code>' + codeblock + end + '</code></pre>';\n\n    return showdown.subParser('hashBlock')(codeblock, options, globals) + nextChar;\n  });\n\n  // strip sentinel\n  text = text.replace(/¨0/, '');\n\n  text = globals.converter._dispatch('codeBlocks.after', text, options, globals);\n  return text;\n});\n\r\n/**\n *\n *   *  Backtick quotes are used for <code></code> spans.\n *\n *   *  You can use multiple backticks as the delimiters if you want to\n *     include literal backticks in the code span. So, this input:\n *\n *         Just type ``foo `bar` baz`` at the prompt.\n *\n *       Will translate to:\n *\n *         <p>Just type <code>foo `bar` baz</code> at the prompt.</p>\n *\n *    There's no arbitrary limit to the number of backticks you\n *    can use as delimters. If you need three consecutive backticks\n *    in your code, use four for delimiters, etc.\n *\n *  *  You can use spaces to get literal backticks at the edges:\n *\n *         ... type `` `bar` `` ...\n *\n *       Turns to:\n *\n *         ... type <code>`bar`</code> ...\n */\nshowdown.subParser('codeSpans', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('codeSpans.before', text, options, globals);\n\n  if (typeof (text) === 'undefined') {\n    text = '';\n  }\n  text = text.replace(/(^|[^\\\\])(`+)([^\\r]*?[^`])\\2(?!`)/gm,\n    function (wholeMatch, m1, m2, m3) {\n      var c = m3;\n      c = c.replace(/^([ \\t]*)/g, '');\t// leading whitespace\n      c = c.replace(/[ \\t]*$/g, '');\t// trailing whitespace\n      c = showdown.subParser('encodeCode')(c, options, globals);\n      c = m1 + '<code>' + c + '</code>';\n      c = showdown.subParser('hashHTMLSpans')(c, options, globals);\n      return c;\n    }\n  );\n\n  text = globals.converter._dispatch('codeSpans.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Create a full HTML document from the processed markdown\n */\nshowdown.subParser('completeHTMLDocument', function (text, options, globals) {\n  'use strict';\n\n  if (!options.completeHTMLDocument) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('completeHTMLDocument.before', text, options, globals);\n\n  var doctype = 'html',\n      doctypeParsed = '<!DOCTYPE HTML>\\n',\n      title = '',\n      charset = '<meta charset=\"utf-8\">\\n',\n      lang = '',\n      metadata = '';\n\n  if (typeof globals.metadata.parsed.doctype !== 'undefined') {\n    doctypeParsed = '<!DOCTYPE ' +  globals.metadata.parsed.doctype + '>\\n';\n    doctype = globals.metadata.parsed.doctype.toString().toLowerCase();\n    if (doctype === 'html' || doctype === 'html5') {\n      charset = '<meta charset=\"utf-8\">';\n    }\n  }\n\n  for (var meta in globals.metadata.parsed) {\n    if (globals.metadata.parsed.hasOwnProperty(meta)) {\n      switch (meta.toLowerCase()) {\n        case 'doctype':\n          break;\n\n        case 'title':\n          title = '<title>' +  globals.metadata.parsed.title + '</title>\\n';\n          break;\n\n        case 'charset':\n          if (doctype === 'html' || doctype === 'html5') {\n            charset = '<meta charset=\"' + globals.metadata.parsed.charset + '\">\\n';\n          } else {\n            charset = '<meta name=\"charset\" content=\"' + globals.metadata.parsed.charset + '\">\\n';\n          }\n          break;\n\n        case 'language':\n        case 'lang':\n          lang = ' lang=\"' + globals.metadata.parsed[meta] + '\"';\n          metadata += '<meta name=\"' + meta + '\" content=\"' + globals.metadata.parsed[meta] + '\">\\n';\n          break;\n\n        default:\n          metadata += '<meta name=\"' + meta + '\" content=\"' + globals.metadata.parsed[meta] + '\">\\n';\n      }\n    }\n  }\n\n  text = doctypeParsed + '<html' + lang + '>\\n<head>\\n' + title + charset + metadata + '</head>\\n<body>\\n' + text.trim() + '\\n</body>\\n</html>';\n\n  text = globals.converter._dispatch('completeHTMLDocument.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Convert all tabs to spaces\n */\nshowdown.subParser('detab', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('detab.before', text, options, globals);\n\n  // expand first n-1 tabs\n  text = text.replace(/\\t(?=\\t)/g, '    '); // g_tab_width\n\n  // replace the nth with two sentinels\n  text = text.replace(/\\t/g, '¨A¨B');\n\n  // use the sentinel to anchor our regex so it doesn't explode\n  text = text.replace(/¨B(.+?)¨A/g, function (wholeMatch, m1) {\n    var leadingText = m1,\n        numSpaces = 4 - leadingText.length % 4;  // g_tab_width\n\n    // there *must* be a better way to do this:\n    for (var i = 0; i < numSpaces; i++) {\n      leadingText += ' ';\n    }\n\n    return leadingText;\n  });\n\n  // clean up sentinels\n  text = text.replace(/¨A/g, '    ');  // g_tab_width\n  text = text.replace(/¨B/g, '');\n\n  text = globals.converter._dispatch('detab.after', text, options, globals);\n  return text;\n});\n\r\nshowdown.subParser('ellipsis', function (text, options, globals) {\n  'use strict';\n\n  if (!options.ellipsis) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('ellipsis.before', text, options, globals);\n\n  text = text.replace(/\\.\\.\\./g, '…');\n\n  text = globals.converter._dispatch('ellipsis.after', text, options, globals);\n\n  return text;\n});\n\r\n/**\n * Turn emoji codes into emojis\n *\n * List of supported emojis: https://github.com/showdownjs/showdown/wiki/Emojis\n */\nshowdown.subParser('emoji', function (text, options, globals) {\n  'use strict';\n\n  if (!options.emoji) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('emoji.before', text, options, globals);\n\n  var emojiRgx = /:([\\S]+?):/g;\n\n  text = text.replace(emojiRgx, function (wm, emojiCode) {\n    if (showdown.helper.emojis.hasOwnProperty(emojiCode)) {\n      return showdown.helper.emojis[emojiCode];\n    }\n    return wm;\n  });\n\n  text = globals.converter._dispatch('emoji.after', text, options, globals);\n\n  return text;\n});\n\r\n/**\n * Smart processing for ampersands and angle brackets that need to be encoded.\n */\nshowdown.subParser('encodeAmpsAndAngles', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('encodeAmpsAndAngles.before', text, options, globals);\n\n  // Ampersand-encoding based entirely on Nat Irons's Amputator MT plugin:\n  // http://bumppo.net/projects/amputator/\n  text = text.replace(/&(?!#?[xX]?(?:[0-9a-fA-F]+|\\w+);)/g, '&amp;');\n\n  // Encode naked <'s\n  text = text.replace(/<(?![a-z\\/?$!])/gi, '&lt;');\n\n  // Encode <\n  text = text.replace(/</g, '&lt;');\n\n  // Encode >\n  text = text.replace(/>/g, '&gt;');\n\n  text = globals.converter._dispatch('encodeAmpsAndAngles.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Returns the string, with after processing the following backslash escape sequences.\n *\n * attacklab: The polite way to do this is with the new escapeCharacters() function:\n *\n *    text = escapeCharacters(text,\"\\\\\",true);\n *    text = escapeCharacters(text,\"`*_{}[]()>#+-.!\",true);\n *\n * ...but we're sidestepping its use of the (slow) RegExp constructor\n * as an optimization for Firefox.  This function gets called a LOT.\n */\nshowdown.subParser('encodeBackslashEscapes', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('encodeBackslashEscapes.before', text, options, globals);\n\n  text = text.replace(/\\\\(\\\\)/g, showdown.helper.escapeCharactersCallback);\n  text = text.replace(/\\\\([`*_{}\\[\\]()>#+.!~=|:-])/g, showdown.helper.escapeCharactersCallback);\n\n  text = globals.converter._dispatch('encodeBackslashEscapes.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Encode/escape certain characters inside Markdown code runs.\n * The point is that in code, these characters are literals,\n * and lose their special Markdown meanings.\n */\nshowdown.subParser('encodeCode', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('encodeCode.before', text, options, globals);\n\n  // Encode all ampersands; HTML entities are not\n  // entities within a Markdown code span.\n  text = text\n    .replace(/&/g, '&amp;')\n  // Do the angle bracket song and dance:\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n  // Now, escape characters that are magic in Markdown:\n    .replace(/([*_{}\\[\\]\\\\=~-])/g, showdown.helper.escapeCharactersCallback);\n\n  text = globals.converter._dispatch('encodeCode.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Within tags -- meaning between < and > -- encode [\\ ` * _ ~ =] so they\n * don't conflict with their use in Markdown for code, italics and strong.\n */\nshowdown.subParser('escapeSpecialCharsWithinTagAttributes', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('escapeSpecialCharsWithinTagAttributes.before', text, options, globals);\n\n  // Build a regex to find HTML tags.\n  var tags     = /<\\/?[a-z\\d_:-]+(?:[\\s]+[\\s\\S]+?)?>/gi,\n      comments = /<!(--(?:(?:[^>-]|-[^>])(?:[^-]|-[^-])*)--)>/gi;\n\n  text = text.replace(tags, function (wholeMatch) {\n    return wholeMatch\n      .replace(/(.)<\\/?code>(?=.)/g, '$1`')\n      .replace(/([\\\\`*_~=|])/g, showdown.helper.escapeCharactersCallback);\n  });\n\n  text = text.replace(comments, function (wholeMatch) {\n    return wholeMatch\n      .replace(/([\\\\`*_~=|])/g, showdown.helper.escapeCharactersCallback);\n  });\n\n  text = globals.converter._dispatch('escapeSpecialCharsWithinTagAttributes.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Handle github codeblocks prior to running HashHTML so that\n * HTML contained within the codeblock gets escaped properly\n * Example:\n * ```ruby\n *     def hello_world(x)\n *       puts \"Hello, #{x}\"\n *     end\n * ```\n */\nshowdown.subParser('githubCodeBlocks', function (text, options, globals) {\n  'use strict';\n\n  // early exit if option is not enabled\n  if (!options.ghCodeBlocks) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('githubCodeBlocks.before', text, options, globals);\n\n  text += '¨0';\n\n  text = text.replace(/(?:^|\\n)(?: {0,3})(```+|~~~+)(?: *)([^\\s`~]*)\\n([\\s\\S]*?)\\n(?: {0,3})\\1/g, function (wholeMatch, delim, language, codeblock) {\n    var end = (options.omitExtraWLInCodeBlocks) ? '' : '\\n';\n\n    // First parse the github code block\n    codeblock = showdown.subParser('encodeCode')(codeblock, options, globals);\n    codeblock = showdown.subParser('detab')(codeblock, options, globals);\n    codeblock = codeblock.replace(/^\\n+/g, ''); // trim leading newlines\n    codeblock = codeblock.replace(/\\n+$/g, ''); // trim trailing whitespace\n\n    codeblock = '<pre><code' + (language ? ' class=\"' + language + ' language-' + language + '\"' : '') + '>' + codeblock + end + '</code></pre>';\n\n    codeblock = showdown.subParser('hashBlock')(codeblock, options, globals);\n\n    // Since GHCodeblocks can be false positives, we need to\n    // store the primitive text and the parsed text in a global var,\n    // and then return a token\n    return '\\n\\n¨G' + (globals.ghCodeBlocks.push({text: wholeMatch, codeblock: codeblock}) - 1) + 'G\\n\\n';\n  });\n\n  // attacklab: strip sentinel\n  text = text.replace(/¨0/, '');\n\n  return globals.converter._dispatch('githubCodeBlocks.after', text, options, globals);\n});\n\r\nshowdown.subParser('hashBlock', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('hashBlock.before', text, options, globals);\n  text = text.replace(/(^\\n+|\\n+$)/g, '');\n  text = '\\n\\n¨K' + (globals.gHtmlBlocks.push(text) - 1) + 'K\\n\\n';\n  text = globals.converter._dispatch('hashBlock.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Hash and escape <code> elements that should not be parsed as markdown\n */\nshowdown.subParser('hashCodeTags', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('hashCodeTags.before', text, options, globals);\n\n  var repFunc = function (wholeMatch, match, left, right) {\n    var codeblock = left + showdown.subParser('encodeCode')(match, options, globals) + right;\n    return '¨C' + (globals.gHtmlSpans.push(codeblock) - 1) + 'C';\n  };\n\n  // Hash naked <code>\n  text = showdown.helper.replaceRecursiveRegExp(text, repFunc, '<code\\\\b[^>]*>', '</code>', 'gim');\n\n  text = globals.converter._dispatch('hashCodeTags.after', text, options, globals);\n  return text;\n});\n\r\nshowdown.subParser('hashElement', function (text, options, globals) {\n  'use strict';\n\n  return function (wholeMatch, m1) {\n    var blockText = m1;\n\n    // Undo double lines\n    blockText = blockText.replace(/\\n\\n/g, '\\n');\n    blockText = blockText.replace(/^\\n/, '');\n\n    // strip trailing blank lines\n    blockText = blockText.replace(/\\n+$/g, '');\n\n    // Replace the element text with a marker (\"¨KxK\" where x is its key)\n    blockText = '\\n\\n¨K' + (globals.gHtmlBlocks.push(blockText) - 1) + 'K\\n\\n';\n\n    return blockText;\n  };\n});\n\r\nshowdown.subParser('hashHTMLBlocks', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('hashHTMLBlocks.before', text, options, globals);\n\n  var blockTags = [\n        'pre',\n        'div',\n        'h1',\n        'h2',\n        'h3',\n        'h4',\n        'h5',\n        'h6',\n        'blockquote',\n        'table',\n        'dl',\n        'ol',\n        'ul',\n        'script',\n        'noscript',\n        'form',\n        'fieldset',\n        'iframe',\n        'math',\n        'style',\n        'section',\n        'header',\n        'footer',\n        'nav',\n        'article',\n        'aside',\n        'address',\n        'audio',\n        'canvas',\n        'figure',\n        'hgroup',\n        'output',\n        'video',\n        'p'\n      ],\n      repFunc = function (wholeMatch, match, left, right) {\n        var txt = wholeMatch;\n        // check if this html element is marked as markdown\n        // if so, it's contents should be parsed as markdown\n        if (left.search(/\\bmarkdown\\b/) !== -1) {\n          txt = left + globals.converter.makeHtml(match) + right;\n        }\n        return '\\n\\n¨K' + (globals.gHtmlBlocks.push(txt) - 1) + 'K\\n\\n';\n      };\n\n  if (options.backslashEscapesHTMLTags) {\n    // encode backslash escaped HTML tags\n    text = text.replace(/\\\\<(\\/?[^>]+?)>/g, function (wm, inside) {\n      return '&lt;' + inside + '&gt;';\n    });\n  }\n\n  // hash HTML Blocks\n  for (var i = 0; i < blockTags.length; ++i) {\n\n    var opTagPos,\n        rgx1     = new RegExp('^ {0,3}(<' + blockTags[i] + '\\\\b[^>]*>)', 'im'),\n        patLeft  = '<' + blockTags[i] + '\\\\b[^>]*>',\n        patRight = '</' + blockTags[i] + '>';\n    // 1. Look for the first position of the first opening HTML tag in the text\n    while ((opTagPos = showdown.helper.regexIndexOf(text, rgx1)) !== -1) {\n\n      // if the HTML tag is \\ escaped, we need to escape it and break\n\n\n      //2. Split the text in that position\n      var subTexts = showdown.helper.splitAtIndex(text, opTagPos),\n          //3. Match recursively\n          newSubText1 = showdown.helper.replaceRecursiveRegExp(subTexts[1], repFunc, patLeft, patRight, 'im');\n\n      // prevent an infinite loop\n      if (newSubText1 === subTexts[1]) {\n        break;\n      }\n      text = subTexts[0].concat(newSubText1);\n    }\n  }\n  // HR SPECIAL CASE\n  text = text.replace(/(\\n {0,3}(<(hr)\\b([^<>])*?\\/?>)[ \\t]*(?=\\n{2,}))/g,\n    showdown.subParser('hashElement')(text, options, globals));\n\n  // Special case for standalone HTML comments\n  text = showdown.helper.replaceRecursiveRegExp(text, function (txt) {\n    return '\\n\\n¨K' + (globals.gHtmlBlocks.push(txt) - 1) + 'K\\n\\n';\n  }, '^ {0,3}<!--', '-->', 'gm');\n\n  // PHP and ASP-style processor instructions (<?...?> and <%...%>)\n  text = text.replace(/(?:\\n\\n)( {0,3}(?:<([?%])[^\\r]*?\\2>)[ \\t]*(?=\\n{2,}))/g,\n    showdown.subParser('hashElement')(text, options, globals));\n\n  text = globals.converter._dispatch('hashHTMLBlocks.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Hash span elements that should not be parsed as markdown\n */\nshowdown.subParser('hashHTMLSpans', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('hashHTMLSpans.before', text, options, globals);\n\n  function hashHTMLSpan (html) {\n    return '¨C' + (globals.gHtmlSpans.push(html) - 1) + 'C';\n  }\n\n  // Hash Self Closing tags\n  text = text.replace(/<[^>]+?\\/>/gi, function (wm) {\n    return hashHTMLSpan(wm);\n  });\n\n  // Hash tags without properties\n  text = text.replace(/<([^>]+?)>[\\s\\S]*?<\\/\\1>/g, function (wm) {\n    return hashHTMLSpan(wm);\n  });\n\n  // Hash tags with properties\n  text = text.replace(/<([^>]+?)\\s[^>]+?>[\\s\\S]*?<\\/\\1>/g, function (wm) {\n    return hashHTMLSpan(wm);\n  });\n\n  // Hash self closing tags without />\n  text = text.replace(/<[^>]+?>/gi, function (wm) {\n    return hashHTMLSpan(wm);\n  });\n\n  /*showdown.helper.matchRecursiveRegExp(text, '<code\\\\b[^>]*>', '</code>', 'gi');*/\n\n  text = globals.converter._dispatch('hashHTMLSpans.after', text, options, globals);\n  return text;\n});\n\n/**\n * Unhash HTML spans\n */\nshowdown.subParser('unhashHTMLSpans', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('unhashHTMLSpans.before', text, options, globals);\n\n  for (var i = 0; i < globals.gHtmlSpans.length; ++i) {\n    var repText = globals.gHtmlSpans[i],\n        // limiter to prevent infinite loop (assume 10 as limit for recurse)\n        limit = 0;\n\n    while (/¨C(\\d+)C/.test(repText)) {\n      var num = RegExp.$1;\n      repText = repText.replace('¨C' + num + 'C', globals.gHtmlSpans[num]);\n      if (limit === 10) {\n        console.error('maximum nesting of 10 spans reached!!!');\n        break;\n      }\n      ++limit;\n    }\n    text = text.replace('¨C' + i + 'C', repText);\n  }\n\n  text = globals.converter._dispatch('unhashHTMLSpans.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Hash and escape <pre><code> elements that should not be parsed as markdown\n */\nshowdown.subParser('hashPreCodeTags', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('hashPreCodeTags.before', text, options, globals);\n\n  var repFunc = function (wholeMatch, match, left, right) {\n    // encode html entities\n    var codeblock = left + showdown.subParser('encodeCode')(match, options, globals) + right;\n    return '\\n\\n¨G' + (globals.ghCodeBlocks.push({text: wholeMatch, codeblock: codeblock}) - 1) + 'G\\n\\n';\n  };\n\n  // Hash <pre><code>\n  text = showdown.helper.replaceRecursiveRegExp(text, repFunc, '^ {0,3}<pre\\\\b[^>]*>\\\\s*<code\\\\b[^>]*>', '^ {0,3}</code>\\\\s*</pre>', 'gim');\n\n  text = globals.converter._dispatch('hashPreCodeTags.after', text, options, globals);\n  return text;\n});\n\r\nshowdown.subParser('headers', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('headers.before', text, options, globals);\n\n  var headerLevelStart = (isNaN(parseInt(options.headerLevelStart))) ? 1 : parseInt(options.headerLevelStart),\n\n      // Set text-style headers:\n      //\tHeader 1\n      //\t========\n      //\n      //\tHeader 2\n      //\t--------\n      //\n      setextRegexH1 = (options.smoothLivePreview) ? /^(.+)[ \\t]*\\n={2,}[ \\t]*\\n+/gm : /^(.+)[ \\t]*\\n=+[ \\t]*\\n+/gm,\n      setextRegexH2 = (options.smoothLivePreview) ? /^(.+)[ \\t]*\\n-{2,}[ \\t]*\\n+/gm : /^(.+)[ \\t]*\\n-+[ \\t]*\\n+/gm;\n\n  text = text.replace(setextRegexH1, function (wholeMatch, m1) {\n\n    var spanGamut = showdown.subParser('spanGamut')(m1, options, globals),\n        hID = (options.noHeaderId) ? '' : ' id=\"' + headerId(m1) + '\"',\n        hLevel = headerLevelStart,\n        hashBlock = '<h' + hLevel + hID + '>' + spanGamut + '</h' + hLevel + '>';\n    return showdown.subParser('hashBlock')(hashBlock, options, globals);\n  });\n\n  text = text.replace(setextRegexH2, function (matchFound, m1) {\n    var spanGamut = showdown.subParser('spanGamut')(m1, options, globals),\n        hID = (options.noHeaderId) ? '' : ' id=\"' + headerId(m1) + '\"',\n        hLevel = headerLevelStart + 1,\n        hashBlock = '<h' + hLevel + hID + '>' + spanGamut + '</h' + hLevel + '>';\n    return showdown.subParser('hashBlock')(hashBlock, options, globals);\n  });\n\n  // atx-style headers:\n  //  # Header 1\n  //  ## Header 2\n  //  ## Header 2 with closing hashes ##\n  //  ...\n  //  ###### Header 6\n  //\n  var atxStyle = (options.requireSpaceBeforeHeadingText) ? /^(#{1,6})[ \\t]+(.+?)[ \\t]*#*\\n+/gm : /^(#{1,6})[ \\t]*(.+?)[ \\t]*#*\\n+/gm;\n\n  text = text.replace(atxStyle, function (wholeMatch, m1, m2) {\n    var hText = m2;\n    if (options.customizedHeaderId) {\n      hText = m2.replace(/\\s?\\{([^{]+?)}\\s*$/, '');\n    }\n\n    var span = showdown.subParser('spanGamut')(hText, options, globals),\n        hID = (options.noHeaderId) ? '' : ' id=\"' + headerId(m2) + '\"',\n        hLevel = headerLevelStart - 1 + m1.length,\n        header = '<h' + hLevel + hID + '>' + span + '</h' + hLevel + '>';\n\n    return showdown.subParser('hashBlock')(header, options, globals);\n  });\n\n  function headerId (m) {\n    var title,\n        prefix;\n\n    // It is separate from other options to allow combining prefix and customized\n    if (options.customizedHeaderId) {\n      var match = m.match(/\\{([^{]+?)}\\s*$/);\n      if (match && match[1]) {\n        m = match[1];\n      }\n    }\n\n    title = m;\n\n    // Prefix id to prevent causing inadvertent pre-existing style matches.\n    if (showdown.helper.isString(options.prefixHeaderId)) {\n      prefix = options.prefixHeaderId;\n    } else if (options.prefixHeaderId === true) {\n      prefix = 'section-';\n    } else {\n      prefix = '';\n    }\n\n    if (!options.rawPrefixHeaderId) {\n      title = prefix + title;\n    }\n\n    if (options.ghCompatibleHeaderId) {\n      title = title\n        .replace(/ /g, '-')\n        // replace previously escaped chars (&, ¨ and $)\n        .replace(/&amp;/g, '')\n        .replace(/¨T/g, '')\n        .replace(/¨D/g, '')\n        // replace rest of the chars (&~$ are repeated as they might have been escaped)\n        // borrowed from github's redcarpet (some they should produce similar results)\n        .replace(/[&+$,\\/:;=?@\"#{}|^¨~\\[\\]`\\\\*)(%.!'<>]/g, '')\n        .toLowerCase();\n    } else if (options.rawHeaderId) {\n      title = title\n        .replace(/ /g, '-')\n        // replace previously escaped chars (&, ¨ and $)\n        .replace(/&amp;/g, '&')\n        .replace(/¨T/g, '¨')\n        .replace(/¨D/g, '$')\n        // replace \" and '\n        .replace(/[\"']/g, '-')\n        .toLowerCase();\n    } else {\n      title = title\n        .replace(/[^\\w]/g, '')\n        .toLowerCase();\n    }\n\n    if (options.rawPrefixHeaderId) {\n      title = prefix + title;\n    }\n\n    if (globals.hashLinkCounts[title]) {\n      title = title + '-' + (globals.hashLinkCounts[title]++);\n    } else {\n      globals.hashLinkCounts[title] = 1;\n    }\n    return title;\n  }\n\n  text = globals.converter._dispatch('headers.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Turn Markdown link shortcuts into XHTML <a> tags.\n */\nshowdown.subParser('horizontalRule', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('horizontalRule.before', text, options, globals);\n\n  var key = showdown.subParser('hashBlock')('<hr />', options, globals);\n  text = text.replace(/^ {0,2}( ?-){3,}[ \\t]*$/gm, key);\n  text = text.replace(/^ {0,2}( ?\\*){3,}[ \\t]*$/gm, key);\n  text = text.replace(/^ {0,2}( ?_){3,}[ \\t]*$/gm, key);\n\n  text = globals.converter._dispatch('horizontalRule.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Turn Markdown image shortcuts into <img> tags.\n */\nshowdown.subParser('images', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('images.before', text, options, globals);\n\n  var inlineRegExp      = /!\\[([^\\]]*?)][ \\t]*()\\([ \\t]?<?([\\S]+?(?:\\([\\S]*?\\)[\\S]*?)?)>?(?: =([*\\d]+[A-Za-z%]{0,4})x([*\\d]+[A-Za-z%]{0,4}))?[ \\t]*(?:([\"'])([^\"]*?)\\6)?[ \\t]?\\)/g,\n      crazyRegExp       = /!\\[([^\\]]*?)][ \\t]*()\\([ \\t]?<([^>]*)>(?: =([*\\d]+[A-Za-z%]{0,4})x([*\\d]+[A-Za-z%]{0,4}))?[ \\t]*(?:(?:([\"'])([^\"]*?)\\6))?[ \\t]?\\)/g,\n      base64RegExp      = /!\\[([^\\]]*?)][ \\t]*()\\([ \\t]?<?(data:.+?\\/.+?;base64,[A-Za-z0-9+/=\\n]+?)>?(?: =([*\\d]+[A-Za-z%]{0,4})x([*\\d]+[A-Za-z%]{0,4}))?[ \\t]*(?:([\"'])([^\"]*?)\\6)?[ \\t]?\\)/g,\n      referenceRegExp   = /!\\[([^\\]]*?)] ?(?:\\n *)?\\[([\\s\\S]*?)]()()()()()/g,\n      refShortcutRegExp = /!\\[([^\\[\\]]+)]()()()()()/g;\n\n  function writeImageTagBase64 (wholeMatch, altText, linkId, url, width, height, m5, title) {\n    url = url.replace(/\\s/g, '');\n    return writeImageTag (wholeMatch, altText, linkId, url, width, height, m5, title);\n  }\n\n  function writeImageTag (wholeMatch, altText, linkId, url, width, height, m5, title) {\n\n    var gUrls   = globals.gUrls,\n        gTitles = globals.gTitles,\n        gDims   = globals.gDimensions;\n\n    linkId = linkId.toLowerCase();\n\n    if (!title) {\n      title = '';\n    }\n    // Special case for explicit empty url\n    if (wholeMatch.search(/\\(<?\\s*>? ?(['\"].*['\"])?\\)$/m) > -1) {\n      url = '';\n\n    } else if (url === '' || url === null) {\n      if (linkId === '' || linkId === null) {\n        // lower-case and turn embedded newlines into spaces\n        linkId = altText.toLowerCase().replace(/ ?\\n/g, ' ');\n      }\n      url = '#' + linkId;\n\n      if (!showdown.helper.isUndefined(gUrls[linkId])) {\n        url = gUrls[linkId];\n        if (!showdown.helper.isUndefined(gTitles[linkId])) {\n          title = gTitles[linkId];\n        }\n        if (!showdown.helper.isUndefined(gDims[linkId])) {\n          width = gDims[linkId].width;\n          height = gDims[linkId].height;\n        }\n      } else {\n        return wholeMatch;\n      }\n    }\n\n    altText = altText\n      .replace(/\"/g, '&quot;')\n    //altText = showdown.helper.escapeCharacters(altText, '*_', false);\n      .replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);\n    //url = showdown.helper.escapeCharacters(url, '*_', false);\n    url = url.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);\n    var result = '<img src=\"' + url + '\" alt=\"' + altText + '\"';\n\n    if (title && showdown.helper.isString(title)) {\n      title = title\n        .replace(/\"/g, '&quot;')\n      //title = showdown.helper.escapeCharacters(title, '*_', false);\n        .replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);\n      result += ' title=\"' + title + '\"';\n    }\n\n    if (width && height) {\n      width  = (width === '*') ? 'auto' : width;\n      height = (height === '*') ? 'auto' : height;\n\n      result += ' width=\"' + width + '\"';\n      result += ' height=\"' + height + '\"';\n    }\n\n    result += ' />';\n\n    return result;\n  }\n\n  // First, handle reference-style labeled images: ![alt text][id]\n  text = text.replace(referenceRegExp, writeImageTag);\n\n  // Next, handle inline images:  ![alt text](url =<width>x<height> \"optional title\")\n\n  // base64 encoded images\n  text = text.replace(base64RegExp, writeImageTagBase64);\n\n  // cases with crazy urls like ./image/cat1).png\n  text = text.replace(crazyRegExp, writeImageTag);\n\n  // normal cases\n  text = text.replace(inlineRegExp, writeImageTag);\n\n  // handle reference-style shortcuts: ![img text]\n  text = text.replace(refShortcutRegExp, writeImageTag);\n\n  text = globals.converter._dispatch('images.after', text, options, globals);\n  return text;\n});\n\r\nshowdown.subParser('italicsAndBold', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('italicsAndBold.before', text, options, globals);\n\n  // it's faster to have 3 separate regexes for each case than have just one\n  // because of backtracing, in some cases, it could lead to an exponential effect\n  // called \"catastrophic backtrace\". Ominous!\n\n  function parseInside (txt, left, right) {\n    /*\n    if (options.simplifiedAutoLink) {\n      txt = showdown.subParser('simplifiedAutoLinks')(txt, options, globals);\n    }\n    */\n    return left + txt + right;\n  }\n\n  // Parse underscores\n  if (options.literalMidWordUnderscores) {\n    text = text.replace(/\\b___(\\S[\\s\\S]*?)___\\b/g, function (wm, txt) {\n      return parseInside (txt, '<strong><em>', '</em></strong>');\n    });\n    text = text.replace(/\\b__(\\S[\\s\\S]*?)__\\b/g, function (wm, txt) {\n      return parseInside (txt, '<strong>', '</strong>');\n    });\n    text = text.replace(/\\b_(\\S[\\s\\S]*?)_\\b/g, function (wm, txt) {\n      return parseInside (txt, '<em>', '</em>');\n    });\n  } else {\n    text = text.replace(/___(\\S[\\s\\S]*?)___/g, function (wm, m) {\n      return (/\\S$/.test(m)) ? parseInside (m, '<strong><em>', '</em></strong>') : wm;\n    });\n    text = text.replace(/__(\\S[\\s\\S]*?)__/g, function (wm, m) {\n      return (/\\S$/.test(m)) ? parseInside (m, '<strong>', '</strong>') : wm;\n    });\n    text = text.replace(/_([^\\s_][\\s\\S]*?)_/g, function (wm, m) {\n      // !/^_[^_]/.test(m) - test if it doesn't start with __ (since it seems redundant, we removed it)\n      return (/\\S$/.test(m)) ? parseInside (m, '<em>', '</em>') : wm;\n    });\n  }\n\n  // Now parse asterisks\n  if (options.literalMidWordAsterisks) {\n    text = text.replace(/([^*]|^)\\B\\*\\*\\*(\\S[\\s\\S]*?)\\*\\*\\*\\B(?!\\*)/g, function (wm, lead, txt) {\n      return parseInside (txt, lead + '<strong><em>', '</em></strong>');\n    });\n    text = text.replace(/([^*]|^)\\B\\*\\*(\\S[\\s\\S]*?)\\*\\*\\B(?!\\*)/g, function (wm, lead, txt) {\n      return parseInside (txt, lead + '<strong>', '</strong>');\n    });\n    text = text.replace(/([^*]|^)\\B\\*(\\S[\\s\\S]*?)\\*\\B(?!\\*)/g, function (wm, lead, txt) {\n      return parseInside (txt, lead + '<em>', '</em>');\n    });\n  } else {\n    text = text.replace(/\\*\\*\\*(\\S[\\s\\S]*?)\\*\\*\\*/g, function (wm, m) {\n      return (/\\S$/.test(m)) ? parseInside (m, '<strong><em>', '</em></strong>') : wm;\n    });\n    text = text.replace(/\\*\\*(\\S[\\s\\S]*?)\\*\\*/g, function (wm, m) {\n      return (/\\S$/.test(m)) ? parseInside (m, '<strong>', '</strong>') : wm;\n    });\n    text = text.replace(/\\*([^\\s*][\\s\\S]*?)\\*/g, function (wm, m) {\n      // !/^\\*[^*]/.test(m) - test if it doesn't start with ** (since it seems redundant, we removed it)\n      return (/\\S$/.test(m)) ? parseInside (m, '<em>', '</em>') : wm;\n    });\n  }\n\n\n  text = globals.converter._dispatch('italicsAndBold.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Form HTML ordered (numbered) and unordered (bulleted) lists.\n */\nshowdown.subParser('lists', function (text, options, globals) {\n  'use strict';\n\n  /**\n   * Process the contents of a single ordered or unordered list, splitting it\n   * into individual list items.\n   * @param {string} listStr\n   * @param {boolean} trimTrailing\n   * @returns {string}\n   */\n  function processListItems (listStr, trimTrailing) {\n    // The $g_list_level global keeps track of when we're inside a list.\n    // Each time we enter a list, we increment it; when we leave a list,\n    // we decrement. If it's zero, we're not in a list anymore.\n    //\n    // We do this because when we're not inside a list, we want to treat\n    // something like this:\n    //\n    //    I recommend upgrading to version\n    //    8. Oops, now this line is treated\n    //    as a sub-list.\n    //\n    // As a single paragraph, despite the fact that the second line starts\n    // with a digit-period-space sequence.\n    //\n    // Whereas when we're inside a list (or sub-list), that line will be\n    // treated as the start of a sub-list. What a kludge, huh? This is\n    // an aspect of Markdown's syntax that's hard to parse perfectly\n    // without resorting to mind-reading. Perhaps the solution is to\n    // change the syntax rules such that sub-lists must start with a\n    // starting cardinal number; e.g. \"1.\" or \"a.\".\n    globals.gListLevel++;\n\n    // trim trailing blank lines:\n    listStr = listStr.replace(/\\n{2,}$/, '\\n');\n\n    // attacklab: add sentinel to emulate \\z\n    listStr += '¨0';\n\n    var rgx = /(\\n)?(^ {0,3})([*+-]|\\d+[.])[ \\t]+((\\[(x|X| )?])?[ \\t]*[^\\r]+?(\\n{1,2}))(?=\\n*(¨0| {0,3}([*+-]|\\d+[.])[ \\t]+))/gm,\n        isParagraphed = (/\\n[ \\t]*\\n(?!¨0)/.test(listStr));\n\n    // Since version 1.5, nesting sublists requires 4 spaces (or 1 tab) indentation,\n    // which is a syntax breaking change\n    // activating this option reverts to old behavior\n    if (options.disableForced4SpacesIndentedSublists) {\n      rgx = /(\\n)?(^ {0,3})([*+-]|\\d+[.])[ \\t]+((\\[(x|X| )?])?[ \\t]*[^\\r]+?(\\n{1,2}))(?=\\n*(¨0|\\2([*+-]|\\d+[.])[ \\t]+))/gm;\n    }\n\n    listStr = listStr.replace(rgx, function (wholeMatch, m1, m2, m3, m4, taskbtn, checked) {\n      checked = (checked && checked.trim() !== '');\n\n      var item = showdown.subParser('outdent')(m4, options, globals),\n          bulletStyle = '';\n\n      // Support for github tasklists\n      if (taskbtn && options.tasklists) {\n        bulletStyle = ' class=\"task-list-item\" style=\"list-style-type: none;\"';\n        item = item.replace(/^[ \\t]*\\[(x|X| )?]/m, function () {\n          var otp = '<input type=\"checkbox\" disabled style=\"margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;\"';\n          if (checked) {\n            otp += ' checked';\n          }\n          otp += '>';\n          return otp;\n        });\n      }\n\n      // ISSUE #312\n      // This input: - - - a\n      // causes trouble to the parser, since it interprets it as:\n      // <ul><li><li><li>a</li></li></li></ul>\n      // instead of:\n      // <ul><li>- - a</li></ul>\n      // So, to prevent it, we will put a marker (¨A)in the beginning of the line\n      // Kind of hackish/monkey patching, but seems more effective than overcomplicating the list parser\n      item = item.replace(/^([-*+]|\\d\\.)[ \\t]+[\\S\\n ]*/g, function (wm2) {\n        return '¨A' + wm2;\n      });\n\n      // m1 - Leading line or\n      // Has a double return (multi paragraph) or\n      // Has sublist\n      if (m1 || (item.search(/\\n{2,}/) > -1)) {\n        item = showdown.subParser('githubCodeBlocks')(item, options, globals);\n        item = showdown.subParser('blockGamut')(item, options, globals);\n      } else {\n        // Recursion for sub-lists:\n        item = showdown.subParser('lists')(item, options, globals);\n        item = item.replace(/\\n$/, ''); // chomp(item)\n        item = showdown.subParser('hashHTMLBlocks')(item, options, globals);\n\n        // Colapse double linebreaks\n        item = item.replace(/\\n\\n+/g, '\\n\\n');\n        if (isParagraphed) {\n          item = showdown.subParser('paragraphs')(item, options, globals);\n        } else {\n          item = showdown.subParser('spanGamut')(item, options, globals);\n        }\n      }\n\n      // now we need to remove the marker (¨A)\n      item = item.replace('¨A', '');\n      // we can finally wrap the line in list item tags\n      item =  '<li' + bulletStyle + '>' + item + '</li>\\n';\n\n      return item;\n    });\n\n    // attacklab: strip sentinel\n    listStr = listStr.replace(/¨0/g, '');\n\n    globals.gListLevel--;\n\n    if (trimTrailing) {\n      listStr = listStr.replace(/\\s+$/, '');\n    }\n\n    return listStr;\n  }\n\n  function styleStartNumber (list, listType) {\n    // check if ol and starts by a number different than 1\n    if (listType === 'ol') {\n      var res = list.match(/^ *(\\d+)\\./);\n      if (res && res[1] !== '1') {\n        return ' start=\"' + res[1] + '\"';\n      }\n    }\n    return '';\n  }\n\n  /**\n   * Check and parse consecutive lists (better fix for issue #142)\n   * @param {string} list\n   * @param {string} listType\n   * @param {boolean} trimTrailing\n   * @returns {string}\n   */\n  function parseConsecutiveLists (list, listType, trimTrailing) {\n    // check if we caught 2 or more consecutive lists by mistake\n    // we use the counterRgx, meaning if listType is UL we look for OL and vice versa\n    var olRgx = (options.disableForced4SpacesIndentedSublists) ? /^ ?\\d+\\.[ \\t]/gm : /^ {0,3}\\d+\\.[ \\t]/gm,\n        ulRgx = (options.disableForced4SpacesIndentedSublists) ? /^ ?[*+-][ \\t]/gm : /^ {0,3}[*+-][ \\t]/gm,\n        counterRxg = (listType === 'ul') ? olRgx : ulRgx,\n        result = '';\n\n    if (list.search(counterRxg) !== -1) {\n      (function parseCL (txt) {\n        var pos = txt.search(counterRxg),\n            style = styleStartNumber(list, listType);\n        if (pos !== -1) {\n          // slice\n          result += '\\n\\n<' + listType + style + '>\\n' + processListItems(txt.slice(0, pos), !!trimTrailing) + '</' + listType + '>\\n';\n\n          // invert counterType and listType\n          listType = (listType === 'ul') ? 'ol' : 'ul';\n          counterRxg = (listType === 'ul') ? olRgx : ulRgx;\n\n          //recurse\n          parseCL(txt.slice(pos));\n        } else {\n          result += '\\n\\n<' + listType + style + '>\\n' + processListItems(txt, !!trimTrailing) + '</' + listType + '>\\n';\n        }\n      })(list);\n    } else {\n      var style = styleStartNumber(list, listType);\n      result = '\\n\\n<' + listType + style + '>\\n' + processListItems(list, !!trimTrailing) + '</' + listType + '>\\n';\n    }\n\n    return result;\n  }\n\n  /** Start of list parsing **/\n  text = globals.converter._dispatch('lists.before', text, options, globals);\n  // add sentinel to hack around khtml/safari bug:\n  // http://bugs.webkit.org/show_bug.cgi?id=11231\n  text += '¨0';\n\n  if (globals.gListLevel) {\n    text = text.replace(/^(( {0,3}([*+-]|\\d+[.])[ \\t]+)[^\\r]+?(¨0|\\n{2,}(?=\\S)(?![ \\t]*(?:[*+-]|\\d+[.])[ \\t]+)))/gm,\n      function (wholeMatch, list, m2) {\n        var listType = (m2.search(/[*+-]/g) > -1) ? 'ul' : 'ol';\n        return parseConsecutiveLists(list, listType, true);\n      }\n    );\n  } else {\n    text = text.replace(/(\\n\\n|^\\n?)(( {0,3}([*+-]|\\d+[.])[ \\t]+)[^\\r]+?(¨0|\\n{2,}(?=\\S)(?![ \\t]*(?:[*+-]|\\d+[.])[ \\t]+)))/gm,\n      function (wholeMatch, m1, list, m3) {\n        var listType = (m3.search(/[*+-]/g) > -1) ? 'ul' : 'ol';\n        return parseConsecutiveLists(list, listType, false);\n      }\n    );\n  }\n\n  // strip sentinel\n  text = text.replace(/¨0/, '');\n  text = globals.converter._dispatch('lists.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Parse metadata at the top of the document\n */\nshowdown.subParser('metadata', function (text, options, globals) {\n  'use strict';\n\n  if (!options.metadata) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('metadata.before', text, options, globals);\n\n  function parseMetadataContents (content) {\n    // raw is raw so it's not changed in any way\n    globals.metadata.raw = content;\n\n    // escape chars forbidden in html attributes\n    // double quotes\n    content = content\n      // ampersand first\n      .replace(/&/g, '&amp;')\n      // double quotes\n      .replace(/\"/g, '&quot;');\n\n    content = content.replace(/\\n {4}/g, ' ');\n    content.replace(/^([\\S ]+): +([\\s\\S]+?)$/gm, function (wm, key, value) {\n      globals.metadata.parsed[key] = value;\n      return '';\n    });\n  }\n\n  text = text.replace(/^\\s*«««+(\\S*?)\\n([\\s\\S]+?)\\n»»»+\\n/, function (wholematch, format, content) {\n    parseMetadataContents(content);\n    return '¨M';\n  });\n\n  text = text.replace(/^\\s*---+(\\S*?)\\n([\\s\\S]+?)\\n---+\\n/, function (wholematch, format, content) {\n    if (format) {\n      globals.metadata.format = format;\n    }\n    parseMetadataContents(content);\n    return '¨M';\n  });\n\n  text = text.replace(/¨M/g, '');\n\n  text = globals.converter._dispatch('metadata.after', text, options, globals);\n  return text;\n});\n\r\n/**\n * Remove one level of line-leading tabs or spaces\n */\nshowdown.subParser('outdent', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('outdent.before', text, options, globals);\n\n  // attacklab: hack around Konqueror 3.5.4 bug:\n  // \"----------bug\".replace(/^-/g,\"\") == \"bug\"\n  text = text.replace(/^(\\t|[ ]{1,4})/gm, '¨0'); // attacklab: g_tab_width\n\n  // attacklab: clean up hack\n  text = text.replace(/¨0/g, '');\n\n  text = globals.converter._dispatch('outdent.after', text, options, globals);\n  return text;\n});\n\r\n/**\n *\n */\nshowdown.subParser('paragraphs', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('paragraphs.before', text, options, globals);\n  // Strip leading and trailing lines:\n  text = text.replace(/^\\n+/g, '');\n  text = text.replace(/\\n+$/g, '');\n\n  var grafs = text.split(/\\n{2,}/g),\n      grafsOut = [],\n      end = grafs.length; // Wrap <p> tags\n\n  for (var i = 0; i < end; i++) {\n    var str = grafs[i];\n    // if this is an HTML marker, copy it\n    if (str.search(/¨(K|G)(\\d+)\\1/g) >= 0) {\n      grafsOut.push(str);\n\n    // test for presence of characters to prevent empty lines being parsed\n    // as paragraphs (resulting in undesired extra empty paragraphs)\n    } else if (str.search(/\\S/) >= 0) {\n      str = showdown.subParser('spanGamut')(str, options, globals);\n      str = str.replace(/^([ \\t]*)/g, '<p>');\n      str += '</p>';\n      grafsOut.push(str);\n    }\n  }\n\n  /** Unhashify HTML blocks */\n  end = grafsOut.length;\n  for (i = 0; i < end; i++) {\n    var blockText = '',\n        grafsOutIt = grafsOut[i],\n        codeFlag = false;\n    // if this is a marker for an html block...\n    // use RegExp.test instead of string.search because of QML bug\n    while (/¨(K|G)(\\d+)\\1/.test(grafsOutIt)) {\n      var delim = RegExp.$1,\n          num   = RegExp.$2;\n\n      if (delim === 'K') {\n        blockText = globals.gHtmlBlocks[num];\n      } else {\n        // we need to check if ghBlock is a false positive\n        if (codeFlag) {\n          // use encoded version of all text\n          blockText = showdown.subParser('encodeCode')(globals.ghCodeBlocks[num].text, options, globals);\n        } else {\n          blockText = globals.ghCodeBlocks[num].codeblock;\n        }\n      }\n      blockText = blockText.replace(/\\$/g, '$$$$'); // Escape any dollar signs\n\n      grafsOutIt = grafsOutIt.replace(/(\\n\\n)?¨(K|G)\\d+\\2(\\n\\n)?/, blockText);\n      // Check if grafsOutIt is a pre->code\n      if (/^<pre\\b[^>]*>\\s*<code\\b[^>]*>/.test(grafsOutIt)) {\n        codeFlag = true;\n      }\n    }\n    grafsOut[i] = grafsOutIt;\n  }\n  text = grafsOut.join('\\n');\n  // Strip leading and trailing lines:\n  text = text.replace(/^\\n+/g, '');\n  text = text.replace(/\\n+$/g, '');\n  return globals.converter._dispatch('paragraphs.after', text, options, globals);\n});\n\r\n/**\n * Run extension\n */\nshowdown.subParser('runExtension', function (ext, text, options, globals) {\n  'use strict';\n\n  if (ext.filter) {\n    text = ext.filter(text, globals.converter, options);\n\n  } else if (ext.regex) {\n    // TODO remove this when old extension loading mechanism is deprecated\n    var re = ext.regex;\n    if (!(re instanceof RegExp)) {\n      re = new RegExp(re, 'g');\n    }\n    text = text.replace(re, ext.replace);\n  }\n\n  return text;\n});\n\r\n/**\n * These are all the transformations that occur *within* block-level\n * tags like paragraphs, headers, and list items.\n */\nshowdown.subParser('spanGamut', function (text, options, globals) {\n  'use strict';\n\n  text = globals.converter._dispatch('spanGamut.before', text, options, globals);\n  text = showdown.subParser('codeSpans')(text, options, globals);\n  text = showdown.subParser('escapeSpecialCharsWithinTagAttributes')(text, options, globals);\n  text = showdown.subParser('encodeBackslashEscapes')(text, options, globals);\n\n  // Process anchor and image tags. Images must come first,\n  // because ![foo][f] looks like an anchor.\n  text = showdown.subParser('images')(text, options, globals);\n  text = showdown.subParser('anchors')(text, options, globals);\n\n  // Make links out of things like `<http://example.com/>`\n  // Must come after anchors, because you can use < and >\n  // delimiters in inline links like [this](<url>).\n  text = showdown.subParser('autoLinks')(text, options, globals);\n  text = showdown.subParser('simplifiedAutoLinks')(text, options, globals);\n  text = showdown.subParser('emoji')(text, options, globals);\n  text = showdown.subParser('underline')(text, options, globals);\n  text = showdown.subParser('italicsAndBold')(text, options, globals);\n  text = showdown.subParser('strikethrough')(text, options, globals);\n  text = showdown.subParser('ellipsis')(text, options, globals);\n\n  // we need to hash HTML tags inside spans\n  text = showdown.subParser('hashHTMLSpans')(text, options, globals);\n\n  // now we encode amps and angles\n  text = showdown.subParser('encodeAmpsAndAngles')(text, options, globals);\n\n  // Do hard breaks\n  if (options.simpleLineBreaks) {\n    // GFM style hard breaks\n    // only add line breaks if the text does not contain a block (special case for lists)\n    if (!/\\n\\n¨K/.test(text)) {\n      text = text.replace(/\\n+/g, '<br />\\n');\n    }\n  } else {\n    // Vanilla hard breaks\n    text = text.replace(/  +\\n/g, '<br />\\n');\n  }\n\n  text = globals.converter._dispatch('spanGamut.after', text, options, globals);\n  return text;\n});\n\r\nshowdown.subParser('strikethrough', function (text, options, globals) {\n  'use strict';\n\n  function parseInside (txt) {\n    if (options.simplifiedAutoLink) {\n      txt = showdown.subParser('simplifiedAutoLinks')(txt, options, globals);\n    }\n    return '<del>' + txt + '</del>';\n  }\n\n  if (options.strikethrough) {\n    text = globals.converter._dispatch('strikethrough.before', text, options, globals);\n    text = text.replace(/(?:~){2}([\\s\\S]+?)(?:~){2}/g, function (wm, txt) { return parseInside(txt); });\n    text = globals.converter._dispatch('strikethrough.after', text, options, globals);\n  }\n\n  return text;\n});\n\r\n/**\n * Strips link definitions from text, stores the URLs and titles in\n * hash references.\n * Link defs are in the form: ^[id]: url \"optional title\"\n */\nshowdown.subParser('stripLinkDefinitions', function (text, options, globals) {\n  'use strict';\n\n  var regex       = /^ {0,3}\\[([^\\]]+)]:[ \\t]*\\n?[ \\t]*<?([^>\\s]+)>?(?: =([*\\d]+[A-Za-z%]{0,4})x([*\\d]+[A-Za-z%]{0,4}))?[ \\t]*\\n?[ \\t]*(?:(\\n*)[\"|'(](.+?)[\"|')][ \\t]*)?(?:\\n+|(?=¨0))/gm,\n      base64Regex = /^ {0,3}\\[([^\\]]+)]:[ \\t]*\\n?[ \\t]*<?(data:.+?\\/.+?;base64,[A-Za-z0-9+/=\\n]+?)>?(?: =([*\\d]+[A-Za-z%]{0,4})x([*\\d]+[A-Za-z%]{0,4}))?[ \\t]*\\n?[ \\t]*(?:(\\n*)[\"|'(](.+?)[\"|')][ \\t]*)?(?:\\n\\n|(?=¨0)|(?=\\n\\[))/gm;\n\n  // attacklab: sentinel workarounds for lack of \\A and \\Z, safari\\khtml bug\n  text += '¨0';\n\n  var replaceFunc = function (wholeMatch, linkId, url, width, height, blankLines, title) {\n\n    // if there aren't two instances of linkId it must not be a reference link so back out\n    linkId = linkId.toLowerCase();\n    if (text.toLowerCase().split(linkId).length - 1 < 2) {\n      return wholeMatch;\n    }\n    if (url.match(/^data:.+?\\/.+?;base64,/)) {\n      // remove newlines\n      globals.gUrls[linkId] = url.replace(/\\s/g, '');\n    } else {\n      globals.gUrls[linkId] = showdown.subParser('encodeAmpsAndAngles')(url, options, globals);  // Link IDs are case-insensitive\n    }\n\n    if (blankLines) {\n      // Oops, found blank lines, so it's not a title.\n      // Put back the parenthetical statement we stole.\n      return blankLines + title;\n\n    } else {\n      if (title) {\n        globals.gTitles[linkId] = title.replace(/\"|'/g, '&quot;');\n      }\n      if (options.parseImgDimensions && width && height) {\n        globals.gDimensions[linkId] = {\n          width:  width,\n          height: height\n        };\n      }\n    }\n    // Completely remove the definition from the text\n    return '';\n  };\n\n  // first we try to find base64 link references\n  text = text.replace(base64Regex, replaceFunc);\n\n  text = text.replace(regex, replaceFunc);\n\n  // attacklab: strip sentinel\n  text = text.replace(/¨0/, '');\n\n  return text;\n});\n\r\nshowdown.subParser('tables', function (text, options, globals) {\n  'use strict';\n\n  if (!options.tables) {\n    return text;\n  }\n\n  var tableRgx       = /^ {0,3}\\|?.+\\|.+\\n {0,3}\\|?[ \\t]*:?[ \\t]*(?:[-=]){2,}[ \\t]*:?[ \\t]*\\|[ \\t]*:?[ \\t]*(?:[-=]){2,}[\\s\\S]+?(?:\\n\\n|¨0)/gm,\n      //singeColTblRgx = /^ {0,3}\\|.+\\|\\n {0,3}\\|[ \\t]*:?[ \\t]*(?:[-=]){2,}[ \\t]*:?[ \\t]*\\|[ \\t]*\\n(?: {0,3}\\|.+\\|\\n)+(?:\\n\\n|¨0)/gm;\n      singeColTblRgx = /^ {0,3}\\|.+\\|[ \\t]*\\n {0,3}\\|[ \\t]*:?[ \\t]*(?:[-=]){2,}[ \\t]*:?[ \\t]*\\|[ \\t]*\\n( {0,3}\\|.+\\|[ \\t]*\\n)*(?:\\n|¨0)/gm;\n\n  function parseStyles (sLine) {\n    if (/^:[ \\t]*--*$/.test(sLine)) {\n      return ' style=\"text-align:left;\"';\n    } else if (/^--*[ \\t]*:[ \\t]*$/.test(sLine)) {\n      return ' style=\"text-align:right;\"';\n    } else if (/^:[ \\t]*--*[ \\t]*:$/.test(sLine)) {\n      return ' style=\"text-align:center;\"';\n    } else {\n      return '';\n    }\n  }\n\n  function parseHeaders (header, style) {\n    var id = '';\n    header = header.trim();\n    // support both tablesHeaderId and tableHeaderId due to error in documentation so we don't break backwards compatibility\n    if (options.tablesHeaderId || options.tableHeaderId) {\n      id = ' id=\"' + header.replace(/ /g, '_').toLowerCase() + '\"';\n    }\n    header = showdown.subParser('spanGamut')(header, options, globals);\n\n    return '<th' + id + style + '>' + header + '</th>\\n';\n  }\n\n  function parseCells (cell, style) {\n    var subText = showdown.subParser('spanGamut')(cell, options, globals);\n    return '<td' + style + '>' + subText + '</td>\\n';\n  }\n\n  function buildTable (headers, cells) {\n    var tb = '<table>\\n<thead>\\n<tr>\\n',\n        tblLgn = headers.length;\n\n    for (var i = 0; i < tblLgn; ++i) {\n      tb += headers[i];\n    }\n    tb += '</tr>\\n</thead>\\n<tbody>\\n';\n\n    for (i = 0; i < cells.length; ++i) {\n      tb += '<tr>\\n';\n      for (var ii = 0; ii < tblLgn; ++ii) {\n        tb += cells[i][ii];\n      }\n      tb += '</tr>\\n';\n    }\n    tb += '</tbody>\\n</table>\\n';\n    return tb;\n  }\n\n  function parseTable (rawTable) {\n    var i, tableLines = rawTable.split('\\n');\n\n    for (i = 0; i < tableLines.length; ++i) {\n      // strip wrong first and last column if wrapped tables are used\n      if (/^ {0,3}\\|/.test(tableLines[i])) {\n        tableLines[i] = tableLines[i].replace(/^ {0,3}\\|/, '');\n      }\n      if (/\\|[ \\t]*$/.test(tableLines[i])) {\n        tableLines[i] = tableLines[i].replace(/\\|[ \\t]*$/, '');\n      }\n      // parse code spans first, but we only support one line code spans\n      tableLines[i] = showdown.subParser('codeSpans')(tableLines[i], options, globals);\n    }\n\n    var rawHeaders = tableLines[0].split('|').map(function (s) { return s.trim();}),\n        rawStyles = tableLines[1].split('|').map(function (s) { return s.trim();}),\n        rawCells = [],\n        headers = [],\n        styles = [],\n        cells = [];\n\n    tableLines.shift();\n    tableLines.shift();\n\n    for (i = 0; i < tableLines.length; ++i) {\n      if (tableLines[i].trim() === '') {\n        continue;\n      }\n      rawCells.push(\n        tableLines[i]\n          .split('|')\n          .map(function (s) {\n            return s.trim();\n          })\n      );\n    }\n\n    if (rawHeaders.length < rawStyles.length) {\n      return rawTable;\n    }\n\n    for (i = 0; i < rawStyles.length; ++i) {\n      styles.push(parseStyles(rawStyles[i]));\n    }\n\n    for (i = 0; i < rawHeaders.length; ++i) {\n      if (showdown.helper.isUndefined(styles[i])) {\n        styles[i] = '';\n      }\n      headers.push(parseHeaders(rawHeaders[i], styles[i]));\n    }\n\n    for (i = 0; i < rawCells.length; ++i) {\n      var row = [];\n      for (var ii = 0; ii < headers.length; ++ii) {\n        if (showdown.helper.isUndefined(rawCells[i][ii])) {\n\n        }\n        row.push(parseCells(rawCells[i][ii], styles[ii]));\n      }\n      cells.push(row);\n    }\n\n    return buildTable(headers, cells);\n  }\n\n  text = globals.converter._dispatch('tables.before', text, options, globals);\n\n  // find escaped pipe characters\n  text = text.replace(/\\\\(\\|)/g, showdown.helper.escapeCharactersCallback);\n\n  // parse multi column tables\n  text = text.replace(tableRgx, parseTable);\n\n  // parse one column tables\n  text = text.replace(singeColTblRgx, parseTable);\n\n  text = globals.converter._dispatch('tables.after', text, options, globals);\n\n  return text;\n});\n\r\nshowdown.subParser('underline', function (text, options, globals) {\n  'use strict';\n\n  if (!options.underline) {\n    return text;\n  }\n\n  text = globals.converter._dispatch('underline.before', text, options, globals);\n\n  if (options.literalMidWordUnderscores) {\n    text = text.replace(/\\b___(\\S[\\s\\S]*?)___\\b/g, function (wm, txt) {\n      return '<u>' + txt + '</u>';\n    });\n    text = text.replace(/\\b__(\\S[\\s\\S]*?)__\\b/g, function (wm, txt) {\n      return '<u>' + txt + '</u>';\n    });\n  } else {\n    text = text.replace(/___(\\S[\\s\\S]*?)___/g, function (wm, m) {\n      return (/\\S$/.test(m)) ? '<u>' + m + '</u>' : wm;\n    });\n    text = text.replace(/__(\\S[\\s\\S]*?)__/g, function (wm, m) {\n      return (/\\S$/.test(m)) ? '<u>' + m + '</u>' : wm;\n    });\n  }\n\n  // escape remaining underscores to prevent them being parsed by italic and bold\n  text = text.replace(/(_)/g, showdown.helper.escapeCharactersCallback);\n\n  text = globals.converter._dispatch('underline.after', text, options, globals);\n\n  return text;\n});\n\r\n/**\n * Swap back in all the special characters we've hidden.\n */\nshowdown.subParser('unescapeSpecialChars', function (text, options, globals) {\n  'use strict';\n  text = globals.converter._dispatch('unescapeSpecialChars.before', text, options, globals);\n\n  text = text.replace(/¨E(\\d+)E/g, function (wholeMatch, m1) {\n    var charCodeToReplace = parseInt(m1);\n    return String.fromCharCode(charCodeToReplace);\n  });\n\n  text = globals.converter._dispatch('unescapeSpecialChars.after', text, options, globals);\n  return text;\n});\n\r\nshowdown.subParser('makeMarkdown.blockquote', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasChildNodes()) {\n    var children = node.childNodes,\n        childrenLength = children.length;\n\n    for (var i = 0; i < childrenLength; ++i) {\n      var innerTxt = showdown.subParser('makeMarkdown.node')(children[i], globals);\n\n      if (innerTxt === '') {\n        continue;\n      }\n      txt += innerTxt;\n    }\n  }\n  // cleanup\n  txt = txt.trim();\n  txt = '> ' + txt.split('\\n').join('\\n> ');\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.codeBlock', function (node, globals) {\n  'use strict';\n\n  var lang = node.getAttribute('language'),\n      num  = node.getAttribute('precodenum');\n  return '```' + lang + '\\n' + globals.preList[num] + '\\n```';\n});\n\r\nshowdown.subParser('makeMarkdown.codeSpan', function (node) {\n  'use strict';\n\n  return '`' + node.innerHTML + '`';\n});\n\r\nshowdown.subParser('makeMarkdown.emphasis', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasChildNodes()) {\n    txt += '*';\n    var children = node.childNodes,\n        childrenLength = children.length;\n    for (var i = 0; i < childrenLength; ++i) {\n      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n    }\n    txt += '*';\n  }\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.header', function (node, globals, headerLevel) {\n  'use strict';\n\n  var headerMark = new Array(headerLevel + 1).join('#'),\n      txt = '';\n\n  if (node.hasChildNodes()) {\n    txt = headerMark + ' ';\n    var children = node.childNodes,\n        childrenLength = children.length;\n\n    for (var i = 0; i < childrenLength; ++i) {\n      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n    }\n  }\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.hr', function () {\n  'use strict';\n\n  return '---';\n});\n\r\nshowdown.subParser('makeMarkdown.image', function (node) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasAttribute('src')) {\n    txt += '![' + node.getAttribute('alt') + '](';\n    txt += '<' + node.getAttribute('src') + '>';\n    if (node.hasAttribute('width') && node.hasAttribute('height')) {\n      txt += ' =' + node.getAttribute('width') + 'x' + node.getAttribute('height');\n    }\n\n    if (node.hasAttribute('title')) {\n      txt += ' \"' + node.getAttribute('title') + '\"';\n    }\n    txt += ')';\n  }\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.links', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasChildNodes() && node.hasAttribute('href')) {\n    var children = node.childNodes,\n        childrenLength = children.length;\n    txt = '[';\n    for (var i = 0; i < childrenLength; ++i) {\n      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n    }\n    txt += '](';\n    txt += '<' + node.getAttribute('href') + '>';\n    if (node.hasAttribute('title')) {\n      txt += ' \"' + node.getAttribute('title') + '\"';\n    }\n    txt += ')';\n  }\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.list', function (node, globals, type) {\n  'use strict';\n\n  var txt = '';\n  if (!node.hasChildNodes()) {\n    return '';\n  }\n  var listItems       = node.childNodes,\n      listItemsLenght = listItems.length,\n      listNum = node.getAttribute('start') || 1;\n\n  for (var i = 0; i < listItemsLenght; ++i) {\n    if (typeof listItems[i].tagName === 'undefined' || listItems[i].tagName.toLowerCase() !== 'li') {\n      continue;\n    }\n\n    // define the bullet to use in list\n    var bullet = '';\n    if (type === 'ol') {\n      bullet = listNum.toString() + '. ';\n    } else {\n      bullet = '- ';\n    }\n\n    // parse list item\n    txt += bullet + showdown.subParser('makeMarkdown.listItem')(listItems[i], globals);\n    ++listNum;\n  }\n\n  // add comment at the end to prevent consecutive lists to be parsed as one\n  txt += '\\n<!-- -->\\n';\n  return txt.trim();\n});\n\r\nshowdown.subParser('makeMarkdown.listItem', function (node, globals) {\n  'use strict';\n\n  var listItemTxt = '';\n\n  var children = node.childNodes,\n      childrenLenght = children.length;\n\n  for (var i = 0; i < childrenLenght; ++i) {\n    listItemTxt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n  }\n  // if it's only one liner, we need to add a newline at the end\n  if (!/\\n$/.test(listItemTxt)) {\n    listItemTxt += '\\n';\n  } else {\n    // it's multiparagraph, so we need to indent\n    listItemTxt = listItemTxt\n      .split('\\n')\n      .join('\\n    ')\n      .replace(/^ {4}$/gm, '')\n      .replace(/\\n\\n+/g, '\\n\\n');\n  }\n\n  return listItemTxt;\n});\n\r\n\n\nshowdown.subParser('makeMarkdown.node', function (node, globals, spansOnly) {\n  'use strict';\n\n  spansOnly = spansOnly || false;\n\n  var txt = '';\n\n  // edge case of text without wrapper paragraph\n  if (node.nodeType === 3) {\n    return showdown.subParser('makeMarkdown.txt')(node, globals);\n  }\n\n  // HTML comment\n  if (node.nodeType === 8) {\n    return '<!--' + node.data + '-->\\n\\n';\n  }\n\n  // process only node elements\n  if (node.nodeType !== 1) {\n    return '';\n  }\n\n  var tagName = node.tagName.toLowerCase();\n\n  switch (tagName) {\n\n    //\n    // BLOCKS\n    //\n    case 'h1':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 1) + '\\n\\n'; }\n      break;\n    case 'h2':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 2) + '\\n\\n'; }\n      break;\n    case 'h3':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 3) + '\\n\\n'; }\n      break;\n    case 'h4':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 4) + '\\n\\n'; }\n      break;\n    case 'h5':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 5) + '\\n\\n'; }\n      break;\n    case 'h6':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 6) + '\\n\\n'; }\n      break;\n\n    case 'p':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.paragraph')(node, globals) + '\\n\\n'; }\n      break;\n\n    case 'blockquote':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.blockquote')(node, globals) + '\\n\\n'; }\n      break;\n\n    case 'hr':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.hr')(node, globals) + '\\n\\n'; }\n      break;\n\n    case 'ol':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.list')(node, globals, 'ol') + '\\n\\n'; }\n      break;\n\n    case 'ul':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.list')(node, globals, 'ul') + '\\n\\n'; }\n      break;\n\n    case 'precode':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.codeBlock')(node, globals) + '\\n\\n'; }\n      break;\n\n    case 'pre':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.pre')(node, globals) + '\\n\\n'; }\n      break;\n\n    case 'table':\n      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.table')(node, globals) + '\\n\\n'; }\n      break;\n\n    //\n    // SPANS\n    //\n    case 'code':\n      txt = showdown.subParser('makeMarkdown.codeSpan')(node, globals);\n      break;\n\n    case 'em':\n    case 'i':\n      txt = showdown.subParser('makeMarkdown.emphasis')(node, globals);\n      break;\n\n    case 'strong':\n    case 'b':\n      txt = showdown.subParser('makeMarkdown.strong')(node, globals);\n      break;\n\n    case 'del':\n      txt = showdown.subParser('makeMarkdown.strikethrough')(node, globals);\n      break;\n\n    case 'a':\n      txt = showdown.subParser('makeMarkdown.links')(node, globals);\n      break;\n\n    case 'img':\n      txt = showdown.subParser('makeMarkdown.image')(node, globals);\n      break;\n\n    default:\n      txt = node.outerHTML + '\\n\\n';\n  }\n\n  // common normalization\n  // TODO eventually\n\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.paragraph', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasChildNodes()) {\n    var children = node.childNodes,\n        childrenLength = children.length;\n    for (var i = 0; i < childrenLength; ++i) {\n      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n    }\n  }\n\n  // some text normalization\n  txt = txt.trim();\n\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.pre', function (node, globals) {\n  'use strict';\n\n  var num  = node.getAttribute('prenum');\n  return '<pre>' + globals.preList[num] + '</pre>';\n});\n\r\nshowdown.subParser('makeMarkdown.strikethrough', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasChildNodes()) {\n    txt += '~~';\n    var children = node.childNodes,\n        childrenLength = children.length;\n    for (var i = 0; i < childrenLength; ++i) {\n      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n    }\n    txt += '~~';\n  }\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.strong', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (node.hasChildNodes()) {\n    txt += '**';\n    var children = node.childNodes,\n        childrenLength = children.length;\n    for (var i = 0; i < childrenLength; ++i) {\n      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);\n    }\n    txt += '**';\n  }\n  return txt;\n});\n\r\nshowdown.subParser('makeMarkdown.table', function (node, globals) {\n  'use strict';\n\n  var txt = '',\n      tableArray = [[], []],\n      headings   = node.querySelectorAll('thead>tr>th'),\n      rows       = node.querySelectorAll('tbody>tr'),\n      i, ii;\n  for (i = 0; i < headings.length; ++i) {\n    var headContent = showdown.subParser('makeMarkdown.tableCell')(headings[i], globals),\n        allign = '---';\n\n    if (headings[i].hasAttribute('style')) {\n      var style = headings[i].getAttribute('style').toLowerCase().replace(/\\s/g, '');\n      switch (style) {\n        case 'text-align:left;':\n          allign = ':---';\n          break;\n        case 'text-align:right;':\n          allign = '---:';\n          break;\n        case 'text-align:center;':\n          allign = ':---:';\n          break;\n      }\n    }\n    tableArray[0][i] = headContent.trim();\n    tableArray[1][i] = allign;\n  }\n\n  for (i = 0; i < rows.length; ++i) {\n    var r = tableArray.push([]) - 1,\n        cols = rows[i].getElementsByTagName('td');\n\n    for (ii = 0; ii < headings.length; ++ii) {\n      var cellContent = ' ';\n      if (typeof cols[ii] !== 'undefined') {\n        cellContent = showdown.subParser('makeMarkdown.tableCell')(cols[ii], globals);\n      }\n      tableArray[r].push(cellContent);\n    }\n  }\n\n  var cellSpacesCount = 3;\n  for (i = 0; i < tableArray.length; ++i) {\n    for (ii = 0; ii < tableArray[i].length; ++ii) {\n      var strLen = tableArray[i][ii].length;\n      if (strLen > cellSpacesCount) {\n        cellSpacesCount = strLen;\n      }\n    }\n  }\n\n  for (i = 0; i < tableArray.length; ++i) {\n    for (ii = 0; ii < tableArray[i].length; ++ii) {\n      if (i === 1) {\n        if (tableArray[i][ii].slice(-1) === ':') {\n          tableArray[i][ii] = showdown.helper.padEnd(tableArray[i][ii].slice(-1), cellSpacesCount - 1, '-') + ':';\n        } else {\n          tableArray[i][ii] = showdown.helper.padEnd(tableArray[i][ii], cellSpacesCount, '-');\n        }\n      } else {\n        tableArray[i][ii] = showdown.helper.padEnd(tableArray[i][ii], cellSpacesCount);\n      }\n    }\n    txt += '| ' + tableArray[i].join(' | ') + ' |\\n';\n  }\n\n  return txt.trim();\n});\n\r\nshowdown.subParser('makeMarkdown.tableCell', function (node, globals) {\n  'use strict';\n\n  var txt = '';\n  if (!node.hasChildNodes()) {\n    return '';\n  }\n  var children = node.childNodes,\n      childrenLength = children.length;\n\n  for (var i = 0; i < childrenLength; ++i) {\n    txt += showdown.subParser('makeMarkdown.node')(children[i], globals, true);\n  }\n  return txt.trim();\n});\n\r\nshowdown.subParser('makeMarkdown.txt', function (node) {\n  'use strict';\n\n  var txt = node.nodeValue;\n\n  // multiple spaces are collapsed\n  txt = txt.replace(/ +/g, ' ');\n\n  // replace the custom ¨NBSP; with a space\n  txt = txt.replace(/¨NBSP;/g, ' ');\n\n  // \", <, > and & should replace escaped html entities\n  txt = showdown.helper.unescapeHTMLEntities(txt);\n\n  // escape markdown magic characters\n  // emphasis, strong and strikethrough - can appear everywhere\n  // we also escape pipe (|) because of tables\n  // and escape ` because of code blocks and spans\n  txt = txt.replace(/([*_~|`])/g, '\\\\$1');\n\n  // escape > because of blockquotes\n  txt = txt.replace(/^(\\s*)>/g, '\\\\$1>');\n\n  // hash character, only troublesome at the beginning of a line because of headers\n  txt = txt.replace(/^#/gm, '\\\\#');\n\n  // horizontal rules\n  txt = txt.replace(/^(\\s*)([-=]{3,})(\\s*)$/, '$1\\\\$2$3');\n\n  // dot, because of ordered lists, only troublesome at the beginning of a line when preceded by an integer\n  txt = txt.replace(/^( {0,3}\\d+)\\./gm, '$1\\\\.');\n\n  // +, * and -, at the beginning of a line becomes a list, so we need to escape them also (asterisk was already escaped)\n  txt = txt.replace(/^( {0,3})([+-])/gm, '$1\\\\$2');\n\n  // images and links, ] followed by ( is problematic, so we escape it\n  txt = txt.replace(/]([\\s]*)\\(/g, '\\\\]$1\\\\(');\n\n  // reference URIs must also be escaped\n  txt = txt.replace(/^ {0,3}\\[([\\S \\t]*?)]:/gm, '\\\\[$1]:');\n\n  return txt;\n});\n\r\nvar root = this;\n\n// AMD Loader\nif (true) {\n  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {\n    'use strict';\n    return showdown;\n  }).call(exports, __webpack_require__, exports, module),\n\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n\n// CommonJS/nodeJS Loader\n} else {}\n}).call(this);\r\n\n//# sourceMappingURL=showdown.js.map\r\n\n\n//# sourceURL=webpack://codenotes/./node_modules/showdown/dist/showdown.js?");
+var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 2.1.0 - 21-04-2022 */
+(function(){
+/**
+ * Created by Tivie on 13-07-2015.
+ */
+
+function getDefaultOpts (simple) {
+  'use strict';
+
+  var defaultOptions = {
+    omitExtraWLInCodeBlocks: {
+      defaultValue: false,
+      describe: 'Omit the default extra whiteline added to code blocks',
+      type: 'boolean'
+    },
+    noHeaderId: {
+      defaultValue: false,
+      describe: 'Turn on/off generated header id',
+      type: 'boolean'
+    },
+    prefixHeaderId: {
+      defaultValue: false,
+      describe: 'Add a prefix to the generated header ids. Passing a string will prefix that string to the header id. Setting to true will add a generic \'section-\' prefix',
+      type: 'string'
+    },
+    rawPrefixHeaderId: {
+      defaultValue: false,
+      describe: 'Setting this option to true will prevent showdown from modifying the prefix. This might result in malformed IDs (if, for instance, the " char is used in the prefix)',
+      type: 'boolean'
+    },
+    ghCompatibleHeaderId: {
+      defaultValue: false,
+      describe: 'Generate header ids compatible with github style (spaces are replaced with dashes, a bunch of non alphanumeric chars are removed)',
+      type: 'boolean'
+    },
+    rawHeaderId: {
+      defaultValue: false,
+      describe: 'Remove only spaces, \' and " from generated header ids (including prefixes), replacing them with dashes (-). WARNING: This might result in malformed ids',
+      type: 'boolean'
+    },
+    headerLevelStart: {
+      defaultValue: false,
+      describe: 'The header blocks level start',
+      type: 'integer'
+    },
+    parseImgDimensions: {
+      defaultValue: false,
+      describe: 'Turn on/off image dimension parsing',
+      type: 'boolean'
+    },
+    simplifiedAutoLink: {
+      defaultValue: false,
+      describe: 'Turn on/off GFM autolink style',
+      type: 'boolean'
+    },
+    excludeTrailingPunctuationFromURLs: {
+      defaultValue: false,
+      describe: 'Excludes trailing punctuation from links generated with autoLinking',
+      type: 'boolean'
+    },
+    literalMidWordUnderscores: {
+      defaultValue: false,
+      describe: 'Parse midword underscores as literal underscores',
+      type: 'boolean'
+    },
+    literalMidWordAsterisks: {
+      defaultValue: false,
+      describe: 'Parse midword asterisks as literal asterisks',
+      type: 'boolean'
+    },
+    strikethrough: {
+      defaultValue: false,
+      describe: 'Turn on/off strikethrough support',
+      type: 'boolean'
+    },
+    tables: {
+      defaultValue: false,
+      describe: 'Turn on/off tables support',
+      type: 'boolean'
+    },
+    tablesHeaderId: {
+      defaultValue: false,
+      describe: 'Add an id to table headers',
+      type: 'boolean'
+    },
+    ghCodeBlocks: {
+      defaultValue: true,
+      describe: 'Turn on/off GFM fenced code blocks support',
+      type: 'boolean'
+    },
+    tasklists: {
+      defaultValue: false,
+      describe: 'Turn on/off GFM tasklist support',
+      type: 'boolean'
+    },
+    smoothLivePreview: {
+      defaultValue: false,
+      describe: 'Prevents weird effects in live previews due to incomplete input',
+      type: 'boolean'
+    },
+    smartIndentationFix: {
+      defaultValue: false,
+      describe: 'Tries to smartly fix indentation in es6 strings',
+      type: 'boolean'
+    },
+    disableForced4SpacesIndentedSublists: {
+      defaultValue: false,
+      describe: 'Disables the requirement of indenting nested sublists by 4 spaces',
+      type: 'boolean'
+    },
+    simpleLineBreaks: {
+      defaultValue: false,
+      describe: 'Parses simple line breaks as <br> (GFM Style)',
+      type: 'boolean'
+    },
+    requireSpaceBeforeHeadingText: {
+      defaultValue: false,
+      describe: 'Makes adding a space between `#` and the header text mandatory (GFM Style)',
+      type: 'boolean'
+    },
+    ghMentions: {
+      defaultValue: false,
+      describe: 'Enables github @mentions',
+      type: 'boolean'
+    },
+    ghMentionsLink: {
+      defaultValue: 'https://github.com/{u}',
+      describe: 'Changes the link generated by @mentions. Only applies if ghMentions option is enabled.',
+      type: 'string'
+    },
+    encodeEmails: {
+      defaultValue: true,
+      describe: 'Encode e-mail addresses through the use of Character Entities, transforming ASCII e-mail addresses into its equivalent decimal entities',
+      type: 'boolean'
+    },
+    openLinksInNewWindow: {
+      defaultValue: false,
+      describe: 'Open all links in new windows',
+      type: 'boolean'
+    },
+    backslashEscapesHTMLTags: {
+      defaultValue: false,
+      describe: 'Support for HTML Tag escaping. ex: \<div>foo\</div>',
+      type: 'boolean'
+    },
+    emoji: {
+      defaultValue: false,
+      describe: 'Enable emoji support. Ex: `this is a :smile: emoji`',
+      type: 'boolean'
+    },
+    underline: {
+      defaultValue: false,
+      describe: 'Enable support for underline. Syntax is double or triple underscores: `__underline word__`. With this option enabled, underscores no longer parses into `<em>` and `<strong>`',
+      type: 'boolean'
+    },
+    ellipsis: {
+      defaultValue: true,
+      describe: 'Replaces three dots with the ellipsis unicode character',
+      type: 'boolean'
+    },
+    completeHTMLDocument: {
+      defaultValue: false,
+      describe: 'Outputs a complete html document, including `<html>`, `<head>` and `<body>` tags',
+      type: 'boolean'
+    },
+    metadata: {
+      defaultValue: false,
+      describe: 'Enable support for document metadata (defined at the top of the document between `«««` and `»»»` or between `---` and `---`).',
+      type: 'boolean'
+    },
+    splitAdjacentBlockquotes: {
+      defaultValue: false,
+      describe: 'Split adjacent blockquote blocks',
+      type: 'boolean'
+    }
+  };
+  if (simple === false) {
+    return JSON.parse(JSON.stringify(defaultOptions));
+  }
+  var ret = {};
+  for (var opt in defaultOptions) {
+    if (defaultOptions.hasOwnProperty(opt)) {
+      ret[opt] = defaultOptions[opt].defaultValue;
+    }
+  }
+  return ret;
+}
+
+function allOptionsOn () {
+  'use strict';
+  var options = getDefaultOpts(true),
+      ret = {};
+  for (var opt in options) {
+    if (options.hasOwnProperty(opt)) {
+      ret[opt] = true;
+    }
+  }
+  return ret;
+}
+
+/**
+ * Created by Tivie on 06-01-2015.
+ */
+
+// Private properties
+var showdown = {},
+    parsers = {},
+    extensions = {},
+    globalOptions = getDefaultOpts(true),
+    setFlavor = 'vanilla',
+    flavor = {
+      github: {
+        omitExtraWLInCodeBlocks:              true,
+        simplifiedAutoLink:                   true,
+        excludeTrailingPunctuationFromURLs:   true,
+        literalMidWordUnderscores:            true,
+        strikethrough:                        true,
+        tables:                               true,
+        tablesHeaderId:                       true,
+        ghCodeBlocks:                         true,
+        tasklists:                            true,
+        disableForced4SpacesIndentedSublists: true,
+        simpleLineBreaks:                     true,
+        requireSpaceBeforeHeadingText:        true,
+        ghCompatibleHeaderId:                 true,
+        ghMentions:                           true,
+        backslashEscapesHTMLTags:             true,
+        emoji:                                true,
+        splitAdjacentBlockquotes:             true
+      },
+      original: {
+        noHeaderId:                           true,
+        ghCodeBlocks:                         false
+      },
+      ghost: {
+        omitExtraWLInCodeBlocks:              true,
+        parseImgDimensions:                   true,
+        simplifiedAutoLink:                   true,
+        excludeTrailingPunctuationFromURLs:   true,
+        literalMidWordUnderscores:            true,
+        strikethrough:                        true,
+        tables:                               true,
+        tablesHeaderId:                       true,
+        ghCodeBlocks:                         true,
+        tasklists:                            true,
+        smoothLivePreview:                    true,
+        simpleLineBreaks:                     true,
+        requireSpaceBeforeHeadingText:        true,
+        ghMentions:                           false,
+        encodeEmails:                         true
+      },
+      vanilla: getDefaultOpts(true),
+      allOn: allOptionsOn()
+    };
+
+/**
+ * helper namespace
+ * @type {{}}
+ */
+showdown.helper = {};
+
+/**
+ * TODO LEGACY SUPPORT CODE
+ * @type {{}}
+ */
+showdown.extensions = {};
+
+/**
+ * Set a global option
+ * @static
+ * @param {string} key
+ * @param {*} value
+ * @returns {showdown}
+ */
+showdown.setOption = function (key, value) {
+  'use strict';
+  globalOptions[key] = value;
+  return this;
+};
+
+/**
+ * Get a global option
+ * @static
+ * @param {string} key
+ * @returns {*}
+ */
+showdown.getOption = function (key) {
+  'use strict';
+  return globalOptions[key];
+};
+
+/**
+ * Get the global options
+ * @static
+ * @returns {{}}
+ */
+showdown.getOptions = function () {
+  'use strict';
+  return globalOptions;
+};
+
+/**
+ * Reset global options to the default values
+ * @static
+ */
+showdown.resetOptions = function () {
+  'use strict';
+  globalOptions = getDefaultOpts(true);
+};
+
+/**
+ * Set the flavor showdown should use as default
+ * @param {string} name
+ */
+showdown.setFlavor = function (name) {
+  'use strict';
+  if (!flavor.hasOwnProperty(name)) {
+    throw Error(name + ' flavor was not found');
+  }
+  showdown.resetOptions();
+  var preset = flavor[name];
+  setFlavor = name;
+  for (var option in preset) {
+    if (preset.hasOwnProperty(option)) {
+      globalOptions[option] = preset[option];
+    }
+  }
+};
+
+/**
+ * Get the currently set flavor
+ * @returns {string}
+ */
+showdown.getFlavor = function () {
+  'use strict';
+  return setFlavor;
+};
+
+/**
+ * Get the options of a specified flavor. Returns undefined if the flavor was not found
+ * @param {string} name Name of the flavor
+ * @returns {{}|undefined}
+ */
+showdown.getFlavorOptions = function (name) {
+  'use strict';
+  if (flavor.hasOwnProperty(name)) {
+    return flavor[name];
+  }
+};
+
+/**
+ * Get the default options
+ * @static
+ * @param {boolean} [simple=true]
+ * @returns {{}}
+ */
+showdown.getDefaultOptions = function (simple) {
+  'use strict';
+  return getDefaultOpts(simple);
+};
+
+/**
+ * Get or set a subParser
+ *
+ * subParser(name)       - Get a registered subParser
+ * subParser(name, func) - Register a subParser
+ * @static
+ * @param {string} name
+ * @param {function} [func]
+ * @returns {*}
+ */
+showdown.subParser = function (name, func) {
+  'use strict';
+  if (showdown.helper.isString(name)) {
+    if (typeof func !== 'undefined') {
+      parsers[name] = func;
+    } else {
+      if (parsers.hasOwnProperty(name)) {
+        return parsers[name];
+      } else {
+        throw Error('SubParser named ' + name + ' not registered!');
+      }
+    }
+  }
+};
+
+/**
+ * Gets or registers an extension
+ * @static
+ * @param {string} name
+ * @param {object|object[]|function=} ext
+ * @returns {*}
+ */
+showdown.extension = function (name, ext) {
+  'use strict';
+
+  if (!showdown.helper.isString(name)) {
+    throw Error('Extension \'name\' must be a string');
+  }
+
+  name = showdown.helper.stdExtName(name);
+
+  // Getter
+  if (showdown.helper.isUndefined(ext)) {
+    if (!extensions.hasOwnProperty(name)) {
+      throw Error('Extension named ' + name + ' is not registered!');
+    }
+    return extensions[name];
+
+    // Setter
+  } else {
+    // Expand extension if it's wrapped in a function
+    if (typeof ext === 'function') {
+      ext = ext();
+    }
+
+    // Ensure extension is an array
+    if (!showdown.helper.isArray(ext)) {
+      ext = [ext];
+    }
+
+    var validExtension = validate(ext, name);
+
+    if (validExtension.valid) {
+      extensions[name] = ext;
+    } else {
+      throw Error(validExtension.error);
+    }
+  }
+};
+
+/**
+ * Gets all extensions registered
+ * @returns {{}}
+ */
+showdown.getAllExtensions = function () {
+  'use strict';
+  return extensions;
+};
+
+/**
+ * Remove an extension
+ * @param {string} name
+ */
+showdown.removeExtension = function (name) {
+  'use strict';
+  delete extensions[name];
+};
+
+/**
+ * Removes all extensions
+ */
+showdown.resetExtensions = function () {
+  'use strict';
+  extensions = {};
+};
+
+/**
+ * Validate extension
+ * @param {array} extension
+ * @param {string} name
+ * @returns {{valid: boolean, error: string}}
+ */
+function validate (extension, name) {
+  'use strict';
+
+  var errMsg = (name) ? 'Error in ' + name + ' extension->' : 'Error in unnamed extension',
+      ret = {
+        valid: true,
+        error: ''
+      };
+
+  if (!showdown.helper.isArray(extension)) {
+    extension = [extension];
+  }
+
+  for (var i = 0; i < extension.length; ++i) {
+    var baseMsg = errMsg + ' sub-extension ' + i + ': ',
+        ext = extension[i];
+    if (typeof ext !== 'object') {
+      ret.valid = false;
+      ret.error = baseMsg + 'must be an object, but ' + typeof ext + ' given';
+      return ret;
+    }
+
+    if (!showdown.helper.isString(ext.type)) {
+      ret.valid = false;
+      ret.error = baseMsg + 'property "type" must be a string, but ' + typeof ext.type + ' given';
+      return ret;
+    }
+
+    var type = ext.type = ext.type.toLowerCase();
+
+    // normalize extension type
+    if (type === 'language') {
+      type = ext.type = 'lang';
+    }
+
+    if (type === 'html') {
+      type = ext.type = 'output';
+    }
+
+    if (type !== 'lang' && type !== 'output' && type !== 'listener') {
+      ret.valid = false;
+      ret.error = baseMsg + 'type ' + type + ' is not recognized. Valid values: "lang/language", "output/html" or "listener"';
+      return ret;
+    }
+
+    if (type === 'listener') {
+      if (showdown.helper.isUndefined(ext.listeners)) {
+        ret.valid = false;
+        ret.error = baseMsg + '. Extensions of type "listener" must have a property called "listeners"';
+        return ret;
+      }
+    } else {
+      if (showdown.helper.isUndefined(ext.filter) && showdown.helper.isUndefined(ext.regex)) {
+        ret.valid = false;
+        ret.error = baseMsg + type + ' extensions must define either a "regex" property or a "filter" method';
+        return ret;
+      }
+    }
+
+    if (ext.listeners) {
+      if (typeof ext.listeners !== 'object') {
+        ret.valid = false;
+        ret.error = baseMsg + '"listeners" property must be an object but ' + typeof ext.listeners + ' given';
+        return ret;
+      }
+      for (var ln in ext.listeners) {
+        if (ext.listeners.hasOwnProperty(ln)) {
+          if (typeof ext.listeners[ln] !== 'function') {
+            ret.valid = false;
+            ret.error = baseMsg + '"listeners" property must be an hash of [event name]: [callback]. listeners.' + ln +
+              ' must be a function but ' + typeof ext.listeners[ln] + ' given';
+            return ret;
+          }
+        }
+      }
+    }
+
+    if (ext.filter) {
+      if (typeof ext.filter !== 'function') {
+        ret.valid = false;
+        ret.error = baseMsg + '"filter" must be a function, but ' + typeof ext.filter + ' given';
+        return ret;
+      }
+    } else if (ext.regex) {
+      if (showdown.helper.isString(ext.regex)) {
+        ext.regex = new RegExp(ext.regex, 'g');
+      }
+      if (!(ext.regex instanceof RegExp)) {
+        ret.valid = false;
+        ret.error = baseMsg + '"regex" property must either be a string or a RegExp object, but ' + typeof ext.regex + ' given';
+        return ret;
+      }
+      if (showdown.helper.isUndefined(ext.replace)) {
+        ret.valid = false;
+        ret.error = baseMsg + '"regex" extensions must implement a replace string or function';
+        return ret;
+      }
+    }
+  }
+  return ret;
+}
+
+/**
+ * Validate extension
+ * @param {object} ext
+ * @returns {boolean}
+ */
+showdown.validateExtension = function (ext) {
+  'use strict';
+
+  var validateExtension = validate(ext, null);
+  if (!validateExtension.valid) {
+    console.warn(validateExtension.error);
+    return false;
+  }
+  return true;
+};
+
+/**
+ * showdownjs helper functions
+ */
+
+if (!showdown.hasOwnProperty('helper')) {
+  showdown.helper = {};
+}
+
+/**
+ * Check if var is string
+ * @static
+ * @param {string} a
+ * @returns {boolean}
+ */
+showdown.helper.isString = function (a) {
+  'use strict';
+  return (typeof a === 'string' || a instanceof String);
+};
+
+/**
+ * Check if var is a function
+ * @static
+ * @param {*} a
+ * @returns {boolean}
+ */
+showdown.helper.isFunction = function (a) {
+  'use strict';
+  var getType = {};
+  return a && getType.toString.call(a) === '[object Function]';
+};
+
+/**
+ * isArray helper function
+ * @static
+ * @param {*} a
+ * @returns {boolean}
+ */
+showdown.helper.isArray = function (a) {
+  'use strict';
+  return Array.isArray(a);
+};
+
+/**
+ * Check if value is undefined
+ * @static
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is `undefined`, else `false`.
+ */
+showdown.helper.isUndefined = function (value) {
+  'use strict';
+  return typeof value === 'undefined';
+};
+
+/**
+ * ForEach helper function
+ * Iterates over Arrays and Objects (own properties only)
+ * @static
+ * @param {*} obj
+ * @param {function} callback Accepts 3 params: 1. value, 2. key, 3. the original array/object
+ */
+showdown.helper.forEach = function (obj, callback) {
+  'use strict';
+  // check if obj is defined
+  if (showdown.helper.isUndefined(obj)) {
+    throw new Error('obj param is required');
+  }
+
+  if (showdown.helper.isUndefined(callback)) {
+    throw new Error('callback param is required');
+  }
+
+  if (!showdown.helper.isFunction(callback)) {
+    throw new Error('callback param must be a function/closure');
+  }
+
+  if (typeof obj.forEach === 'function') {
+    obj.forEach(callback);
+  } else if (showdown.helper.isArray(obj)) {
+    for (var i = 0; i < obj.length; i++) {
+      callback(obj[i], i, obj);
+    }
+  } else if (typeof (obj) === 'object') {
+    for (var prop in obj) {
+      if (obj.hasOwnProperty(prop)) {
+        callback(obj[prop], prop, obj);
+      }
+    }
+  } else {
+    throw new Error('obj does not seem to be an array or an iterable object');
+  }
+};
+
+/**
+ * Standardidize extension name
+ * @static
+ * @param {string} s extension name
+ * @returns {string}
+ */
+showdown.helper.stdExtName = function (s) {
+  'use strict';
+  return s.replace(/[_?*+\/\\.^-]/g, '').replace(/\s/g, '').toLowerCase();
+};
+
+function escapeCharactersCallback (wholeMatch, m1) {
+  'use strict';
+  var charCodeToEscape = m1.charCodeAt(0);
+  return '¨E' + charCodeToEscape + 'E';
+}
+
+/**
+ * Callback used to escape characters when passing through String.replace
+ * @static
+ * @param {string} wholeMatch
+ * @param {string} m1
+ * @returns {string}
+ */
+showdown.helper.escapeCharactersCallback = escapeCharactersCallback;
+
+/**
+ * Escape characters in a string
+ * @static
+ * @param {string} text
+ * @param {string} charsToEscape
+ * @param {boolean} afterBackslash
+ * @returns {XML|string|void|*}
+ */
+showdown.helper.escapeCharacters = function (text, charsToEscape, afterBackslash) {
+  'use strict';
+  // First we have to escape the escape characters so that
+  // we can build a character class out of them
+  var regexString = '([' + charsToEscape.replace(/([\[\]\\])/g, '\\$1') + '])';
+
+  if (afterBackslash) {
+    regexString = '\\\\' + regexString;
+  }
+
+  var regex = new RegExp(regexString, 'g');
+  text = text.replace(regex, escapeCharactersCallback);
+
+  return text;
+};
+
+/**
+ * Unescape HTML entities
+ * @param txt
+ * @returns {string}
+ */
+showdown.helper.unescapeHTMLEntities = function (txt) {
+  'use strict';
+
+  return txt
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+};
+
+var rgxFindMatchPos = function (str, left, right, flags) {
+  'use strict';
+  var f = flags || '',
+      g = f.indexOf('g') > -1,
+      x = new RegExp(left + '|' + right, 'g' + f.replace(/g/g, '')),
+      l = new RegExp(left, f.replace(/g/g, '')),
+      pos = [],
+      t, s, m, start, end;
+
+  do {
+    t = 0;
+    while ((m = x.exec(str))) {
+      if (l.test(m[0])) {
+        if (!(t++)) {
+          s = x.lastIndex;
+          start = s - m[0].length;
+        }
+      } else if (t) {
+        if (!--t) {
+          end = m.index + m[0].length;
+          var obj = {
+            left: {start: start, end: s},
+            match: {start: s, end: m.index},
+            right: {start: m.index, end: end},
+            wholeMatch: {start: start, end: end}
+          };
+          pos.push(obj);
+          if (!g) {
+            return pos;
+          }
+        }
+      }
+    }
+  } while (t && (x.lastIndex = s));
+
+  return pos;
+};
+
+/**
+ * matchRecursiveRegExp
+ *
+ * (c) 2007 Steven Levithan <stevenlevithan.com>
+ * MIT License
+ *
+ * Accepts a string to search, a left and right format delimiter
+ * as regex patterns, and optional regex flags. Returns an array
+ * of matches, allowing nested instances of left/right delimiters.
+ * Use the "g" flag to return all matches, otherwise only the
+ * first is returned. Be careful to ensure that the left and
+ * right format delimiters produce mutually exclusive matches.
+ * Backreferences are not supported within the right delimiter
+ * due to how it is internally combined with the left delimiter.
+ * When matching strings whose format delimiters are unbalanced
+ * to the left or right, the output is intentionally as a
+ * conventional regex library with recursion support would
+ * produce, e.g. "<<x>" and "<x>>" both produce ["x"] when using
+ * "<" and ">" as the delimiters (both strings contain a single,
+ * balanced instance of "<x>").
+ *
+ * examples:
+ * matchRecursiveRegExp("test", "\\(", "\\)")
+ * returns: []
+ * matchRecursiveRegExp("<t<<e>><s>>t<>", "<", ">", "g")
+ * returns: ["t<<e>><s>", ""]
+ * matchRecursiveRegExp("<div id=\"x\">test</div>", "<div\\b[^>]*>", "</div>", "gi")
+ * returns: ["test"]
+ */
+showdown.helper.matchRecursiveRegExp = function (str, left, right, flags) {
+  'use strict';
+
+  var matchPos = rgxFindMatchPos (str, left, right, flags),
+      results = [];
+
+  for (var i = 0; i < matchPos.length; ++i) {
+    results.push([
+      str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
+      str.slice(matchPos[i].match.start, matchPos[i].match.end),
+      str.slice(matchPos[i].left.start, matchPos[i].left.end),
+      str.slice(matchPos[i].right.start, matchPos[i].right.end)
+    ]);
+  }
+  return results;
+};
+
+/**
+ *
+ * @param {string} str
+ * @param {string|function} replacement
+ * @param {string} left
+ * @param {string} right
+ * @param {string} flags
+ * @returns {string}
+ */
+showdown.helper.replaceRecursiveRegExp = function (str, replacement, left, right, flags) {
+  'use strict';
+
+  if (!showdown.helper.isFunction(replacement)) {
+    var repStr = replacement;
+    replacement = function () {
+      return repStr;
+    };
+  }
+
+  var matchPos = rgxFindMatchPos(str, left, right, flags),
+      finalStr = str,
+      lng = matchPos.length;
+
+  if (lng > 0) {
+    var bits = [];
+    if (matchPos[0].wholeMatch.start !== 0) {
+      bits.push(str.slice(0, matchPos[0].wholeMatch.start));
+    }
+    for (var i = 0; i < lng; ++i) {
+      bits.push(
+        replacement(
+          str.slice(matchPos[i].wholeMatch.start, matchPos[i].wholeMatch.end),
+          str.slice(matchPos[i].match.start, matchPos[i].match.end),
+          str.slice(matchPos[i].left.start, matchPos[i].left.end),
+          str.slice(matchPos[i].right.start, matchPos[i].right.end)
+        )
+      );
+      if (i < lng - 1) {
+        bits.push(str.slice(matchPos[i].wholeMatch.end, matchPos[i + 1].wholeMatch.start));
+      }
+    }
+    if (matchPos[lng - 1].wholeMatch.end < str.length) {
+      bits.push(str.slice(matchPos[lng - 1].wholeMatch.end));
+    }
+    finalStr = bits.join('');
+  }
+  return finalStr;
+};
+
+/**
+ * Returns the index within the passed String object of the first occurrence of the specified regex,
+ * starting the search at fromIndex. Returns -1 if the value is not found.
+ *
+ * @param {string} str string to search
+ * @param {RegExp} regex Regular expression to search
+ * @param {int} [fromIndex = 0] Index to start the search
+ * @returns {Number}
+ * @throws InvalidArgumentError
+ */
+showdown.helper.regexIndexOf = function (str, regex, fromIndex) {
+  'use strict';
+  if (!showdown.helper.isString(str)) {
+    throw 'InvalidArgumentError: first parameter of showdown.helper.regexIndexOf function must be a string';
+  }
+  if (regex instanceof RegExp === false) {
+    throw 'InvalidArgumentError: second parameter of showdown.helper.regexIndexOf function must be an instance of RegExp';
+  }
+  var indexOf = str.substring(fromIndex || 0).search(regex);
+  return (indexOf >= 0) ? (indexOf + (fromIndex || 0)) : indexOf;
+};
+
+/**
+ * Splits the passed string object at the defined index, and returns an array composed of the two substrings
+ * @param {string} str string to split
+ * @param {int} index index to split string at
+ * @returns {[string,string]}
+ * @throws InvalidArgumentError
+ */
+showdown.helper.splitAtIndex = function (str, index) {
+  'use strict';
+  if (!showdown.helper.isString(str)) {
+    throw 'InvalidArgumentError: first parameter of showdown.helper.regexIndexOf function must be a string';
+  }
+  return [str.substring(0, index), str.substring(index)];
+};
+
+/**
+ * Obfuscate an e-mail address through the use of Character Entities,
+ * transforming ASCII characters into their equivalent decimal or hex entities.
+ *
+ * Since it has a random component, subsequent calls to this function produce different results
+ *
+ * @param {string} mail
+ * @returns {string}
+ */
+showdown.helper.encodeEmailAddress = function (mail) {
+  'use strict';
+  var encode = [
+    function (ch) {
+      return '&#' + ch.charCodeAt(0) + ';';
+    },
+    function (ch) {
+      return '&#x' + ch.charCodeAt(0).toString(16) + ';';
+    },
+    function (ch) {
+      return ch;
+    }
+  ];
+
+  mail = mail.replace(/./g, function (ch) {
+    if (ch === '@') {
+      // this *must* be encoded. I insist.
+      ch = encode[Math.floor(Math.random() * 2)](ch);
+    } else {
+      var r = Math.random();
+      // roughly 10% raw, 45% hex, 45% dec
+      ch = (
+        r > 0.9 ? encode[2](ch) : r > 0.45 ? encode[1](ch) : encode[0](ch)
+      );
+    }
+    return ch;
+  });
+
+  return mail;
+};
+
+/**
+ *
+ * @param str
+ * @param targetLength
+ * @param padString
+ * @returns {string}
+ */
+showdown.helper.padEnd = function padEnd (str, targetLength, padString) {
+  'use strict';
+  /*jshint bitwise: false*/
+  // eslint-disable-next-line space-infix-ops
+  targetLength = targetLength>>0; //floor if number or convert non-number to 0;
+  /*jshint bitwise: true*/
+  padString = String(padString || ' ');
+  if (str.length > targetLength) {
+    return String(str);
+  } else {
+    targetLength = targetLength - str.length;
+    if (targetLength > padString.length) {
+      padString += padString.repeat(targetLength / padString.length); //append to original to ensure we are longer than needed
+    }
+    return String(str) + padString.slice(0,targetLength);
+  }
+};
+
+/**
+ * POLYFILLS
+ */
+// use this instead of builtin is undefined for IE8 compatibility
+if (typeof (console) === 'undefined') {
+  console = {
+    warn: function (msg) {
+      'use strict';
+      alert(msg);
+    },
+    log: function (msg) {
+      'use strict';
+      alert(msg);
+    },
+    error: function (msg) {
+      'use strict';
+      throw msg;
+    }
+  };
+}
+
+/**
+ * Common regexes.
+ * We declare some common regexes to improve performance
+ */
+showdown.helper.regexes = {
+  asteriskDashAndColon: /([*_:~])/g
+};
+
+/**
+ * EMOJIS LIST
+ */
+showdown.helper.emojis = {
+  '+1':'\ud83d\udc4d',
+  '-1':'\ud83d\udc4e',
+  '100':'\ud83d\udcaf',
+  '1234':'\ud83d\udd22',
+  '1st_place_medal':'\ud83e\udd47',
+  '2nd_place_medal':'\ud83e\udd48',
+  '3rd_place_medal':'\ud83e\udd49',
+  '8ball':'\ud83c\udfb1',
+  'a':'\ud83c\udd70\ufe0f',
+  'ab':'\ud83c\udd8e',
+  'abc':'\ud83d\udd24',
+  'abcd':'\ud83d\udd21',
+  'accept':'\ud83c\ude51',
+  'aerial_tramway':'\ud83d\udea1',
+  'airplane':'\u2708\ufe0f',
+  'alarm_clock':'\u23f0',
+  'alembic':'\u2697\ufe0f',
+  'alien':'\ud83d\udc7d',
+  'ambulance':'\ud83d\ude91',
+  'amphora':'\ud83c\udffa',
+  'anchor':'\u2693\ufe0f',
+  'angel':'\ud83d\udc7c',
+  'anger':'\ud83d\udca2',
+  'angry':'\ud83d\ude20',
+  'anguished':'\ud83d\ude27',
+  'ant':'\ud83d\udc1c',
+  'apple':'\ud83c\udf4e',
+  'aquarius':'\u2652\ufe0f',
+  'aries':'\u2648\ufe0f',
+  'arrow_backward':'\u25c0\ufe0f',
+  'arrow_double_down':'\u23ec',
+  'arrow_double_up':'\u23eb',
+  'arrow_down':'\u2b07\ufe0f',
+  'arrow_down_small':'\ud83d\udd3d',
+  'arrow_forward':'\u25b6\ufe0f',
+  'arrow_heading_down':'\u2935\ufe0f',
+  'arrow_heading_up':'\u2934\ufe0f',
+  'arrow_left':'\u2b05\ufe0f',
+  'arrow_lower_left':'\u2199\ufe0f',
+  'arrow_lower_right':'\u2198\ufe0f',
+  'arrow_right':'\u27a1\ufe0f',
+  'arrow_right_hook':'\u21aa\ufe0f',
+  'arrow_up':'\u2b06\ufe0f',
+  'arrow_up_down':'\u2195\ufe0f',
+  'arrow_up_small':'\ud83d\udd3c',
+  'arrow_upper_left':'\u2196\ufe0f',
+  'arrow_upper_right':'\u2197\ufe0f',
+  'arrows_clockwise':'\ud83d\udd03',
+  'arrows_counterclockwise':'\ud83d\udd04',
+  'art':'\ud83c\udfa8',
+  'articulated_lorry':'\ud83d\ude9b',
+  'artificial_satellite':'\ud83d\udef0',
+  'astonished':'\ud83d\ude32',
+  'athletic_shoe':'\ud83d\udc5f',
+  'atm':'\ud83c\udfe7',
+  'atom_symbol':'\u269b\ufe0f',
+  'avocado':'\ud83e\udd51',
+  'b':'\ud83c\udd71\ufe0f',
+  'baby':'\ud83d\udc76',
+  'baby_bottle':'\ud83c\udf7c',
+  'baby_chick':'\ud83d\udc24',
+  'baby_symbol':'\ud83d\udebc',
+  'back':'\ud83d\udd19',
+  'bacon':'\ud83e\udd53',
+  'badminton':'\ud83c\udff8',
+  'baggage_claim':'\ud83d\udec4',
+  'baguette_bread':'\ud83e\udd56',
+  'balance_scale':'\u2696\ufe0f',
+  'balloon':'\ud83c\udf88',
+  'ballot_box':'\ud83d\uddf3',
+  'ballot_box_with_check':'\u2611\ufe0f',
+  'bamboo':'\ud83c\udf8d',
+  'banana':'\ud83c\udf4c',
+  'bangbang':'\u203c\ufe0f',
+  'bank':'\ud83c\udfe6',
+  'bar_chart':'\ud83d\udcca',
+  'barber':'\ud83d\udc88',
+  'baseball':'\u26be\ufe0f',
+  'basketball':'\ud83c\udfc0',
+  'basketball_man':'\u26f9\ufe0f',
+  'basketball_woman':'\u26f9\ufe0f&zwj;\u2640\ufe0f',
+  'bat':'\ud83e\udd87',
+  'bath':'\ud83d\udec0',
+  'bathtub':'\ud83d\udec1',
+  'battery':'\ud83d\udd0b',
+  'beach_umbrella':'\ud83c\udfd6',
+  'bear':'\ud83d\udc3b',
+  'bed':'\ud83d\udecf',
+  'bee':'\ud83d\udc1d',
+  'beer':'\ud83c\udf7a',
+  'beers':'\ud83c\udf7b',
+  'beetle':'\ud83d\udc1e',
+  'beginner':'\ud83d\udd30',
+  'bell':'\ud83d\udd14',
+  'bellhop_bell':'\ud83d\udece',
+  'bento':'\ud83c\udf71',
+  'biking_man':'\ud83d\udeb4',
+  'bike':'\ud83d\udeb2',
+  'biking_woman':'\ud83d\udeb4&zwj;\u2640\ufe0f',
+  'bikini':'\ud83d\udc59',
+  'biohazard':'\u2623\ufe0f',
+  'bird':'\ud83d\udc26',
+  'birthday':'\ud83c\udf82',
+  'black_circle':'\u26ab\ufe0f',
+  'black_flag':'\ud83c\udff4',
+  'black_heart':'\ud83d\udda4',
+  'black_joker':'\ud83c\udccf',
+  'black_large_square':'\u2b1b\ufe0f',
+  'black_medium_small_square':'\u25fe\ufe0f',
+  'black_medium_square':'\u25fc\ufe0f',
+  'black_nib':'\u2712\ufe0f',
+  'black_small_square':'\u25aa\ufe0f',
+  'black_square_button':'\ud83d\udd32',
+  'blonde_man':'\ud83d\udc71',
+  'blonde_woman':'\ud83d\udc71&zwj;\u2640\ufe0f',
+  'blossom':'\ud83c\udf3c',
+  'blowfish':'\ud83d\udc21',
+  'blue_book':'\ud83d\udcd8',
+  'blue_car':'\ud83d\ude99',
+  'blue_heart':'\ud83d\udc99',
+  'blush':'\ud83d\ude0a',
+  'boar':'\ud83d\udc17',
+  'boat':'\u26f5\ufe0f',
+  'bomb':'\ud83d\udca3',
+  'book':'\ud83d\udcd6',
+  'bookmark':'\ud83d\udd16',
+  'bookmark_tabs':'\ud83d\udcd1',
+  'books':'\ud83d\udcda',
+  'boom':'\ud83d\udca5',
+  'boot':'\ud83d\udc62',
+  'bouquet':'\ud83d\udc90',
+  'bowing_man':'\ud83d\ude47',
+  'bow_and_arrow':'\ud83c\udff9',
+  'bowing_woman':'\ud83d\ude47&zwj;\u2640\ufe0f',
+  'bowling':'\ud83c\udfb3',
+  'boxing_glove':'\ud83e\udd4a',
+  'boy':'\ud83d\udc66',
+  'bread':'\ud83c\udf5e',
+  'bride_with_veil':'\ud83d\udc70',
+  'bridge_at_night':'\ud83c\udf09',
+  'briefcase':'\ud83d\udcbc',
+  'broken_heart':'\ud83d\udc94',
+  'bug':'\ud83d\udc1b',
+  'building_construction':'\ud83c\udfd7',
+  'bulb':'\ud83d\udca1',
+  'bullettrain_front':'\ud83d\ude85',
+  'bullettrain_side':'\ud83d\ude84',
+  'burrito':'\ud83c\udf2f',
+  'bus':'\ud83d\ude8c',
+  'business_suit_levitating':'\ud83d\udd74',
+  'busstop':'\ud83d\ude8f',
+  'bust_in_silhouette':'\ud83d\udc64',
+  'busts_in_silhouette':'\ud83d\udc65',
+  'butterfly':'\ud83e\udd8b',
+  'cactus':'\ud83c\udf35',
+  'cake':'\ud83c\udf70',
+  'calendar':'\ud83d\udcc6',
+  'call_me_hand':'\ud83e\udd19',
+  'calling':'\ud83d\udcf2',
+  'camel':'\ud83d\udc2b',
+  'camera':'\ud83d\udcf7',
+  'camera_flash':'\ud83d\udcf8',
+  'camping':'\ud83c\udfd5',
+  'cancer':'\u264b\ufe0f',
+  'candle':'\ud83d\udd6f',
+  'candy':'\ud83c\udf6c',
+  'canoe':'\ud83d\udef6',
+  'capital_abcd':'\ud83d\udd20',
+  'capricorn':'\u2651\ufe0f',
+  'car':'\ud83d\ude97',
+  'card_file_box':'\ud83d\uddc3',
+  'card_index':'\ud83d\udcc7',
+  'card_index_dividers':'\ud83d\uddc2',
+  'carousel_horse':'\ud83c\udfa0',
+  'carrot':'\ud83e\udd55',
+  'cat':'\ud83d\udc31',
+  'cat2':'\ud83d\udc08',
+  'cd':'\ud83d\udcbf',
+  'chains':'\u26d3',
+  'champagne':'\ud83c\udf7e',
+  'chart':'\ud83d\udcb9',
+  'chart_with_downwards_trend':'\ud83d\udcc9',
+  'chart_with_upwards_trend':'\ud83d\udcc8',
+  'checkered_flag':'\ud83c\udfc1',
+  'cheese':'\ud83e\uddc0',
+  'cherries':'\ud83c\udf52',
+  'cherry_blossom':'\ud83c\udf38',
+  'chestnut':'\ud83c\udf30',
+  'chicken':'\ud83d\udc14',
+  'children_crossing':'\ud83d\udeb8',
+  'chipmunk':'\ud83d\udc3f',
+  'chocolate_bar':'\ud83c\udf6b',
+  'christmas_tree':'\ud83c\udf84',
+  'church':'\u26ea\ufe0f',
+  'cinema':'\ud83c\udfa6',
+  'circus_tent':'\ud83c\udfaa',
+  'city_sunrise':'\ud83c\udf07',
+  'city_sunset':'\ud83c\udf06',
+  'cityscape':'\ud83c\udfd9',
+  'cl':'\ud83c\udd91',
+  'clamp':'\ud83d\udddc',
+  'clap':'\ud83d\udc4f',
+  'clapper':'\ud83c\udfac',
+  'classical_building':'\ud83c\udfdb',
+  'clinking_glasses':'\ud83e\udd42',
+  'clipboard':'\ud83d\udccb',
+  'clock1':'\ud83d\udd50',
+  'clock10':'\ud83d\udd59',
+  'clock1030':'\ud83d\udd65',
+  'clock11':'\ud83d\udd5a',
+  'clock1130':'\ud83d\udd66',
+  'clock12':'\ud83d\udd5b',
+  'clock1230':'\ud83d\udd67',
+  'clock130':'\ud83d\udd5c',
+  'clock2':'\ud83d\udd51',
+  'clock230':'\ud83d\udd5d',
+  'clock3':'\ud83d\udd52',
+  'clock330':'\ud83d\udd5e',
+  'clock4':'\ud83d\udd53',
+  'clock430':'\ud83d\udd5f',
+  'clock5':'\ud83d\udd54',
+  'clock530':'\ud83d\udd60',
+  'clock6':'\ud83d\udd55',
+  'clock630':'\ud83d\udd61',
+  'clock7':'\ud83d\udd56',
+  'clock730':'\ud83d\udd62',
+  'clock8':'\ud83d\udd57',
+  'clock830':'\ud83d\udd63',
+  'clock9':'\ud83d\udd58',
+  'clock930':'\ud83d\udd64',
+  'closed_book':'\ud83d\udcd5',
+  'closed_lock_with_key':'\ud83d\udd10',
+  'closed_umbrella':'\ud83c\udf02',
+  'cloud':'\u2601\ufe0f',
+  'cloud_with_lightning':'\ud83c\udf29',
+  'cloud_with_lightning_and_rain':'\u26c8',
+  'cloud_with_rain':'\ud83c\udf27',
+  'cloud_with_snow':'\ud83c\udf28',
+  'clown_face':'\ud83e\udd21',
+  'clubs':'\u2663\ufe0f',
+  'cocktail':'\ud83c\udf78',
+  'coffee':'\u2615\ufe0f',
+  'coffin':'\u26b0\ufe0f',
+  'cold_sweat':'\ud83d\ude30',
+  'comet':'\u2604\ufe0f',
+  'computer':'\ud83d\udcbb',
+  'computer_mouse':'\ud83d\uddb1',
+  'confetti_ball':'\ud83c\udf8a',
+  'confounded':'\ud83d\ude16',
+  'confused':'\ud83d\ude15',
+  'congratulations':'\u3297\ufe0f',
+  'construction':'\ud83d\udea7',
+  'construction_worker_man':'\ud83d\udc77',
+  'construction_worker_woman':'\ud83d\udc77&zwj;\u2640\ufe0f',
+  'control_knobs':'\ud83c\udf9b',
+  'convenience_store':'\ud83c\udfea',
+  'cookie':'\ud83c\udf6a',
+  'cool':'\ud83c\udd92',
+  'policeman':'\ud83d\udc6e',
+  'copyright':'\u00a9\ufe0f',
+  'corn':'\ud83c\udf3d',
+  'couch_and_lamp':'\ud83d\udecb',
+  'couple':'\ud83d\udc6b',
+  'couple_with_heart_woman_man':'\ud83d\udc91',
+  'couple_with_heart_man_man':'\ud83d\udc68&zwj;\u2764\ufe0f&zwj;\ud83d\udc68',
+  'couple_with_heart_woman_woman':'\ud83d\udc69&zwj;\u2764\ufe0f&zwj;\ud83d\udc69',
+  'couplekiss_man_man':'\ud83d\udc68&zwj;\u2764\ufe0f&zwj;\ud83d\udc8b&zwj;\ud83d\udc68',
+  'couplekiss_man_woman':'\ud83d\udc8f',
+  'couplekiss_woman_woman':'\ud83d\udc69&zwj;\u2764\ufe0f&zwj;\ud83d\udc8b&zwj;\ud83d\udc69',
+  'cow':'\ud83d\udc2e',
+  'cow2':'\ud83d\udc04',
+  'cowboy_hat_face':'\ud83e\udd20',
+  'crab':'\ud83e\udd80',
+  'crayon':'\ud83d\udd8d',
+  'credit_card':'\ud83d\udcb3',
+  'crescent_moon':'\ud83c\udf19',
+  'cricket':'\ud83c\udfcf',
+  'crocodile':'\ud83d\udc0a',
+  'croissant':'\ud83e\udd50',
+  'crossed_fingers':'\ud83e\udd1e',
+  'crossed_flags':'\ud83c\udf8c',
+  'crossed_swords':'\u2694\ufe0f',
+  'crown':'\ud83d\udc51',
+  'cry':'\ud83d\ude22',
+  'crying_cat_face':'\ud83d\ude3f',
+  'crystal_ball':'\ud83d\udd2e',
+  'cucumber':'\ud83e\udd52',
+  'cupid':'\ud83d\udc98',
+  'curly_loop':'\u27b0',
+  'currency_exchange':'\ud83d\udcb1',
+  'curry':'\ud83c\udf5b',
+  'custard':'\ud83c\udf6e',
+  'customs':'\ud83d\udec3',
+  'cyclone':'\ud83c\udf00',
+  'dagger':'\ud83d\udde1',
+  'dancer':'\ud83d\udc83',
+  'dancing_women':'\ud83d\udc6f',
+  'dancing_men':'\ud83d\udc6f&zwj;\u2642\ufe0f',
+  'dango':'\ud83c\udf61',
+  'dark_sunglasses':'\ud83d\udd76',
+  'dart':'\ud83c\udfaf',
+  'dash':'\ud83d\udca8',
+  'date':'\ud83d\udcc5',
+  'deciduous_tree':'\ud83c\udf33',
+  'deer':'\ud83e\udd8c',
+  'department_store':'\ud83c\udfec',
+  'derelict_house':'\ud83c\udfda',
+  'desert':'\ud83c\udfdc',
+  'desert_island':'\ud83c\udfdd',
+  'desktop_computer':'\ud83d\udda5',
+  'male_detective':'\ud83d\udd75\ufe0f',
+  'diamond_shape_with_a_dot_inside':'\ud83d\udca0',
+  'diamonds':'\u2666\ufe0f',
+  'disappointed':'\ud83d\ude1e',
+  'disappointed_relieved':'\ud83d\ude25',
+  'dizzy':'\ud83d\udcab',
+  'dizzy_face':'\ud83d\ude35',
+  'do_not_litter':'\ud83d\udeaf',
+  'dog':'\ud83d\udc36',
+  'dog2':'\ud83d\udc15',
+  'dollar':'\ud83d\udcb5',
+  'dolls':'\ud83c\udf8e',
+  'dolphin':'\ud83d\udc2c',
+  'door':'\ud83d\udeaa',
+  'doughnut':'\ud83c\udf69',
+  'dove':'\ud83d\udd4a',
+  'dragon':'\ud83d\udc09',
+  'dragon_face':'\ud83d\udc32',
+  'dress':'\ud83d\udc57',
+  'dromedary_camel':'\ud83d\udc2a',
+  'drooling_face':'\ud83e\udd24',
+  'droplet':'\ud83d\udca7',
+  'drum':'\ud83e\udd41',
+  'duck':'\ud83e\udd86',
+  'dvd':'\ud83d\udcc0',
+  'e-mail':'\ud83d\udce7',
+  'eagle':'\ud83e\udd85',
+  'ear':'\ud83d\udc42',
+  'ear_of_rice':'\ud83c\udf3e',
+  'earth_africa':'\ud83c\udf0d',
+  'earth_americas':'\ud83c\udf0e',
+  'earth_asia':'\ud83c\udf0f',
+  'egg':'\ud83e\udd5a',
+  'eggplant':'\ud83c\udf46',
+  'eight_pointed_black_star':'\u2734\ufe0f',
+  'eight_spoked_asterisk':'\u2733\ufe0f',
+  'electric_plug':'\ud83d\udd0c',
+  'elephant':'\ud83d\udc18',
+  'email':'\u2709\ufe0f',
+  'end':'\ud83d\udd1a',
+  'envelope_with_arrow':'\ud83d\udce9',
+  'euro':'\ud83d\udcb6',
+  'european_castle':'\ud83c\udff0',
+  'european_post_office':'\ud83c\udfe4',
+  'evergreen_tree':'\ud83c\udf32',
+  'exclamation':'\u2757\ufe0f',
+  'expressionless':'\ud83d\ude11',
+  'eye':'\ud83d\udc41',
+  'eye_speech_bubble':'\ud83d\udc41&zwj;\ud83d\udde8',
+  'eyeglasses':'\ud83d\udc53',
+  'eyes':'\ud83d\udc40',
+  'face_with_head_bandage':'\ud83e\udd15',
+  'face_with_thermometer':'\ud83e\udd12',
+  'fist_oncoming':'\ud83d\udc4a',
+  'factory':'\ud83c\udfed',
+  'fallen_leaf':'\ud83c\udf42',
+  'family_man_woman_boy':'\ud83d\udc6a',
+  'family_man_boy':'\ud83d\udc68&zwj;\ud83d\udc66',
+  'family_man_boy_boy':'\ud83d\udc68&zwj;\ud83d\udc66&zwj;\ud83d\udc66',
+  'family_man_girl':'\ud83d\udc68&zwj;\ud83d\udc67',
+  'family_man_girl_boy':'\ud83d\udc68&zwj;\ud83d\udc67&zwj;\ud83d\udc66',
+  'family_man_girl_girl':'\ud83d\udc68&zwj;\ud83d\udc67&zwj;\ud83d\udc67',
+  'family_man_man_boy':'\ud83d\udc68&zwj;\ud83d\udc68&zwj;\ud83d\udc66',
+  'family_man_man_boy_boy':'\ud83d\udc68&zwj;\ud83d\udc68&zwj;\ud83d\udc66&zwj;\ud83d\udc66',
+  'family_man_man_girl':'\ud83d\udc68&zwj;\ud83d\udc68&zwj;\ud83d\udc67',
+  'family_man_man_girl_boy':'\ud83d\udc68&zwj;\ud83d\udc68&zwj;\ud83d\udc67&zwj;\ud83d\udc66',
+  'family_man_man_girl_girl':'\ud83d\udc68&zwj;\ud83d\udc68&zwj;\ud83d\udc67&zwj;\ud83d\udc67',
+  'family_man_woman_boy_boy':'\ud83d\udc68&zwj;\ud83d\udc69&zwj;\ud83d\udc66&zwj;\ud83d\udc66',
+  'family_man_woman_girl':'\ud83d\udc68&zwj;\ud83d\udc69&zwj;\ud83d\udc67',
+  'family_man_woman_girl_boy':'\ud83d\udc68&zwj;\ud83d\udc69&zwj;\ud83d\udc67&zwj;\ud83d\udc66',
+  'family_man_woman_girl_girl':'\ud83d\udc68&zwj;\ud83d\udc69&zwj;\ud83d\udc67&zwj;\ud83d\udc67',
+  'family_woman_boy':'\ud83d\udc69&zwj;\ud83d\udc66',
+  'family_woman_boy_boy':'\ud83d\udc69&zwj;\ud83d\udc66&zwj;\ud83d\udc66',
+  'family_woman_girl':'\ud83d\udc69&zwj;\ud83d\udc67',
+  'family_woman_girl_boy':'\ud83d\udc69&zwj;\ud83d\udc67&zwj;\ud83d\udc66',
+  'family_woman_girl_girl':'\ud83d\udc69&zwj;\ud83d\udc67&zwj;\ud83d\udc67',
+  'family_woman_woman_boy':'\ud83d\udc69&zwj;\ud83d\udc69&zwj;\ud83d\udc66',
+  'family_woman_woman_boy_boy':'\ud83d\udc69&zwj;\ud83d\udc69&zwj;\ud83d\udc66&zwj;\ud83d\udc66',
+  'family_woman_woman_girl':'\ud83d\udc69&zwj;\ud83d\udc69&zwj;\ud83d\udc67',
+  'family_woman_woman_girl_boy':'\ud83d\udc69&zwj;\ud83d\udc69&zwj;\ud83d\udc67&zwj;\ud83d\udc66',
+  'family_woman_woman_girl_girl':'\ud83d\udc69&zwj;\ud83d\udc69&zwj;\ud83d\udc67&zwj;\ud83d\udc67',
+  'fast_forward':'\u23e9',
+  'fax':'\ud83d\udce0',
+  'fearful':'\ud83d\ude28',
+  'feet':'\ud83d\udc3e',
+  'female_detective':'\ud83d\udd75\ufe0f&zwj;\u2640\ufe0f',
+  'ferris_wheel':'\ud83c\udfa1',
+  'ferry':'\u26f4',
+  'field_hockey':'\ud83c\udfd1',
+  'file_cabinet':'\ud83d\uddc4',
+  'file_folder':'\ud83d\udcc1',
+  'film_projector':'\ud83d\udcfd',
+  'film_strip':'\ud83c\udf9e',
+  'fire':'\ud83d\udd25',
+  'fire_engine':'\ud83d\ude92',
+  'fireworks':'\ud83c\udf86',
+  'first_quarter_moon':'\ud83c\udf13',
+  'first_quarter_moon_with_face':'\ud83c\udf1b',
+  'fish':'\ud83d\udc1f',
+  'fish_cake':'\ud83c\udf65',
+  'fishing_pole_and_fish':'\ud83c\udfa3',
+  'fist_raised':'\u270a',
+  'fist_left':'\ud83e\udd1b',
+  'fist_right':'\ud83e\udd1c',
+  'flags':'\ud83c\udf8f',
+  'flashlight':'\ud83d\udd26',
+  'fleur_de_lis':'\u269c\ufe0f',
+  'flight_arrival':'\ud83d\udeec',
+  'flight_departure':'\ud83d\udeeb',
+  'floppy_disk':'\ud83d\udcbe',
+  'flower_playing_cards':'\ud83c\udfb4',
+  'flushed':'\ud83d\ude33',
+  'fog':'\ud83c\udf2b',
+  'foggy':'\ud83c\udf01',
+  'football':'\ud83c\udfc8',
+  'footprints':'\ud83d\udc63',
+  'fork_and_knife':'\ud83c\udf74',
+  'fountain':'\u26f2\ufe0f',
+  'fountain_pen':'\ud83d\udd8b',
+  'four_leaf_clover':'\ud83c\udf40',
+  'fox_face':'\ud83e\udd8a',
+  'framed_picture':'\ud83d\uddbc',
+  'free':'\ud83c\udd93',
+  'fried_egg':'\ud83c\udf73',
+  'fried_shrimp':'\ud83c\udf64',
+  'fries':'\ud83c\udf5f',
+  'frog':'\ud83d\udc38',
+  'frowning':'\ud83d\ude26',
+  'frowning_face':'\u2639\ufe0f',
+  'frowning_man':'\ud83d\ude4d&zwj;\u2642\ufe0f',
+  'frowning_woman':'\ud83d\ude4d',
+  'middle_finger':'\ud83d\udd95',
+  'fuelpump':'\u26fd\ufe0f',
+  'full_moon':'\ud83c\udf15',
+  'full_moon_with_face':'\ud83c\udf1d',
+  'funeral_urn':'\u26b1\ufe0f',
+  'game_die':'\ud83c\udfb2',
+  'gear':'\u2699\ufe0f',
+  'gem':'\ud83d\udc8e',
+  'gemini':'\u264a\ufe0f',
+  'ghost':'\ud83d\udc7b',
+  'gift':'\ud83c\udf81',
+  'gift_heart':'\ud83d\udc9d',
+  'girl':'\ud83d\udc67',
+  'globe_with_meridians':'\ud83c\udf10',
+  'goal_net':'\ud83e\udd45',
+  'goat':'\ud83d\udc10',
+  'golf':'\u26f3\ufe0f',
+  'golfing_man':'\ud83c\udfcc\ufe0f',
+  'golfing_woman':'\ud83c\udfcc\ufe0f&zwj;\u2640\ufe0f',
+  'gorilla':'\ud83e\udd8d',
+  'grapes':'\ud83c\udf47',
+  'green_apple':'\ud83c\udf4f',
+  'green_book':'\ud83d\udcd7',
+  'green_heart':'\ud83d\udc9a',
+  'green_salad':'\ud83e\udd57',
+  'grey_exclamation':'\u2755',
+  'grey_question':'\u2754',
+  'grimacing':'\ud83d\ude2c',
+  'grin':'\ud83d\ude01',
+  'grinning':'\ud83d\ude00',
+  'guardsman':'\ud83d\udc82',
+  'guardswoman':'\ud83d\udc82&zwj;\u2640\ufe0f',
+  'guitar':'\ud83c\udfb8',
+  'gun':'\ud83d\udd2b',
+  'haircut_woman':'\ud83d\udc87',
+  'haircut_man':'\ud83d\udc87&zwj;\u2642\ufe0f',
+  'hamburger':'\ud83c\udf54',
+  'hammer':'\ud83d\udd28',
+  'hammer_and_pick':'\u2692',
+  'hammer_and_wrench':'\ud83d\udee0',
+  'hamster':'\ud83d\udc39',
+  'hand':'\u270b',
+  'handbag':'\ud83d\udc5c',
+  'handshake':'\ud83e\udd1d',
+  'hankey':'\ud83d\udca9',
+  'hatched_chick':'\ud83d\udc25',
+  'hatching_chick':'\ud83d\udc23',
+  'headphones':'\ud83c\udfa7',
+  'hear_no_evil':'\ud83d\ude49',
+  'heart':'\u2764\ufe0f',
+  'heart_decoration':'\ud83d\udc9f',
+  'heart_eyes':'\ud83d\ude0d',
+  'heart_eyes_cat':'\ud83d\ude3b',
+  'heartbeat':'\ud83d\udc93',
+  'heartpulse':'\ud83d\udc97',
+  'hearts':'\u2665\ufe0f',
+  'heavy_check_mark':'\u2714\ufe0f',
+  'heavy_division_sign':'\u2797',
+  'heavy_dollar_sign':'\ud83d\udcb2',
+  'heavy_heart_exclamation':'\u2763\ufe0f',
+  'heavy_minus_sign':'\u2796',
+  'heavy_multiplication_x':'\u2716\ufe0f',
+  'heavy_plus_sign':'\u2795',
+  'helicopter':'\ud83d\ude81',
+  'herb':'\ud83c\udf3f',
+  'hibiscus':'\ud83c\udf3a',
+  'high_brightness':'\ud83d\udd06',
+  'high_heel':'\ud83d\udc60',
+  'hocho':'\ud83d\udd2a',
+  'hole':'\ud83d\udd73',
+  'honey_pot':'\ud83c\udf6f',
+  'horse':'\ud83d\udc34',
+  'horse_racing':'\ud83c\udfc7',
+  'hospital':'\ud83c\udfe5',
+  'hot_pepper':'\ud83c\udf36',
+  'hotdog':'\ud83c\udf2d',
+  'hotel':'\ud83c\udfe8',
+  'hotsprings':'\u2668\ufe0f',
+  'hourglass':'\u231b\ufe0f',
+  'hourglass_flowing_sand':'\u23f3',
+  'house':'\ud83c\udfe0',
+  'house_with_garden':'\ud83c\udfe1',
+  'houses':'\ud83c\udfd8',
+  'hugs':'\ud83e\udd17',
+  'hushed':'\ud83d\ude2f',
+  'ice_cream':'\ud83c\udf68',
+  'ice_hockey':'\ud83c\udfd2',
+  'ice_skate':'\u26f8',
+  'icecream':'\ud83c\udf66',
+  'id':'\ud83c\udd94',
+  'ideograph_advantage':'\ud83c\ude50',
+  'imp':'\ud83d\udc7f',
+  'inbox_tray':'\ud83d\udce5',
+  'incoming_envelope':'\ud83d\udce8',
+  'tipping_hand_woman':'\ud83d\udc81',
+  'information_source':'\u2139\ufe0f',
+  'innocent':'\ud83d\ude07',
+  'interrobang':'\u2049\ufe0f',
+  'iphone':'\ud83d\udcf1',
+  'izakaya_lantern':'\ud83c\udfee',
+  'jack_o_lantern':'\ud83c\udf83',
+  'japan':'\ud83d\uddfe',
+  'japanese_castle':'\ud83c\udfef',
+  'japanese_goblin':'\ud83d\udc7a',
+  'japanese_ogre':'\ud83d\udc79',
+  'jeans':'\ud83d\udc56',
+  'joy':'\ud83d\ude02',
+  'joy_cat':'\ud83d\ude39',
+  'joystick':'\ud83d\udd79',
+  'kaaba':'\ud83d\udd4b',
+  'key':'\ud83d\udd11',
+  'keyboard':'\u2328\ufe0f',
+  'keycap_ten':'\ud83d\udd1f',
+  'kick_scooter':'\ud83d\udef4',
+  'kimono':'\ud83d\udc58',
+  'kiss':'\ud83d\udc8b',
+  'kissing':'\ud83d\ude17',
+  'kissing_cat':'\ud83d\ude3d',
+  'kissing_closed_eyes':'\ud83d\ude1a',
+  'kissing_heart':'\ud83d\ude18',
+  'kissing_smiling_eyes':'\ud83d\ude19',
+  'kiwi_fruit':'\ud83e\udd5d',
+  'koala':'\ud83d\udc28',
+  'koko':'\ud83c\ude01',
+  'label':'\ud83c\udff7',
+  'large_blue_circle':'\ud83d\udd35',
+  'large_blue_diamond':'\ud83d\udd37',
+  'large_orange_diamond':'\ud83d\udd36',
+  'last_quarter_moon':'\ud83c\udf17',
+  'last_quarter_moon_with_face':'\ud83c\udf1c',
+  'latin_cross':'\u271d\ufe0f',
+  'laughing':'\ud83d\ude06',
+  'leaves':'\ud83c\udf43',
+  'ledger':'\ud83d\udcd2',
+  'left_luggage':'\ud83d\udec5',
+  'left_right_arrow':'\u2194\ufe0f',
+  'leftwards_arrow_with_hook':'\u21a9\ufe0f',
+  'lemon':'\ud83c\udf4b',
+  'leo':'\u264c\ufe0f',
+  'leopard':'\ud83d\udc06',
+  'level_slider':'\ud83c\udf9a',
+  'libra':'\u264e\ufe0f',
+  'light_rail':'\ud83d\ude88',
+  'link':'\ud83d\udd17',
+  'lion':'\ud83e\udd81',
+  'lips':'\ud83d\udc44',
+  'lipstick':'\ud83d\udc84',
+  'lizard':'\ud83e\udd8e',
+  'lock':'\ud83d\udd12',
+  'lock_with_ink_pen':'\ud83d\udd0f',
+  'lollipop':'\ud83c\udf6d',
+  'loop':'\u27bf',
+  'loud_sound':'\ud83d\udd0a',
+  'loudspeaker':'\ud83d\udce2',
+  'love_hotel':'\ud83c\udfe9',
+  'love_letter':'\ud83d\udc8c',
+  'low_brightness':'\ud83d\udd05',
+  'lying_face':'\ud83e\udd25',
+  'm':'\u24c2\ufe0f',
+  'mag':'\ud83d\udd0d',
+  'mag_right':'\ud83d\udd0e',
+  'mahjong':'\ud83c\udc04\ufe0f',
+  'mailbox':'\ud83d\udceb',
+  'mailbox_closed':'\ud83d\udcea',
+  'mailbox_with_mail':'\ud83d\udcec',
+  'mailbox_with_no_mail':'\ud83d\udced',
+  'man':'\ud83d\udc68',
+  'man_artist':'\ud83d\udc68&zwj;\ud83c\udfa8',
+  'man_astronaut':'\ud83d\udc68&zwj;\ud83d\ude80',
+  'man_cartwheeling':'\ud83e\udd38&zwj;\u2642\ufe0f',
+  'man_cook':'\ud83d\udc68&zwj;\ud83c\udf73',
+  'man_dancing':'\ud83d\udd7a',
+  'man_facepalming':'\ud83e\udd26&zwj;\u2642\ufe0f',
+  'man_factory_worker':'\ud83d\udc68&zwj;\ud83c\udfed',
+  'man_farmer':'\ud83d\udc68&zwj;\ud83c\udf3e',
+  'man_firefighter':'\ud83d\udc68&zwj;\ud83d\ude92',
+  'man_health_worker':'\ud83d\udc68&zwj;\u2695\ufe0f',
+  'man_in_tuxedo':'\ud83e\udd35',
+  'man_judge':'\ud83d\udc68&zwj;\u2696\ufe0f',
+  'man_juggling':'\ud83e\udd39&zwj;\u2642\ufe0f',
+  'man_mechanic':'\ud83d\udc68&zwj;\ud83d\udd27',
+  'man_office_worker':'\ud83d\udc68&zwj;\ud83d\udcbc',
+  'man_pilot':'\ud83d\udc68&zwj;\u2708\ufe0f',
+  'man_playing_handball':'\ud83e\udd3e&zwj;\u2642\ufe0f',
+  'man_playing_water_polo':'\ud83e\udd3d&zwj;\u2642\ufe0f',
+  'man_scientist':'\ud83d\udc68&zwj;\ud83d\udd2c',
+  'man_shrugging':'\ud83e\udd37&zwj;\u2642\ufe0f',
+  'man_singer':'\ud83d\udc68&zwj;\ud83c\udfa4',
+  'man_student':'\ud83d\udc68&zwj;\ud83c\udf93',
+  'man_teacher':'\ud83d\udc68&zwj;\ud83c\udfeb',
+  'man_technologist':'\ud83d\udc68&zwj;\ud83d\udcbb',
+  'man_with_gua_pi_mao':'\ud83d\udc72',
+  'man_with_turban':'\ud83d\udc73',
+  'tangerine':'\ud83c\udf4a',
+  'mans_shoe':'\ud83d\udc5e',
+  'mantelpiece_clock':'\ud83d\udd70',
+  'maple_leaf':'\ud83c\udf41',
+  'martial_arts_uniform':'\ud83e\udd4b',
+  'mask':'\ud83d\ude37',
+  'massage_woman':'\ud83d\udc86',
+  'massage_man':'\ud83d\udc86&zwj;\u2642\ufe0f',
+  'meat_on_bone':'\ud83c\udf56',
+  'medal_military':'\ud83c\udf96',
+  'medal_sports':'\ud83c\udfc5',
+  'mega':'\ud83d\udce3',
+  'melon':'\ud83c\udf48',
+  'memo':'\ud83d\udcdd',
+  'men_wrestling':'\ud83e\udd3c&zwj;\u2642\ufe0f',
+  'menorah':'\ud83d\udd4e',
+  'mens':'\ud83d\udeb9',
+  'metal':'\ud83e\udd18',
+  'metro':'\ud83d\ude87',
+  'microphone':'\ud83c\udfa4',
+  'microscope':'\ud83d\udd2c',
+  'milk_glass':'\ud83e\udd5b',
+  'milky_way':'\ud83c\udf0c',
+  'minibus':'\ud83d\ude90',
+  'minidisc':'\ud83d\udcbd',
+  'mobile_phone_off':'\ud83d\udcf4',
+  'money_mouth_face':'\ud83e\udd11',
+  'money_with_wings':'\ud83d\udcb8',
+  'moneybag':'\ud83d\udcb0',
+  'monkey':'\ud83d\udc12',
+  'monkey_face':'\ud83d\udc35',
+  'monorail':'\ud83d\ude9d',
+  'moon':'\ud83c\udf14',
+  'mortar_board':'\ud83c\udf93',
+  'mosque':'\ud83d\udd4c',
+  'motor_boat':'\ud83d\udee5',
+  'motor_scooter':'\ud83d\udef5',
+  'motorcycle':'\ud83c\udfcd',
+  'motorway':'\ud83d\udee3',
+  'mount_fuji':'\ud83d\uddfb',
+  'mountain':'\u26f0',
+  'mountain_biking_man':'\ud83d\udeb5',
+  'mountain_biking_woman':'\ud83d\udeb5&zwj;\u2640\ufe0f',
+  'mountain_cableway':'\ud83d\udea0',
+  'mountain_railway':'\ud83d\ude9e',
+  'mountain_snow':'\ud83c\udfd4',
+  'mouse':'\ud83d\udc2d',
+  'mouse2':'\ud83d\udc01',
+  'movie_camera':'\ud83c\udfa5',
+  'moyai':'\ud83d\uddff',
+  'mrs_claus':'\ud83e\udd36',
+  'muscle':'\ud83d\udcaa',
+  'mushroom':'\ud83c\udf44',
+  'musical_keyboard':'\ud83c\udfb9',
+  'musical_note':'\ud83c\udfb5',
+  'musical_score':'\ud83c\udfbc',
+  'mute':'\ud83d\udd07',
+  'nail_care':'\ud83d\udc85',
+  'name_badge':'\ud83d\udcdb',
+  'national_park':'\ud83c\udfde',
+  'nauseated_face':'\ud83e\udd22',
+  'necktie':'\ud83d\udc54',
+  'negative_squared_cross_mark':'\u274e',
+  'nerd_face':'\ud83e\udd13',
+  'neutral_face':'\ud83d\ude10',
+  'new':'\ud83c\udd95',
+  'new_moon':'\ud83c\udf11',
+  'new_moon_with_face':'\ud83c\udf1a',
+  'newspaper':'\ud83d\udcf0',
+  'newspaper_roll':'\ud83d\uddde',
+  'next_track_button':'\u23ed',
+  'ng':'\ud83c\udd96',
+  'no_good_man':'\ud83d\ude45&zwj;\u2642\ufe0f',
+  'no_good_woman':'\ud83d\ude45',
+  'night_with_stars':'\ud83c\udf03',
+  'no_bell':'\ud83d\udd15',
+  'no_bicycles':'\ud83d\udeb3',
+  'no_entry':'\u26d4\ufe0f',
+  'no_entry_sign':'\ud83d\udeab',
+  'no_mobile_phones':'\ud83d\udcf5',
+  'no_mouth':'\ud83d\ude36',
+  'no_pedestrians':'\ud83d\udeb7',
+  'no_smoking':'\ud83d\udead',
+  'non-potable_water':'\ud83d\udeb1',
+  'nose':'\ud83d\udc43',
+  'notebook':'\ud83d\udcd3',
+  'notebook_with_decorative_cover':'\ud83d\udcd4',
+  'notes':'\ud83c\udfb6',
+  'nut_and_bolt':'\ud83d\udd29',
+  'o':'\u2b55\ufe0f',
+  'o2':'\ud83c\udd7e\ufe0f',
+  'ocean':'\ud83c\udf0a',
+  'octopus':'\ud83d\udc19',
+  'oden':'\ud83c\udf62',
+  'office':'\ud83c\udfe2',
+  'oil_drum':'\ud83d\udee2',
+  'ok':'\ud83c\udd97',
+  'ok_hand':'\ud83d\udc4c',
+  'ok_man':'\ud83d\ude46&zwj;\u2642\ufe0f',
+  'ok_woman':'\ud83d\ude46',
+  'old_key':'\ud83d\udddd',
+  'older_man':'\ud83d\udc74',
+  'older_woman':'\ud83d\udc75',
+  'om':'\ud83d\udd49',
+  'on':'\ud83d\udd1b',
+  'oncoming_automobile':'\ud83d\ude98',
+  'oncoming_bus':'\ud83d\ude8d',
+  'oncoming_police_car':'\ud83d\ude94',
+  'oncoming_taxi':'\ud83d\ude96',
+  'open_file_folder':'\ud83d\udcc2',
+  'open_hands':'\ud83d\udc50',
+  'open_mouth':'\ud83d\ude2e',
+  'open_umbrella':'\u2602\ufe0f',
+  'ophiuchus':'\u26ce',
+  'orange_book':'\ud83d\udcd9',
+  'orthodox_cross':'\u2626\ufe0f',
+  'outbox_tray':'\ud83d\udce4',
+  'owl':'\ud83e\udd89',
+  'ox':'\ud83d\udc02',
+  'package':'\ud83d\udce6',
+  'page_facing_up':'\ud83d\udcc4',
+  'page_with_curl':'\ud83d\udcc3',
+  'pager':'\ud83d\udcdf',
+  'paintbrush':'\ud83d\udd8c',
+  'palm_tree':'\ud83c\udf34',
+  'pancakes':'\ud83e\udd5e',
+  'panda_face':'\ud83d\udc3c',
+  'paperclip':'\ud83d\udcce',
+  'paperclips':'\ud83d\udd87',
+  'parasol_on_ground':'\u26f1',
+  'parking':'\ud83c\udd7f\ufe0f',
+  'part_alternation_mark':'\u303d\ufe0f',
+  'partly_sunny':'\u26c5\ufe0f',
+  'passenger_ship':'\ud83d\udef3',
+  'passport_control':'\ud83d\udec2',
+  'pause_button':'\u23f8',
+  'peace_symbol':'\u262e\ufe0f',
+  'peach':'\ud83c\udf51',
+  'peanuts':'\ud83e\udd5c',
+  'pear':'\ud83c\udf50',
+  'pen':'\ud83d\udd8a',
+  'pencil2':'\u270f\ufe0f',
+  'penguin':'\ud83d\udc27',
+  'pensive':'\ud83d\ude14',
+  'performing_arts':'\ud83c\udfad',
+  'persevere':'\ud83d\ude23',
+  'person_fencing':'\ud83e\udd3a',
+  'pouting_woman':'\ud83d\ude4e',
+  'phone':'\u260e\ufe0f',
+  'pick':'\u26cf',
+  'pig':'\ud83d\udc37',
+  'pig2':'\ud83d\udc16',
+  'pig_nose':'\ud83d\udc3d',
+  'pill':'\ud83d\udc8a',
+  'pineapple':'\ud83c\udf4d',
+  'ping_pong':'\ud83c\udfd3',
+  'pisces':'\u2653\ufe0f',
+  'pizza':'\ud83c\udf55',
+  'place_of_worship':'\ud83d\uded0',
+  'plate_with_cutlery':'\ud83c\udf7d',
+  'play_or_pause_button':'\u23ef',
+  'point_down':'\ud83d\udc47',
+  'point_left':'\ud83d\udc48',
+  'point_right':'\ud83d\udc49',
+  'point_up':'\u261d\ufe0f',
+  'point_up_2':'\ud83d\udc46',
+  'police_car':'\ud83d\ude93',
+  'policewoman':'\ud83d\udc6e&zwj;\u2640\ufe0f',
+  'poodle':'\ud83d\udc29',
+  'popcorn':'\ud83c\udf7f',
+  'post_office':'\ud83c\udfe3',
+  'postal_horn':'\ud83d\udcef',
+  'postbox':'\ud83d\udcee',
+  'potable_water':'\ud83d\udeb0',
+  'potato':'\ud83e\udd54',
+  'pouch':'\ud83d\udc5d',
+  'poultry_leg':'\ud83c\udf57',
+  'pound':'\ud83d\udcb7',
+  'rage':'\ud83d\ude21',
+  'pouting_cat':'\ud83d\ude3e',
+  'pouting_man':'\ud83d\ude4e&zwj;\u2642\ufe0f',
+  'pray':'\ud83d\ude4f',
+  'prayer_beads':'\ud83d\udcff',
+  'pregnant_woman':'\ud83e\udd30',
+  'previous_track_button':'\u23ee',
+  'prince':'\ud83e\udd34',
+  'princess':'\ud83d\udc78',
+  'printer':'\ud83d\udda8',
+  'purple_heart':'\ud83d\udc9c',
+  'purse':'\ud83d\udc5b',
+  'pushpin':'\ud83d\udccc',
+  'put_litter_in_its_place':'\ud83d\udeae',
+  'question':'\u2753',
+  'rabbit':'\ud83d\udc30',
+  'rabbit2':'\ud83d\udc07',
+  'racehorse':'\ud83d\udc0e',
+  'racing_car':'\ud83c\udfce',
+  'radio':'\ud83d\udcfb',
+  'radio_button':'\ud83d\udd18',
+  'radioactive':'\u2622\ufe0f',
+  'railway_car':'\ud83d\ude83',
+  'railway_track':'\ud83d\udee4',
+  'rainbow':'\ud83c\udf08',
+  'rainbow_flag':'\ud83c\udff3\ufe0f&zwj;\ud83c\udf08',
+  'raised_back_of_hand':'\ud83e\udd1a',
+  'raised_hand_with_fingers_splayed':'\ud83d\udd90',
+  'raised_hands':'\ud83d\ude4c',
+  'raising_hand_woman':'\ud83d\ude4b',
+  'raising_hand_man':'\ud83d\ude4b&zwj;\u2642\ufe0f',
+  'ram':'\ud83d\udc0f',
+  'ramen':'\ud83c\udf5c',
+  'rat':'\ud83d\udc00',
+  'record_button':'\u23fa',
+  'recycle':'\u267b\ufe0f',
+  'red_circle':'\ud83d\udd34',
+  'registered':'\u00ae\ufe0f',
+  'relaxed':'\u263a\ufe0f',
+  'relieved':'\ud83d\ude0c',
+  'reminder_ribbon':'\ud83c\udf97',
+  'repeat':'\ud83d\udd01',
+  'repeat_one':'\ud83d\udd02',
+  'rescue_worker_helmet':'\u26d1',
+  'restroom':'\ud83d\udebb',
+  'revolving_hearts':'\ud83d\udc9e',
+  'rewind':'\u23ea',
+  'rhinoceros':'\ud83e\udd8f',
+  'ribbon':'\ud83c\udf80',
+  'rice':'\ud83c\udf5a',
+  'rice_ball':'\ud83c\udf59',
+  'rice_cracker':'\ud83c\udf58',
+  'rice_scene':'\ud83c\udf91',
+  'right_anger_bubble':'\ud83d\uddef',
+  'ring':'\ud83d\udc8d',
+  'robot':'\ud83e\udd16',
+  'rocket':'\ud83d\ude80',
+  'rofl':'\ud83e\udd23',
+  'roll_eyes':'\ud83d\ude44',
+  'roller_coaster':'\ud83c\udfa2',
+  'rooster':'\ud83d\udc13',
+  'rose':'\ud83c\udf39',
+  'rosette':'\ud83c\udff5',
+  'rotating_light':'\ud83d\udea8',
+  'round_pushpin':'\ud83d\udccd',
+  'rowing_man':'\ud83d\udea3',
+  'rowing_woman':'\ud83d\udea3&zwj;\u2640\ufe0f',
+  'rugby_football':'\ud83c\udfc9',
+  'running_man':'\ud83c\udfc3',
+  'running_shirt_with_sash':'\ud83c\udfbd',
+  'running_woman':'\ud83c\udfc3&zwj;\u2640\ufe0f',
+  'sa':'\ud83c\ude02\ufe0f',
+  'sagittarius':'\u2650\ufe0f',
+  'sake':'\ud83c\udf76',
+  'sandal':'\ud83d\udc61',
+  'santa':'\ud83c\udf85',
+  'satellite':'\ud83d\udce1',
+  'saxophone':'\ud83c\udfb7',
+  'school':'\ud83c\udfeb',
+  'school_satchel':'\ud83c\udf92',
+  'scissors':'\u2702\ufe0f',
+  'scorpion':'\ud83e\udd82',
+  'scorpius':'\u264f\ufe0f',
+  'scream':'\ud83d\ude31',
+  'scream_cat':'\ud83d\ude40',
+  'scroll':'\ud83d\udcdc',
+  'seat':'\ud83d\udcba',
+  'secret':'\u3299\ufe0f',
+  'see_no_evil':'\ud83d\ude48',
+  'seedling':'\ud83c\udf31',
+  'selfie':'\ud83e\udd33',
+  'shallow_pan_of_food':'\ud83e\udd58',
+  'shamrock':'\u2618\ufe0f',
+  'shark':'\ud83e\udd88',
+  'shaved_ice':'\ud83c\udf67',
+  'sheep':'\ud83d\udc11',
+  'shell':'\ud83d\udc1a',
+  'shield':'\ud83d\udee1',
+  'shinto_shrine':'\u26e9',
+  'ship':'\ud83d\udea2',
+  'shirt':'\ud83d\udc55',
+  'shopping':'\ud83d\udecd',
+  'shopping_cart':'\ud83d\uded2',
+  'shower':'\ud83d\udebf',
+  'shrimp':'\ud83e\udd90',
+  'signal_strength':'\ud83d\udcf6',
+  'six_pointed_star':'\ud83d\udd2f',
+  'ski':'\ud83c\udfbf',
+  'skier':'\u26f7',
+  'skull':'\ud83d\udc80',
+  'skull_and_crossbones':'\u2620\ufe0f',
+  'sleeping':'\ud83d\ude34',
+  'sleeping_bed':'\ud83d\udecc',
+  'sleepy':'\ud83d\ude2a',
+  'slightly_frowning_face':'\ud83d\ude41',
+  'slightly_smiling_face':'\ud83d\ude42',
+  'slot_machine':'\ud83c\udfb0',
+  'small_airplane':'\ud83d\udee9',
+  'small_blue_diamond':'\ud83d\udd39',
+  'small_orange_diamond':'\ud83d\udd38',
+  'small_red_triangle':'\ud83d\udd3a',
+  'small_red_triangle_down':'\ud83d\udd3b',
+  'smile':'\ud83d\ude04',
+  'smile_cat':'\ud83d\ude38',
+  'smiley':'\ud83d\ude03',
+  'smiley_cat':'\ud83d\ude3a',
+  'smiling_imp':'\ud83d\ude08',
+  'smirk':'\ud83d\ude0f',
+  'smirk_cat':'\ud83d\ude3c',
+  'smoking':'\ud83d\udeac',
+  'snail':'\ud83d\udc0c',
+  'snake':'\ud83d\udc0d',
+  'sneezing_face':'\ud83e\udd27',
+  'snowboarder':'\ud83c\udfc2',
+  'snowflake':'\u2744\ufe0f',
+  'snowman':'\u26c4\ufe0f',
+  'snowman_with_snow':'\u2603\ufe0f',
+  'sob':'\ud83d\ude2d',
+  'soccer':'\u26bd\ufe0f',
+  'soon':'\ud83d\udd1c',
+  'sos':'\ud83c\udd98',
+  'sound':'\ud83d\udd09',
+  'space_invader':'\ud83d\udc7e',
+  'spades':'\u2660\ufe0f',
+  'spaghetti':'\ud83c\udf5d',
+  'sparkle':'\u2747\ufe0f',
+  'sparkler':'\ud83c\udf87',
+  'sparkles':'\u2728',
+  'sparkling_heart':'\ud83d\udc96',
+  'speak_no_evil':'\ud83d\ude4a',
+  'speaker':'\ud83d\udd08',
+  'speaking_head':'\ud83d\udde3',
+  'speech_balloon':'\ud83d\udcac',
+  'speedboat':'\ud83d\udea4',
+  'spider':'\ud83d\udd77',
+  'spider_web':'\ud83d\udd78',
+  'spiral_calendar':'\ud83d\uddd3',
+  'spiral_notepad':'\ud83d\uddd2',
+  'spoon':'\ud83e\udd44',
+  'squid':'\ud83e\udd91',
+  'stadium':'\ud83c\udfdf',
+  'star':'\u2b50\ufe0f',
+  'star2':'\ud83c\udf1f',
+  'star_and_crescent':'\u262a\ufe0f',
+  'star_of_david':'\u2721\ufe0f',
+  'stars':'\ud83c\udf20',
+  'station':'\ud83d\ude89',
+  'statue_of_liberty':'\ud83d\uddfd',
+  'steam_locomotive':'\ud83d\ude82',
+  'stew':'\ud83c\udf72',
+  'stop_button':'\u23f9',
+  'stop_sign':'\ud83d\uded1',
+  'stopwatch':'\u23f1',
+  'straight_ruler':'\ud83d\udccf',
+  'strawberry':'\ud83c\udf53',
+  'stuck_out_tongue':'\ud83d\ude1b',
+  'stuck_out_tongue_closed_eyes':'\ud83d\ude1d',
+  'stuck_out_tongue_winking_eye':'\ud83d\ude1c',
+  'studio_microphone':'\ud83c\udf99',
+  'stuffed_flatbread':'\ud83e\udd59',
+  'sun_behind_large_cloud':'\ud83c\udf25',
+  'sun_behind_rain_cloud':'\ud83c\udf26',
+  'sun_behind_small_cloud':'\ud83c\udf24',
+  'sun_with_face':'\ud83c\udf1e',
+  'sunflower':'\ud83c\udf3b',
+  'sunglasses':'\ud83d\ude0e',
+  'sunny':'\u2600\ufe0f',
+  'sunrise':'\ud83c\udf05',
+  'sunrise_over_mountains':'\ud83c\udf04',
+  'surfing_man':'\ud83c\udfc4',
+  'surfing_woman':'\ud83c\udfc4&zwj;\u2640\ufe0f',
+  'sushi':'\ud83c\udf63',
+  'suspension_railway':'\ud83d\ude9f',
+  'sweat':'\ud83d\ude13',
+  'sweat_drops':'\ud83d\udca6',
+  'sweat_smile':'\ud83d\ude05',
+  'sweet_potato':'\ud83c\udf60',
+  'swimming_man':'\ud83c\udfca',
+  'swimming_woman':'\ud83c\udfca&zwj;\u2640\ufe0f',
+  'symbols':'\ud83d\udd23',
+  'synagogue':'\ud83d\udd4d',
+  'syringe':'\ud83d\udc89',
+  'taco':'\ud83c\udf2e',
+  'tada':'\ud83c\udf89',
+  'tanabata_tree':'\ud83c\udf8b',
+  'taurus':'\u2649\ufe0f',
+  'taxi':'\ud83d\ude95',
+  'tea':'\ud83c\udf75',
+  'telephone_receiver':'\ud83d\udcde',
+  'telescope':'\ud83d\udd2d',
+  'tennis':'\ud83c\udfbe',
+  'tent':'\u26fa\ufe0f',
+  'thermometer':'\ud83c\udf21',
+  'thinking':'\ud83e\udd14',
+  'thought_balloon':'\ud83d\udcad',
+  'ticket':'\ud83c\udfab',
+  'tickets':'\ud83c\udf9f',
+  'tiger':'\ud83d\udc2f',
+  'tiger2':'\ud83d\udc05',
+  'timer_clock':'\u23f2',
+  'tipping_hand_man':'\ud83d\udc81&zwj;\u2642\ufe0f',
+  'tired_face':'\ud83d\ude2b',
+  'tm':'\u2122\ufe0f',
+  'toilet':'\ud83d\udebd',
+  'tokyo_tower':'\ud83d\uddfc',
+  'tomato':'\ud83c\udf45',
+  'tongue':'\ud83d\udc45',
+  'top':'\ud83d\udd1d',
+  'tophat':'\ud83c\udfa9',
+  'tornado':'\ud83c\udf2a',
+  'trackball':'\ud83d\uddb2',
+  'tractor':'\ud83d\ude9c',
+  'traffic_light':'\ud83d\udea5',
+  'train':'\ud83d\ude8b',
+  'train2':'\ud83d\ude86',
+  'tram':'\ud83d\ude8a',
+  'triangular_flag_on_post':'\ud83d\udea9',
+  'triangular_ruler':'\ud83d\udcd0',
+  'trident':'\ud83d\udd31',
+  'triumph':'\ud83d\ude24',
+  'trolleybus':'\ud83d\ude8e',
+  'trophy':'\ud83c\udfc6',
+  'tropical_drink':'\ud83c\udf79',
+  'tropical_fish':'\ud83d\udc20',
+  'truck':'\ud83d\ude9a',
+  'trumpet':'\ud83c\udfba',
+  'tulip':'\ud83c\udf37',
+  'tumbler_glass':'\ud83e\udd43',
+  'turkey':'\ud83e\udd83',
+  'turtle':'\ud83d\udc22',
+  'tv':'\ud83d\udcfa',
+  'twisted_rightwards_arrows':'\ud83d\udd00',
+  'two_hearts':'\ud83d\udc95',
+  'two_men_holding_hands':'\ud83d\udc6c',
+  'two_women_holding_hands':'\ud83d\udc6d',
+  'u5272':'\ud83c\ude39',
+  'u5408':'\ud83c\ude34',
+  'u55b6':'\ud83c\ude3a',
+  'u6307':'\ud83c\ude2f\ufe0f',
+  'u6708':'\ud83c\ude37\ufe0f',
+  'u6709':'\ud83c\ude36',
+  'u6e80':'\ud83c\ude35',
+  'u7121':'\ud83c\ude1a\ufe0f',
+  'u7533':'\ud83c\ude38',
+  'u7981':'\ud83c\ude32',
+  'u7a7a':'\ud83c\ude33',
+  'umbrella':'\u2614\ufe0f',
+  'unamused':'\ud83d\ude12',
+  'underage':'\ud83d\udd1e',
+  'unicorn':'\ud83e\udd84',
+  'unlock':'\ud83d\udd13',
+  'up':'\ud83c\udd99',
+  'upside_down_face':'\ud83d\ude43',
+  'v':'\u270c\ufe0f',
+  'vertical_traffic_light':'\ud83d\udea6',
+  'vhs':'\ud83d\udcfc',
+  'vibration_mode':'\ud83d\udcf3',
+  'video_camera':'\ud83d\udcf9',
+  'video_game':'\ud83c\udfae',
+  'violin':'\ud83c\udfbb',
+  'virgo':'\u264d\ufe0f',
+  'volcano':'\ud83c\udf0b',
+  'volleyball':'\ud83c\udfd0',
+  'vs':'\ud83c\udd9a',
+  'vulcan_salute':'\ud83d\udd96',
+  'walking_man':'\ud83d\udeb6',
+  'walking_woman':'\ud83d\udeb6&zwj;\u2640\ufe0f',
+  'waning_crescent_moon':'\ud83c\udf18',
+  'waning_gibbous_moon':'\ud83c\udf16',
+  'warning':'\u26a0\ufe0f',
+  'wastebasket':'\ud83d\uddd1',
+  'watch':'\u231a\ufe0f',
+  'water_buffalo':'\ud83d\udc03',
+  'watermelon':'\ud83c\udf49',
+  'wave':'\ud83d\udc4b',
+  'wavy_dash':'\u3030\ufe0f',
+  'waxing_crescent_moon':'\ud83c\udf12',
+  'wc':'\ud83d\udebe',
+  'weary':'\ud83d\ude29',
+  'wedding':'\ud83d\udc92',
+  'weight_lifting_man':'\ud83c\udfcb\ufe0f',
+  'weight_lifting_woman':'\ud83c\udfcb\ufe0f&zwj;\u2640\ufe0f',
+  'whale':'\ud83d\udc33',
+  'whale2':'\ud83d\udc0b',
+  'wheel_of_dharma':'\u2638\ufe0f',
+  'wheelchair':'\u267f\ufe0f',
+  'white_check_mark':'\u2705',
+  'white_circle':'\u26aa\ufe0f',
+  'white_flag':'\ud83c\udff3\ufe0f',
+  'white_flower':'\ud83d\udcae',
+  'white_large_square':'\u2b1c\ufe0f',
+  'white_medium_small_square':'\u25fd\ufe0f',
+  'white_medium_square':'\u25fb\ufe0f',
+  'white_small_square':'\u25ab\ufe0f',
+  'white_square_button':'\ud83d\udd33',
+  'wilted_flower':'\ud83e\udd40',
+  'wind_chime':'\ud83c\udf90',
+  'wind_face':'\ud83c\udf2c',
+  'wine_glass':'\ud83c\udf77',
+  'wink':'\ud83d\ude09',
+  'wolf':'\ud83d\udc3a',
+  'woman':'\ud83d\udc69',
+  'woman_artist':'\ud83d\udc69&zwj;\ud83c\udfa8',
+  'woman_astronaut':'\ud83d\udc69&zwj;\ud83d\ude80',
+  'woman_cartwheeling':'\ud83e\udd38&zwj;\u2640\ufe0f',
+  'woman_cook':'\ud83d\udc69&zwj;\ud83c\udf73',
+  'woman_facepalming':'\ud83e\udd26&zwj;\u2640\ufe0f',
+  'woman_factory_worker':'\ud83d\udc69&zwj;\ud83c\udfed',
+  'woman_farmer':'\ud83d\udc69&zwj;\ud83c\udf3e',
+  'woman_firefighter':'\ud83d\udc69&zwj;\ud83d\ude92',
+  'woman_health_worker':'\ud83d\udc69&zwj;\u2695\ufe0f',
+  'woman_judge':'\ud83d\udc69&zwj;\u2696\ufe0f',
+  'woman_juggling':'\ud83e\udd39&zwj;\u2640\ufe0f',
+  'woman_mechanic':'\ud83d\udc69&zwj;\ud83d\udd27',
+  'woman_office_worker':'\ud83d\udc69&zwj;\ud83d\udcbc',
+  'woman_pilot':'\ud83d\udc69&zwj;\u2708\ufe0f',
+  'woman_playing_handball':'\ud83e\udd3e&zwj;\u2640\ufe0f',
+  'woman_playing_water_polo':'\ud83e\udd3d&zwj;\u2640\ufe0f',
+  'woman_scientist':'\ud83d\udc69&zwj;\ud83d\udd2c',
+  'woman_shrugging':'\ud83e\udd37&zwj;\u2640\ufe0f',
+  'woman_singer':'\ud83d\udc69&zwj;\ud83c\udfa4',
+  'woman_student':'\ud83d\udc69&zwj;\ud83c\udf93',
+  'woman_teacher':'\ud83d\udc69&zwj;\ud83c\udfeb',
+  'woman_technologist':'\ud83d\udc69&zwj;\ud83d\udcbb',
+  'woman_with_turban':'\ud83d\udc73&zwj;\u2640\ufe0f',
+  'womans_clothes':'\ud83d\udc5a',
+  'womans_hat':'\ud83d\udc52',
+  'women_wrestling':'\ud83e\udd3c&zwj;\u2640\ufe0f',
+  'womens':'\ud83d\udeba',
+  'world_map':'\ud83d\uddfa',
+  'worried':'\ud83d\ude1f',
+  'wrench':'\ud83d\udd27',
+  'writing_hand':'\u270d\ufe0f',
+  'x':'\u274c',
+  'yellow_heart':'\ud83d\udc9b',
+  'yen':'\ud83d\udcb4',
+  'yin_yang':'\u262f\ufe0f',
+  'yum':'\ud83d\ude0b',
+  'zap':'\u26a1\ufe0f',
+  'zipper_mouth_face':'\ud83e\udd10',
+  'zzz':'\ud83d\udca4',
+
+  /* special emojis :P */
+  'octocat':  '<img alt=":octocat:" height="20" width="20" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png">',
+  'showdown': '<span style="font-family: \'Anonymous Pro\', monospace; text-decoration: underline; text-decoration-style: dashed; text-decoration-color: #3e8b8a;text-underline-position: under;">S</span>'
+};
+
+/**
+ * Created by Estevao on 31-05-2015.
+ */
+
+/**
+ * Showdown Converter class
+ * @class
+ * @param {object} [converterOptions]
+ * @returns {Converter}
+ */
+showdown.Converter = function (converterOptions) {
+  'use strict';
+
+  var
+      /**
+       * Options used by this converter
+       * @private
+       * @type {{}}
+       */
+      options = {},
+
+      /**
+       * Language extensions used by this converter
+       * @private
+       * @type {Array}
+       */
+      langExtensions = [],
+
+      /**
+       * Output modifiers extensions used by this converter
+       * @private
+       * @type {Array}
+       */
+      outputModifiers = [],
+
+      /**
+       * Event listeners
+       * @private
+       * @type {{}}
+       */
+      listeners = {},
+
+      /**
+       * The flavor set in this converter
+       */
+      setConvFlavor = setFlavor,
+
+      /**
+       * Metadata of the document
+       * @type {{parsed: {}, raw: string, format: string}}
+       */
+      metadata = {
+        parsed: {},
+        raw: '',
+        format: ''
+      };
+
+  _constructor();
+
+  /**
+   * Converter constructor
+   * @private
+   */
+  function _constructor () {
+    converterOptions = converterOptions || {};
+
+    for (var gOpt in globalOptions) {
+      if (globalOptions.hasOwnProperty(gOpt)) {
+        options[gOpt] = globalOptions[gOpt];
+      }
+    }
+
+    // Merge options
+    if (typeof converterOptions === 'object') {
+      for (var opt in converterOptions) {
+        if (converterOptions.hasOwnProperty(opt)) {
+          options[opt] = converterOptions[opt];
+        }
+      }
+    } else {
+      throw Error('Converter expects the passed parameter to be an object, but ' + typeof converterOptions +
+      ' was passed instead.');
+    }
+
+    if (options.extensions) {
+      showdown.helper.forEach(options.extensions, _parseExtension);
+    }
+  }
+
+  /**
+   * Parse extension
+   * @param {*} ext
+   * @param {string} [name='']
+   * @private
+   */
+  function _parseExtension (ext, name) {
+
+    name = name || null;
+    // If it's a string, the extension was previously loaded
+    if (showdown.helper.isString(ext)) {
+      ext = showdown.helper.stdExtName(ext);
+      name = ext;
+
+      // LEGACY_SUPPORT CODE
+      if (showdown.extensions[ext]) {
+        console.warn('DEPRECATION WARNING: ' + ext + ' is an old extension that uses a deprecated loading method.' +
+          'Please inform the developer that the extension should be updated!');
+        legacyExtensionLoading(showdown.extensions[ext], ext);
+        return;
+        // END LEGACY SUPPORT CODE
+
+      } else if (!showdown.helper.isUndefined(extensions[ext])) {
+        ext = extensions[ext];
+
+      } else {
+        throw Error('Extension "' + ext + '" could not be loaded. It was either not found or is not a valid extension.');
+      }
+    }
+
+    if (typeof ext === 'function') {
+      ext = ext();
+    }
+
+    if (!showdown.helper.isArray(ext)) {
+      ext = [ext];
+    }
+
+    var validExt = validate(ext, name);
+    if (!validExt.valid) {
+      throw Error(validExt.error);
+    }
+
+    for (var i = 0; i < ext.length; ++i) {
+      switch (ext[i].type) {
+
+        case 'lang':
+          langExtensions.push(ext[i]);
+          break;
+
+        case 'output':
+          outputModifiers.push(ext[i]);
+          break;
+      }
+      if (ext[i].hasOwnProperty('listeners')) {
+        for (var ln in ext[i].listeners) {
+          if (ext[i].listeners.hasOwnProperty(ln)) {
+            listen(ln, ext[i].listeners[ln]);
+          }
+        }
+      }
+    }
+
+  }
+
+  /**
+   * LEGACY_SUPPORT
+   * @param {*} ext
+   * @param {string} name
+   */
+  function legacyExtensionLoading (ext, name) {
+    if (typeof ext === 'function') {
+      ext = ext(new showdown.Converter());
+    }
+    if (!showdown.helper.isArray(ext)) {
+      ext = [ext];
+    }
+    var valid = validate(ext, name);
+
+    if (!valid.valid) {
+      throw Error(valid.error);
+    }
+
+    for (var i = 0; i < ext.length; ++i) {
+      switch (ext[i].type) {
+        case 'lang':
+          langExtensions.push(ext[i]);
+          break;
+        case 'output':
+          outputModifiers.push(ext[i]);
+          break;
+        default:// should never reach here
+          throw Error('Extension loader error: Type unrecognized!!!');
+      }
+    }
+  }
+
+  /**
+   * Listen to an event
+   * @param {string} name
+   * @param {function} callback
+   */
+  function listen (name, callback) {
+    if (!showdown.helper.isString(name)) {
+      throw Error('Invalid argument in converter.listen() method: name must be a string, but ' + typeof name + ' given');
+    }
+
+    if (typeof callback !== 'function') {
+      throw Error('Invalid argument in converter.listen() method: callback must be a function, but ' + typeof callback + ' given');
+    }
+
+    if (!listeners.hasOwnProperty(name)) {
+      listeners[name] = [];
+    }
+    listeners[name].push(callback);
+  }
+
+  function rTrimInputText (text) {
+    var rsp = text.match(/^\s*/)[0].length,
+        rgx = new RegExp('^\\s{0,' + rsp + '}', 'gm');
+    return text.replace(rgx, '');
+  }
+
+  /**
+   * Dispatch an event
+   * @private
+   * @param {string} evtName Event name
+   * @param {string} text Text
+   * @param {{}} options Converter Options
+   * @param {{}} globals
+   * @returns {string}
+   */
+  this._dispatch = function dispatch (evtName, text, options, globals) {
+    if (listeners.hasOwnProperty(evtName)) {
+      for (var ei = 0; ei < listeners[evtName].length; ++ei) {
+        var nText = listeners[evtName][ei](evtName, text, this, options, globals);
+        if (nText && typeof nText !== 'undefined') {
+          text = nText;
+        }
+      }
+    }
+    return text;
+  };
+
+  /**
+   * Listen to an event
+   * @param {string} name
+   * @param {function} callback
+   * @returns {showdown.Converter}
+   */
+  this.listen = function (name, callback) {
+    listen(name, callback);
+    return this;
+  };
+
+  /**
+   * Converts a markdown string into HTML
+   * @param {string} text
+   * @returns {*}
+   */
+  this.makeHtml = function (text) {
+    //check if text is not falsy
+    if (!text) {
+      return text;
+    }
+
+    var globals = {
+      gHtmlBlocks:     [],
+      gHtmlMdBlocks:   [],
+      gHtmlSpans:      [],
+      gUrls:           {},
+      gTitles:         {},
+      gDimensions:     {},
+      gListLevel:      0,
+      hashLinkCounts:  {},
+      langExtensions:  langExtensions,
+      outputModifiers: outputModifiers,
+      converter:       this,
+      ghCodeBlocks:    [],
+      metadata: {
+        parsed: {},
+        raw: '',
+        format: ''
+      }
+    };
+
+    // This lets us use ¨ trema as an escape char to avoid md5 hashes
+    // The choice of character is arbitrary; anything that isn't
+    // magic in Markdown will work.
+    text = text.replace(/¨/g, '¨T');
+
+    // Replace $ with ¨D
+    // RegExp interprets $ as a special character
+    // when it's in a replacement string
+    text = text.replace(/\$/g, '¨D');
+
+    // Standardize line endings
+    text = text.replace(/\r\n/g, '\n'); // DOS to Unix
+    text = text.replace(/\r/g, '\n'); // Mac to Unix
+
+    // Stardardize line spaces
+    text = text.replace(/\u00A0/g, '&nbsp;');
+
+    if (options.smartIndentationFix) {
+      text = rTrimInputText(text);
+    }
+
+    // Make sure text begins and ends with a couple of newlines:
+    text = '\n\n' + text + '\n\n';
+
+    // detab
+    text = showdown.subParser('detab')(text, options, globals);
+
+    /**
+     * Strip any lines consisting only of spaces and tabs.
+     * This makes subsequent regexs easier to write, because we can
+     * match consecutive blank lines with /\n+/ instead of something
+     * contorted like /[ \t]*\n+/
+     */
+    text = text.replace(/^[ \t]+$/mg, '');
+
+    //run languageExtensions
+    showdown.helper.forEach(langExtensions, function (ext) {
+      text = showdown.subParser('runExtension')(ext, text, options, globals);
+    });
+
+    // run the sub parsers
+    text = showdown.subParser('metadata')(text, options, globals);
+    text = showdown.subParser('hashPreCodeTags')(text, options, globals);
+    text = showdown.subParser('githubCodeBlocks')(text, options, globals);
+    text = showdown.subParser('hashHTMLBlocks')(text, options, globals);
+    text = showdown.subParser('hashCodeTags')(text, options, globals);
+    text = showdown.subParser('stripLinkDefinitions')(text, options, globals);
+    text = showdown.subParser('blockGamut')(text, options, globals);
+    text = showdown.subParser('unhashHTMLSpans')(text, options, globals);
+    text = showdown.subParser('unescapeSpecialChars')(text, options, globals);
+
+    // attacklab: Restore dollar signs
+    text = text.replace(/¨D/g, '$$');
+
+    // attacklab: Restore tremas
+    text = text.replace(/¨T/g, '¨');
+
+    // render a complete html document instead of a partial if the option is enabled
+    text = showdown.subParser('completeHTMLDocument')(text, options, globals);
+
+    // Run output modifiers
+    showdown.helper.forEach(outputModifiers, function (ext) {
+      text = showdown.subParser('runExtension')(ext, text, options, globals);
+    });
+
+    // update metadata
+    metadata = globals.metadata;
+    return text;
+  };
+
+  /**
+   * Converts an HTML string into a markdown string
+   * @param src
+   * @param [HTMLParser] A WHATWG DOM and HTML parser, such as JSDOM. If none is supplied, window.document will be used.
+   * @returns {string}
+   */
+  this.makeMarkdown = this.makeMd = function (src, HTMLParser) {
+
+    // replace \r\n with \n
+    src = src.replace(/\r\n/g, '\n');
+    src = src.replace(/\r/g, '\n'); // old macs
+
+    // due to an edge case, we need to find this: > <
+    // to prevent removing of non silent white spaces
+    // ex: <em>this is</em> <strong>sparta</strong>
+    src = src.replace(/>[ \t]+</, '>¨NBSP;<');
+
+    if (!HTMLParser) {
+      if (window && window.document) {
+        HTMLParser = window.document;
+      } else {
+        throw new Error('HTMLParser is undefined. If in a webworker or nodejs environment, you need to provide a WHATWG DOM and HTML such as JSDOM');
+      }
+    }
+
+    var doc = HTMLParser.createElement('div');
+    doc.innerHTML = src;
+
+    var globals = {
+      preList: substitutePreCodeTags(doc)
+    };
+
+    // remove all newlines and collapse spaces
+    clean(doc);
+
+    // some stuff, like accidental reference links must now be escaped
+    // TODO
+    // doc.innerHTML = doc.innerHTML.replace(/\[[\S\t ]]/);
+
+    var nodes = doc.childNodes,
+        mdDoc = '';
+
+    for (var i = 0; i < nodes.length; i++) {
+      mdDoc += showdown.subParser('makeMarkdown.node')(nodes[i], globals);
+    }
+
+    function clean (node) {
+      for (var n = 0; n < node.childNodes.length; ++n) {
+        var child = node.childNodes[n];
+        if (child.nodeType === 3) {
+          if (!/\S/.test(child.nodeValue) && !/^[ ]+$/.test(child.nodeValue)) {
+            node.removeChild(child);
+            --n;
+          } else {
+            child.nodeValue = child.nodeValue.split('\n').join(' ');
+            child.nodeValue = child.nodeValue.replace(/(\s)+/g, '$1');
+          }
+        } else if (child.nodeType === 1) {
+          clean(child);
+        }
+      }
+    }
+
+    // find all pre tags and replace contents with placeholder
+    // we need this so that we can remove all indentation from html
+    // to ease up parsing
+    function substitutePreCodeTags (doc) {
+
+      var pres = doc.querySelectorAll('pre'),
+          presPH = [];
+
+      for (var i = 0; i < pres.length; ++i) {
+
+        if (pres[i].childElementCount === 1 && pres[i].firstChild.tagName.toLowerCase() === 'code') {
+          var content = pres[i].firstChild.innerHTML.trim(),
+              language = pres[i].firstChild.getAttribute('data-language') || '';
+
+          // if data-language attribute is not defined, then we look for class language-*
+          if (language === '') {
+            var classes = pres[i].firstChild.className.split(' ');
+            for (var c = 0; c < classes.length; ++c) {
+              var matches = classes[c].match(/^language-(.+)$/);
+              if (matches !== null) {
+                language = matches[1];
+                break;
+              }
+            }
+          }
+
+          // unescape html entities in content
+          content = showdown.helper.unescapeHTMLEntities(content);
+
+          presPH.push(content);
+          pres[i].outerHTML = '<precode language="' + language + '" precodenum="' + i.toString() + '"></precode>';
+        } else {
+          presPH.push(pres[i].innerHTML);
+          pres[i].innerHTML = '';
+          pres[i].setAttribute('prenum', i.toString());
+        }
+      }
+      return presPH;
+    }
+
+    return mdDoc;
+  };
+
+  /**
+   * Set an option of this Converter instance
+   * @param {string} key
+   * @param {*} value
+   */
+  this.setOption = function (key, value) {
+    options[key] = value;
+  };
+
+  /**
+   * Get the option of this Converter instance
+   * @param {string} key
+   * @returns {*}
+   */
+  this.getOption = function (key) {
+    return options[key];
+  };
+
+  /**
+   * Get the options of this Converter instance
+   * @returns {{}}
+   */
+  this.getOptions = function () {
+    return options;
+  };
+
+  /**
+   * Add extension to THIS converter
+   * @param {{}} extension
+   * @param {string} [name=null]
+   */
+  this.addExtension = function (extension, name) {
+    name = name || null;
+    _parseExtension(extension, name);
+  };
+
+  /**
+   * Use a global registered extension with THIS converter
+   * @param {string} extensionName Name of the previously registered extension
+   */
+  this.useExtension = function (extensionName) {
+    _parseExtension(extensionName);
+  };
+
+  /**
+   * Set the flavor THIS converter should use
+   * @param {string} name
+   */
+  this.setFlavor = function (name) {
+    if (!flavor.hasOwnProperty(name)) {
+      throw Error(name + ' flavor was not found');
+    }
+    var preset = flavor[name];
+    setConvFlavor = name;
+    for (var option in preset) {
+      if (preset.hasOwnProperty(option)) {
+        options[option] = preset[option];
+      }
+    }
+  };
+
+  /**
+   * Get the currently set flavor of this converter
+   * @returns {string}
+   */
+  this.getFlavor = function () {
+    return setConvFlavor;
+  };
+
+  /**
+   * Remove an extension from THIS converter.
+   * Note: This is a costly operation. It's better to initialize a new converter
+   * and specify the extensions you wish to use
+   * @param {Array} extension
+   */
+  this.removeExtension = function (extension) {
+    if (!showdown.helper.isArray(extension)) {
+      extension = [extension];
+    }
+    for (var a = 0; a < extension.length; ++a) {
+      var ext = extension[a];
+      for (var i = 0; i < langExtensions.length; ++i) {
+        if (langExtensions[i] === ext) {
+          langExtensions.splice(i, 1);
+        }
+      }
+      for (var ii = 0; ii < outputModifiers.length; ++ii) {
+        if (outputModifiers[ii] === ext) {
+          outputModifiers.splice(ii, 1);
+        }
+      }
+    }
+  };
+
+  /**
+   * Get all extension of THIS converter
+   * @returns {{language: Array, output: Array}}
+   */
+  this.getAllExtensions = function () {
+    return {
+      language: langExtensions,
+      output: outputModifiers
+    };
+  };
+
+  /**
+   * Get the metadata of the previously parsed document
+   * @param raw
+   * @returns {string|{}}
+   */
+  this.getMetadata = function (raw) {
+    if (raw) {
+      return metadata.raw;
+    } else {
+      return metadata.parsed;
+    }
+  };
+
+  /**
+   * Get the metadata format of the previously parsed document
+   * @returns {string}
+   */
+  this.getMetadataFormat = function () {
+    return metadata.format;
+  };
+
+  /**
+   * Private: set a single key, value metadata pair
+   * @param {string} key
+   * @param {string} value
+   */
+  this._setMetadataPair = function (key, value) {
+    metadata.parsed[key] = value;
+  };
+
+  /**
+   * Private: set metadata format
+   * @param {string} format
+   */
+  this._setMetadataFormat = function (format) {
+    metadata.format = format;
+  };
+
+  /**
+   * Private: set metadata raw text
+   * @param {string} raw
+   */
+  this._setMetadataRaw = function (raw) {
+    metadata.raw = raw;
+  };
+};
+
+/**
+ * Turn Markdown link shortcuts into XHTML <a> tags.
+ */
+showdown.subParser('anchors', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('anchors.before', text, options, globals);
+
+  var writeAnchorTag = function (wholeMatch, linkText, linkId, url, m5, m6, title) {
+    if (showdown.helper.isUndefined(title)) {
+      title = '';
+    }
+    linkId = linkId.toLowerCase();
+
+    // Special case for explicit empty url
+    if (wholeMatch.search(/\(<?\s*>? ?(['"].*['"])?\)$/m) > -1) {
+      url = '';
+    } else if (!url) {
+      if (!linkId) {
+        // lower-case and turn embedded newlines into spaces
+        linkId = linkText.toLowerCase().replace(/ ?\n/g, ' ');
+      }
+      url = '#' + linkId;
+
+      if (!showdown.helper.isUndefined(globals.gUrls[linkId])) {
+        url = globals.gUrls[linkId];
+        if (!showdown.helper.isUndefined(globals.gTitles[linkId])) {
+          title = globals.gTitles[linkId];
+        }
+      } else {
+        return wholeMatch;
+      }
+    }
+
+    //url = showdown.helper.escapeCharacters(url, '*_', false); // replaced line to improve performance
+    url = url.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);
+
+    var result = '<a href="' + url + '"';
+
+    if (title !== '' && title !== null) {
+      title = title.replace(/"/g, '&quot;');
+      //title = showdown.helper.escapeCharacters(title, '*_', false); // replaced line to improve performance
+      title = title.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);
+      result += ' title="' + title + '"';
+    }
+
+    // optionLinksInNewWindow only applies
+    // to external links. Hash links (#) open in same page
+    if (options.openLinksInNewWindow && !/^#/.test(url)) {
+      // escaped _
+      result += ' rel="noopener noreferrer" target="¨E95Eblank"';
+    }
+
+    result += '>' + linkText + '</a>';
+
+    return result;
+  };
+
+  // First, handle reference-style links: [link text] [id]
+  text = text.replace(/\[((?:\[[^\]]*]|[^\[\]])*)] ?(?:\n *)?\[(.*?)]()()()()/g, writeAnchorTag);
+
+  // Next, inline-style links: [link text](url "optional title")
+  // cases with crazy urls like ./image/cat1).png
+  text = text.replace(/\[((?:\[[^\]]*]|[^\[\]])*)]()[ \t]*\([ \t]?<([^>]*)>(?:[ \t]*((["'])([^"]*?)\5))?[ \t]?\)/g,
+    writeAnchorTag);
+
+  // normal cases
+  text = text.replace(/\[((?:\[[^\]]*]|[^\[\]])*)]()[ \t]*\([ \t]?<?([\S]+?(?:\([\S]*?\)[\S]*?)?)>?(?:[ \t]*((["'])([^"]*?)\5))?[ \t]?\)/g,
+    writeAnchorTag);
+
+  // handle reference-style shortcuts: [link text]
+  // These must come last in case you've also got [link test][1]
+  // or [link test](/foo)
+  text = text.replace(/\[([^\[\]]+)]()()()()()/g, writeAnchorTag);
+
+  // Lastly handle GithubMentions if option is enabled
+  if (options.ghMentions) {
+    text = text.replace(/(^|\s)(\\)?(@([a-z\d]+(?:[a-z\d.-]+?[a-z\d]+)*))/gmi, function (wm, st, escape, mentions, username) {
+      if (escape === '\\') {
+        return st + mentions;
+      }
+
+      //check if options.ghMentionsLink is a string
+      if (!showdown.helper.isString(options.ghMentionsLink)) {
+        throw new Error('ghMentionsLink option must be a string');
+      }
+      var lnk = options.ghMentionsLink.replace(/\{u}/g, username),
+          target = '';
+      if (options.openLinksInNewWindow) {
+        target = ' rel="noopener noreferrer" target="¨E95Eblank"';
+      }
+      return st + '<a href="' + lnk + '"' + target + '>' + mentions + '</a>';
+    });
+  }
+
+  text = globals.converter._dispatch('anchors.after', text, options, globals);
+  return text;
+});
+
+// url allowed chars [a-z\d_.~:/?#[]@!$&'()*+,;=-]
+
+var simpleURLRegex  = /([*~_]+|\b)(((https?|ftp|dict):\/\/|www\.)[^'">\s]+?\.[^'">\s]+?)()(\1)?(?=\s|$)(?!["<>])/gi,
+    simpleURLRegex2 = /([*~_]+|\b)(((https?|ftp|dict):\/\/|www\.)[^'">\s]+\.[^'">\s]+?)([.!?,()\[\]])?(\1)?(?=\s|$)(?!["<>])/gi,
+    delimUrlRegex   = /()<(((https?|ftp|dict):\/\/|www\.)[^'">\s]+)()>()/gi,
+    simpleMailRegex = /(^|\s)(?:mailto:)?([A-Za-z0-9!#$%&'*+-/=?^_`{|}~.]+@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)(?=$|\s)/gmi,
+    delimMailRegex  = /<()(?:mailto:)?([-.\w]+@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)>/gi,
+
+    replaceLink = function (options) {
+      'use strict';
+      return function (wm, leadingMagicChars, link, m2, m3, trailingPunctuation, trailingMagicChars) {
+        link = link.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);
+        var lnkTxt = link,
+            append = '',
+            target = '',
+            lmc    = leadingMagicChars || '',
+            tmc    = trailingMagicChars || '';
+        if (/^www\./i.test(link)) {
+          link = link.replace(/^www\./i, 'http://www.');
+        }
+        if (options.excludeTrailingPunctuationFromURLs && trailingPunctuation) {
+          append = trailingPunctuation;
+        }
+        if (options.openLinksInNewWindow) {
+          target = ' rel="noopener noreferrer" target="¨E95Eblank"';
+        }
+        return lmc + '<a href="' + link + '"' + target + '>' + lnkTxt + '</a>' + append + tmc;
+      };
+    },
+
+    replaceMail = function (options, globals) {
+      'use strict';
+      return function (wholeMatch, b, mail) {
+        var href = 'mailto:';
+        b = b || '';
+        mail = showdown.subParser('unescapeSpecialChars')(mail, options, globals);
+        if (options.encodeEmails) {
+          href = showdown.helper.encodeEmailAddress(href + mail);
+          mail = showdown.helper.encodeEmailAddress(mail);
+        } else {
+          href = href + mail;
+        }
+        return b + '<a href="' + href + '">' + mail + '</a>';
+      };
+    };
+
+showdown.subParser('autoLinks', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('autoLinks.before', text, options, globals);
+
+  text = text.replace(delimUrlRegex, replaceLink(options));
+  text = text.replace(delimMailRegex, replaceMail(options, globals));
+
+  text = globals.converter._dispatch('autoLinks.after', text, options, globals);
+
+  return text;
+});
+
+showdown.subParser('simplifiedAutoLinks', function (text, options, globals) {
+  'use strict';
+
+  if (!options.simplifiedAutoLink) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('simplifiedAutoLinks.before', text, options, globals);
+
+  if (options.excludeTrailingPunctuationFromURLs) {
+    text = text.replace(simpleURLRegex2, replaceLink(options));
+  } else {
+    text = text.replace(simpleURLRegex, replaceLink(options));
+  }
+  text = text.replace(simpleMailRegex, replaceMail(options, globals));
+
+  text = globals.converter._dispatch('simplifiedAutoLinks.after', text, options, globals);
+
+  return text;
+});
+
+/**
+ * These are all the transformations that form block-level
+ * tags like paragraphs, headers, and list items.
+ */
+showdown.subParser('blockGamut', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('blockGamut.before', text, options, globals);
+
+  // we parse blockquotes first so that we can have headings and hrs
+  // inside blockquotes
+  text = showdown.subParser('blockQuotes')(text, options, globals);
+  text = showdown.subParser('headers')(text, options, globals);
+
+  // Do Horizontal Rules:
+  text = showdown.subParser('horizontalRule')(text, options, globals);
+
+  text = showdown.subParser('lists')(text, options, globals);
+  text = showdown.subParser('codeBlocks')(text, options, globals);
+  text = showdown.subParser('tables')(text, options, globals);
+
+  // We already ran _HashHTMLBlocks() before, in Markdown(), but that
+  // was to escape raw HTML in the original Markdown source. This time,
+  // we're escaping the markup we've just created, so that we don't wrap
+  // <p> tags around block-level tags.
+  text = showdown.subParser('hashHTMLBlocks')(text, options, globals);
+  text = showdown.subParser('paragraphs')(text, options, globals);
+
+  text = globals.converter._dispatch('blockGamut.after', text, options, globals);
+
+  return text;
+});
+
+showdown.subParser('blockQuotes', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('blockQuotes.before', text, options, globals);
+
+  // add a couple extra lines after the text and endtext mark
+  text = text + '\n\n';
+
+  var rgx = /(^ {0,3}>[ \t]?.+\n(.+\n)*\n*)+/gm;
+
+  if (options.splitAdjacentBlockquotes) {
+    rgx = /^ {0,3}>[\s\S]*?(?:\n\n)/gm;
+  }
+
+  text = text.replace(rgx, function (bq) {
+    // attacklab: hack around Konqueror 3.5.4 bug:
+    // "----------bug".replace(/^-/g,"") == "bug"
+    bq = bq.replace(/^[ \t]*>[ \t]?/gm, ''); // trim one level of quoting
+
+    // attacklab: clean up hack
+    bq = bq.replace(/¨0/g, '');
+
+    bq = bq.replace(/^[ \t]+$/gm, ''); // trim whitespace-only lines
+    bq = showdown.subParser('githubCodeBlocks')(bq, options, globals);
+    bq = showdown.subParser('blockGamut')(bq, options, globals); // recurse
+
+    bq = bq.replace(/(^|\n)/g, '$1  ');
+    // These leading spaces screw with <pre> content, so we need to fix that:
+    bq = bq.replace(/(\s*<pre>[^\r]+?<\/pre>)/gm, function (wholeMatch, m1) {
+      var pre = m1;
+      // attacklab: hack around Konqueror 3.5.4 bug:
+      pre = pre.replace(/^  /mg, '¨0');
+      pre = pre.replace(/¨0/g, '');
+      return pre;
+    });
+
+    return showdown.subParser('hashBlock')('<blockquote>\n' + bq + '\n</blockquote>', options, globals);
+  });
+
+  text = globals.converter._dispatch('blockQuotes.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Process Markdown `<pre><code>` blocks.
+ */
+showdown.subParser('codeBlocks', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('codeBlocks.before', text, options, globals);
+
+  // sentinel workarounds for lack of \A and \Z, safari\khtml bug
+  text += '¨0';
+
+  var pattern = /(?:\n\n|^)((?:(?:[ ]{4}|\t).*\n+)+)(\n*[ ]{0,3}[^ \t\n]|(?=¨0))/g;
+  text = text.replace(pattern, function (wholeMatch, m1, m2) {
+    var codeblock = m1,
+        nextChar = m2,
+        end = '\n';
+
+    codeblock = showdown.subParser('outdent')(codeblock, options, globals);
+    codeblock = showdown.subParser('encodeCode')(codeblock, options, globals);
+    codeblock = showdown.subParser('detab')(codeblock, options, globals);
+    codeblock = codeblock.replace(/^\n+/g, ''); // trim leading newlines
+    codeblock = codeblock.replace(/\n+$/g, ''); // trim trailing newlines
+
+    if (options.omitExtraWLInCodeBlocks) {
+      end = '';
+    }
+
+    codeblock = '<pre><code>' + codeblock + end + '</code></pre>';
+
+    return showdown.subParser('hashBlock')(codeblock, options, globals) + nextChar;
+  });
+
+  // strip sentinel
+  text = text.replace(/¨0/, '');
+
+  text = globals.converter._dispatch('codeBlocks.after', text, options, globals);
+  return text;
+});
+
+/**
+ *
+ *   *  Backtick quotes are used for <code></code> spans.
+ *
+ *   *  You can use multiple backticks as the delimiters if you want to
+ *     include literal backticks in the code span. So, this input:
+ *
+ *         Just type ``foo `bar` baz`` at the prompt.
+ *
+ *       Will translate to:
+ *
+ *         <p>Just type <code>foo `bar` baz</code> at the prompt.</p>
+ *
+ *    There's no arbitrary limit to the number of backticks you
+ *    can use as delimters. If you need three consecutive backticks
+ *    in your code, use four for delimiters, etc.
+ *
+ *  *  You can use spaces to get literal backticks at the edges:
+ *
+ *         ... type `` `bar` `` ...
+ *
+ *       Turns to:
+ *
+ *         ... type <code>`bar`</code> ...
+ */
+showdown.subParser('codeSpans', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('codeSpans.before', text, options, globals);
+
+  if (typeof (text) === 'undefined') {
+    text = '';
+  }
+  text = text.replace(/(^|[^\\])(`+)([^\r]*?[^`])\2(?!`)/gm,
+    function (wholeMatch, m1, m2, m3) {
+      var c = m3;
+      c = c.replace(/^([ \t]*)/g, '');	// leading whitespace
+      c = c.replace(/[ \t]*$/g, '');	// trailing whitespace
+      c = showdown.subParser('encodeCode')(c, options, globals);
+      c = m1 + '<code>' + c + '</code>';
+      c = showdown.subParser('hashHTMLSpans')(c, options, globals);
+      return c;
+    }
+  );
+
+  text = globals.converter._dispatch('codeSpans.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Create a full HTML document from the processed markdown
+ */
+showdown.subParser('completeHTMLDocument', function (text, options, globals) {
+  'use strict';
+
+  if (!options.completeHTMLDocument) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('completeHTMLDocument.before', text, options, globals);
+
+  var doctype = 'html',
+      doctypeParsed = '<!DOCTYPE HTML>\n',
+      title = '',
+      charset = '<meta charset="utf-8">\n',
+      lang = '',
+      metadata = '';
+
+  if (typeof globals.metadata.parsed.doctype !== 'undefined') {
+    doctypeParsed = '<!DOCTYPE ' +  globals.metadata.parsed.doctype + '>\n';
+    doctype = globals.metadata.parsed.doctype.toString().toLowerCase();
+    if (doctype === 'html' || doctype === 'html5') {
+      charset = '<meta charset="utf-8">';
+    }
+  }
+
+  for (var meta in globals.metadata.parsed) {
+    if (globals.metadata.parsed.hasOwnProperty(meta)) {
+      switch (meta.toLowerCase()) {
+        case 'doctype':
+          break;
+
+        case 'title':
+          title = '<title>' +  globals.metadata.parsed.title + '</title>\n';
+          break;
+
+        case 'charset':
+          if (doctype === 'html' || doctype === 'html5') {
+            charset = '<meta charset="' + globals.metadata.parsed.charset + '">\n';
+          } else {
+            charset = '<meta name="charset" content="' + globals.metadata.parsed.charset + '">\n';
+          }
+          break;
+
+        case 'language':
+        case 'lang':
+          lang = ' lang="' + globals.metadata.parsed[meta] + '"';
+          metadata += '<meta name="' + meta + '" content="' + globals.metadata.parsed[meta] + '">\n';
+          break;
+
+        default:
+          metadata += '<meta name="' + meta + '" content="' + globals.metadata.parsed[meta] + '">\n';
+      }
+    }
+  }
+
+  text = doctypeParsed + '<html' + lang + '>\n<head>\n' + title + charset + metadata + '</head>\n<body>\n' + text.trim() + '\n</body>\n</html>';
+
+  text = globals.converter._dispatch('completeHTMLDocument.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Convert all tabs to spaces
+ */
+showdown.subParser('detab', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('detab.before', text, options, globals);
+
+  // expand first n-1 tabs
+  text = text.replace(/\t(?=\t)/g, '    '); // g_tab_width
+
+  // replace the nth with two sentinels
+  text = text.replace(/\t/g, '¨A¨B');
+
+  // use the sentinel to anchor our regex so it doesn't explode
+  text = text.replace(/¨B(.+?)¨A/g, function (wholeMatch, m1) {
+    var leadingText = m1,
+        numSpaces = 4 - leadingText.length % 4;  // g_tab_width
+
+    // there *must* be a better way to do this:
+    for (var i = 0; i < numSpaces; i++) {
+      leadingText += ' ';
+    }
+
+    return leadingText;
+  });
+
+  // clean up sentinels
+  text = text.replace(/¨A/g, '    ');  // g_tab_width
+  text = text.replace(/¨B/g, '');
+
+  text = globals.converter._dispatch('detab.after', text, options, globals);
+  return text;
+});
+
+showdown.subParser('ellipsis', function (text, options, globals) {
+  'use strict';
+
+  if (!options.ellipsis) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('ellipsis.before', text, options, globals);
+
+  text = text.replace(/\.\.\./g, '…');
+
+  text = globals.converter._dispatch('ellipsis.after', text, options, globals);
+
+  return text;
+});
+
+/**
+ * Turn emoji codes into emojis
+ *
+ * List of supported emojis: https://github.com/showdownjs/showdown/wiki/Emojis
+ */
+showdown.subParser('emoji', function (text, options, globals) {
+  'use strict';
+
+  if (!options.emoji) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('emoji.before', text, options, globals);
+
+  var emojiRgx = /:([\S]+?):/g;
+
+  text = text.replace(emojiRgx, function (wm, emojiCode) {
+    if (showdown.helper.emojis.hasOwnProperty(emojiCode)) {
+      return showdown.helper.emojis[emojiCode];
+    }
+    return wm;
+  });
+
+  text = globals.converter._dispatch('emoji.after', text, options, globals);
+
+  return text;
+});
+
+/**
+ * Smart processing for ampersands and angle brackets that need to be encoded.
+ */
+showdown.subParser('encodeAmpsAndAngles', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('encodeAmpsAndAngles.before', text, options, globals);
+
+  // Ampersand-encoding based entirely on Nat Irons's Amputator MT plugin:
+  // http://bumppo.net/projects/amputator/
+  text = text.replace(/&(?!#?[xX]?(?:[0-9a-fA-F]+|\w+);)/g, '&amp;');
+
+  // Encode naked <'s
+  text = text.replace(/<(?![a-z\/?$!])/gi, '&lt;');
+
+  // Encode <
+  text = text.replace(/</g, '&lt;');
+
+  // Encode >
+  text = text.replace(/>/g, '&gt;');
+
+  text = globals.converter._dispatch('encodeAmpsAndAngles.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Returns the string, with after processing the following backslash escape sequences.
+ *
+ * attacklab: The polite way to do this is with the new escapeCharacters() function:
+ *
+ *    text = escapeCharacters(text,"\\",true);
+ *    text = escapeCharacters(text,"`*_{}[]()>#+-.!",true);
+ *
+ * ...but we're sidestepping its use of the (slow) RegExp constructor
+ * as an optimization for Firefox.  This function gets called a LOT.
+ */
+showdown.subParser('encodeBackslashEscapes', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('encodeBackslashEscapes.before', text, options, globals);
+
+  text = text.replace(/\\(\\)/g, showdown.helper.escapeCharactersCallback);
+  text = text.replace(/\\([`*_{}\[\]()>#+.!~=|:-])/g, showdown.helper.escapeCharactersCallback);
+
+  text = globals.converter._dispatch('encodeBackslashEscapes.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Encode/escape certain characters inside Markdown code runs.
+ * The point is that in code, these characters are literals,
+ * and lose their special Markdown meanings.
+ */
+showdown.subParser('encodeCode', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('encodeCode.before', text, options, globals);
+
+  // Encode all ampersands; HTML entities are not
+  // entities within a Markdown code span.
+  text = text
+    .replace(/&/g, '&amp;')
+  // Do the angle bracket song and dance:
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+  // Now, escape characters that are magic in Markdown:
+    .replace(/([*_{}\[\]\\=~-])/g, showdown.helper.escapeCharactersCallback);
+
+  text = globals.converter._dispatch('encodeCode.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Within tags -- meaning between < and > -- encode [\ ` * _ ~ =] so they
+ * don't conflict with their use in Markdown for code, italics and strong.
+ */
+showdown.subParser('escapeSpecialCharsWithinTagAttributes', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('escapeSpecialCharsWithinTagAttributes.before', text, options, globals);
+
+  // Build a regex to find HTML tags.
+  var tags     = /<\/?[a-z\d_:-]+(?:[\s]+[\s\S]+?)?>/gi,
+      comments = /<!(--(?:(?:[^>-]|-[^>])(?:[^-]|-[^-])*)--)>/gi;
+
+  text = text.replace(tags, function (wholeMatch) {
+    return wholeMatch
+      .replace(/(.)<\/?code>(?=.)/g, '$1`')
+      .replace(/([\\`*_~=|])/g, showdown.helper.escapeCharactersCallback);
+  });
+
+  text = text.replace(comments, function (wholeMatch) {
+    return wholeMatch
+      .replace(/([\\`*_~=|])/g, showdown.helper.escapeCharactersCallback);
+  });
+
+  text = globals.converter._dispatch('escapeSpecialCharsWithinTagAttributes.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Handle github codeblocks prior to running HashHTML so that
+ * HTML contained within the codeblock gets escaped properly
+ * Example:
+ * ```ruby
+ *     def hello_world(x)
+ *       puts "Hello, #{x}"
+ *     end
+ * ```
+ */
+showdown.subParser('githubCodeBlocks', function (text, options, globals) {
+  'use strict';
+
+  // early exit if option is not enabled
+  if (!options.ghCodeBlocks) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('githubCodeBlocks.before', text, options, globals);
+
+  text += '¨0';
+
+  text = text.replace(/(?:^|\n)(?: {0,3})(```+|~~~+)(?: *)([^\s`~]*)\n([\s\S]*?)\n(?: {0,3})\1/g, function (wholeMatch, delim, language, codeblock) {
+    var end = (options.omitExtraWLInCodeBlocks) ? '' : '\n';
+
+    // First parse the github code block
+    codeblock = showdown.subParser('encodeCode')(codeblock, options, globals);
+    codeblock = showdown.subParser('detab')(codeblock, options, globals);
+    codeblock = codeblock.replace(/^\n+/g, ''); // trim leading newlines
+    codeblock = codeblock.replace(/\n+$/g, ''); // trim trailing whitespace
+
+    codeblock = '<pre><code' + (language ? ' class="' + language + ' language-' + language + '"' : '') + '>' + codeblock + end + '</code></pre>';
+
+    codeblock = showdown.subParser('hashBlock')(codeblock, options, globals);
+
+    // Since GHCodeblocks can be false positives, we need to
+    // store the primitive text and the parsed text in a global var,
+    // and then return a token
+    return '\n\n¨G' + (globals.ghCodeBlocks.push({text: wholeMatch, codeblock: codeblock}) - 1) + 'G\n\n';
+  });
+
+  // attacklab: strip sentinel
+  text = text.replace(/¨0/, '');
+
+  return globals.converter._dispatch('githubCodeBlocks.after', text, options, globals);
+});
+
+showdown.subParser('hashBlock', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('hashBlock.before', text, options, globals);
+  text = text.replace(/(^\n+|\n+$)/g, '');
+  text = '\n\n¨K' + (globals.gHtmlBlocks.push(text) - 1) + 'K\n\n';
+  text = globals.converter._dispatch('hashBlock.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Hash and escape <code> elements that should not be parsed as markdown
+ */
+showdown.subParser('hashCodeTags', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('hashCodeTags.before', text, options, globals);
+
+  var repFunc = function (wholeMatch, match, left, right) {
+    var codeblock = left + showdown.subParser('encodeCode')(match, options, globals) + right;
+    return '¨C' + (globals.gHtmlSpans.push(codeblock) - 1) + 'C';
+  };
+
+  // Hash naked <code>
+  text = showdown.helper.replaceRecursiveRegExp(text, repFunc, '<code\\b[^>]*>', '</code>', 'gim');
+
+  text = globals.converter._dispatch('hashCodeTags.after', text, options, globals);
+  return text;
+});
+
+showdown.subParser('hashElement', function (text, options, globals) {
+  'use strict';
+
+  return function (wholeMatch, m1) {
+    var blockText = m1;
+
+    // Undo double lines
+    blockText = blockText.replace(/\n\n/g, '\n');
+    blockText = blockText.replace(/^\n/, '');
+
+    // strip trailing blank lines
+    blockText = blockText.replace(/\n+$/g, '');
+
+    // Replace the element text with a marker ("¨KxK" where x is its key)
+    blockText = '\n\n¨K' + (globals.gHtmlBlocks.push(blockText) - 1) + 'K\n\n';
+
+    return blockText;
+  };
+});
+
+showdown.subParser('hashHTMLBlocks', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('hashHTMLBlocks.before', text, options, globals);
+
+  var blockTags = [
+        'pre',
+        'div',
+        'h1',
+        'h2',
+        'h3',
+        'h4',
+        'h5',
+        'h6',
+        'blockquote',
+        'table',
+        'dl',
+        'ol',
+        'ul',
+        'script',
+        'noscript',
+        'form',
+        'fieldset',
+        'iframe',
+        'math',
+        'style',
+        'section',
+        'header',
+        'footer',
+        'nav',
+        'article',
+        'aside',
+        'address',
+        'audio',
+        'canvas',
+        'figure',
+        'hgroup',
+        'output',
+        'video',
+        'p'
+      ],
+      repFunc = function (wholeMatch, match, left, right) {
+        var txt = wholeMatch;
+        // check if this html element is marked as markdown
+        // if so, it's contents should be parsed as markdown
+        if (left.search(/\bmarkdown\b/) !== -1) {
+          txt = left + globals.converter.makeHtml(match) + right;
+        }
+        return '\n\n¨K' + (globals.gHtmlBlocks.push(txt) - 1) + 'K\n\n';
+      };
+
+  if (options.backslashEscapesHTMLTags) {
+    // encode backslash escaped HTML tags
+    text = text.replace(/\\<(\/?[^>]+?)>/g, function (wm, inside) {
+      return '&lt;' + inside + '&gt;';
+    });
+  }
+
+  // hash HTML Blocks
+  for (var i = 0; i < blockTags.length; ++i) {
+
+    var opTagPos,
+        rgx1     = new RegExp('^ {0,3}(<' + blockTags[i] + '\\b[^>]*>)', 'im'),
+        patLeft  = '<' + blockTags[i] + '\\b[^>]*>',
+        patRight = '</' + blockTags[i] + '>';
+    // 1. Look for the first position of the first opening HTML tag in the text
+    while ((opTagPos = showdown.helper.regexIndexOf(text, rgx1)) !== -1) {
+
+      // if the HTML tag is \ escaped, we need to escape it and break
+
+
+      //2. Split the text in that position
+      var subTexts = showdown.helper.splitAtIndex(text, opTagPos),
+          //3. Match recursively
+          newSubText1 = showdown.helper.replaceRecursiveRegExp(subTexts[1], repFunc, patLeft, patRight, 'im');
+
+      // prevent an infinite loop
+      if (newSubText1 === subTexts[1]) {
+        break;
+      }
+      text = subTexts[0].concat(newSubText1);
+    }
+  }
+  // HR SPECIAL CASE
+  text = text.replace(/(\n {0,3}(<(hr)\b([^<>])*?\/?>)[ \t]*(?=\n{2,}))/g,
+    showdown.subParser('hashElement')(text, options, globals));
+
+  // Special case for standalone HTML comments
+  text = showdown.helper.replaceRecursiveRegExp(text, function (txt) {
+    return '\n\n¨K' + (globals.gHtmlBlocks.push(txt) - 1) + 'K\n\n';
+  }, '^ {0,3}<!--', '-->', 'gm');
+
+  // PHP and ASP-style processor instructions (<?...?> and <%...%>)
+  text = text.replace(/(?:\n\n)( {0,3}(?:<([?%])[^\r]*?\2>)[ \t]*(?=\n{2,}))/g,
+    showdown.subParser('hashElement')(text, options, globals));
+
+  text = globals.converter._dispatch('hashHTMLBlocks.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Hash span elements that should not be parsed as markdown
+ */
+showdown.subParser('hashHTMLSpans', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('hashHTMLSpans.before', text, options, globals);
+
+  function hashHTMLSpan (html) {
+    return '¨C' + (globals.gHtmlSpans.push(html) - 1) + 'C';
+  }
+
+  // Hash Self Closing tags
+  text = text.replace(/<[^>]+?\/>/gi, function (wm) {
+    return hashHTMLSpan(wm);
+  });
+
+  // Hash tags without properties
+  text = text.replace(/<([^>]+?)>[\s\S]*?<\/\1>/g, function (wm) {
+    return hashHTMLSpan(wm);
+  });
+
+  // Hash tags with properties
+  text = text.replace(/<([^>]+?)\s[^>]+?>[\s\S]*?<\/\1>/g, function (wm) {
+    return hashHTMLSpan(wm);
+  });
+
+  // Hash self closing tags without />
+  text = text.replace(/<[^>]+?>/gi, function (wm) {
+    return hashHTMLSpan(wm);
+  });
+
+  /*showdown.helper.matchRecursiveRegExp(text, '<code\\b[^>]*>', '</code>', 'gi');*/
+
+  text = globals.converter._dispatch('hashHTMLSpans.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Unhash HTML spans
+ */
+showdown.subParser('unhashHTMLSpans', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('unhashHTMLSpans.before', text, options, globals);
+
+  for (var i = 0; i < globals.gHtmlSpans.length; ++i) {
+    var repText = globals.gHtmlSpans[i],
+        // limiter to prevent infinite loop (assume 10 as limit for recurse)
+        limit = 0;
+
+    while (/¨C(\d+)C/.test(repText)) {
+      var num = RegExp.$1;
+      repText = repText.replace('¨C' + num + 'C', globals.gHtmlSpans[num]);
+      if (limit === 10) {
+        console.error('maximum nesting of 10 spans reached!!!');
+        break;
+      }
+      ++limit;
+    }
+    text = text.replace('¨C' + i + 'C', repText);
+  }
+
+  text = globals.converter._dispatch('unhashHTMLSpans.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Hash and escape <pre><code> elements that should not be parsed as markdown
+ */
+showdown.subParser('hashPreCodeTags', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('hashPreCodeTags.before', text, options, globals);
+
+  var repFunc = function (wholeMatch, match, left, right) {
+    // encode html entities
+    var codeblock = left + showdown.subParser('encodeCode')(match, options, globals) + right;
+    return '\n\n¨G' + (globals.ghCodeBlocks.push({text: wholeMatch, codeblock: codeblock}) - 1) + 'G\n\n';
+  };
+
+  // Hash <pre><code>
+  text = showdown.helper.replaceRecursiveRegExp(text, repFunc, '^ {0,3}<pre\\b[^>]*>\\s*<code\\b[^>]*>', '^ {0,3}</code>\\s*</pre>', 'gim');
+
+  text = globals.converter._dispatch('hashPreCodeTags.after', text, options, globals);
+  return text;
+});
+
+showdown.subParser('headers', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('headers.before', text, options, globals);
+
+  var headerLevelStart = (isNaN(parseInt(options.headerLevelStart))) ? 1 : parseInt(options.headerLevelStart),
+
+      // Set text-style headers:
+      //	Header 1
+      //	========
+      //
+      //	Header 2
+      //	--------
+      //
+      setextRegexH1 = (options.smoothLivePreview) ? /^(.+)[ \t]*\n={2,}[ \t]*\n+/gm : /^(.+)[ \t]*\n=+[ \t]*\n+/gm,
+      setextRegexH2 = (options.smoothLivePreview) ? /^(.+)[ \t]*\n-{2,}[ \t]*\n+/gm : /^(.+)[ \t]*\n-+[ \t]*\n+/gm;
+
+  text = text.replace(setextRegexH1, function (wholeMatch, m1) {
+
+    var spanGamut = showdown.subParser('spanGamut')(m1, options, globals),
+        hID = (options.noHeaderId) ? '' : ' id="' + headerId(m1) + '"',
+        hLevel = headerLevelStart,
+        hashBlock = '<h' + hLevel + hID + '>' + spanGamut + '</h' + hLevel + '>';
+    return showdown.subParser('hashBlock')(hashBlock, options, globals);
+  });
+
+  text = text.replace(setextRegexH2, function (matchFound, m1) {
+    var spanGamut = showdown.subParser('spanGamut')(m1, options, globals),
+        hID = (options.noHeaderId) ? '' : ' id="' + headerId(m1) + '"',
+        hLevel = headerLevelStart + 1,
+        hashBlock = '<h' + hLevel + hID + '>' + spanGamut + '</h' + hLevel + '>';
+    return showdown.subParser('hashBlock')(hashBlock, options, globals);
+  });
+
+  // atx-style headers:
+  //  # Header 1
+  //  ## Header 2
+  //  ## Header 2 with closing hashes ##
+  //  ...
+  //  ###### Header 6
+  //
+  var atxStyle = (options.requireSpaceBeforeHeadingText) ? /^(#{1,6})[ \t]+(.+?)[ \t]*#*\n+/gm : /^(#{1,6})[ \t]*(.+?)[ \t]*#*\n+/gm;
+
+  text = text.replace(atxStyle, function (wholeMatch, m1, m2) {
+    var hText = m2;
+    if (options.customizedHeaderId) {
+      hText = m2.replace(/\s?\{([^{]+?)}\s*$/, '');
+    }
+
+    var span = showdown.subParser('spanGamut')(hText, options, globals),
+        hID = (options.noHeaderId) ? '' : ' id="' + headerId(m2) + '"',
+        hLevel = headerLevelStart - 1 + m1.length,
+        header = '<h' + hLevel + hID + '>' + span + '</h' + hLevel + '>';
+
+    return showdown.subParser('hashBlock')(header, options, globals);
+  });
+
+  function headerId (m) {
+    var title,
+        prefix;
+
+    // It is separate from other options to allow combining prefix and customized
+    if (options.customizedHeaderId) {
+      var match = m.match(/\{([^{]+?)}\s*$/);
+      if (match && match[1]) {
+        m = match[1];
+      }
+    }
+
+    title = m;
+
+    // Prefix id to prevent causing inadvertent pre-existing style matches.
+    if (showdown.helper.isString(options.prefixHeaderId)) {
+      prefix = options.prefixHeaderId;
+    } else if (options.prefixHeaderId === true) {
+      prefix = 'section-';
+    } else {
+      prefix = '';
+    }
+
+    if (!options.rawPrefixHeaderId) {
+      title = prefix + title;
+    }
+
+    if (options.ghCompatibleHeaderId) {
+      title = title
+        .replace(/ /g, '-')
+        // replace previously escaped chars (&, ¨ and $)
+        .replace(/&amp;/g, '')
+        .replace(/¨T/g, '')
+        .replace(/¨D/g, '')
+        // replace rest of the chars (&~$ are repeated as they might have been escaped)
+        // borrowed from github's redcarpet (some they should produce similar results)
+        .replace(/[&+$,\/:;=?@"#{}|^¨~\[\]`\\*)(%.!'<>]/g, '')
+        .toLowerCase();
+    } else if (options.rawHeaderId) {
+      title = title
+        .replace(/ /g, '-')
+        // replace previously escaped chars (&, ¨ and $)
+        .replace(/&amp;/g, '&')
+        .replace(/¨T/g, '¨')
+        .replace(/¨D/g, '$')
+        // replace " and '
+        .replace(/["']/g, '-')
+        .toLowerCase();
+    } else {
+      title = title
+        .replace(/[^\w]/g, '')
+        .toLowerCase();
+    }
+
+    if (options.rawPrefixHeaderId) {
+      title = prefix + title;
+    }
+
+    if (globals.hashLinkCounts[title]) {
+      title = title + '-' + (globals.hashLinkCounts[title]++);
+    } else {
+      globals.hashLinkCounts[title] = 1;
+    }
+    return title;
+  }
+
+  text = globals.converter._dispatch('headers.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Turn Markdown link shortcuts into XHTML <a> tags.
+ */
+showdown.subParser('horizontalRule', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('horizontalRule.before', text, options, globals);
+
+  var key = showdown.subParser('hashBlock')('<hr />', options, globals);
+  text = text.replace(/^ {0,2}( ?-){3,}[ \t]*$/gm, key);
+  text = text.replace(/^ {0,2}( ?\*){3,}[ \t]*$/gm, key);
+  text = text.replace(/^ {0,2}( ?_){3,}[ \t]*$/gm, key);
+
+  text = globals.converter._dispatch('horizontalRule.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Turn Markdown image shortcuts into <img> tags.
+ */
+showdown.subParser('images', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('images.before', text, options, globals);
+
+  var inlineRegExp      = /!\[([^\]]*?)][ \t]*()\([ \t]?<?([\S]+?(?:\([\S]*?\)[\S]*?)?)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*(?:(["'])([^"]*?)\6)?[ \t]?\)/g,
+      crazyRegExp       = /!\[([^\]]*?)][ \t]*()\([ \t]?<([^>]*)>(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*(?:(?:(["'])([^"]*?)\6))?[ \t]?\)/g,
+      base64RegExp      = /!\[([^\]]*?)][ \t]*()\([ \t]?<?(data:.+?\/.+?;base64,[A-Za-z0-9+/=\n]+?)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*(?:(["'])([^"]*?)\6)?[ \t]?\)/g,
+      referenceRegExp   = /!\[([^\]]*?)] ?(?:\n *)?\[([\s\S]*?)]()()()()()/g,
+      refShortcutRegExp = /!\[([^\[\]]+)]()()()()()/g;
+
+  function writeImageTagBase64 (wholeMatch, altText, linkId, url, width, height, m5, title) {
+    url = url.replace(/\s/g, '');
+    return writeImageTag (wholeMatch, altText, linkId, url, width, height, m5, title);
+  }
+
+  function writeImageTag (wholeMatch, altText, linkId, url, width, height, m5, title) {
+
+    var gUrls   = globals.gUrls,
+        gTitles = globals.gTitles,
+        gDims   = globals.gDimensions;
+
+    linkId = linkId.toLowerCase();
+
+    if (!title) {
+      title = '';
+    }
+    // Special case for explicit empty url
+    if (wholeMatch.search(/\(<?\s*>? ?(['"].*['"])?\)$/m) > -1) {
+      url = '';
+
+    } else if (url === '' || url === null) {
+      if (linkId === '' || linkId === null) {
+        // lower-case and turn embedded newlines into spaces
+        linkId = altText.toLowerCase().replace(/ ?\n/g, ' ');
+      }
+      url = '#' + linkId;
+
+      if (!showdown.helper.isUndefined(gUrls[linkId])) {
+        url = gUrls[linkId];
+        if (!showdown.helper.isUndefined(gTitles[linkId])) {
+          title = gTitles[linkId];
+        }
+        if (!showdown.helper.isUndefined(gDims[linkId])) {
+          width = gDims[linkId].width;
+          height = gDims[linkId].height;
+        }
+      } else {
+        return wholeMatch;
+      }
+    }
+
+    altText = altText
+      .replace(/"/g, '&quot;')
+    //altText = showdown.helper.escapeCharacters(altText, '*_', false);
+      .replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);
+    //url = showdown.helper.escapeCharacters(url, '*_', false);
+    url = url.replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);
+    var result = '<img src="' + url + '" alt="' + altText + '"';
+
+    if (title && showdown.helper.isString(title)) {
+      title = title
+        .replace(/"/g, '&quot;')
+      //title = showdown.helper.escapeCharacters(title, '*_', false);
+        .replace(showdown.helper.regexes.asteriskDashAndColon, showdown.helper.escapeCharactersCallback);
+      result += ' title="' + title + '"';
+    }
+
+    if (width && height) {
+      width  = (width === '*') ? 'auto' : width;
+      height = (height === '*') ? 'auto' : height;
+
+      result += ' width="' + width + '"';
+      result += ' height="' + height + '"';
+    }
+
+    result += ' />';
+
+    return result;
+  }
+
+  // First, handle reference-style labeled images: ![alt text][id]
+  text = text.replace(referenceRegExp, writeImageTag);
+
+  // Next, handle inline images:  ![alt text](url =<width>x<height> "optional title")
+
+  // base64 encoded images
+  text = text.replace(base64RegExp, writeImageTagBase64);
+
+  // cases with crazy urls like ./image/cat1).png
+  text = text.replace(crazyRegExp, writeImageTag);
+
+  // normal cases
+  text = text.replace(inlineRegExp, writeImageTag);
+
+  // handle reference-style shortcuts: ![img text]
+  text = text.replace(refShortcutRegExp, writeImageTag);
+
+  text = globals.converter._dispatch('images.after', text, options, globals);
+  return text;
+});
+
+showdown.subParser('italicsAndBold', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('italicsAndBold.before', text, options, globals);
+
+  // it's faster to have 3 separate regexes for each case than have just one
+  // because of backtracing, in some cases, it could lead to an exponential effect
+  // called "catastrophic backtrace". Ominous!
+
+  function parseInside (txt, left, right) {
+    /*
+    if (options.simplifiedAutoLink) {
+      txt = showdown.subParser('simplifiedAutoLinks')(txt, options, globals);
+    }
+    */
+    return left + txt + right;
+  }
+
+  // Parse underscores
+  if (options.literalMidWordUnderscores) {
+    text = text.replace(/\b___(\S[\s\S]*?)___\b/g, function (wm, txt) {
+      return parseInside (txt, '<strong><em>', '</em></strong>');
+    });
+    text = text.replace(/\b__(\S[\s\S]*?)__\b/g, function (wm, txt) {
+      return parseInside (txt, '<strong>', '</strong>');
+    });
+    text = text.replace(/\b_(\S[\s\S]*?)_\b/g, function (wm, txt) {
+      return parseInside (txt, '<em>', '</em>');
+    });
+  } else {
+    text = text.replace(/___(\S[\s\S]*?)___/g, function (wm, m) {
+      return (/\S$/.test(m)) ? parseInside (m, '<strong><em>', '</em></strong>') : wm;
+    });
+    text = text.replace(/__(\S[\s\S]*?)__/g, function (wm, m) {
+      return (/\S$/.test(m)) ? parseInside (m, '<strong>', '</strong>') : wm;
+    });
+    text = text.replace(/_([^\s_][\s\S]*?)_/g, function (wm, m) {
+      // !/^_[^_]/.test(m) - test if it doesn't start with __ (since it seems redundant, we removed it)
+      return (/\S$/.test(m)) ? parseInside (m, '<em>', '</em>') : wm;
+    });
+  }
+
+  // Now parse asterisks
+  if (options.literalMidWordAsterisks) {
+    text = text.replace(/([^*]|^)\B\*\*\*(\S[\s\S]*?)\*\*\*\B(?!\*)/g, function (wm, lead, txt) {
+      return parseInside (txt, lead + '<strong><em>', '</em></strong>');
+    });
+    text = text.replace(/([^*]|^)\B\*\*(\S[\s\S]*?)\*\*\B(?!\*)/g, function (wm, lead, txt) {
+      return parseInside (txt, lead + '<strong>', '</strong>');
+    });
+    text = text.replace(/([^*]|^)\B\*(\S[\s\S]*?)\*\B(?!\*)/g, function (wm, lead, txt) {
+      return parseInside (txt, lead + '<em>', '</em>');
+    });
+  } else {
+    text = text.replace(/\*\*\*(\S[\s\S]*?)\*\*\*/g, function (wm, m) {
+      return (/\S$/.test(m)) ? parseInside (m, '<strong><em>', '</em></strong>') : wm;
+    });
+    text = text.replace(/\*\*(\S[\s\S]*?)\*\*/g, function (wm, m) {
+      return (/\S$/.test(m)) ? parseInside (m, '<strong>', '</strong>') : wm;
+    });
+    text = text.replace(/\*([^\s*][\s\S]*?)\*/g, function (wm, m) {
+      // !/^\*[^*]/.test(m) - test if it doesn't start with ** (since it seems redundant, we removed it)
+      return (/\S$/.test(m)) ? parseInside (m, '<em>', '</em>') : wm;
+    });
+  }
+
+
+  text = globals.converter._dispatch('italicsAndBold.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Form HTML ordered (numbered) and unordered (bulleted) lists.
+ */
+showdown.subParser('lists', function (text, options, globals) {
+  'use strict';
+
+  /**
+   * Process the contents of a single ordered or unordered list, splitting it
+   * into individual list items.
+   * @param {string} listStr
+   * @param {boolean} trimTrailing
+   * @returns {string}
+   */
+  function processListItems (listStr, trimTrailing) {
+    // The $g_list_level global keeps track of when we're inside a list.
+    // Each time we enter a list, we increment it; when we leave a list,
+    // we decrement. If it's zero, we're not in a list anymore.
+    //
+    // We do this because when we're not inside a list, we want to treat
+    // something like this:
+    //
+    //    I recommend upgrading to version
+    //    8. Oops, now this line is treated
+    //    as a sub-list.
+    //
+    // As a single paragraph, despite the fact that the second line starts
+    // with a digit-period-space sequence.
+    //
+    // Whereas when we're inside a list (or sub-list), that line will be
+    // treated as the start of a sub-list. What a kludge, huh? This is
+    // an aspect of Markdown's syntax that's hard to parse perfectly
+    // without resorting to mind-reading. Perhaps the solution is to
+    // change the syntax rules such that sub-lists must start with a
+    // starting cardinal number; e.g. "1." or "a.".
+    globals.gListLevel++;
+
+    // trim trailing blank lines:
+    listStr = listStr.replace(/\n{2,}$/, '\n');
+
+    // attacklab: add sentinel to emulate \z
+    listStr += '¨0';
+
+    var rgx = /(\n)?(^ {0,3})([*+-]|\d+[.])[ \t]+((\[(x|X| )?])?[ \t]*[^\r]+?(\n{1,2}))(?=\n*(¨0| {0,3}([*+-]|\d+[.])[ \t]+))/gm,
+        isParagraphed = (/\n[ \t]*\n(?!¨0)/.test(listStr));
+
+    // Since version 1.5, nesting sublists requires 4 spaces (or 1 tab) indentation,
+    // which is a syntax breaking change
+    // activating this option reverts to old behavior
+    if (options.disableForced4SpacesIndentedSublists) {
+      rgx = /(\n)?(^ {0,3})([*+-]|\d+[.])[ \t]+((\[(x|X| )?])?[ \t]*[^\r]+?(\n{1,2}))(?=\n*(¨0|\2([*+-]|\d+[.])[ \t]+))/gm;
+    }
+
+    listStr = listStr.replace(rgx, function (wholeMatch, m1, m2, m3, m4, taskbtn, checked) {
+      checked = (checked && checked.trim() !== '');
+
+      var item = showdown.subParser('outdent')(m4, options, globals),
+          bulletStyle = '';
+
+      // Support for github tasklists
+      if (taskbtn && options.tasklists) {
+        bulletStyle = ' class="task-list-item" style="list-style-type: none;"';
+        item = item.replace(/^[ \t]*\[(x|X| )?]/m, function () {
+          var otp = '<input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; vertical-align: middle;"';
+          if (checked) {
+            otp += ' checked';
+          }
+          otp += '>';
+          return otp;
+        });
+      }
+
+      // ISSUE #312
+      // This input: - - - a
+      // causes trouble to the parser, since it interprets it as:
+      // <ul><li><li><li>a</li></li></li></ul>
+      // instead of:
+      // <ul><li>- - a</li></ul>
+      // So, to prevent it, we will put a marker (¨A)in the beginning of the line
+      // Kind of hackish/monkey patching, but seems more effective than overcomplicating the list parser
+      item = item.replace(/^([-*+]|\d\.)[ \t]+[\S\n ]*/g, function (wm2) {
+        return '¨A' + wm2;
+      });
+
+      // m1 - Leading line or
+      // Has a double return (multi paragraph) or
+      // Has sublist
+      if (m1 || (item.search(/\n{2,}/) > -1)) {
+        item = showdown.subParser('githubCodeBlocks')(item, options, globals);
+        item = showdown.subParser('blockGamut')(item, options, globals);
+      } else {
+        // Recursion for sub-lists:
+        item = showdown.subParser('lists')(item, options, globals);
+        item = item.replace(/\n$/, ''); // chomp(item)
+        item = showdown.subParser('hashHTMLBlocks')(item, options, globals);
+
+        // Colapse double linebreaks
+        item = item.replace(/\n\n+/g, '\n\n');
+        if (isParagraphed) {
+          item = showdown.subParser('paragraphs')(item, options, globals);
+        } else {
+          item = showdown.subParser('spanGamut')(item, options, globals);
+        }
+      }
+
+      // now we need to remove the marker (¨A)
+      item = item.replace('¨A', '');
+      // we can finally wrap the line in list item tags
+      item =  '<li' + bulletStyle + '>' + item + '</li>\n';
+
+      return item;
+    });
+
+    // attacklab: strip sentinel
+    listStr = listStr.replace(/¨0/g, '');
+
+    globals.gListLevel--;
+
+    if (trimTrailing) {
+      listStr = listStr.replace(/\s+$/, '');
+    }
+
+    return listStr;
+  }
+
+  function styleStartNumber (list, listType) {
+    // check if ol and starts by a number different than 1
+    if (listType === 'ol') {
+      var res = list.match(/^ *(\d+)\./);
+      if (res && res[1] !== '1') {
+        return ' start="' + res[1] + '"';
+      }
+    }
+    return '';
+  }
+
+  /**
+   * Check and parse consecutive lists (better fix for issue #142)
+   * @param {string} list
+   * @param {string} listType
+   * @param {boolean} trimTrailing
+   * @returns {string}
+   */
+  function parseConsecutiveLists (list, listType, trimTrailing) {
+    // check if we caught 2 or more consecutive lists by mistake
+    // we use the counterRgx, meaning if listType is UL we look for OL and vice versa
+    var olRgx = (options.disableForced4SpacesIndentedSublists) ? /^ ?\d+\.[ \t]/gm : /^ {0,3}\d+\.[ \t]/gm,
+        ulRgx = (options.disableForced4SpacesIndentedSublists) ? /^ ?[*+-][ \t]/gm : /^ {0,3}[*+-][ \t]/gm,
+        counterRxg = (listType === 'ul') ? olRgx : ulRgx,
+        result = '';
+
+    if (list.search(counterRxg) !== -1) {
+      (function parseCL (txt) {
+        var pos = txt.search(counterRxg),
+            style = styleStartNumber(list, listType);
+        if (pos !== -1) {
+          // slice
+          result += '\n\n<' + listType + style + '>\n' + processListItems(txt.slice(0, pos), !!trimTrailing) + '</' + listType + '>\n';
+
+          // invert counterType and listType
+          listType = (listType === 'ul') ? 'ol' : 'ul';
+          counterRxg = (listType === 'ul') ? olRgx : ulRgx;
+
+          //recurse
+          parseCL(txt.slice(pos));
+        } else {
+          result += '\n\n<' + listType + style + '>\n' + processListItems(txt, !!trimTrailing) + '</' + listType + '>\n';
+        }
+      })(list);
+    } else {
+      var style = styleStartNumber(list, listType);
+      result = '\n\n<' + listType + style + '>\n' + processListItems(list, !!trimTrailing) + '</' + listType + '>\n';
+    }
+
+    return result;
+  }
+
+  /** Start of list parsing **/
+  text = globals.converter._dispatch('lists.before', text, options, globals);
+  // add sentinel to hack around khtml/safari bug:
+  // http://bugs.webkit.org/show_bug.cgi?id=11231
+  text += '¨0';
+
+  if (globals.gListLevel) {
+    text = text.replace(/^(( {0,3}([*+-]|\d+[.])[ \t]+)[^\r]+?(¨0|\n{2,}(?=\S)(?![ \t]*(?:[*+-]|\d+[.])[ \t]+)))/gm,
+      function (wholeMatch, list, m2) {
+        var listType = (m2.search(/[*+-]/g) > -1) ? 'ul' : 'ol';
+        return parseConsecutiveLists(list, listType, true);
+      }
+    );
+  } else {
+    text = text.replace(/(\n\n|^\n?)(( {0,3}([*+-]|\d+[.])[ \t]+)[^\r]+?(¨0|\n{2,}(?=\S)(?![ \t]*(?:[*+-]|\d+[.])[ \t]+)))/gm,
+      function (wholeMatch, m1, list, m3) {
+        var listType = (m3.search(/[*+-]/g) > -1) ? 'ul' : 'ol';
+        return parseConsecutiveLists(list, listType, false);
+      }
+    );
+  }
+
+  // strip sentinel
+  text = text.replace(/¨0/, '');
+  text = globals.converter._dispatch('lists.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Parse metadata at the top of the document
+ */
+showdown.subParser('metadata', function (text, options, globals) {
+  'use strict';
+
+  if (!options.metadata) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('metadata.before', text, options, globals);
+
+  function parseMetadataContents (content) {
+    // raw is raw so it's not changed in any way
+    globals.metadata.raw = content;
+
+    // escape chars forbidden in html attributes
+    // double quotes
+    content = content
+      // ampersand first
+      .replace(/&/g, '&amp;')
+      // double quotes
+      .replace(/"/g, '&quot;');
+
+    content = content.replace(/\n {4}/g, ' ');
+    content.replace(/^([\S ]+): +([\s\S]+?)$/gm, function (wm, key, value) {
+      globals.metadata.parsed[key] = value;
+      return '';
+    });
+  }
+
+  text = text.replace(/^\s*«««+(\S*?)\n([\s\S]+?)\n»»»+\n/, function (wholematch, format, content) {
+    parseMetadataContents(content);
+    return '¨M';
+  });
+
+  text = text.replace(/^\s*---+(\S*?)\n([\s\S]+?)\n---+\n/, function (wholematch, format, content) {
+    if (format) {
+      globals.metadata.format = format;
+    }
+    parseMetadataContents(content);
+    return '¨M';
+  });
+
+  text = text.replace(/¨M/g, '');
+
+  text = globals.converter._dispatch('metadata.after', text, options, globals);
+  return text;
+});
+
+/**
+ * Remove one level of line-leading tabs or spaces
+ */
+showdown.subParser('outdent', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('outdent.before', text, options, globals);
+
+  // attacklab: hack around Konqueror 3.5.4 bug:
+  // "----------bug".replace(/^-/g,"") == "bug"
+  text = text.replace(/^(\t|[ ]{1,4})/gm, '¨0'); // attacklab: g_tab_width
+
+  // attacklab: clean up hack
+  text = text.replace(/¨0/g, '');
+
+  text = globals.converter._dispatch('outdent.after', text, options, globals);
+  return text;
+});
+
+/**
+ *
+ */
+showdown.subParser('paragraphs', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('paragraphs.before', text, options, globals);
+  // Strip leading and trailing lines:
+  text = text.replace(/^\n+/g, '');
+  text = text.replace(/\n+$/g, '');
+
+  var grafs = text.split(/\n{2,}/g),
+      grafsOut = [],
+      end = grafs.length; // Wrap <p> tags
+
+  for (var i = 0; i < end; i++) {
+    var str = grafs[i];
+    // if this is an HTML marker, copy it
+    if (str.search(/¨(K|G)(\d+)\1/g) >= 0) {
+      grafsOut.push(str);
+
+    // test for presence of characters to prevent empty lines being parsed
+    // as paragraphs (resulting in undesired extra empty paragraphs)
+    } else if (str.search(/\S/) >= 0) {
+      str = showdown.subParser('spanGamut')(str, options, globals);
+      str = str.replace(/^([ \t]*)/g, '<p>');
+      str += '</p>';
+      grafsOut.push(str);
+    }
+  }
+
+  /** Unhashify HTML blocks */
+  end = grafsOut.length;
+  for (i = 0; i < end; i++) {
+    var blockText = '',
+        grafsOutIt = grafsOut[i],
+        codeFlag = false;
+    // if this is a marker for an html block...
+    // use RegExp.test instead of string.search because of QML bug
+    while (/¨(K|G)(\d+)\1/.test(grafsOutIt)) {
+      var delim = RegExp.$1,
+          num   = RegExp.$2;
+
+      if (delim === 'K') {
+        blockText = globals.gHtmlBlocks[num];
+      } else {
+        // we need to check if ghBlock is a false positive
+        if (codeFlag) {
+          // use encoded version of all text
+          blockText = showdown.subParser('encodeCode')(globals.ghCodeBlocks[num].text, options, globals);
+        } else {
+          blockText = globals.ghCodeBlocks[num].codeblock;
+        }
+      }
+      blockText = blockText.replace(/\$/g, '$$$$'); // Escape any dollar signs
+
+      grafsOutIt = grafsOutIt.replace(/(\n\n)?¨(K|G)\d+\2(\n\n)?/, blockText);
+      // Check if grafsOutIt is a pre->code
+      if (/^<pre\b[^>]*>\s*<code\b[^>]*>/.test(grafsOutIt)) {
+        codeFlag = true;
+      }
+    }
+    grafsOut[i] = grafsOutIt;
+  }
+  text = grafsOut.join('\n');
+  // Strip leading and trailing lines:
+  text = text.replace(/^\n+/g, '');
+  text = text.replace(/\n+$/g, '');
+  return globals.converter._dispatch('paragraphs.after', text, options, globals);
+});
+
+/**
+ * Run extension
+ */
+showdown.subParser('runExtension', function (ext, text, options, globals) {
+  'use strict';
+
+  if (ext.filter) {
+    text = ext.filter(text, globals.converter, options);
+
+  } else if (ext.regex) {
+    // TODO remove this when old extension loading mechanism is deprecated
+    var re = ext.regex;
+    if (!(re instanceof RegExp)) {
+      re = new RegExp(re, 'g');
+    }
+    text = text.replace(re, ext.replace);
+  }
+
+  return text;
+});
+
+/**
+ * These are all the transformations that occur *within* block-level
+ * tags like paragraphs, headers, and list items.
+ */
+showdown.subParser('spanGamut', function (text, options, globals) {
+  'use strict';
+
+  text = globals.converter._dispatch('spanGamut.before', text, options, globals);
+  text = showdown.subParser('codeSpans')(text, options, globals);
+  text = showdown.subParser('escapeSpecialCharsWithinTagAttributes')(text, options, globals);
+  text = showdown.subParser('encodeBackslashEscapes')(text, options, globals);
+
+  // Process anchor and image tags. Images must come first,
+  // because ![foo][f] looks like an anchor.
+  text = showdown.subParser('images')(text, options, globals);
+  text = showdown.subParser('anchors')(text, options, globals);
+
+  // Make links out of things like `<http://example.com/>`
+  // Must come after anchors, because you can use < and >
+  // delimiters in inline links like [this](<url>).
+  text = showdown.subParser('autoLinks')(text, options, globals);
+  text = showdown.subParser('simplifiedAutoLinks')(text, options, globals);
+  text = showdown.subParser('emoji')(text, options, globals);
+  text = showdown.subParser('underline')(text, options, globals);
+  text = showdown.subParser('italicsAndBold')(text, options, globals);
+  text = showdown.subParser('strikethrough')(text, options, globals);
+  text = showdown.subParser('ellipsis')(text, options, globals);
+
+  // we need to hash HTML tags inside spans
+  text = showdown.subParser('hashHTMLSpans')(text, options, globals);
+
+  // now we encode amps and angles
+  text = showdown.subParser('encodeAmpsAndAngles')(text, options, globals);
+
+  // Do hard breaks
+  if (options.simpleLineBreaks) {
+    // GFM style hard breaks
+    // only add line breaks if the text does not contain a block (special case for lists)
+    if (!/\n\n¨K/.test(text)) {
+      text = text.replace(/\n+/g, '<br />\n');
+    }
+  } else {
+    // Vanilla hard breaks
+    text = text.replace(/  +\n/g, '<br />\n');
+  }
+
+  text = globals.converter._dispatch('spanGamut.after', text, options, globals);
+  return text;
+});
+
+showdown.subParser('strikethrough', function (text, options, globals) {
+  'use strict';
+
+  function parseInside (txt) {
+    if (options.simplifiedAutoLink) {
+      txt = showdown.subParser('simplifiedAutoLinks')(txt, options, globals);
+    }
+    return '<del>' + txt + '</del>';
+  }
+
+  if (options.strikethrough) {
+    text = globals.converter._dispatch('strikethrough.before', text, options, globals);
+    text = text.replace(/(?:~){2}([\s\S]+?)(?:~){2}/g, function (wm, txt) { return parseInside(txt); });
+    text = globals.converter._dispatch('strikethrough.after', text, options, globals);
+  }
+
+  return text;
+});
+
+/**
+ * Strips link definitions from text, stores the URLs and titles in
+ * hash references.
+ * Link defs are in the form: ^[id]: url "optional title"
+ */
+showdown.subParser('stripLinkDefinitions', function (text, options, globals) {
+  'use strict';
+
+  var regex       = /^ {0,3}\[([^\]]+)]:[ \t]*\n?[ \t]*<?([^>\s]+)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*\n?[ \t]*(?:(\n*)["|'(](.+?)["|')][ \t]*)?(?:\n+|(?=¨0))/gm,
+      base64Regex = /^ {0,3}\[([^\]]+)]:[ \t]*\n?[ \t]*<?(data:.+?\/.+?;base64,[A-Za-z0-9+/=\n]+?)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*\n?[ \t]*(?:(\n*)["|'(](.+?)["|')][ \t]*)?(?:\n\n|(?=¨0)|(?=\n\[))/gm;
+
+  // attacklab: sentinel workarounds for lack of \A and \Z, safari\khtml bug
+  text += '¨0';
+
+  var replaceFunc = function (wholeMatch, linkId, url, width, height, blankLines, title) {
+
+    // if there aren't two instances of linkId it must not be a reference link so back out
+    linkId = linkId.toLowerCase();
+    if (text.toLowerCase().split(linkId).length - 1 < 2) {
+      return wholeMatch;
+    }
+    if (url.match(/^data:.+?\/.+?;base64,/)) {
+      // remove newlines
+      globals.gUrls[linkId] = url.replace(/\s/g, '');
+    } else {
+      globals.gUrls[linkId] = showdown.subParser('encodeAmpsAndAngles')(url, options, globals);  // Link IDs are case-insensitive
+    }
+
+    if (blankLines) {
+      // Oops, found blank lines, so it's not a title.
+      // Put back the parenthetical statement we stole.
+      return blankLines + title;
+
+    } else {
+      if (title) {
+        globals.gTitles[linkId] = title.replace(/"|'/g, '&quot;');
+      }
+      if (options.parseImgDimensions && width && height) {
+        globals.gDimensions[linkId] = {
+          width:  width,
+          height: height
+        };
+      }
+    }
+    // Completely remove the definition from the text
+    return '';
+  };
+
+  // first we try to find base64 link references
+  text = text.replace(base64Regex, replaceFunc);
+
+  text = text.replace(regex, replaceFunc);
+
+  // attacklab: strip sentinel
+  text = text.replace(/¨0/, '');
+
+  return text;
+});
+
+showdown.subParser('tables', function (text, options, globals) {
+  'use strict';
+
+  if (!options.tables) {
+    return text;
+  }
+
+  var tableRgx       = /^ {0,3}\|?.+\|.+\n {0,3}\|?[ \t]*:?[ \t]*(?:[-=]){2,}[ \t]*:?[ \t]*\|[ \t]*:?[ \t]*(?:[-=]){2,}[\s\S]+?(?:\n\n|¨0)/gm,
+      //singeColTblRgx = /^ {0,3}\|.+\|\n {0,3}\|[ \t]*:?[ \t]*(?:[-=]){2,}[ \t]*:?[ \t]*\|[ \t]*\n(?: {0,3}\|.+\|\n)+(?:\n\n|¨0)/gm;
+      singeColTblRgx = /^ {0,3}\|.+\|[ \t]*\n {0,3}\|[ \t]*:?[ \t]*(?:[-=]){2,}[ \t]*:?[ \t]*\|[ \t]*\n( {0,3}\|.+\|[ \t]*\n)*(?:\n|¨0)/gm;
+
+  function parseStyles (sLine) {
+    if (/^:[ \t]*--*$/.test(sLine)) {
+      return ' style="text-align:left;"';
+    } else if (/^--*[ \t]*:[ \t]*$/.test(sLine)) {
+      return ' style="text-align:right;"';
+    } else if (/^:[ \t]*--*[ \t]*:$/.test(sLine)) {
+      return ' style="text-align:center;"';
+    } else {
+      return '';
+    }
+  }
+
+  function parseHeaders (header, style) {
+    var id = '';
+    header = header.trim();
+    // support both tablesHeaderId and tableHeaderId due to error in documentation so we don't break backwards compatibility
+    if (options.tablesHeaderId || options.tableHeaderId) {
+      id = ' id="' + header.replace(/ /g, '_').toLowerCase() + '"';
+    }
+    header = showdown.subParser('spanGamut')(header, options, globals);
+
+    return '<th' + id + style + '>' + header + '</th>\n';
+  }
+
+  function parseCells (cell, style) {
+    var subText = showdown.subParser('spanGamut')(cell, options, globals);
+    return '<td' + style + '>' + subText + '</td>\n';
+  }
+
+  function buildTable (headers, cells) {
+    var tb = '<table>\n<thead>\n<tr>\n',
+        tblLgn = headers.length;
+
+    for (var i = 0; i < tblLgn; ++i) {
+      tb += headers[i];
+    }
+    tb += '</tr>\n</thead>\n<tbody>\n';
+
+    for (i = 0; i < cells.length; ++i) {
+      tb += '<tr>\n';
+      for (var ii = 0; ii < tblLgn; ++ii) {
+        tb += cells[i][ii];
+      }
+      tb += '</tr>\n';
+    }
+    tb += '</tbody>\n</table>\n';
+    return tb;
+  }
+
+  function parseTable (rawTable) {
+    var i, tableLines = rawTable.split('\n');
+
+    for (i = 0; i < tableLines.length; ++i) {
+      // strip wrong first and last column if wrapped tables are used
+      if (/^ {0,3}\|/.test(tableLines[i])) {
+        tableLines[i] = tableLines[i].replace(/^ {0,3}\|/, '');
+      }
+      if (/\|[ \t]*$/.test(tableLines[i])) {
+        tableLines[i] = tableLines[i].replace(/\|[ \t]*$/, '');
+      }
+      // parse code spans first, but we only support one line code spans
+      tableLines[i] = showdown.subParser('codeSpans')(tableLines[i], options, globals);
+    }
+
+    var rawHeaders = tableLines[0].split('|').map(function (s) { return s.trim();}),
+        rawStyles = tableLines[1].split('|').map(function (s) { return s.trim();}),
+        rawCells = [],
+        headers = [],
+        styles = [],
+        cells = [];
+
+    tableLines.shift();
+    tableLines.shift();
+
+    for (i = 0; i < tableLines.length; ++i) {
+      if (tableLines[i].trim() === '') {
+        continue;
+      }
+      rawCells.push(
+        tableLines[i]
+          .split('|')
+          .map(function (s) {
+            return s.trim();
+          })
+      );
+    }
+
+    if (rawHeaders.length < rawStyles.length) {
+      return rawTable;
+    }
+
+    for (i = 0; i < rawStyles.length; ++i) {
+      styles.push(parseStyles(rawStyles[i]));
+    }
+
+    for (i = 0; i < rawHeaders.length; ++i) {
+      if (showdown.helper.isUndefined(styles[i])) {
+        styles[i] = '';
+      }
+      headers.push(parseHeaders(rawHeaders[i], styles[i]));
+    }
+
+    for (i = 0; i < rawCells.length; ++i) {
+      var row = [];
+      for (var ii = 0; ii < headers.length; ++ii) {
+        if (showdown.helper.isUndefined(rawCells[i][ii])) {
+
+        }
+        row.push(parseCells(rawCells[i][ii], styles[ii]));
+      }
+      cells.push(row);
+    }
+
+    return buildTable(headers, cells);
+  }
+
+  text = globals.converter._dispatch('tables.before', text, options, globals);
+
+  // find escaped pipe characters
+  text = text.replace(/\\(\|)/g, showdown.helper.escapeCharactersCallback);
+
+  // parse multi column tables
+  text = text.replace(tableRgx, parseTable);
+
+  // parse one column tables
+  text = text.replace(singeColTblRgx, parseTable);
+
+  text = globals.converter._dispatch('tables.after', text, options, globals);
+
+  return text;
+});
+
+showdown.subParser('underline', function (text, options, globals) {
+  'use strict';
+
+  if (!options.underline) {
+    return text;
+  }
+
+  text = globals.converter._dispatch('underline.before', text, options, globals);
+
+  if (options.literalMidWordUnderscores) {
+    text = text.replace(/\b___(\S[\s\S]*?)___\b/g, function (wm, txt) {
+      return '<u>' + txt + '</u>';
+    });
+    text = text.replace(/\b__(\S[\s\S]*?)__\b/g, function (wm, txt) {
+      return '<u>' + txt + '</u>';
+    });
+  } else {
+    text = text.replace(/___(\S[\s\S]*?)___/g, function (wm, m) {
+      return (/\S$/.test(m)) ? '<u>' + m + '</u>' : wm;
+    });
+    text = text.replace(/__(\S[\s\S]*?)__/g, function (wm, m) {
+      return (/\S$/.test(m)) ? '<u>' + m + '</u>' : wm;
+    });
+  }
+
+  // escape remaining underscores to prevent them being parsed by italic and bold
+  text = text.replace(/(_)/g, showdown.helper.escapeCharactersCallback);
+
+  text = globals.converter._dispatch('underline.after', text, options, globals);
+
+  return text;
+});
+
+/**
+ * Swap back in all the special characters we've hidden.
+ */
+showdown.subParser('unescapeSpecialChars', function (text, options, globals) {
+  'use strict';
+  text = globals.converter._dispatch('unescapeSpecialChars.before', text, options, globals);
+
+  text = text.replace(/¨E(\d+)E/g, function (wholeMatch, m1) {
+    var charCodeToReplace = parseInt(m1);
+    return String.fromCharCode(charCodeToReplace);
+  });
+
+  text = globals.converter._dispatch('unescapeSpecialChars.after', text, options, globals);
+  return text;
+});
+
+showdown.subParser('makeMarkdown.blockquote', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasChildNodes()) {
+    var children = node.childNodes,
+        childrenLength = children.length;
+
+    for (var i = 0; i < childrenLength; ++i) {
+      var innerTxt = showdown.subParser('makeMarkdown.node')(children[i], globals);
+
+      if (innerTxt === '') {
+        continue;
+      }
+      txt += innerTxt;
+    }
+  }
+  // cleanup
+  txt = txt.trim();
+  txt = '> ' + txt.split('\n').join('\n> ');
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.codeBlock', function (node, globals) {
+  'use strict';
+
+  var lang = node.getAttribute('language'),
+      num  = node.getAttribute('precodenum');
+  return '```' + lang + '\n' + globals.preList[num] + '\n```';
+});
+
+showdown.subParser('makeMarkdown.codeSpan', function (node) {
+  'use strict';
+
+  return '`' + node.innerHTML + '`';
+});
+
+showdown.subParser('makeMarkdown.emphasis', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasChildNodes()) {
+    txt += '*';
+    var children = node.childNodes,
+        childrenLength = children.length;
+    for (var i = 0; i < childrenLength; ++i) {
+      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+    }
+    txt += '*';
+  }
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.header', function (node, globals, headerLevel) {
+  'use strict';
+
+  var headerMark = new Array(headerLevel + 1).join('#'),
+      txt = '';
+
+  if (node.hasChildNodes()) {
+    txt = headerMark + ' ';
+    var children = node.childNodes,
+        childrenLength = children.length;
+
+    for (var i = 0; i < childrenLength; ++i) {
+      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+    }
+  }
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.hr', function () {
+  'use strict';
+
+  return '---';
+});
+
+showdown.subParser('makeMarkdown.image', function (node) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasAttribute('src')) {
+    txt += '![' + node.getAttribute('alt') + '](';
+    txt += '<' + node.getAttribute('src') + '>';
+    if (node.hasAttribute('width') && node.hasAttribute('height')) {
+      txt += ' =' + node.getAttribute('width') + 'x' + node.getAttribute('height');
+    }
+
+    if (node.hasAttribute('title')) {
+      txt += ' "' + node.getAttribute('title') + '"';
+    }
+    txt += ')';
+  }
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.links', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasChildNodes() && node.hasAttribute('href')) {
+    var children = node.childNodes,
+        childrenLength = children.length;
+    txt = '[';
+    for (var i = 0; i < childrenLength; ++i) {
+      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+    }
+    txt += '](';
+    txt += '<' + node.getAttribute('href') + '>';
+    if (node.hasAttribute('title')) {
+      txt += ' "' + node.getAttribute('title') + '"';
+    }
+    txt += ')';
+  }
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.list', function (node, globals, type) {
+  'use strict';
+
+  var txt = '';
+  if (!node.hasChildNodes()) {
+    return '';
+  }
+  var listItems       = node.childNodes,
+      listItemsLenght = listItems.length,
+      listNum = node.getAttribute('start') || 1;
+
+  for (var i = 0; i < listItemsLenght; ++i) {
+    if (typeof listItems[i].tagName === 'undefined' || listItems[i].tagName.toLowerCase() !== 'li') {
+      continue;
+    }
+
+    // define the bullet to use in list
+    var bullet = '';
+    if (type === 'ol') {
+      bullet = listNum.toString() + '. ';
+    } else {
+      bullet = '- ';
+    }
+
+    // parse list item
+    txt += bullet + showdown.subParser('makeMarkdown.listItem')(listItems[i], globals);
+    ++listNum;
+  }
+
+  // add comment at the end to prevent consecutive lists to be parsed as one
+  txt += '\n<!-- -->\n';
+  return txt.trim();
+});
+
+showdown.subParser('makeMarkdown.listItem', function (node, globals) {
+  'use strict';
+
+  var listItemTxt = '';
+
+  var children = node.childNodes,
+      childrenLenght = children.length;
+
+  for (var i = 0; i < childrenLenght; ++i) {
+    listItemTxt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+  }
+  // if it's only one liner, we need to add a newline at the end
+  if (!/\n$/.test(listItemTxt)) {
+    listItemTxt += '\n';
+  } else {
+    // it's multiparagraph, so we need to indent
+    listItemTxt = listItemTxt
+      .split('\n')
+      .join('\n    ')
+      .replace(/^ {4}$/gm, '')
+      .replace(/\n\n+/g, '\n\n');
+  }
+
+  return listItemTxt;
+});
+
+
+
+showdown.subParser('makeMarkdown.node', function (node, globals, spansOnly) {
+  'use strict';
+
+  spansOnly = spansOnly || false;
+
+  var txt = '';
+
+  // edge case of text without wrapper paragraph
+  if (node.nodeType === 3) {
+    return showdown.subParser('makeMarkdown.txt')(node, globals);
+  }
+
+  // HTML comment
+  if (node.nodeType === 8) {
+    return '<!--' + node.data + '-->\n\n';
+  }
+
+  // process only node elements
+  if (node.nodeType !== 1) {
+    return '';
+  }
+
+  var tagName = node.tagName.toLowerCase();
+
+  switch (tagName) {
+
+    //
+    // BLOCKS
+    //
+    case 'h1':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 1) + '\n\n'; }
+      break;
+    case 'h2':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 2) + '\n\n'; }
+      break;
+    case 'h3':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 3) + '\n\n'; }
+      break;
+    case 'h4':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 4) + '\n\n'; }
+      break;
+    case 'h5':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 5) + '\n\n'; }
+      break;
+    case 'h6':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.header')(node, globals, 6) + '\n\n'; }
+      break;
+
+    case 'p':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.paragraph')(node, globals) + '\n\n'; }
+      break;
+
+    case 'blockquote':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.blockquote')(node, globals) + '\n\n'; }
+      break;
+
+    case 'hr':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.hr')(node, globals) + '\n\n'; }
+      break;
+
+    case 'ol':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.list')(node, globals, 'ol') + '\n\n'; }
+      break;
+
+    case 'ul':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.list')(node, globals, 'ul') + '\n\n'; }
+      break;
+
+    case 'precode':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.codeBlock')(node, globals) + '\n\n'; }
+      break;
+
+    case 'pre':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.pre')(node, globals) + '\n\n'; }
+      break;
+
+    case 'table':
+      if (!spansOnly) { txt = showdown.subParser('makeMarkdown.table')(node, globals) + '\n\n'; }
+      break;
+
+    //
+    // SPANS
+    //
+    case 'code':
+      txt = showdown.subParser('makeMarkdown.codeSpan')(node, globals);
+      break;
+
+    case 'em':
+    case 'i':
+      txt = showdown.subParser('makeMarkdown.emphasis')(node, globals);
+      break;
+
+    case 'strong':
+    case 'b':
+      txt = showdown.subParser('makeMarkdown.strong')(node, globals);
+      break;
+
+    case 'del':
+      txt = showdown.subParser('makeMarkdown.strikethrough')(node, globals);
+      break;
+
+    case 'a':
+      txt = showdown.subParser('makeMarkdown.links')(node, globals);
+      break;
+
+    case 'img':
+      txt = showdown.subParser('makeMarkdown.image')(node, globals);
+      break;
+
+    default:
+      txt = node.outerHTML + '\n\n';
+  }
+
+  // common normalization
+  // TODO eventually
+
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.paragraph', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasChildNodes()) {
+    var children = node.childNodes,
+        childrenLength = children.length;
+    for (var i = 0; i < childrenLength; ++i) {
+      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+    }
+  }
+
+  // some text normalization
+  txt = txt.trim();
+
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.pre', function (node, globals) {
+  'use strict';
+
+  var num  = node.getAttribute('prenum');
+  return '<pre>' + globals.preList[num] + '</pre>';
+});
+
+showdown.subParser('makeMarkdown.strikethrough', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasChildNodes()) {
+    txt += '~~';
+    var children = node.childNodes,
+        childrenLength = children.length;
+    for (var i = 0; i < childrenLength; ++i) {
+      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+    }
+    txt += '~~';
+  }
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.strong', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (node.hasChildNodes()) {
+    txt += '**';
+    var children = node.childNodes,
+        childrenLength = children.length;
+    for (var i = 0; i < childrenLength; ++i) {
+      txt += showdown.subParser('makeMarkdown.node')(children[i], globals);
+    }
+    txt += '**';
+  }
+  return txt;
+});
+
+showdown.subParser('makeMarkdown.table', function (node, globals) {
+  'use strict';
+
+  var txt = '',
+      tableArray = [[], []],
+      headings   = node.querySelectorAll('thead>tr>th'),
+      rows       = node.querySelectorAll('tbody>tr'),
+      i, ii;
+  for (i = 0; i < headings.length; ++i) {
+    var headContent = showdown.subParser('makeMarkdown.tableCell')(headings[i], globals),
+        allign = '---';
+
+    if (headings[i].hasAttribute('style')) {
+      var style = headings[i].getAttribute('style').toLowerCase().replace(/\s/g, '');
+      switch (style) {
+        case 'text-align:left;':
+          allign = ':---';
+          break;
+        case 'text-align:right;':
+          allign = '---:';
+          break;
+        case 'text-align:center;':
+          allign = ':---:';
+          break;
+      }
+    }
+    tableArray[0][i] = headContent.trim();
+    tableArray[1][i] = allign;
+  }
+
+  for (i = 0; i < rows.length; ++i) {
+    var r = tableArray.push([]) - 1,
+        cols = rows[i].getElementsByTagName('td');
+
+    for (ii = 0; ii < headings.length; ++ii) {
+      var cellContent = ' ';
+      if (typeof cols[ii] !== 'undefined') {
+        cellContent = showdown.subParser('makeMarkdown.tableCell')(cols[ii], globals);
+      }
+      tableArray[r].push(cellContent);
+    }
+  }
+
+  var cellSpacesCount = 3;
+  for (i = 0; i < tableArray.length; ++i) {
+    for (ii = 0; ii < tableArray[i].length; ++ii) {
+      var strLen = tableArray[i][ii].length;
+      if (strLen > cellSpacesCount) {
+        cellSpacesCount = strLen;
+      }
+    }
+  }
+
+  for (i = 0; i < tableArray.length; ++i) {
+    for (ii = 0; ii < tableArray[i].length; ++ii) {
+      if (i === 1) {
+        if (tableArray[i][ii].slice(-1) === ':') {
+          tableArray[i][ii] = showdown.helper.padEnd(tableArray[i][ii].slice(-1), cellSpacesCount - 1, '-') + ':';
+        } else {
+          tableArray[i][ii] = showdown.helper.padEnd(tableArray[i][ii], cellSpacesCount, '-');
+        }
+      } else {
+        tableArray[i][ii] = showdown.helper.padEnd(tableArray[i][ii], cellSpacesCount);
+      }
+    }
+    txt += '| ' + tableArray[i].join(' | ') + ' |\n';
+  }
+
+  return txt.trim();
+});
+
+showdown.subParser('makeMarkdown.tableCell', function (node, globals) {
+  'use strict';
+
+  var txt = '';
+  if (!node.hasChildNodes()) {
+    return '';
+  }
+  var children = node.childNodes,
+      childrenLength = children.length;
+
+  for (var i = 0; i < childrenLength; ++i) {
+    txt += showdown.subParser('makeMarkdown.node')(children[i], globals, true);
+  }
+  return txt.trim();
+});
+
+showdown.subParser('makeMarkdown.txt', function (node) {
+  'use strict';
+
+  var txt = node.nodeValue;
+
+  // multiple spaces are collapsed
+  txt = txt.replace(/ +/g, ' ');
+
+  // replace the custom ¨NBSP; with a space
+  txt = txt.replace(/¨NBSP;/g, ' ');
+
+  // ", <, > and & should replace escaped html entities
+  txt = showdown.helper.unescapeHTMLEntities(txt);
+
+  // escape markdown magic characters
+  // emphasis, strong and strikethrough - can appear everywhere
+  // we also escape pipe (|) because of tables
+  // and escape ` because of code blocks and spans
+  txt = txt.replace(/([*_~|`])/g, '\\$1');
+
+  // escape > because of blockquotes
+  txt = txt.replace(/^(\s*)>/g, '\\$1>');
+
+  // hash character, only troublesome at the beginning of a line because of headers
+  txt = txt.replace(/^#/gm, '\\#');
+
+  // horizontal rules
+  txt = txt.replace(/^(\s*)([-=]{3,})(\s*)$/, '$1\\$2$3');
+
+  // dot, because of ordered lists, only troublesome at the beginning of a line when preceded by an integer
+  txt = txt.replace(/^( {0,3}\d+)\./gm, '$1\\.');
+
+  // +, * and -, at the beginning of a line becomes a list, so we need to escape them also (asterisk was already escaped)
+  txt = txt.replace(/^( {0,3})([+-])/gm, '$1\\$2');
+
+  // images and links, ] followed by ( is problematic, so we escape it
+  txt = txt.replace(/]([\s]*)\(/g, '\\]$1\\(');
+
+  // reference URIs must also be escaped
+  txt = txt.replace(/^ {0,3}\[([\S \t]*?)]:/gm, '\\[$1]:');
+
+  return txt;
+});
+
+var root = this;
+
+// AMD Loader
+if (true) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+    'use strict';
+    return showdown;
+  }).call(exports, __webpack_require__, exports, module),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+// CommonJS/nodeJS Loader
+} else {}
+}).call(this);
+
+//# sourceMappingURL=showdown.js.map
+
 
 /***/ }),
 
@@ -59,7 +5366,51 @@ eval("var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 2.1.0 - 21-04-2022 */\r\
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/style/style.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://codenotes/./src/assets/style/style.css?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/assets/style/style.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
 
 /***/ }),
 
@@ -70,7 +5421,90 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 "use strict";
-eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n  return result;\n}\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n    identifiers.push(identifier);\n  }\n  return identifiers;\n}\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n  return updater;\n}\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n    var newLastIdentifiers = modulesToDom(newList, options);\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n      var _index = getIndexByIdentifier(_identifier);\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://codenotes/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
+
+
+var stylesInDOM = [];
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+  return result;
+}
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var indexByIdentifier = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
+    };
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
+    } else {
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
+        identifier: identifier,
+        updater: updater,
+        references: 1
+      });
+    }
+    identifiers.push(identifier);
+  }
+  return identifiers;
+}
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
+  var updater = function updater(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
+        return;
+      }
+      api.update(obj = newObj);
+    } else {
+      api.remove();
+    }
+  };
+  return updater;
+}
+module.exports = function (list, options) {
+  options = options || {};
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDOM[index].references--;
+    }
+    var newLastIdentifiers = modulesToDom(newList, options);
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+      var _index = getIndexByIdentifier(_identifier);
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
+        stylesInDOM.splice(_index, 1);
+      }
+    }
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
 
 /***/ }),
 
@@ -81,7 +5515,40 @@ eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  
 /***/ ((module) => {
 
 "use strict";
-eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target);\n\n    // Special case to return head of iframe instead of iframe itself\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n    memo[target] = styleTarget;\n  }\n  return memo[target];\n}\n\n/* istanbul ignore next  */\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n  target.appendChild(style);\n}\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://codenotes/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
+
+
+var memo = {};
+
+/* istanbul ignore next  */
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target);
+
+    // Special case to return head of iframe instead of iframe itself
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+    memo[target] = styleTarget;
+  }
+  return memo[target];
+}
+
+/* istanbul ignore next  */
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+  target.appendChild(style);
+}
+module.exports = insertBySelector;
 
 /***/ }),
 
@@ -92,7 +5559,16 @@ eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(targ
 /***/ ((module) => {
 
 "use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://codenotes/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+module.exports = insertStyleElement;
 
 /***/ }),
 
@@ -103,7 +5579,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n 
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://codenotes/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+module.exports = setAttributesWithoutAttributes;
 
 /***/ }),
 
@@ -114,7 +5599,67 @@ eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(s
 /***/ ((module) => {
 
 "use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n  var needLayer = typeof obj.layer !== \"undefined\";\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n  css += obj.css;\n  if (needLayer) {\n    css += \"}\";\n  }\n  if (obj.media) {\n    css += \"}\";\n  }\n  if (obj.supports) {\n    css += \"}\";\n  }\n  var sourceMap = obj.sourceMap;\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  }\n\n  // For old IE\n  /* istanbul ignore if  */\n  options.styleTagTransform(css, styleElement, options.options);\n}\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n  styleElement.parentNode.removeChild(styleElement);\n}\n\n/* istanbul ignore next  */\nfunction domAPI(options) {\n  if (typeof document === \"undefined\") {\n    return {\n      update: function update() {},\n      remove: function remove() {}\n    };\n  }\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://codenotes/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+  var needLayer = typeof obj.layer !== "undefined";
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+  css += obj.css;
+  if (needLayer) {
+    css += "}";
+  }
+  if (obj.media) {
+    css += "}";
+  }
+  if (obj.supports) {
+    css += "}";
+  }
+  var sourceMap = obj.sourceMap;
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  }
+
+  // For old IE
+  /* istanbul ignore if  */
+  options.styleTagTransform(css, styleElement, options.options);
+}
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+  styleElement.parentNode.removeChild(styleElement);
+}
+
+/* istanbul ignore next  */
+function domAPI(options) {
+  if (typeof document === "undefined") {
+    return {
+      update: function update() {},
+      remove: function remove() {}
+    };
+  }
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+module.exports = domAPI;
 
 /***/ }),
 
@@ -125,7 +5670,20 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 "use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://codenotes/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+module.exports = styleTagTransform;
 
 /***/ }),
 
@@ -136,7 +5694,110 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createPlayground: () => (/* binding */ Q)\n/* harmony export */ });\nasync function Q(n,w={}){typeof n==\"object\"&&!(n instanceof HTMLElement)&&n.view===\"headless\"&&(w=n,n=null);let{appUrl:E=\"https://livecodes.io/\",params:u={},config:m={},import:C,lite:x,loading:H=\"lazy\",template:O,view:R=\"split\"}=w,v=R===\"headless\",s=null;if(typeof n==\"string\")s=document.querySelector(n);else if(n instanceof HTMLElement)s=n;else if(!(v&&typeof n==\"object\"))throw new Error(\"A valid container element is required.\");if(!s)if(v)s=document.createElement(\"div\"),j(s),document.body.appendChild(s);else throw new Error(`Cannot find element: \"${n}\"`);let a;try{a=new URL(E)}catch(e){throw new Error(`\"${E}\" is not a valid URL.`)}let p=a.origin;if(typeof u==\"object\"&&Object.keys(u).forEach(e=>{a.searchParams.set(e,String(u[e]))}),typeof m==\"string\")try{new URL(m),a.searchParams.set(\"config\",m)}catch(e){throw new Error('\"config\" is not a valid URL or configuration object.')}else if(typeof m==\"object\")Object.keys(m).length>0&&a.searchParams.set(\"config\",\"sdk\");else throw new Error('\"config\" is not a valid URL or configuration object.');O&&a.searchParams.set(\"template\",O),C&&a.searchParams.set(\"x\",C),x&&a.searchParams.set(\"lite\",\"true\"),a.searchParams.set(\"embed\",\"true\"),a.searchParams.set(\"loading\",v?\"eager\":H),a.searchParams.set(\"view\",R);let b=!1,S=\"Cannot call API methods after calling `destroy()`.\",c=await(()=>new Promise(e=>{var l,y,h,d,P,L,g,K,k;if(!s)return;let o=s.dataset.height||s.style.height;if(o&&!v){let T=isNaN(Number(o))?o:o+\"px\";s.style.height=T}s.dataset.defaultStyles!==\"false\"&&!v&&((l=s.style).backgroundColor||(l.backgroundColor=\"#fff\"),(y=s.style).border||(y.border=\"1px solid black\"),(h=s.style).borderRadius||(h.borderRadius=\"5px\"),(d=s.style).boxSizing||(d.boxSizing=\"border-box\"),(P=s.style).padding||(P.padding=\"0\"),(L=s.style).width||(L.width=\"100%\"),(g=s.style).height||(g.height=s.style.height||\"300px\"),s.style.minHeight=\"200px\",s.style.flexGrow=\"1\",(K=s.style).overflow||(K.overflow=\"hidden\"),(k=s.style).resize||(k.resize=\"vertical\"));let t=document.createElement(\"iframe\");t.setAttribute(\"allow\",\"accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write; web-share\"),t.setAttribute(\"allowtransparency\",\"true\"),t.setAttribute(\"allowpaymentrequest\",\"true\"),t.setAttribute(\"allowfullscreen\",\"true\"),t.setAttribute(\"sandbox\",\"allow-same-origin allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-presentation allow-scripts\");let r=H===\"eager\"?\"eager\":\"lazy\";t.setAttribute(\"loading\",r),t.classList.add(\"livecodes\"),v?j(t):(t.style.height=\"100%\",t.style.minHeight=\"200px\",t.style.width=\"100%\",t.style.margin=\"0\",t.style.border=\"0\",t.style.borderRadius=s.style.borderRadius),addEventListener(\"message\",function T(A){var W,z;A.source!==t.contentWindow||A.origin!==p||((W=A.data)==null?void 0:W.type)!==\"livecodes-get-config\"||(removeEventListener(\"message\",T),(z=t.contentWindow)==null||z.postMessage({type:\"livecodes-config\",payload:m},p))}),t.onload=()=>{e(t)},t.src=a.href,s.appendChild(t)}))(),M=new Promise(e=>{addEventListener(\"message\",function o(t){var r;t.source!==c.contentWindow||t.origin!==p||((r=t.data)==null?void 0:r.type)!==\"livecodes-ready\"||(removeEventListener(\"message\",o),e(),M.settled=!0)})}),I=()=>b?Promise.reject(S):new Promise(async e=>{var t;M.settled&&e();let o={type:\"livecodes-load\"};(t=c.contentWindow)==null||t.postMessage(o,p),await M,e()}),i=(e,o)=>new Promise(async(t,r)=>{var y;if(b)return r(S);await I();let l=J();addEventListener(\"message\",function h(d){var P,L;if(!(d.source!==c.contentWindow||d.origin!==p||((P=d.data)==null?void 0:P.type)!==\"livecodes-api-response\"||((L=d.data)==null?void 0:L.id)!==l)&&d.data.method===e){removeEventListener(\"message\",h);let g=d.data.payload;g!=null&&g.error?r(g.error):t(g)}}),(y=c.contentWindow)==null||y.postMessage({method:e,id:l,args:o},p)}),f={},q=[\"load\",\"ready\",\"code\",\"console\",\"tests\",\"destroy\"],U=(e,o)=>{var t;if(b)throw new Error(S);return q.includes(e)?(i(\"watch\",[e]),f[e]||(f[e]=[]),(t=f[e])==null||t.push(o),{remove:()=>{var r,l;f[e]=(r=f[e])==null?void 0:r.filter(y=>y!==o),((l=f[e])==null?void 0:l.length)===0&&i(\"watch\",[e,\"unsubscribe\"])}}):{remove:()=>{}}},F=e=>({\"livecodes-app-loaded\":\"load\",\"livecodes-ready\":\"ready\",\"livecodes-change\":\"code\",\"livecodes-console\":\"console\",\"livecodes-test-results\":\"tests\",\"livecodes-destroy\":\"destroy\"})[e];addEventListener(\"message\",async e=>{var r,l,y,h;let o=F((l=(r=e.data)==null?void 0:r.type)!=null?l:\"\");if(e.source!==c.contentWindow||e.origin!==p||!o||!f[o])return;let t=(y=e.data)==null?void 0:y.payload;(h=f[o])==null||h.forEach(d=>{d(t)})});let D=()=>{var e;Object.values(f).forEach(o=>{o.length=0}),(e=c==null?void 0:c.remove)==null||e.call(c),b=!0};H===\"lazy\"&&\"IntersectionObserver\"in window&&new IntersectionObserver((o,t)=>{o.forEach(async r=>{r.isIntersecting&&(await I(),t.unobserve(s))})},{rootMargin:\"150px\"}).observe(s);function j(e){e.style.position=\"absolute\",e.style.top=\"0\",e.style.visibility=\"hidden\",e.style.opacity=\"0\"}let J=()=>(String(Math.random())+Date.now().toFixed()).replace(\"0.\",\"\");return{load:()=>I(),run:()=>i(\"run\"),format:e=>i(\"format\",[e]),getShareUrl:e=>i(\"getShareUrl\",[e]),getConfig:e=>i(\"getConfig\",[e]),setConfig:e=>i(\"setConfig\",[e]),getCode:()=>i(\"getCode\"),show:(e,o)=>i(\"show\",[e,o]),runTests:()=>i(\"runTests\"),onChange:e=>U(\"code\",e),watch:U,exec:(e,...o)=>i(\"exec\",[e,...o]),destroy:()=>M.settled?i(\"destroy\").then(D):b?Promise.reject(S):(D(),Promise.resolve())}}var N;globalThis.document&&document.currentScript&&\"prefill\"in((N=document.currentScript)==null?void 0:N.dataset)&&window.addEventListener(\"load\",()=>{document.querySelectorAll(\".livecodes\").forEach(n=>{let w,E=n.dataset.options;if(E)try{w=JSON.parse(E)}catch(x){}let u,m=n.dataset.config||n.dataset.prefill;if(m)try{u=JSON.parse(m)}catch(x){}let C=encodeURIComponent(n.outerHTML);n.innerHTML=\"\",Q(n,{import:\"dom/\"+C,...w,...u?{config:u}:{}})})});\n\n\n//# sourceURL=webpack://codenotes/./node_modules/livecodes/livecodes.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createPlayground: () => (/* binding */ Q)
+/* harmony export */ });
+async function Q(n,w={}){typeof n=="object"&&!(n instanceof HTMLElement)&&n.view==="headless"&&(w=n,n=null);let{appUrl:E="https://livecodes.io/",params:u={},config:m={},import:C,lite:x,loading:H="lazy",template:O,view:R="split"}=w,v=R==="headless",s=null;if(typeof n=="string")s=document.querySelector(n);else if(n instanceof HTMLElement)s=n;else if(!(v&&typeof n=="object"))throw new Error("A valid container element is required.");if(!s)if(v)s=document.createElement("div"),j(s),document.body.appendChild(s);else throw new Error(`Cannot find element: "${n}"`);let a;try{a=new URL(E)}catch(e){throw new Error(`"${E}" is not a valid URL.`)}let p=a.origin;if(typeof u=="object"&&Object.keys(u).forEach(e=>{a.searchParams.set(e,String(u[e]))}),typeof m=="string")try{new URL(m),a.searchParams.set("config",m)}catch(e){throw new Error('"config" is not a valid URL or configuration object.')}else if(typeof m=="object")Object.keys(m).length>0&&a.searchParams.set("config","sdk");else throw new Error('"config" is not a valid URL or configuration object.');O&&a.searchParams.set("template",O),C&&a.searchParams.set("x",C),x&&a.searchParams.set("lite","true"),a.searchParams.set("embed","true"),a.searchParams.set("loading",v?"eager":H),a.searchParams.set("view",R);let b=!1,S="Cannot call API methods after calling `destroy()`.",c=await(()=>new Promise(e=>{var l,y,h,d,P,L,g,K,k;if(!s)return;let o=s.dataset.height||s.style.height;if(o&&!v){let T=isNaN(Number(o))?o:o+"px";s.style.height=T}s.dataset.defaultStyles!=="false"&&!v&&((l=s.style).backgroundColor||(l.backgroundColor="#fff"),(y=s.style).border||(y.border="1px solid black"),(h=s.style).borderRadius||(h.borderRadius="5px"),(d=s.style).boxSizing||(d.boxSizing="border-box"),(P=s.style).padding||(P.padding="0"),(L=s.style).width||(L.width="100%"),(g=s.style).height||(g.height=s.style.height||"300px"),s.style.minHeight="200px",s.style.flexGrow="1",(K=s.style).overflow||(K.overflow="hidden"),(k=s.style).resize||(k.resize="vertical"));let t=document.createElement("iframe");t.setAttribute("allow","accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write; web-share"),t.setAttribute("allowtransparency","true"),t.setAttribute("allowpaymentrequest","true"),t.setAttribute("allowfullscreen","true"),t.setAttribute("sandbox","allow-same-origin allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-presentation allow-scripts");let r=H==="eager"?"eager":"lazy";t.setAttribute("loading",r),t.classList.add("livecodes"),v?j(t):(t.style.height="100%",t.style.minHeight="200px",t.style.width="100%",t.style.margin="0",t.style.border="0",t.style.borderRadius=s.style.borderRadius),addEventListener("message",function T(A){var W,z;A.source!==t.contentWindow||A.origin!==p||((W=A.data)==null?void 0:W.type)!=="livecodes-get-config"||(removeEventListener("message",T),(z=t.contentWindow)==null||z.postMessage({type:"livecodes-config",payload:m},p))}),t.onload=()=>{e(t)},t.src=a.href,s.appendChild(t)}))(),M=new Promise(e=>{addEventListener("message",function o(t){var r;t.source!==c.contentWindow||t.origin!==p||((r=t.data)==null?void 0:r.type)!=="livecodes-ready"||(removeEventListener("message",o),e(),M.settled=!0)})}),I=()=>b?Promise.reject(S):new Promise(async e=>{var t;M.settled&&e();let o={type:"livecodes-load"};(t=c.contentWindow)==null||t.postMessage(o,p),await M,e()}),i=(e,o)=>new Promise(async(t,r)=>{var y;if(b)return r(S);await I();let l=J();addEventListener("message",function h(d){var P,L;if(!(d.source!==c.contentWindow||d.origin!==p||((P=d.data)==null?void 0:P.type)!=="livecodes-api-response"||((L=d.data)==null?void 0:L.id)!==l)&&d.data.method===e){removeEventListener("message",h);let g=d.data.payload;g!=null&&g.error?r(g.error):t(g)}}),(y=c.contentWindow)==null||y.postMessage({method:e,id:l,args:o},p)}),f={},q=["load","ready","code","console","tests","destroy"],U=(e,o)=>{var t;if(b)throw new Error(S);return q.includes(e)?(i("watch",[e]),f[e]||(f[e]=[]),(t=f[e])==null||t.push(o),{remove:()=>{var r,l;f[e]=(r=f[e])==null?void 0:r.filter(y=>y!==o),((l=f[e])==null?void 0:l.length)===0&&i("watch",[e,"unsubscribe"])}}):{remove:()=>{}}},F=e=>({"livecodes-app-loaded":"load","livecodes-ready":"ready","livecodes-change":"code","livecodes-console":"console","livecodes-test-results":"tests","livecodes-destroy":"destroy"})[e];addEventListener("message",async e=>{var r,l,y,h;let o=F((l=(r=e.data)==null?void 0:r.type)!=null?l:"");if(e.source!==c.contentWindow||e.origin!==p||!o||!f[o])return;let t=(y=e.data)==null?void 0:y.payload;(h=f[o])==null||h.forEach(d=>{d(t)})});let D=()=>{var e;Object.values(f).forEach(o=>{o.length=0}),(e=c==null?void 0:c.remove)==null||e.call(c),b=!0};H==="lazy"&&"IntersectionObserver"in window&&new IntersectionObserver((o,t)=>{o.forEach(async r=>{r.isIntersecting&&(await I(),t.unobserve(s))})},{rootMargin:"150px"}).observe(s);function j(e){e.style.position="absolute",e.style.top="0",e.style.visibility="hidden",e.style.opacity="0"}let J=()=>(String(Math.random())+Date.now().toFixed()).replace("0.","");return{load:()=>I(),run:()=>i("run"),format:e=>i("format",[e]),getShareUrl:e=>i("getShareUrl",[e]),getConfig:e=>i("getConfig",[e]),setConfig:e=>i("setConfig",[e]),getCode:()=>i("getCode"),show:(e,o)=>i("show",[e,o]),runTests:()=>i("runTests"),onChange:e=>U("code",e),watch:U,exec:(e,...o)=>i("exec",[e,...o]),destroy:()=>M.settled?i("destroy").then(D):b?Promise.reject(S):(D(),Promise.resolve())}}var N;globalThis.document&&document.currentScript&&"prefill"in((N=document.currentScript)==null?void 0:N.dataset)&&window.addEventListener("load",()=>{document.querySelectorAll(".livecodes").forEach(n=>{let w,E=n.dataset.options;if(E)try{w=JSON.parse(E)}catch(x){}let u,m=n.dataset.config||n.dataset.prefill;if(m)try{u=JSON.parse(m)}catch(x){}let C=encodeURIComponent(n.outerHTML);n.innerHTML="",Q(n,{import:"dom/"+C,...w,...u?{config:u}:{}})})});
+
+
+/***/ }),
+
+/***/ "./src/assets/script/createCodeProject.js":
+/*!************************************************!*\
+  !*** ./src/assets/script/createCodeProject.js ***!
+  \************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createCodeProject: () => (/* binding */ createCodeProject)
+/* harmony export */ });
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util.js */ "./src/assets/script/util.js");
+//import { util } from "webpack";
+
+// codeProject for wrap and cache the functions
+function createCodeProject() {
+  let versions; // project version names
+  let config; // project config
+  const descriptions = {}; // version description
+  const liveCodesConfigs = new Map(); //  liveCodes config for all the versions
+
+  async function getVersions() {
+    if (!config) {
+      config = await (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.fetchProjectConfig)();
+    }
+
+    if (!versions) {
+      versions = (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.getProjectVersions)(config);
+    }
+
+    return versions;
+  }
+
+  // get url for final or complete page
+  async function getUrl(version) {
+    await getVersions();
+    if (!version in versions) {
+      throw new Error(`Project version not exist : ${version}`);
+    }
+    const versionObj = config.find((v) => {
+      return v.name === version;
+    });
+    if (versionObj) {
+      return versionObj.url;
+    }
+    return "#";
+  }
+
+  // get version config ( with url instead of content)
+
+  function getVersionConfig(version) {
+    const versionObj = config.find((v) => {
+      return v.name === version;
+    });
+    if (versionObj) {
+      return versionObj["config"];
+    }
+  }
+  // {'name':'', url, description}
+  async function getDescription(version) {
+    await getVersions();
+    if (!version in versions) {
+      throw new Error(`Project version not exist : ${version}`);
+    }
+
+    // get description
+    const desc = await (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.loadTextFile)(`./${version}/description.md`);
+    return (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.mdToHtml)(desc);
+  }
+
+  async function getLiveCodesConfig(version) {
+    await getVersions();
+
+    if (!liveCodesConfigs.has(version)) {
+      const versionConfig = getVersionConfig(version);
+
+      if (!versionConfig) {
+        throw new Error(`No config found for version :${version}`);
+      }
+      const newConf = await (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.fetchProjectFiles)(version, versionConfig);
+      liveCodesConfigs.set(version, newConf);
+    }
+    return liveCodesConfigs.get(version);
+  }
+
+  return {
+    getVersions,
+    getUrl,
+    getDescription,
+    getLiveCodesConfig,
+  };
+}
+
+
+
 
 /***/ }),
 
@@ -147,7 +5808,113 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var livecodes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! livecodes */ \"./node_modules/livecodes/livecodes.js\");\n/* harmony import */ var showdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! showdown */ \"./node_modules/showdown/dist/showdown.js\");\n/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util.js */ \"./src/assets/script/util.js\");\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../style/style.css */ \"./src/assets/style/style.css\");\n//import { createPlayground } from \"https://unpkg.com/livecodes@0.3.0\";\r\n// import { showdown } from \"https://unpkg.com/showdown@2.1.0\";\r\n\r\n\r\n\r\n\r\n\r\n// resize  sidebar\r\n\r\ntry {\r\n  const sidebar = document.querySelector(\".sidebar\");\r\n  const mainContent = document.querySelector(\".main-content\");\r\n  document.querySelector(\"button\").onclick = function () {\r\n    sidebar.classList.toggle(\"sidebar_small\");\r\n    mainContent.classList.toggle(\"main-content_large\");\r\n  };\r\n} catch (err) {\r\n  console.error(\"failed to setup resizing sidebar\");\r\n}\r\n//----------------------end of resize\r\n\r\nconst converter = new showdown__WEBPACK_IMPORTED_MODULE_1__.Converter({\r\n  simplifiedAutoLink: true,\r\n  tasklists: true,\r\n  tables: true,\r\n  strikethrough: true,\r\n});\r\nconst text = \"* [ ] hello, markdown!\";\r\nconst htmlContent = converter.makeHtml(text).replaceAll(\"disabled\", \"\");\r\n\r\nconst target = document.getElementById(\"description\");\r\ntarget.innerHTML = htmlContent;\r\nconsole.log(\"$$$$$$$$$$$$$$$$$$$$$$\", htmlContent);\r\n\r\n// read project config\r\n\r\nconst codeProject = (0,_util_js__WEBPACK_IMPORTED_MODULE_2__.createCodeProject)();\r\nconst versions = await codeProject.getVersions();\r\nconst url = await codeProject.getUrl(\"starter\");\r\nconst desc = await codeProject.getDescription(\"starter\");\r\nconst conf = await codeProject.getLiveCodesConfig(\"starter\");\r\n\r\n// const config1 = {\r\n//   markup: {\r\n//     language: \"markdown\",\r\n//     content: \"# Hello LiveCodes!\",\r\n//   },\r\n//   style: {\r\n//     language: \"css\",\r\n//     content: \"body { color: blue; }\",\r\n//   },\r\n//   script: {\r\n//     language: \"javascript\",\r\n//     content: 'console.log(\"hello from JavaScript!\");',\r\n//   },\r\n//   activeEditor: \"script\",\r\n// };\r\n//let projectConfig = await fetchProjectFiles(\"starter.json\");\r\nconst projectConfig = Object.assign({}, conf);\r\nprojectConfig.activeEditor = \"script\";\r\n\r\nconst config = structuredClone(projectConfig);\r\n\r\nconst playground = await (0,livecodes__WEBPACK_IMPORTED_MODULE_0__.createPlayground)(\"#playground\", {\r\n  config,\r\n  params: { console: \"open\" },\r\n});\r\n\r\nasync function handleSelectConfig(name) {\r\n  const newConfig = await codeProject.getLiveCodesConfig(name);\r\n  await playground.setConfig(newConfig);\r\n}\r\n\r\nasync function currentSelectConfig() {}\r\n(0,_util_js__WEBPACK_IMPORTED_MODULE_2__.createConfigOptions)(\r\n  \"configContainer\",\r\n  await codeProject.getVersions(),\r\n  handleSelectConfig\r\n);\r\n\r\n// await playground.setConfig({\r\n//   // new config options\r\n// });\r\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } }, 1);\n\n//# sourceURL=webpack://codenotes/./src/assets/script/main.js?");
+__webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var livecodes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! livecodes */ "./node_modules/livecodes/livecodes.js");
+/* harmony import */ var showdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! showdown */ "./node_modules/showdown/dist/showdown.js");
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util.js */ "./src/assets/script/util.js");
+/* harmony import */ var _createCodeProject_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./createCodeProject.js */ "./src/assets/script/createCodeProject.js");
+/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../style/style.css */ "./src/assets/style/style.css");
+//import { createPlayground } from "https://unpkg.com/livecodes@0.3.0";
+// import { showdown } from "https://unpkg.com/showdown@2.1.0";
+
+
+
+
+
+
+// resize  sidebar
+
+try {
+  const sidebar = document.querySelector(".sidebar");
+  const mainContent = document.querySelector(".main-content");
+  document.querySelector("button").onclick = function () {
+    sidebar.classList.toggle("sidebar_small");
+    mainContent.classList.toggle("main-content_large");
+  };
+} catch (err) {
+  console.error("failed to setup resizing sidebar");
+}
+//----------------------end of resize
+
+const converter = new showdown__WEBPACK_IMPORTED_MODULE_1__.Converter({
+  simplifiedAutoLink: true,
+  tasklists: true,
+  tables: true,
+  strikethrough: true,
+});
+const text = "* [ ] hello, markdown!";
+const htmlContent = converter.makeHtml(text).replaceAll("disabled", "");
+
+const target = document.getElementById("description");
+target.innerHTML = htmlContent;
+
+// read project config
+
+const codeProject = (0,_createCodeProject_js__WEBPACK_IMPORTED_MODULE_3__.createCodeProject)();
+const versions = await codeProject.getVersions();
+
+const conf = await codeProject.getLiveCodesConfig(versions[0]);
+
+// const config1 = {
+//   markup: {
+//     language: "markdown",
+//     content: "# Hello LiveCodes!",
+//   },
+//   style: {
+//     language: "css",
+//     content: "body { color: blue; }",
+//   },
+//   script: {
+//     language: "javascript",
+//     content: 'console.log("hello from JavaScript!");',
+//   },
+//   activeEditor: "script",
+// };
+//let projectConfig = await fetchProjectFiles("starter.json");
+const projectConfig = Object.assign({}, conf);
+projectConfig.activeEditor = "script";
+
+const config = structuredClone(projectConfig);
+
+const playground = await (0,livecodes__WEBPACK_IMPORTED_MODULE_0__.createPlayground)("#playground", {
+  config,
+  params: { console: "open" },
+});
+
+(0,_util_js__WEBPACK_IMPORTED_MODULE_2__.createConfigOptions)(
+  "configContainer",
+  await codeProject.getVersions(),
+  handleSelectConfig
+);
+
+refreshProject();
+
+async function handleSelectConfig(name) {
+  const newConfig = await codeProject.getLiveCodesConfig(name);
+  await playground.setConfig(newConfig);
+  await refreshProject();
+  // update url and description
+}
+
+// refresh current project url and description
+async function refreshProject() {
+  const currentVersion = document.getElementById("configContainer").value;
+
+  const url = await codeProject.getUrl(currentVersion);
+  document.getElementById("url").href = url;
+  const desc = await codeProject.getDescription(currentVersion);
+  document.getElementById("description").innerHTML = desc;
+}
+
+// async function currentSelectConfig() {}
+
+// await playground.setConfig({
+//   // new config options
+// });
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } }, 1);
 
 /***/ }),
 
@@ -158,7 +5925,135 @@ eval("__webpack_require__.a(__webpack_module__, async (__webpack_handle_async_de
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createCodeProject: () => (/* binding */ createCodeProject),\n/* harmony export */   createConfigOptions: () => (/* binding */ createConfigOptions),\n/* harmony export */   getSearchParameter: () => (/* binding */ getSearchParameter),\n/* harmony export */   setSearchParameter: () => (/* binding */ setSearchParameter)\n/* harmony export */ });\n// Assuming your JSON file is named filelist.json and has a structure like { \"files\": [\"file1.txt\", \"file2.txt\", ...] }\r\n\r\n// codeProject for wrap and cache the functions\r\nfunction createCodeProject() {\r\n  let versions; // project version names\r\n  let config; // project config\r\n  const descriptions = {}; // version description\r\n  const liveCodesConfigs = new Map(); //  liveCodes config for all the versions\r\n  async function getVersions() {\r\n    if (!config) {\r\n      config = await fetchProjectConfig();\r\n    }\r\n    if (!versions) {\r\n      versions = getProjectVersions(config);\r\n    }\r\n\r\n    return versions;\r\n  }\r\n\r\n  async function getUrl(version) {\r\n    await getVersions();\r\n    if (!version in versions) {\r\n      throw new Error(`Project version not exist : ${version}`);\r\n    }\r\n    const versionObj = versions.find((v) => {\r\n      v.name === version;\r\n    });\r\n    if (versionObj) {\r\n      return versionObj.url;\r\n    }\r\n    return \"#\";\r\n  }\r\n\r\n  // get version config ( with url instead of content)\r\n\r\n  function getVersionConfig(version) {\r\n    const versionObj = config.find((v) => {\r\n      return v.name === version;\r\n    });\r\n    if (versionObj) {\r\n      return versionObj[\"config\"];\r\n    }\r\n  }\r\n  // {'name':'', url, description}\r\n  async function getDescription(version) {\r\n    await getVersions();\r\n    if (!version in versions) {\r\n      throw new Error(`Project version not exist : ${version}`);\r\n    }\r\n    // get description\r\n    const desc = await loadTextFile(`./${version}/description.md`);\r\n    return desc;\r\n  }\r\n\r\n  async function getLiveCodesConfig(version) {\r\n    await getVersions();\r\n\r\n    if (!liveCodesConfigs.has(version)) {\r\n      const versionConfig = getVersionConfig(version);\r\n\r\n      if (!versionConfig) {\r\n        throw new Error(`No config found for version :${version}`);\r\n      }\r\n      const newConf = await fetchProjectFiles2(version, versionConfig);\r\n      liveCodesConfigs.set(version, newConf);\r\n    }\r\n    return liveCodesConfigs.get(version);\r\n  }\r\n\r\n  return {\r\n    getVersions,\r\n    getUrl,\r\n    getDescription,\r\n    getLiveCodesConfig,\r\n  };\r\n}\r\n\r\n//\r\nasync function fetchProjectFiles2(version, projectConfig) {\r\n  const newProjectConfig = structuredClone(projectConfig);\r\n  // load files for project\r\n\r\n  for (let item in newProjectConfig) {\r\n    const fileName = newProjectConfig[item].content;\r\n    const filePath = `${version}/${fileName}`;\r\n\r\n    const fileContent = await loadTextFile(filePath);\r\n    if (fileContent) {\r\n      newProjectConfig[item].content = fileContent;\r\n    }\r\n  }\r\n\r\n  return newProjectConfig;\r\n}\r\n\r\nasync function loadJsonFile(filePath = \"project.json\") {\r\n  try {\r\n    const res = await fetch(filePath);\r\n    const data = await res.json();\r\n    return data;\r\n  } catch (err) {\r\n    console.error(err.message);\r\n    return \"\";\r\n  }\r\n}\r\n\r\nasync function loadTextFile(filePath) {\r\n  try {\r\n    const res = await fetch(filePath);\r\n    const data = await res.text();\r\n    return data;\r\n  } catch (err) {\r\n    console.error(err.message);\r\n    return \"\";\r\n  }\r\n}\r\n\r\nfunction getSearchParameter(name = \"version\") {\r\n  const urlParams = new URLSearchParams(window.location.search);\r\n  const param = urlParams.get(name);\r\n  return param;\r\n}\r\n\r\nfunction setSearchParameter(name = \"version\", value = \"starter\") {\r\n  const urlParams = new URLSearchParams(window.location.search);\r\n  urlParams.set(name, value);\r\n\r\n  const newUrl = `${window.location.origin}${\r\n    window.location.pathname\r\n  }?${urlParams.toString()}`;\r\n  window.history.replaceState({}, \"\", newUrl);\r\n}\r\n\r\n/**\r\n * creates a dynamic dropdown (<select>) based on the provided options array\r\n * and sets up an event listener to execute a callback (changeHandle)\r\n * when the user changes the selection.\r\n * @param {*} selectElementId - select element id\r\n * @param {*} options - array for options ['proj-starter', 'proj-finished']\r\n * @param {*} changeHandle - load a new config for livecodes playground\r\n */\r\nfunction createConfigOptions(selectElementId, options, changeHandle) {\r\n  if (!options) {\r\n    options = [\"starter\", \"finished\"];\r\n  }\r\n\r\n  if (!changeHandle) {\r\n    changeHandle = () => {\r\n      console.log(\" please add event handle for selecting config\");\r\n    };\r\n  }\r\n  const selectElement = document.getElementById(selectElementId);\r\n\r\n  options.forEach((option, index) => {\r\n    const optionElement = document.createElement(\"option\");\r\n    optionElement.value = option;\r\n    optionElement.text = option;\r\n    selectElement.appendChild(optionElement);\r\n  });\r\n\r\n  selectElement.addEventListener(\"change\", function () {\r\n    const option = this.value;\r\n    changeHandle(option);\r\n  });\r\n}\r\n\r\n// --------------------get project config from config.json\r\n\r\nasync function fetchProjectConfig() {\r\n  const pathname = window.location.pathname;\r\n  const dirname = \"\".split(\"/\")[-2];\r\n\r\n  const data = await loadJsonFile(\"config.json\");\r\n\r\n  return data;\r\n}\r\n\r\nfunction getProjectVersions(projConf) {\r\n  return projConf.map((version) => {\r\n    return version.name;\r\n  });\r\n}\r\n\r\n\n\n//# sourceURL=webpack://codenotes/./src/assets/script/util.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createConfigOptions: () => (/* binding */ createConfigOptions),
+/* harmony export */   fetchProjectConfig: () => (/* binding */ fetchProjectConfig),
+/* harmony export */   fetchProjectFiles: () => (/* binding */ fetchProjectFiles),
+/* harmony export */   getProjectVersions: () => (/* binding */ getProjectVersions),
+/* harmony export */   getSearchParameter: () => (/* binding */ getSearchParameter),
+/* harmony export */   loadJsonFile: () => (/* binding */ loadJsonFile),
+/* harmony export */   loadTextFile: () => (/* binding */ loadTextFile),
+/* harmony export */   mdToHtml: () => (/* binding */ mdToHtml),
+/* harmony export */   setSearchParameter: () => (/* binding */ setSearchParameter)
+/* harmony export */ });
+/* harmony import */ var showdown__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! showdown */ "./node_modules/showdown/dist/showdown.js");
+// Assuming your JSON file is named filelist.json and has a structure like { "files": ["file1.txt", "file2.txt", ...] }
+
+//
+async function fetchProjectFiles(version, projectConfig) {
+  const newProjectConfig = structuredClone(projectConfig);
+  // load files for project
+
+  for (let item in newProjectConfig) {
+    const fileName = newProjectConfig[item].content;
+    const filePath = `${version}/${fileName}`;
+
+    const fileContent = await loadTextFile(filePath);
+    if (fileContent) {
+      newProjectConfig[item].content = fileContent;
+    }
+  }
+
+  return newProjectConfig;
+}
+
+async function loadJsonFile(filePath = "project.json") {
+  try {
+    const res = await fetch(filePath);
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    console.error(err.message);
+    return "";
+  }
+}
+
+async function loadTextFile(filePath) {
+  try {
+    const res = await fetch(filePath);
+    const data = await res.text();
+    return data;
+  } catch (err) {
+    console.error(err.message);
+    return "";
+  }
+}
+
+function getSearchParameter(name = "version") {
+  const urlParams = new URLSearchParams(window.location.search);
+  const param = urlParams.get(name);
+  return param;
+}
+
+function setSearchParameter(name = "version", value = "starter") {
+  const urlParams = new URLSearchParams(window.location.search);
+  urlParams.set(name, value);
+
+  const newUrl = `${window.location.origin}${
+    window.location.pathname
+  }?${urlParams.toString()}`;
+  window.history.replaceState({}, "", newUrl);
+}
+
+/**
+ * creates a dynamic dropdown (<select>) based on the provided options array
+ * and sets up an event listener to execute a callback (changeHandle)
+ * when the user changes the selection.
+ * @param {*} selectElementId - select element id
+ * @param {*} options - array for options ['proj-starter', 'proj-finished']
+ * @param {*} changeHandle - load a new config for livecodes playground
+ */
+function createConfigOptions(selectElementId, options, changeHandle) {
+  if (!options) {
+    options = ["starter", "finished"];
+  }
+
+  if (!changeHandle) {
+    changeHandle = () => {
+      console.log(" please add event handle for selecting config");
+    };
+  }
+  const selectElement = document.getElementById(selectElementId);
+
+  options.forEach((option, index) => {
+    const optionElement = document.createElement("option");
+    optionElement.value = option;
+    optionElement.text = option;
+    selectElement.appendChild(optionElement);
+  });
+
+  selectElement.addEventListener("change", function () {
+    const option = this.value;
+    changeHandle(option);
+  });
+}
+
+// --------------------get project config from config.json
+
+async function fetchProjectConfig() {
+  const pathname = window.location.pathname;
+  const dirname = "".split("/")[-2];
+
+  const data = await loadJsonFile("config.json");
+
+  return data;
+}
+
+function getProjectVersions(projConf) {
+  return projConf.map((version) => {
+    return version.name;
+  });
+}
+
+function mdToHtml(mdContent) {
+  const converter = new showdown__WEBPACK_IMPORTED_MODULE_0__.Converter({ tasklists: true });
+  let html = converter.makeHtml(mdContent);
+  html = html.replaceAll(/disabled/gi, "");
+  return html;
+}
+
+
 
 /***/ })
 
@@ -307,8 +6202,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module used 'module' so it can't be inlined
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/assets/script/main.js");
 /******/ 	
 /******/ })()
 ;
+//# sourceMappingURL=bundle.js.map

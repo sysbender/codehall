@@ -2,13 +2,10 @@
 // import { showdown } from "https://unpkg.com/showdown@2.1.0";
 import { createPlayground } from "livecodes";
 import * as showdown from "showdown";
-import {
-  // fetchProjectFiles,
-  createConfigOptions,
-  createCodeProject,
-} from "./util.js";
-
+import { createConfigOptions } from "./util.js";
+import { createCodeProject } from "./createCodeProject.js";
 import "../style/style.css";
+
 // resize  sidebar
 
 try {
@@ -34,15 +31,13 @@ const htmlContent = converter.makeHtml(text).replaceAll("disabled", "");
 
 const target = document.getElementById("description");
 target.innerHTML = htmlContent;
-console.log("$$$$$$$$$$$$$$$$$$$$$$", htmlContent);
 
 // read project config
 
 const codeProject = createCodeProject();
 const versions = await codeProject.getVersions();
-const url = await codeProject.getUrl("starter");
-const desc = await codeProject.getDescription("starter");
-const conf = await codeProject.getLiveCodesConfig("starter");
+
+const conf = await codeProject.getLiveCodesConfig(versions[0]);
 
 // const config1 = {
 //   markup: {
@@ -70,17 +65,32 @@ const playground = await createPlayground("#playground", {
   params: { console: "open" },
 });
 
-async function handleSelectConfig(name) {
-  const newConfig = await codeProject.getLiveCodesConfig(name);
-  await playground.setConfig(newConfig);
-}
-
-async function currentSelectConfig() {}
 createConfigOptions(
   "configContainer",
   await codeProject.getVersions(),
   handleSelectConfig
 );
+
+refreshProject();
+
+async function handleSelectConfig(name) {
+  const newConfig = await codeProject.getLiveCodesConfig(name);
+  await playground.setConfig(newConfig);
+  await refreshProject();
+  // update url and description
+}
+
+// refresh current project url and description
+async function refreshProject() {
+  const currentVersion = document.getElementById("configContainer").value;
+
+  const url = await codeProject.getUrl(currentVersion);
+  document.getElementById("url").href = url;
+  const desc = await codeProject.getDescription(currentVersion);
+  document.getElementById("description").innerHTML = desc;
+}
+
+// async function currentSelectConfig() {}
 
 // await playground.setConfig({
 //   // new config options
