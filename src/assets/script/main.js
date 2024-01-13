@@ -2,12 +2,8 @@
 // import { showdown } from "https://unpkg.com/showdown@2.1.0";
 import { createPlayground } from "livecodes";
 import * as showdown from "showdown";
-import {
-  // fetchProjectFiles,
-  createConfigOptions,
-  createCodeProject,
-} from "./util.js";
-
+import { createConfigOptions } from "./util.js";
+import { createCodeProject } from "./createCodeProject.js";
 import "../style/style.css";
 
 // resize  sidebar
@@ -35,14 +31,19 @@ const htmlContent = converter.makeHtml(text).replaceAll("disabled", "");
 
 const target = document.getElementById("description");
 target.innerHTML = htmlContent;
-console.log("$$$$$$$$$$$$$$$$$$$$$$", htmlContent);
 
 // read project config
 
 const codeProject = createCodeProject();
 const versions = await codeProject.getVersions();
 const url = await codeProject.getUrl("starter");
+document.getElementById("url").href = url;
+// urlElem.url = url;
+// urlElem.target = "_blank";
+
 const desc = await codeProject.getDescription("starter");
+document.getElementById("description").innerHTML = desc;
+
 const conf = await codeProject.getLiveCodesConfig("starter");
 
 // const config1 = {

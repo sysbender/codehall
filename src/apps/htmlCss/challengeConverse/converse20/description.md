@@ -1,0 +1,8 @@
+- [ ] h1 h2 title uppercase
+- [ ] h1 - background color
+- [ ] price - large font
+- [ ] shipping -
+- [ ] button - inverted color , back normal on hover
+- [ ] link - underline , disappear on hover
+- [ ] entire article - border
+- [ ] list - square style
