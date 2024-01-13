@@ -4,6 +4,7 @@ import path from "node:path";
 import { glob } from "glob";
 import { fileURLToPath } from "node:url";
 
+import showdown from "showdown";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -59,10 +60,16 @@ let multipleHtmlPlugins = htmlPageNames.map((name) => {
 
 // export the Webpack config
 export default {
+  mode: "development",
   entry: "./src/assets/script/main.js",
   output: {
     path: path.resolve(__dirname, "docs"),
     filename: "assets/script/bundle.js",
+  },
+  watchOptions: {
+    aggregateTimeout: 600,
+    ignored: "**/node_modules",
+    poll: 1000, // Check for changes every second
   },
   module: {
     rules: [
@@ -76,6 +83,7 @@ export default {
     new CopyPlugin({
       patterns: [
         { from: "src/index.md", to: "index.md" },
+
         {
           from: "src/",
           to: "./",
@@ -85,4 +93,14 @@ export default {
       ],
     }),
   ].concat(multipleHtmlPlugins),
+  target: "web",
+  devServer: {
+    watchFiles: { paths: ["src/**/*"] },
+    static: {
+      directory: path.join(__dirname, "docs"),
+      watch: true,
+    },
+    port: 9000,
+    hot: true,
+  },
 };

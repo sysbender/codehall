@@ -9,6 +9,7 @@ import {
 } from "./util.js";
 
 import "../style/style.css";
+
 // resize  sidebar
 
 try {
@@ -85,3 +86,5 @@ createConfigOptions(
 // await playground.setConfig({
 //   // new config options
 // });
+
+console.log("md=", md);
