@@ -103,4 +103,5 @@ export default {
     port: 9000,
     hot: true,
   },
+  devtool: "source-map",
 };

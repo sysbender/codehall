@@ -60,6 +60,7 @@ function createCodeProject() {
     if (!version in versions) {
       throw new Error(`Project version not exist : ${version}`);
     }
+
     // get description
     const desc = await loadTextFile(`./${version}/description.md`);
     return mdToHtml(desc);

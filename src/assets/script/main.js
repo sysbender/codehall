@@ -36,15 +36,8 @@ target.innerHTML = htmlContent;
 
 const codeProject = createCodeProject();
 const versions = await codeProject.getVersions();
-const url = await codeProject.getUrl("starter");
-document.getElementById("url").href = url;
-// urlElem.url = url;
-// urlElem.target = "_blank";
 
-const desc = await codeProject.getDescription("starter");
-document.getElementById("description").innerHTML = desc;
-
-const conf = await codeProject.getLiveCodesConfig("starter");
+const conf = await codeProject.getLiveCodesConfig(versions[0]);
 
 // const config1 = {
 //   markup: {
@@ -72,17 +65,32 @@ const playground = await createPlayground("#playground", {
   params: { console: "open" },
 });
 
-async function handleSelectConfig(name) {
-  const newConfig = await codeProject.getLiveCodesConfig(name);
-  await playground.setConfig(newConfig);
-}
-
-async function currentSelectConfig() {}
 createConfigOptions(
   "configContainer",
   await codeProject.getVersions(),
   handleSelectConfig
 );
+
+refreshProject();
+
+async function handleSelectConfig(name) {
+  const newConfig = await codeProject.getLiveCodesConfig(name);
+  await playground.setConfig(newConfig);
+  await refreshProject();
+  // update url and description
+}
+
+// refresh current project url and description
+async function refreshProject() {
+  const currentVersion = document.getElementById("configContainer").value;
+
+  const url = await codeProject.getUrl(currentVersion);
+  document.getElementById("url").href = url;
+  const desc = await codeProject.getDescription(currentVersion);
+  document.getElementById("description").innerHTML = desc;
+}
+
+// async function currentSelectConfig() {}
 
 // await playground.setConfig({
 //   // new config options
