@@ -14,6 +14,7 @@ import CopyPlugin from "copy-webpack-plugin";
 
 //const HtmlWebpackPlugin = require("html-webpack-plugin");
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import FaviconsWebpackPlugin from "favicons-webpack-plugin";
 
 //let htmlPageNames = ["main", "sub/sub"];
 
@@ -82,6 +83,10 @@ export default {
     ],
   },
   plugins: [
+    new FaviconsWebpackPlugin("./src/assets/img/favicon.ico"),
+    // new HtmlWebpackPlugin({
+    //   favicon: "./src/assets/img/favicon.ico",
+    // }),
     new CopyPlugin({
       patterns: [
         { from: "src/index.md", to: "index.md" },
