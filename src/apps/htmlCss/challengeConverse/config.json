@@ -54,5 +54,24 @@
         "content": "script.js"
       }
     }
+  },
+
+  {
+    "name": "converse44",
+    "url": "https://codepen.io/jonasschmedtmann/pen/7a64f0845fd4f6439b63203371edbcb1",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "javascript",
+        "content": "script.js"
+      }
+    }
   }
 ]
