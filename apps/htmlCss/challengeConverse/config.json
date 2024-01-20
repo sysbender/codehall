@@ -73,5 +73,43 @@
         "content": "script.js"
       }
     }
+  },
+
+  {
+    "name": "converse51",
+    "url": "https://codepen.io/jonasschmedtmann/pen/1a12771af64312342aa5a5f45bd2347c",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "javascript",
+        "content": "script.js"
+      }
+    }
+  },
+
+  {
+    "name": "converse58",
+    "url": "https://codepen.io/jonasschmedtmann/pen/c8e97f50f726b8e57ff58068647cde00",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "javascript",
+        "content": "script.js"
+      }
+    }
   }
 ]
