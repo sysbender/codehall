@@ -1,0 +1,20 @@
+[
+  {
+    "name": "starter",
+    "url": "https://github.com/live-codes/livecodes/blob/5db587c70f53e54422eeec0d6277f969b1fbabab/src/livecodes/templates/starter/typescript-starter.ts#L4",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "typescript",
+        "content": "script.ts"
+      }
+    }
+  }
+]
