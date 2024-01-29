@@ -1,0 +1,77 @@
+[
+  {
+    "name": "0starter",
+    "url": "https://livecodes.io/?template=react",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "tsx",
+        "content": "script.tsx"
+      }
+    }
+  },
+
+  {
+    "name": "1addDelete",
+    "url": "https://livecodes.io/?template=react",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "tsx",
+        "content": "script.tsx"
+      }
+    }
+  },
+
+  {
+    "name": "2form",
+    "url": "https://livecodes.io/?template=react",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "tsx",
+        "content": "script.tsx"
+      }
+    }
+  },
+
+  {
+    "name": "3form",
+    "url": "https://livecodes.io/?template=react",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "tsx",
+        "content": "script.tsx"
+      }
+    }
+  }
+]
