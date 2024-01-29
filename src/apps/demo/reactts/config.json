@@ -1,0 +1,20 @@
+[
+  {
+    "name": "starter",
+    "url": "https://livecodes.io/?template=react",
+    "config": {
+      "markup": {
+        "language": "html",
+        "content": "app.html"
+      },
+      "style": {
+        "language": "css",
+        "content": "style.css"
+      },
+      "script": {
+        "language": "tsx",
+        "content": "script.tsx"
+      }
+    }
+  }
+]
