@@ -13,4 +13,4 @@
 
 ### react typescript
 
-- [Course Goal] (./apps/reactts/CourseGoal/index.html)
+- [Course Goal](./apps/reactts/CourseGoal/index.html)

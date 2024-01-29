@@ -3,7 +3,9 @@
 add header component
 add course goal component
 
-- [ ] add form
+- [ ] add infobox ,
+- [ ] mode= hint , goall num=0
+- [ ] mode= warning , goal num >=4
 
 ## code
 

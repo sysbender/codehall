@@ -46,22 +46,38 @@ type CourseGoalListProps = {
   handleDeleteGoal: (id: string) => void;
 };
 function CourseGoalList({ goals, handleDeleteGoal }) {
+  if (goals.length == 0) {
+    return (
+      <InfoBox mode="hint">
+        You dont have no goals yet. Start adding some.
+      </InfoBox>
+    );
+  }
+
+  let warningBox: ReactNode;
+  if (goals.length >= 4) {
+    warningBox = <InfoBox mode="warning">You have too much goals.</InfoBox>;
+  }
+
   return (
-    <ul>
-      {goals.map((goal) => {
-        return (
-          <li key={goal.id}>
-            <CourseGoal
-              id={goal.id}
-              title={goal.title}
-              handleDeleteGoal={handleDeleteGoal}
-            >
-              <p> {goal.description}</p>
-            </CourseGoal>
-          </li>
-        );
-      })}
-    </ul>
+    <>
+      {warningBox}
+      <ul>
+        {goals.map((goal) => {
+          return (
+            <li key={goal.id}>
+              <CourseGoal
+                id={goal.id}
+                title={goal.title}
+                handleDeleteGoal={handleDeleteGoal}
+              >
+                <p> {goal.description}</p>
+              </CourseGoal>
+            </li>
+          );
+        })}
+      </ul>
+    </>
   );
 }
 
@@ -136,5 +152,26 @@ function NewGoal({ handleAddGoal }: NewGoalProps) {
       </p>
       <button>Add Goal</button>
     </form>
+  );
+}
+
+type InfoBoxProps = {
+  mode: "hint" | "warning";
+  children: ReactNode;
+};
+
+function InfoBox({ mode, children }: InfoBoxProps) {
+  if (mode === "hint") {
+    return (
+      <aside className="infobox infobox-hint">
+        <p>{children}</p>
+      </aside>
+    );
+  }
+  return (
+    <aside className="infobox infobox-warning warning--medium">
+      <h2>Warning</h2>
+      <p>{children}</p>
+    </aside>
   );
 }
