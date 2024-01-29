@@ -1,5 +1,8 @@
 ## Code Playground Demo
 
-[demo1](./apps/demo/demo1/index.html)
+### demos
+
+- [demo1](./apps/demo/demo1/index.html)
+- [tailwind](./apps/demo/tailwind/index.html)
 
 [htmlCss](./apps/htmlCss/challengeConverse/index.html)
