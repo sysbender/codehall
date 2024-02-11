@@ -14,3 +14,5 @@
 ### react typescript
 
 - [Course Goal](./apps/reactts/CourseGoal/index.html)
+
+<div id="root">react app</div>
