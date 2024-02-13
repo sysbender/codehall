@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 
-export default function ToggleAnswer() {
-  const [showAnswer, setShowAnswer] = useState(false);
-
+export default function ToggleAnswer({
+  showAnswer,
+  setShowAnswer,
+  setIsLiveCodesReady,
+}) {
   function toggleAnswerHandler(event) {
     const isChecked = event.target.checked;
+    setIsLiveCodesReady(false);
     setShowAnswer(isChecked);
   }
   return (

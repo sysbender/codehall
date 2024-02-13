@@ -61,12 +61,13 @@ function generateConfig(dirPath, files) {
   let configs = [];
   for (const scriptFile of scriptFiles) {
     const script = {
+      filename: scriptFile,
       language: scriptExts.get(path.extname(scriptFile)),
       content: getFileContent(path.join(dirPath, scriptFile)),
     };
     console.log(" =============script", scriptFile, script);
     // todo : add markup and style
-    configs.push({ config: script });
+    configs.push(script);
   }
 
   return configs;

@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 
-export default function ProjectSelector({ projectNames = ["js1", "js2"] }) {
-  const [selectedProjectName, setSelectedProjectName] = useState(
-    projectNames[0] | ""
-  );
-
+export default function ProjectSelector({
+  projectNames,
+  selectedProjectName,
+  setSelectedProjectName,
+  setIsLiveCodesReady,
+}) {
   function projectChangeHandler(event) {
     const selectedValue = event.target.value;
+    setIsLiveCodesReady(false);
     setSelectedProjectName(selectedValue);
   }
   return (

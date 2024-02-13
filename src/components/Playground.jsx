@@ -1,8 +1,60 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LiveCodes from "livecodes/react";
 import ProjectSelector from "./ProjectSelector.jsx";
 import ToggleAnswer from "./ToggleAnswer.jsx";
-export default function Playground() {
+
+const demoConfig = {
+  activeEditor: "script",
+  // markup: {
+  //   language: "html",
+  //   content: "<h1>head<h1>",
+  // },
+  // style: {
+  //   language: "css",
+  //   content: "h1{color: red}",
+  // },
+  script: {
+    language: "python-wasm",
+    console: "full",
+    content: "print('hello py')",
+  },
+  tools: {
+    enabled: ["console", "compiled"],
+    active: "console",
+    status: "full",
+  },
+};
+
+export default function Playground({ projectConfigs }) {
+  const projectNames = projectConfigs.map((script) => script.filename);
+  // const config = demoConfig;
+  const [selectedProjectName, setSelectedProjectName] = useState(
+    projectConfigs[0]?.filename
+  );
+
+  const [isLiveCodesReady, setIsLiveCodesReady] = useState(false);
+
+  const [liveCodesConfig, setLiveCodesConfig] = useState(
+    generateLiveCodesConfig(projectConfigs, selectedProjectName)
+  );
+  console.log("===========projectNames", projectNames);
+  console.log("====================selected ProjectName", selectedProjectName);
+
+  useEffect(() => {
+    setLiveCodesConfig(
+      generateLiveCodesConfig(projectConfigs, selectedProjectName)
+    );
+    setIsLiveCodesReady(true);
+  }, [projectConfigs, selectedProjectName]);
+
+  // const liveCodeConfig = generateLiveCodesConfig(
+  //   projectConfigs,
+  //   selectedProjectName
+  // );
+
+  const [showAnswer, setShowAnswer] = useState(false);
+
+  console.log("=============config number", projectConfigs.length);
   // code - currentCodes, finishedCodes
   // projects, selectedProject,
   const appUrl = "https://livecodes.io/";
@@ -10,27 +62,6 @@ export default function Playground() {
   const view = "editor"; // result, split,
   const loading = "eager"; // lazy
   // configure object, or a url to JSON file
-  const config = {
-    activeEditor: "script",
-    markup: {
-      language: "html",
-      content: "<h1>head<h1>",
-    },
-    style: {
-      language: "css",
-      content: "h1{color: red}",
-    },
-    script: {
-      language: "python-wasm",
-      console: "full",
-      content: "print('hello py')",
-    },
-    tools: {
-      enabled: ["console", "compiled"],
-      active: "console",
-      status: "full",
-    },
-  };
 
   //   const options = {
   //     params: {
@@ -40,13 +71,60 @@ export default function Playground() {
   //     },
   //   };
 
+  function generateLiveCodesConfig(confs, projectName) {
+    // get   language, content from projectName
+
+    const projectConfig = confs.find(
+      (script) => script.filename === projectName
+    );
+
+    console.log(
+      "=========&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&=======confs",
+      projectConfig
+    );
+    const { filename, language, content } = projectConfig;
+    return {
+      activeEditor: "script",
+      script: {
+        language,
+        console: "full",
+        content,
+      },
+      tools: {
+        enabled: ["console", "compiled"],
+        active: "console",
+        status: "full",
+      },
+    };
+  }
+
+  //=---------------------
+  // function onLiveCodesReady(playground) {
+  //   playground.setConfig(
+  //     generateLiveCodesConfig(projectConfigs, selectedProjectName)
+  //   );
+  // }
+
   return (
     <div style={{ width: "50%" }}>
+      <h1>{selectedProjectName}</h1>
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <ProjectSelector />
-        <ToggleAnswer />
+        <ProjectSelector
+          projectNames={projectNames}
+          selectedProjectName={selectedProjectName}
+          setSelectedProjectName={setSelectedProjectName}
+          setIsLiveCodesReady={setIsLiveCodesReady}
+        />
+        <ToggleAnswer
+          showAnswer={showAnswer}
+          setShowAnswer={setShowAnswer}
+          setIsLiveCodesReady={setIsLiveCodesReady}
+        />
       </div>
-      <LiveCodes config={config} view="split" height="600px" />
+
+      {isLiveCodesReady && (
+        <LiveCodes config={liveCodesConfig} view="split" height="600px" />
+      )}
     </div>
   );
 }

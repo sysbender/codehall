@@ -1,4 +1,4 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import ReactDom from "react-dom/client";
 import Playground from "./components/Playground.jsx";
 import CodeHall from "./components/CodeHall.jsx";
@@ -8,4 +8,8 @@ export default function App() {
 
 const container = document.getElementById("root");
 const root = ReactDom.createRoot(container);
-root.render(<CodeHall />);
+root.render(
+  <StrictMode>
+    <CodeHall />
+  </StrictMode>
+);
