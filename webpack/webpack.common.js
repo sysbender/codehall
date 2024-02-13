@@ -3,10 +3,11 @@
 import path from "node:path";
 import { glob } from "glob";
 import { fileURLToPath } from "node:url";
+import __dirname from "./__dirname.js";
 
 import showdown from "showdown";
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
 
 // multiple HTML files
 

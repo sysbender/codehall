@@ -83,7 +83,14 @@ const wpApp = {
         {
           from: "src/",
           to: "./",
-          globOptions: { ignore: ["**/index.html", "**/config.json"] },
+          globOptions: {
+            ignore: [
+              "**/index.html",
+              "**/config.json",
+              "**/components/**",
+              "**/script/**",
+            ],
+          },
         },
       ].concat(notTransformIndex),
     }),
