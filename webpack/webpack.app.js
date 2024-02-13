@@ -58,6 +58,10 @@ console.log("===============conf=", conf);
 // );
 
 let configFiles = findConfigFiles();
+console.log(
+  "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ configFiles = ",
+  configFiles
+);
 let htmlPageNames = findHtmlFiles();
 
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
@@ -70,6 +74,36 @@ let multipleHtmlPlugins = htmlPageNames.map((name) => {
     // chunks: [`${name}`], // respective JS files
   });
 });
+
+let multipleCopyTransforms = configFiles.map(
+  ({ fileRelativePath, fileSrcPath, fileDestPath }) => {
+    return {
+      from: fileSrcPath,
+      to: fileDestPath,
+      transform(content, absoluteFrom) {
+        const files = getFilesInDir(absoluteFrom);
+        const filePath = path.dirname(absoluteFrom);
+        console.log("=====files =", files);
+        const conf = generateConfig(filePath, files);
+        console.log("===============conf=", conf);
+        console.log(
+          "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% absoluteFrom = ",
+          absoluteFrom
+        );
+        return JSON.stringify(conf);
+      },
+    };
+  }
+);
+
+console.log(
+  "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ multipleCopyTransforms = ",
+  multipleCopyTransforms
+);
+console.log(
+  "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ notTransformIndex = ",
+  notTransformIndex
+);
 
 const wpApp = {
   plugins: [
@@ -92,7 +126,9 @@ const wpApp = {
             ],
           },
         },
-      ].concat(notTransformIndex),
+      ]
+        .concat(notTransformIndex)
+        .concat(multipleCopyTransforms),
     }),
   ].concat(multipleHtmlPlugins),
 };
