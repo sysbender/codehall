@@ -75,6 +75,20 @@ let multipleHtmlPlugins = htmlPageNames.map((name) => {
   });
 });
 
+//  create index.html for each app or project config.json
+let multipleAppHtmlPlugins = configFiles.map(
+  ({ fileRelativePath, fileSrcPath, fileDestPath }) => {
+    const htmlFilePath = fileRelativePath.replace("config.json", "index.html");
+    return new HtmlWebpackPlugin({
+      //template: `./src/${name}.html`, // relative path to the HTML files
+      template: `./src/app.html`, // relative path to the HTML files
+      inject: true,
+      //filename: `${name}.html`, // output HTML files
+      filename: `apps/${htmlFilePath}`, // output HTML files
+      // chunks: [`${name}`], // respective JS files
+    });
+  }
+);
 let multipleCopyTransforms = configFiles.map(
   ({ fileRelativePath, fileSrcPath, fileDestPath }) => {
     return {
@@ -101,8 +115,8 @@ console.log(
   multipleCopyTransforms
 );
 console.log(
-  "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ notTransformIndex = ",
-  notTransformIndex
+  "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ multipleAppHtmlPlugins = ",
+  multipleAppHtmlPlugins
 );
 
 const wpApp = {
@@ -130,7 +144,9 @@ const wpApp = {
         .concat(notTransformIndex)
         .concat(multipleCopyTransforms),
     }),
-  ].concat(multipleHtmlPlugins),
+  ]
+    .concat(multipleHtmlPlugins)
+    .concat(multipleAppHtmlPlugins),
 };
 
 export default wpApp;
