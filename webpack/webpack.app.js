@@ -10,6 +10,10 @@ import {
   findHtmlFiles,
 } from "./webpack.util.js";
 
+import {
+  extractJavascriptComments,
+  extractPythonComments,
+} from "../src/utils/extractCommets.js";
 import showdown from "showdown";
 // const __filename = fileURLToPath(import.meta.url);
 // const __dirname = path.dirname(__filename);

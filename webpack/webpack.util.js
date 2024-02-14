@@ -3,6 +3,10 @@ import __dirname from "./__dirname.js";
 import path from "path";
 import { glob } from "glob";
 import fs from "fs";
+import {
+  extractJavascriptComments,
+  extractPythonComments,
+} from "../src/utils/extractCommets.js";
 
 function getFileContent(filePath) {
   return fs.readFileSync(filePath, "utf8");
@@ -60,14 +64,34 @@ function generateConfig(dirPath, files) {
 
   let configs = [];
   for (const scriptFile of scriptFiles) {
+    const content = getFileContent(path.join(dirPath, scriptFile));
+    const language = scriptExts.get(path.extname(scriptFile));
+    const filename_ex =
+      scriptFile.replace(/\.[^/.]+$/, "") + "_ex" + path.extname(scriptFile);
+
+    let content_ex = "";
+    if (language === "javascript") {
+      content_ex = extractJavascriptComments(content);
+    } else {
+      content_ex = extractPythonComments(content);
+    }
+
     const script = {
       filename: scriptFile,
-      language: scriptExts.get(path.extname(scriptFile)),
-      content: getFileContent(path.join(dirPath, scriptFile)),
+      language,
+      content,
     };
-    console.log(" =============script", scriptFile, script);
-    // todo : add markup and style
+    //console.log(" =============script", scriptFile, script);
     configs.push(script);
+    // add exercise - extract comments
+
+    const script_ex = {
+      filename: filename_ex,
+      language,
+      content: content_ex,
+    };
+
+    configs.push(script_ex);
   }
 
   return configs;

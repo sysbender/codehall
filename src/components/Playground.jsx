@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import LiveCodes from "livecodes/react";
 import ProjectSelector from "./ProjectSelector.jsx";
 import ToggleAnswer from "./ToggleAnswer.jsx";
+// import {
+//   extractPythonComments,
+//   extractJavascriptComments,
+// } from "../utils/extractCommets.js";
 
 const demoConfig = {
   activeEditor: "script",
@@ -71,7 +75,7 @@ export default function Playground({ projectConfigs }) {
   //     },
   //   };
 
-  function generateLiveCodesConfig(confs, projectName) {
+  function generateLiveCodesConfig(confs, projectName, showAnswer) {
     // get   language, content from projectName
 
     const projectConfig = confs.find(
@@ -83,6 +87,16 @@ export default function Playground({ projectConfigs }) {
       projectConfig
     );
     const { filename, language, content } = projectConfig;
+
+    // const newContent = content;
+    // if (!showAnswer) {
+    //   if (language === "javascript") {
+    //     newContent = extractJavascriptComments(content);
+    //   } else {
+    //     newContent = extractPythonComments(content);
+    //   }
+    // }
+
     return {
       activeEditor: "script",
       script: {

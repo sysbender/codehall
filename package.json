@@ -34,6 +34,8 @@
   "homepage": "https://github.com/sysbender/codenotes#readme",
   "dependencies": {
     "livecodes": "^0.3.0",
+    "multilang-extract-comments": "^0.4.0",
+    "parse-code-context": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "showdown": "^2.1.0"
